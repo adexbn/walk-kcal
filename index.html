@@ -186,13 +186,10 @@
   </table>
 
   <div class="fact">
-    <strong>麦当劳有两条通道 —— 一个 Token 就能走实时</strong><br><br>
-    ① <strong>实时 MCP</strong>（正路）：<code>MCD_MCP_TOKEN</code> + <code>WALKKCAL_MCD_LIVE=1</code>
-    → 门店与营养值都<strong>实时</strong>从 <code>mcp.mcd.cn</code> 拉<br>
-    ② <strong>内嵌快照</strong>（默认降级）：什么都不用配
-    → 158 条官方营养值（2026-10-09 快照）+ 内置门店<br><br>
-    <span class="muted">★ <code>MCD_MCP_TOKEN</code> 的唯一用途就是走实时 MCP。
-    内嵌快照只是「没配 Token 时的降级」—— 让项目能被零门槛跑起来。</span>
+    <strong>麦当劳的两条通道</strong><br><br>
+    ① <strong>什么都不用配</strong> —— 用我们内置的官方数据快照（158 条营养值，2026-10-09 抓取）<br>
+    ② <strong>配上 <code>MCD_MCP_TOKEN</code></strong> —— 门店与营养值都<strong>实时</strong>从 <code>mcp.mcd.cn</code> 拉<br><br>
+    <span class="muted">只想看个 demo、不想去申请 Token？直接跑就行，效果是完整的。</span>
   </div>
 
   <div class="fact">
@@ -216,7 +213,7 @@ python walkkcal/render.py     # 出图（内置场景，1~2 秒）
 open demo/explore.html        # 离线可交互 demo</pre>
   <p class="muted">
     快照里已经存好了门店、推荐菜、步行距离和热量 —— 麦当劳那 158 条官方营养值也是内嵌的。
-    <strong>Key 只在两件事上需要</strong>：抓你自己楼下的点位（<code>AMAP_KEY</code>）、
+    <strong>Key 只在两件事上需要</strong>：抓你自己楼下的点位（高德地图的 <code>AMAP_KEY</code>）、
     让麦当劳走实时而非内置快照（<code>MCD_MCP_TOKEN</code> + <code>WALKKCAL_MCD_LIVE=1</code>）。
   </p>
   <p class="muted">
