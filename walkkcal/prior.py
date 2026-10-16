@@ -179,10 +179,24 @@ CATEGORY_WORDS = set(u'''单人餐 双人餐 三人餐 四人餐 五人餐 下�
 堂食 料理 热饮 冷饮 汤品 甜食 现捞 白兰 餐食 番茄酱 蘸料 小料'''.split())
 
 
+# ★ 子串判据（2026-10-17 实测补充）
+#   上面那份 `CATEGORY_WORDS` 是**精确匹配** —— 但真实数据里的品类词常带修饰：
+#   「人气美味尽享套餐」「厚烧牛舌铁板烧套餐」「彩虹植物拼盘」「自助烤肉」…
+#   实测（全 5 个 demo 场景 969 条推荐菜）：**13 条**这类词漏网通过 `is_menu_item`，
+#   于是会输出「自助餐 350 卡」这种结果 —— 比数字不精确更伤。
+#   ★ 只放**高置信度**的词：出现在菜名任何位置都说明「这不是一道菜」。
+#     故意**不含** `拼`/`套` 单字（会误伤「拼三鲜」「套肠」这类真菜）。
+CATEGORY_SUBSTR = (u'套餐', u'自助', u'拼盘', u'拼盆', u'双拼', u'三拼', u'件套',
+                   u'combo')
+
+
 def is_category_word(dish):
     u"""是不是「不是菜」的词（品类/餐次/套餐）—— 应剔除，不该上卡片"""
     d = (dish or '').strip()
-    return (not d) or d in CATEGORY_WORDS or d.lower() in ('coffee', 'tea')
+    if (not d) or d in CATEGORY_WORDS or d.lower() in ('coffee', 'tea'):
+        return True
+    low = d.lower()
+    return any(s in d or s in low for s in CATEGORY_SUBSTR)
 
 
 # ═══════════════════════════════════════════════════════════════════
