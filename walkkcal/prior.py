@@ -175,7 +175,7 @@ CATEGORY_WORDS = set(u'''单人餐 双人餐 三人餐 四人餐 五人餐 下�
 寿司 刺身 甜品 甜点 蛋糕 面包 点心 汉堡 披萨 炸鸡 薯条 咖啡 奶茶 果茶 牛乳 奶咖
 美式咖啡 拿铁 可乐 果汁 啤酒 牛肉 猪肉 鸡肉 羊肉 鸭肉 海鲜 素菜 时蔬 蔬菜 水果
 主食 家常菜 本帮菜 川菜 粤菜 湘菜 日料 韩餐 西餐 快餐 小吃 浇头 大排档 工作餐
-居酒屋 外卖 打包 双档 咸菜
+居酒屋 外卖 打包 双档 咸菜 私房菜 新疆菜 云南菜 东北菜 贵州菜
 堂食 料理 热饮 冷饮 汤品 甜食 现捞 白兰 餐食 番茄酱 蘸料 小料'''.split())
 
 
@@ -187,7 +187,11 @@ CATEGORY_WORDS = set(u'''单人餐 双人餐 三人餐 四人餐 五人餐 下�
 #   ★ 只放**高置信度**的词：出现在菜名任何位置都说明「这不是一道菜」。
 #     故意**不含** `拼`/`套` 单字（会误伤「拼三鲜」「套肠」这类真菜）。
 CATEGORY_SUBSTR = (u'套餐', u'自助', u'拼盘', u'拼盆', u'双拼', u'三拼', u'件套',
-                   u'combo')
+                   u'系列', u'餐吧', u'爆款', u'combo')
+
+# ★ 脏数据：地图 tag 里混进的**价格串 / 纯符号**（2026-10-17 远端地区实测发现 `¥12`）
+#   —— 既无中日韩汉字、也无拉丁字母，就不是菜名。
+_RE_HAS_WORD = re.compile(u'[\u4e00-\u9fffA-Za-z]')
 
 
 def is_category_word(dish):
@@ -397,6 +401,8 @@ def is_menu_item(name):
     """
     n = (name or u'').strip()
     if not n or len(n) < 2:
+        return False
+    if not _RE_HAS_WORD.search(n):          # ★ 纯符号 / 价格串（`¥12`）
         return False
     if is_category_word(n):
         return False
