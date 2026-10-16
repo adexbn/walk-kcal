@@ -193,16 +193,38 @@
 <hr>
 
 <section class="wrap">
-  <h2>跑起来</h2>
-  <pre>git clone https://github.com/adexbn/walk-kcal &amp;&amp; cd walk-kcal
-
-# 离线 demo —— 不需要 Key、不需要 Token、不需要装任何包
-open demo/explore.html
-
-# 直接出一张图（需要 AMAP_KEY）
-python walkkcal/shoot.py "上海市黄浦区南京东路100号"</pre>
+  <h2>内置两款能力 —— 也可以接你自己的</h2>
+  <table>
+    <tr><th>能力</th><th>供什么</th></tr>
+    <tr><td>麦当劳</td><td>门店 + 推荐菜 + <strong>官方精确营养值</strong>（158 条，含蛋白 / 脂肪 / 碳水 / 钠 / 钙）</td></tr>
+    <tr><td>高德地图</td><td>周边<strong>任意</strong>餐厅 + 网友推荐菜 + <strong>真实路网</strong>步行距离</td></tr>
+  </table>
+  <div class="fact">
+    两款<strong>可按需组合</strong>，一个环境变量的事：<br>
+    默认两个都开（合并成一份结果）· <code>WALKKCAL_PACKS=mcd</code> 只看麦当劳 ·
+    <code>WALKKCAL_PACKS=nearby</code> 只看周边餐厅
+  </div>
   <p class="muted">
-    <strong>出图依赖是可选增强，不是前置条件</strong>：什么都不装 → 出 SVG、退出码仍是 0；
+    也能接<strong>你自己的</strong> —— 点评的企业接口、美团，或者你手上任何一份门店／菜品数据。
+    数据源是可插拔的：加一个文件 + 一个环境变量，<strong>主流程 0 行改动</strong>。
+  </p>
+</section>
+
+<hr>
+
+<section class="wrap">
+  <h2>跑起来</h2>
+  <p><strong>先跑内置场景 —— 这一步一个 Key 都不需要。</strong></p>
+  <pre>git clone https://github.com/adexbn/walk-kcal &amp;&amp; cd walk-kcal
+python walkkcal/render.py     # 出图（内置场景，1~2 秒）
+open demo/explore.html        # 离线可交互 demo</pre>
+  <p class="muted">
+    快照里已经存好了门店、推荐菜、步行距离和热量 —— 麦当劳那 158 条官方营养值也是内嵌的。
+    <strong>Key 只在两件事上需要</strong>：抓你自己楼下的点位（<code>AMAP_KEY</code>）、
+    让麦当劳走实时而非内置快照（<code>MCD_MCP_TOKEN</code> + <code>WALKKCAL_MCD_LIVE=1</code>）。
+  </p>
+  <p class="muted">
+    <strong>出图依赖也是可选的</strong>：什么都不装 → 出 SVG、退出码仍是 0；
     装了 <code>Pillow</code> + <code>pillow_lunasvg</code> → 多一张 PNG。
     缺包时自动降级，<strong>不会撞 ImportError</strong>。
   </p>
