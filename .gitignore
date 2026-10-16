@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境与凭证（绝不提交）
+.env
+*.token
+mcp-config.json
+# ★ 配置文件里的 Key：只有 config.example.json（模板）进版本库
+config.local.json
+*.local.json
+
+# 渲染产物（截图另存到 assets/）
+out/
+*.tmp.svg
+_crop_*.png
+
+# 归档
+_archive/
+
+# 系统
+.DS_Store
+Thumbs.db
