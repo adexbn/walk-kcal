@@ -1,0 +1,3286 @@
+{
+ "origin": {
+  "name": "广州·天河区员村街道",
+  "lon": 113.369,
+  "lat": 23.1183
+ },
+ "stores": [
+  {
+   "id": "B0IGX7P8YI",
+   "name": "π轻食(员村店)",
+   "lon": 113.370663,
+   "lat": 23.118879,
+   "distance_m": 211,
+   "straight_m": null,
+   "address": "员村三横路东巷95号",
+   "category_hint": "轻食",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0HAF4SHHV",
+   "name": "老五鱼生(员村四横路店)",
+   "lon": 113.371228,
+   "lat": 23.118777,
+   "distance_m": 263,
+   "straight_m": null,
+   "address": "家福楼西北门旁",
+   "category_hint": "顺德菜",
+   "dish_hints": [
+    "鱼生"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GK5RBGVE",
+   "name": "生记餐厅",
+   "lon": 113.371219,
+   "lat": 23.118753,
+   "distance_m": 265,
+   "straight_m": null,
+   "address": "员村四横路自编7-5号、7-6号",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KG3DMR7U",
+   "name": "吉利餐厅3号店(员村老字号)",
+   "lon": 113.371094,
+   "lat": 23.118967,
+   "distance_m": 273,
+   "straight_m": null,
+   "address": "员村四横路东巷98号-4号",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "沙姜啫啫糕尤",
+    "生焗排骨",
+    "沙姜白切无骨猪手",
+    "黑椒啫啫牛仔骨",
+    "沙姜啫走地鸡",
+    "五指毛桃隔水蒸鸡",
+    "明虾焖胡须鸡",
+    "霸王口水鸡",
+    "支竹牛腩",
+    "秘制风味骨",
+    "紫苏啫啫大肠",
+    "水鱼焖胡须鸡",
+    "金牌葱烧水鱼",
+    "客家碌青头鸭",
+    "山楂焖猪手",
+    "豆腐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0FNV59B",
+   "name": "红灯笼·湿辣牛肉·金稻香餐厅(天河员村店)",
+   "lon": 113.371285,
+   "lat": 23.118937,
+   "distance_m": 276,
+   "straight_m": null,
+   "address": "员村四横路与三横路东巷交叉口东北20米",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "湿辣牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFLHFK95",
+   "name": "一哥酸菜鱼(员村店)",
+   "lon": 113.371124,
+   "lat": 23.119031,
+   "distance_m": 281,
+   "straight_m": null,
+   "address": "员村四横路员村三横路东巷98号-2101铺(家福楼西北门旁)",
+   "category_hint": "酸菜鱼",
+   "dish_hints": [
+    "酸菜鱼"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGYNY0P",
+   "name": "东北菜川江香碳烤鱼(员村店)",
+   "lon": 113.371165,
+   "lat": 23.118597,
+   "distance_m": 283,
+   "straight_m": null,
+   "address": "员村四横路商业街16-17号",
+   "category_hint": "烤鱼",
+   "dish_hints": [
+    "东北菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFFQOEYF",
+   "name": "正宗四川麻辣烫(员村四横路)",
+   "lon": 113.371116,
+   "lat": 23.119057,
+   "distance_m": 283,
+   "straight_m": null,
+   "address": "家福楼西北门旁",
+   "category_hint": "麻辣烫",
+   "dish_hints": [
+    "正宗四川麻辣烫"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGWUML3",
+   "name": "潮胜老五砂锅粥",
+   "lon": 113.37099,
+   "lat": 23.118676,
+   "distance_m": 285,
+   "straight_m": null,
+   "address": "员村四横路自编6/5号",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "生蚝",
+    "肥肠",
+    "砂锅粥",
+    "大排档",
+    "牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGEFZAI",
+   "name": "老西关牛杂",
+   "lon": 113.370966,
+   "lat": 23.118652,
+   "distance_m": 287,
+   "straight_m": null,
+   "address": "家福楼西北门西南60米",
+   "category_hint": "牛杂",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GKHC0SKS",
+   "name": "老胖烧烤(员村四横路店)",
+   "lon": 113.371166,
+   "lat": 23.118553,
+   "distance_m": 288,
+   "straight_m": null,
+   "address": "员村四横路自编7-12,7-13号铺",
+   "category_hint": "烤串",
+   "dish_hints": [
+    "小龙虾"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHEWXI7",
+   "name": "家湘人湘菜馆员村店",
+   "lon": 113.371136,
+   "lat": 23.118512,
+   "distance_m": 293,
+   "straight_m": null,
+   "address": "员村四横路7-14号",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "红烧肉",
+    "猪脚",
+    "小炒黄牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MGC9G56L",
+   "name": "茂名七迳串烧鸡(员村店)",
+   "lon": 113.371289,
+   "lat": 23.119018,
+   "distance_m": 296,
+   "straight_m": null,
+   "address": "员村四横路86号",
+   "category_hint": "烧鸡",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KA2UC3QR",
+   "name": "金稻香砂锅粥(员村四横路店)",
+   "lon": 113.3713,
+   "lat": 23.118986,
+   "distance_m": 298,
+   "straight_m": null,
+   "address": "员村街员村四横路东侧1-24号中的7-2号商铺",
+   "category_hint": "粥",
+   "dish_hints": [
+    "生蚝",
+    "砂锅粥"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K0A5Y3JM",
+   "name": "张记自选快餐",
+   "lon": 113.366726,
+   "lat": 23.118257,
+   "distance_m": 300,
+   "straight_m": null,
+   "address": "员村地铁站C口步行460米",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "自选快餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFJZBVN1",
+   "name": "川湘美食园",
+   "lon": 113.37112,
+   "lat": 23.118436,
+   "distance_m": 302,
+   "straight_m": null,
+   "address": "员村四横路商业街18号",
+   "category_hint": "湘菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0G2DDLU1N",
+   "name": "曼玲粥店(员村店)",
+   "lon": 113.366712,
+   "lat": 23.118153,
+   "distance_m": 312,
+   "straight_m": null,
+   "address": "松岗园九巷1号102铺(员村地铁站C口步行440米)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "堂食"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K2XPT4RY",
+   "name": "养生粥(员村店)",
+   "lon": 113.366684,
+   "lat": 23.118092,
+   "distance_m": 312,
+   "straight_m": null,
+   "address": "员村小学东南门南130米(员村地铁站C口步行430米)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "养生粥"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDDSM76N",
+   "name": "开心椰海南清补凉",
+   "lon": 113.366921,
+   "lat": 23.118424,
+   "distance_m": 321,
+   "straight_m": null,
+   "address": "员村三横路20号102铺",
+   "category_hint": "清补凉",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFMDGCS1",
+   "name": "Yaso沙拉(员村店)",
+   "lon": 113.370625,
+   "lat": 23.118675,
+   "distance_m": 323,
+   "straight_m": null,
+   "address": "员村三横路东巷自编91号正对面",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "沙拉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MDVROK86",
+   "name": "川湘一元一串炭火烧烤",
+   "lon": 113.370925,
+   "lat": 23.118275,
+   "distance_m": 324,
+   "straight_m": null,
+   "address": "员村四横路与三横路东巷交叉口南60米",
+   "category_hint": "烤串",
+   "dish_hints": [
+    "炭火烧烤"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFF5W4PN",
+   "name": "湛江羊家庄(员村四横路店)",
+   "lon": 113.370919,
+   "lat": 23.118256,
+   "distance_m": 326,
+   "straight_m": null,
+   "address": "广州市天河区员村四横路6号之三103铺",
+   "category_hint": "火锅",
+   "dish_hints": [
+    "鸡肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHFCHW3",
+   "name": "胖子烧烤(员村新街店)",
+   "lon": 113.366774,
+   "lat": 23.118495,
+   "distance_m": 326,
+   "straight_m": null,
+   "address": "员村小学东南门南80米(员村地铁站C口步行480米)",
+   "category_hint": "烤串",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M647JUPN",
+   "name": "川江渔夫鲜货大排档(四横路店)",
+   "lon": 113.371052,
+   "lat": 23.118211,
+   "distance_m": 328,
+   "straight_m": null,
+   "address": "员村街道员村街员村四横路东侧1-24号的7-20号铺",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "脆皮烧鸡",
+    "小龙虾",
+    "肝腰合炒",
+    "青花椒鱼",
+    "老坛酸菜鲈鱼",
+    "生蚝鱼杂煲",
+    "大排档",
+    "单人餐",
+    "生蚝"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MBSSE8JY",
+   "name": "桃李面包",
+   "lon": 113.370872,
+   "lat": 23.118189,
+   "distance_m": 343,
+   "straight_m": null,
+   "address": "员村四横路6-108号",
+   "category_hint": "面包",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HAS798CN",
+   "name": "新疆美味羊肉串",
+   "lon": 113.370827,
+   "lat": 23.11808,
+   "distance_m": 348,
+   "straight_m": null,
+   "address": "员村四横路6号之三101铺",
+   "category_hint": "烧烤",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KK2S64L2",
+   "name": "愉筷老广炭炉鸡煲",
+   "lon": 113.371019,
+   "lat": 23.118022,
+   "distance_m": 348,
+   "straight_m": null,
+   "address": "百合苑B区西1门旁",
+   "category_hint": "大排档",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K27AA2VR",
+   "name": "茶欢喜",
+   "lon": 113.370822,
+   "lat": 23.118065,
+   "distance_m": 349,
+   "straight_m": null,
+   "address": "员村四横路自编6-6号102号铺茶欢喜",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "柠檬茶"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKRAV0M",
+   "name": "顺客来(石东商务中心店)",
+   "lon": 113.370748,
+   "lat": 23.117814,
+   "distance_m": 377,
+   "straight_m": null,
+   "address": "员村四横路8号石东商务中心F1层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU4CBL1S",
+   "name": "思奕·花甲粉",
+   "lon": 113.36716,
+   "lat": 23.118864,
+   "distance_m": 378,
+   "straight_m": null,
+   "address": "员村三横路十六号",
+   "category_hint": "米粉",
+   "dish_hints": [
+    "花甲粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFF5W4OA",
+   "name": "湘攸大碗菜",
+   "lon": 113.367113,
+   "lat": 23.118901,
+   "distance_m": 378,
+   "straight_m": null,
+   "address": "员村四横路3号大院东南",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "大碗菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUNO4BYJ",
+   "name": "李田田麻辣烫",
+   "lon": 113.371033,
+   "lat": 23.117772,
+   "distance_m": 379,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "麻辣烫",
+   "dish_hints": [
+    "麻辣烫"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HUA56QIB",
+   "name": "潮味坊汤粉世家(百合苑店)",
+   "lon": 113.371041,
+   "lat": 23.117803,
+   "distance_m": 380,
+   "straight_m": null,
+   "address": "员村四横路7号(城市便捷酒店对面)",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "汤粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KDGKE6IN",
+   "name": "芋来芋好·芋头饼",
+   "lon": 113.367106,
+   "lat": 23.119018,
+   "distance_m": 390,
+   "straight_m": null,
+   "address": "员村小学东南门旁",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "芋头饼"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MG79HYSB",
+   "name": "湖南筒骨粉·鱼粉",
+   "lon": 113.367153,
+   "lat": 23.119174,
+   "distance_m": 408,
+   "straight_m": null,
+   "address": "员村小学东南门旁",
+   "category_hint": "鱼粉",
+   "dish_hints": [
+    "鱼粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MB7HPC62",
+   "name": "全记餐厅",
+   "lon": 113.370205,
+   "lat": 23.118159,
+   "distance_m": 410,
+   "straight_m": null,
+   "address": "员村四横路自编8号之七",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K6UDMCNU",
+   "name": "广州市·咖班咖啡店",
+   "lon": 113.370269,
+   "lat": 23.119592,
+   "distance_m": 431,
+   "straight_m": null,
+   "address": "三横路东巷与员村四横路交叉口西北100米",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBL7OERD",
+   "name": "清远咸香鸡饭(员村店)",
+   "lon": 113.36729,
+   "lat": 23.119469,
+   "distance_m": 443,
+   "straight_m": null,
+   "address": "员村小学东南门东北50米",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2VM79BL",
+   "name": "顺景阳山鸡(员村四横路店)",
+   "lon": 113.370525,
+   "lat": 23.117662,
+   "distance_m": 444,
+   "straight_m": null,
+   "address": "员村四横路8号石东商务中心F1层",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "阳山鸡"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFF3UMCJ",
+   "name": "中原包子(员村店)",
+   "lon": 113.370845,
+   "lat": 23.117197,
+   "distance_m": 446,
+   "straight_m": null,
+   "address": "百合苑B区西2门旁",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B00140UTD5",
+   "name": "佳麦直营饼店(员村三店)",
+   "lon": 113.370851,
+   "lat": 23.117182,
+   "distance_m": 446,
+   "straight_m": null,
+   "address": "员村四横路10号大院斜对面",
+   "category_hint": "面包",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0DHMOWF",
+   "name": "金穗石磨肠粉",
+   "lon": 113.370842,
+   "lat": 23.117135,
+   "distance_m": 448,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "石磨肠粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I19UV0QQ",
+   "name": "燊华鸣烧腊(百合路店)",
+   "lon": 113.370842,
+   "lat": 23.117135,
+   "distance_m": 448,
+   "straight_m": null,
+   "address": "百合路1号",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "烧腊"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1O1XZIY",
+   "name": "东北大饼手工水饺",
+   "lon": 113.367323,
+   "lat": 23.119553,
+   "distance_m": 453,
+   "straight_m": null,
+   "address": "三横路8号美港酒店对面市场",
+   "category_hint": "东北菜",
+   "dish_hints": [
+    "手工水饺"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG0V3HC",
+   "name": "柳州螺蛳粉(员村四横路)",
+   "lon": 113.367217,
+   "lat": 23.119639,
+   "distance_m": 458,
+   "straight_m": null,
+   "address": "员村街道员村三横路14号",
+   "category_hint": "螺蛳粉",
+   "dish_hints": [
+    "柳州螺蛳粉",
+    "螺蛳粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRZDDTZM",
+   "name": "创膳金牌烧鹅(员村三横路店)",
+   "lon": 113.367335,
+   "lat": 23.119617,
+   "distance_m": 460,
+   "straight_m": null,
+   "address": "员村三横路东巷1号之二",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "脆皮烧鸭拼白切鸡饭",
+    "脆皮烧鸭饭",
+    "招牌手撕鸡拼烧鸭饭"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K3M1R5QM",
+   "name": "潮味尚品鲜粉面世家隆江猪脚饭",
+   "lon": 113.367369,
+   "lat": 23.119638,
+   "distance_m": 477,
+   "straight_m": null,
+   "address": "员村三横路与员村新街交叉口东南20米",
+   "category_hint": "猪脚饭",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JBTODJ8X",
+   "name": "八哥酸辣粉(员村分店)",
+   "lon": 113.367175,
+   "lat": 23.119675,
+   "distance_m": 480,
+   "straight_m": null,
+   "address": "员村新街与员村三横路交叉口西20米",
+   "category_hint": "酸辣粉",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRAUDJW4",
+   "name": "正果云吞(员村四横路店)",
+   "lon": 113.371009,
+   "lat": 23.117463,
+   "distance_m": 490,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B00140M5DO",
+   "name": "标记饭店(员村三横路店)",
+   "lon": 113.367503,
+   "lat": 23.119913,
+   "distance_m": 495,
+   "straight_m": null,
+   "address": "员村三横路4号(近员村新街道)",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "干炒牛河",
+    "大肠"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00140JC7D",
+   "name": "东升饭店(员村三横路店)",
+   "lon": 113.367509,
+   "lat": 23.119927,
+   "distance_m": 497,
+   "straight_m": null,
+   "address": "员村三横路9号(宇立轩东门旁)",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGYNXYW",
+   "name": "佰搭潮汕肠粉汤粉(百合苑B区店)",
+   "lon": 113.371014,
+   "lat": 23.117688,
+   "distance_m": 514,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "粉汤",
+    "汤粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00140NGOG",
+   "name": "乐口福烧腊(员村三横路店)",
+   "lon": 113.36756,
+   "lat": 23.120104,
+   "distance_m": 518,
+   "straight_m": null,
+   "address": "员村三横路3号工商所侧面",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "烧腊"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L1F7ZL9E",
+   "name": "佬汤包鲜包",
+   "lon": 113.365246,
+   "lat": 23.116786,
+   "distance_m": 518,
+   "straight_m": null,
+   "address": "员村二横路与程界成龙街交叉口东北160米",
+   "category_hint": "汤包",
+   "dish_hints": [
+    "鲜包",
+    "汤包"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KKSH0VM9",
+   "name": "新鲜牛肉汤粉",
+   "lon": 113.371027,
+   "lat": 23.117744,
+   "distance_m": 521,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LRX13DC8",
+   "name": "猪哥湿辣牛肉",
+   "lon": 113.36525,
+   "lat": 23.116745,
+   "distance_m": 521,
+   "straight_m": null,
+   "address": "松岗园街附近员村农夫鲜果特卖场",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "湿辣牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJL8OLR",
+   "name": "食盈碗仔翅(员村店)",
+   "lon": 113.367573,
+   "lat": 23.120145,
+   "distance_m": 523,
+   "straight_m": null,
+   "address": "员村三横路3号102",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "柠檬茶"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LD3SIVCH",
+   "name": "云桂面馆",
+   "lon": 113.366776,
+   "lat": 23.119853,
+   "distance_m": 525,
+   "straight_m": null,
+   "address": "员村3横路",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "牛三星汤",
+    "肠粉",
+    "艇仔粥",
+    "鲜虾云吞面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG6H0S2",
+   "name": "重庆小面(百合苑B区店)",
+   "lon": 113.371076,
+   "lat": 23.117789,
+   "distance_m": 526,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "重庆小面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUDOLPUW",
+   "name": "湖北土菜馆",
+   "lon": 113.367606,
+   "lat": 23.120181,
+   "distance_m": 528,
+   "straight_m": null,
+   "address": "员村三横路3号1楼第四间铺",
+   "category_hint": "湖北菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MR57HCQQ",
+   "name": "九月烧烤",
+   "lon": 113.366228,
+   "lat": 23.117221,
+   "distance_m": 528,
+   "straight_m": null,
+   "address": "员村三横路与员村松岗园街交叉口西南100米",
+   "category_hint": "烤串",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFK9FLMN",
+   "name": "甜香缘石磨芝麻糊店",
+   "lon": 113.36682,
+   "lat": 23.119984,
+   "distance_m": 542,
+   "straight_m": null,
+   "address": "员村新街3号甜香缘石磨芝麻",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "糖水铺",
+    "石磨芝麻糊"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFLFCAIV",
+   "name": "湘妹子(员村店)",
+   "lon": 113.367498,
+   "lat": 23.120469,
+   "distance_m": 553,
+   "straight_m": null,
+   "address": "员村三横路8号",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "莲藕汤"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MD1SSEZ1",
+   "name": "惠记牛肉火锅",
+   "lon": 113.366797,
+   "lat": 23.120125,
+   "distance_m": 556,
+   "straight_m": null,
+   "address": "员村新街与员村三横路交叉口西北60米",
+   "category_hint": "牛肉火锅",
+   "dish_hints": [
+    "牛肉火锅"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LKOOH8Q8",
+   "name": "Blink Cafe",
+   "lon": 113.371073,
+   "lat": 23.117859,
+   "distance_m": 560,
+   "straight_m": null,
+   "address": "员村四横路101号",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1O5O02Z",
+   "name": "许记珍包(员村店)",
+   "lon": 113.366442,
+   "lat": 23.120147,
+   "distance_m": 566,
+   "straight_m": null,
+   "address": "员村新街6号108号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "仙女素菜包",
+    "桃花小烧麦",
+    "老坛酸菜包",
+    "蜜汁叉烧包",
+    "甜心豆沙包",
+    "招牌鲜肉包",
+    "黑糖大馒头",
+    "烧麦",
+    "小馒头"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFI7P0CR",
+   "name": "西华美食品(员村新街店)",
+   "lon": 113.36631,
+   "lat": 23.120121,
+   "distance_m": 588,
+   "straight_m": null,
+   "address": "员村新街6号107铺",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "叉烧",
+    "烧腊快餐",
+    "广式烧腊"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFLCKM9E",
+   "name": "三米粥铺(员村店)",
+   "lon": 113.36737,
+   "lat": 23.120526,
+   "distance_m": 590,
+   "straight_m": null,
+   "address": "员村三横路8号首层之一",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "小米南瓜粥",
+    "三鲜招牌蒸饺",
+    "王炸饺子（5只）",
+    "黑胡椒牛肉馅饼",
+    "拾全八宝粥",
+    "手工鲜肉小笼包",
+    "皮蛋瘦肉粥",
+    "招牌手工鲜肉蒸饺",
+    "八宝粥",
+    "粥铺"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGIOKQM",
+   "name": "成意食店",
+   "lon": 113.367428,
+   "lat": 23.120669,
+   "distance_m": 590,
+   "straight_m": null,
+   "address": "员村三横路2华隆综合大楼F1层",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "猪脚姜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0IA1ASX7M",
+   "name": "刺身鲜生三文鱼(天河店)",
+   "lon": 113.367418,
+   "lat": 23.120713,
+   "distance_m": 593,
+   "straight_m": null,
+   "address": "员村三横路2号之三104铺",
+   "category_hint": "刺身",
+   "dish_hints": [
+    "刺身",
+    "三文鱼"
+   ],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HAXUL6GU",
+   "name": "大葱柠檬茶(员村店)",
+   "lon": 113.36784,
+   "lat": 23.120799,
+   "distance_m": 598,
+   "straight_m": null,
+   "address": "员村三横路1号9铺",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GDV4679Q",
+   "name": "林记隆江猪脚饭(百合店)",
+   "lon": 113.372321,
+   "lat": 23.117488,
+   "distance_m": 598,
+   "straight_m": null,
+   "address": "公安宿舍西北门旁",
+   "category_hint": "猪脚饭",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKX48XL",
+   "name": "笨小鸭台湾手撕面包(员村店)",
+   "lon": 113.366077,
+   "lat": 23.12017,
+   "distance_m": 601,
+   "straight_m": null,
+   "address": "员村新街8号",
+   "category_hint": "西式糕点",
+   "dish_hints": [
+    "手撕面包"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KAX42VTS",
+   "name": "河南羊汤烩面(员村新街店)",
+   "lon": 113.366073,
+   "lat": 23.120169,
+   "distance_m": 601,
+   "straight_m": null,
+   "address": "白水塘小区南门旁",
+   "category_hint": "羊肉",
+   "dish_hints": [
+    "烩面",
+    "羊汤烩面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KKHMKZJ3",
+   "name": "卤友记正宗澄海狮头鹅(员村店)",
+   "lon": 113.366072,
+   "lat": 23.12019,
+   "distance_m": 603,
+   "straight_m": null,
+   "address": "白水塘小区南门旁",
+   "category_hint": "卤味",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0HB3G754B",
+   "name": "兄弟烤羊肉烧烤",
+   "lon": 113.366004,
+   "lat": 23.12015,
+   "distance_m": 604,
+   "straight_m": null,
+   "address": "员村新街8号",
+   "category_hint": "烤肉",
+   "dish_hints": [
+    "羊肉烧烤",
+    "烤羊肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFF3UZF0",
+   "name": "金早绿点(员村店)",
+   "lon": 113.366128,
+   "lat": 23.120235,
+   "distance_m": 606,
+   "straight_m": null,
+   "address": "员村新街8号首层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "叉烧包",
+    "包点"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFHW0WWS",
+   "name": "乐陶一品",
+   "lon": 113.36597,
+   "lat": 23.120229,
+   "distance_m": 611,
+   "straight_m": null,
+   "address": "员村新街8号美港酒店二楼",
+   "category_hint": "茶餐厅",
+   "dish_hints": [
+    "松化鸡蛋挞",
+    "榴莲薄饼",
+    "鲜虾香茜饺",
+    "咖喱巴西金钱肚",
+    "xo名酱蒸凤爪",
+    "椰皇雪糕",
+    "瑶柱腐皮卷",
+    "流沙包",
+    "艇仔粥",
+    "鸡翼",
+    "蜜汁叉烧肠",
+    "花旗参炖竹丝鸡",
+    "鲜虾拉肠",
+    "陈皮金钱肚",
+    "牛腩啫珍珠粉",
+    "荔湾艇仔粥",
+    "花菇豉汁蒸凤爪",
+    "蛋挞",
+    "早茶",
+    "重庆小面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFL7A9QT",
+   "name": "一颗蘑菇·蛋糕·茶歇",
+   "lon": 113.367573,
+   "lat": 23.120925,
+   "distance_m": 614,
+   "straight_m": null,
+   "address": "员村三横路2号之三",
+   "category_hint": "蛋糕店",
+   "dish_hints": [
+    "蘑菇"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MBNZSDBE",
+   "name": "四横路社区长者饭堂",
+   "lon": 113.368612,
+   "lat": 23.120257,
+   "distance_m": 615,
+   "straight_m": null,
+   "address": "员村四横路5号大院56号(35号楼对面)",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2MLZCFR",
+   "name": "王老吉(黄埔大道中店)",
+   "lon": 113.371085,
+   "lat": 23.120416,
+   "distance_m": 617,
+   "straight_m": null,
+   "address": "员村四横路2号大院",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKU69JL",
+   "name": "尊宝比萨(员村东店)",
+   "lon": 113.366055,
+   "lat": 23.120312,
+   "distance_m": 617,
+   "straight_m": null,
+   "address": "员村新街8号之5号铺(白水塘小区南门旁)",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "意大利肉酱面",
+    "超级豪华比萨",
+    "金沙咸蛋黄培根比萨",
+    "精选比萨2件奥尔良+榴莲",
+    "金沙咸蛋黄",
+    "8英寸经典苏丹王榴莲比萨",
+    "经典苏丹王榴莲比萨",
+    "经典苏丹王榴莲",
+    "奥尔良烤鸡",
+    "比萨",
+    "意面"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUTXND2J",
+   "name": "东陶酒家",
+   "lon": 113.365875,
+   "lat": 23.120075,
+   "distance_m": 617,
+   "straight_m": null,
+   "address": "员村新街与员村三横路交叉口西160米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFK5S9GE",
+   "name": "金牌隆江猪脚饭(员村店)",
+   "lon": 113.367856,
+   "lat": 23.120986,
+   "distance_m": 619,
+   "straight_m": null,
+   "address": "员村三横路1-10号",
+   "category_hint": "猪脚饭",
+   "dish_hints": [
+    "猪脚"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFH0S0A8",
+   "name": "林记正宗隆江猪脚饭",
+   "lon": 113.367496,
+   "lat": 23.120842,
+   "distance_m": 619,
+   "straight_m": null,
+   "address": "员村三横路自编3号之2号",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "猪脚",
+    "猪脚饭"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGION66",
+   "name": "炳记专业饺子云吞(员村店)",
+   "lon": 113.36606,
+   "lat": 23.120337,
+   "distance_m": 619,
+   "straight_m": null,
+   "address": "员村新街8号之13铺(近员村市场)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "云吞"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFG0U73F",
+   "name": "都城快餐(员村店)",
+   "lon": 113.365839,
+   "lat": 23.120083,
+   "distance_m": 620,
+   "straight_m": null,
+   "address": "员村新街8号1-3A号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBORBPXD",
+   "name": "卤家香隆江猪脚饭",
+   "lon": 113.367883,
+   "lat": 23.12104,
+   "distance_m": 625,
+   "straight_m": null,
+   "address": "员村三横路与黄埔大道中交叉口南40米",
+   "category_hint": "猪脚饭",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B00140TAAD",
+   "name": "沙县小吃(员村玉芝小食店)",
+   "lon": 113.367904,
+   "lat": 23.121038,
+   "distance_m": 626,
+   "straight_m": null,
+   "address": "华隆综合大楼东南门旁",
+   "category_hint": "福建小吃",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JGF5PK25",
+   "name": "何记香辣跳跳蛙(员村店)",
+   "lon": 113.364751,
+   "lat": 23.116052,
+   "distance_m": 632,
+   "straight_m": null,
+   "address": "二横路南8号一楼之8(员村地铁站C口步行100米)",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "大排档"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHU6NZ9",
+   "name": "福之味东北饺子馆(员村店)",
+   "lon": 113.367955,
+   "lat": 23.121188,
+   "distance_m": 643,
+   "straight_m": null,
+   "address": "员村三横路1号之二",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I3F14RWL",
+   "name": "新街肠粉店(员村白水塘21-22大院店)",
+   "lon": 113.365566,
+   "lat": 23.11999,
+   "distance_m": 649,
+   "straight_m": null,
+   "address": "白水塘21-22大院南门旁",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HRVHUWG1",
+   "name": "德原味顺德菜",
+   "lon": 113.365536,
+   "lat": 23.119967,
+   "distance_m": 653,
+   "straight_m": null,
+   "address": "员村新街10号首层",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LGPRQ5P5",
+   "name": "厚兴黄锦瑜记手撕鸡(员村市场店)",
+   "lon": 113.366823,
+   "lat": 23.120687,
+   "distance_m": 657,
+   "straight_m": null,
+   "address": "员村白水塘35号员村市场一楼熟食区6号档靠近东门入口左转",
+   "category_hint": "凉菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFFT0U8C",
+   "name": "江村黄鸡(员村专卖店)",
+   "lon": 113.366823,
+   "lat": 23.120687,
+   "distance_m": 657,
+   "straight_m": null,
+   "address": "白水塘35号员村市场一楼水产区(江村黄鸡店)",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "精品江丰荷香糯米鸡",
+    "荷香糯米鸡",
+    "豉油鸡",
+    "江丰荷香糯米鸡",
+    "白切鸡",
+    "江丰卓味精品盐焗鸡",
+    "江丰卓味御品盐焗鸡",
+    "盐焗鸡"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GKRAACTB",
+   "name": "新穗快餐店",
+   "lon": 113.365709,
+   "lat": 23.119801,
+   "distance_m": 662,
+   "straight_m": null,
+   "address": "员村新街9号之8号",
+   "category_hint": "煲仔饭",
+   "dish_hints": [
+    "排骨",
+    "牛肉",
+    "鸡肉",
+    "煲仔饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0014247PV",
+   "name": "添香饼家(员村店)",
+   "lon": 113.365543,
+   "lat": 23.119783,
+   "distance_m": 662,
+   "straight_m": null,
+   "address": "员村新街11号",
+   "category_hint": "蛋糕店",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00141Y38S",
+   "name": "赛佬煲仔饭(员村新街店)",
+   "lon": 113.365499,
+   "lat": 23.11976,
+   "distance_m": 667,
+   "straight_m": null,
+   "address": "",
+   "category_hint": "煲仔饭",
+   "dish_hints": [
+    "煲仔饭",
+    "三拼煲仔饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JRHRE51U",
+   "name": "挪威三文鱼(员村店)",
+   "lon": 113.366707,
+   "lat": 23.120758,
+   "distance_m": 668,
+   "straight_m": null,
+   "address": "员村市场二楼13号档挪威三文鱼",
+   "category_hint": "鱼",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGWGK6X",
+   "name": "重庆馋嘴卤味",
+   "lon": 113.366294,
+   "lat": 23.120812,
+   "distance_m": 678,
+   "straight_m": null,
+   "address": "员村三横路员村市场一层",
+   "category_hint": "卤味",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2LOQGW2",
+   "name": "靓仔纯正豆腐",
+   "lon": 113.366618,
+   "lat": 23.120645,
+   "distance_m": 680,
+   "straight_m": null,
+   "address": "昌乐园4号员村市场",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "豆腐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU6BU2MU",
+   "name": "潮汕大排档",
+   "lon": 113.37234,
+   "lat": 23.12004,
+   "distance_m": 682,
+   "straight_m": null,
+   "address": "黄埔大道中与员村四横路交叉口东南80米",
+   "category_hint": "潮州菜",
+   "dish_hints": [
+    "大排档"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3ZU1AT2",
+   "name": "富霖潮鲜(天河店)",
+   "lon": 113.372325,
+   "lat": 23.120025,
+   "distance_m": 684,
+   "straight_m": null,
+   "address": "黄埔大道中与员村四横路交叉口东南80米",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J0D7SB72",
+   "name": "赵源记潮汕牛肉店",
+   "lon": 113.366328,
+   "lat": 23.120857,
+   "distance_m": 684,
+   "straight_m": null,
+   "address": "白水塘41号130-8铺",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LDP70GOE",
+   "name": "鮨御(日料宅配店)",
+   "lon": 113.372414,
+   "lat": 23.119977,
+   "distance_m": 686,
+   "straight_m": null,
+   "address": "黄埔大道中与员村四横路交叉口东南100米",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFISDZL4",
+   "name": "醉佳食品(蓝天广场店)",
+   "lon": 113.36641,
+   "lat": 23.120901,
+   "distance_m": 693,
+   "straight_m": null,
+   "address": "蓝天广场",
+   "category_hint": "熟食",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFL4DULU",
+   "name": "富子笑",
+   "lon": 113.365648,
+   "lat": 23.120508,
+   "distance_m": 693,
+   "straight_m": null,
+   "address": "员村街道黄埔大道中22号白水塘小区",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFF3UP3X",
+   "name": "长兴百货(白水塘小区店)",
+   "lon": 113.365815,
+   "lat": 23.120883,
+   "distance_m": 695,
+   "straight_m": null,
+   "address": "白水塘粤华苑49栋首层",
+   "category_hint": "日杂店",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KA3XUNFP",
+   "name": "晶晶友味(白水塘小区店)",
+   "lon": 113.366472,
+   "lat": 23.120944,
+   "distance_m": 701,
+   "straight_m": null,
+   "address": "员村白水塘41号136铺",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "手工包"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFG8HRO6",
+   "name": "亮记烧腊店",
+   "lon": 113.366675,
+   "lat": 23.120875,
+   "distance_m": 714,
+   "straight_m": null,
+   "address": "员村三横路员村市场",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6VCJNI8",
+   "name": "坚美盆菜",
+   "lon": 113.366775,
+   "lat": 23.120825,
+   "distance_m": 720,
+   "straight_m": null,
+   "address": "昌乐园4号员村市场",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "盆菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG0V7HO",
+   "name": "大塘烧鹅(员村市场店)",
+   "lon": 113.366627,
+   "lat": 23.121075,
+   "distance_m": 722,
+   "straight_m": null,
+   "address": "员村三横路白水塘小区45号",
+   "category_hint": "烧鹅",
+   "dish_hints": [
+    "烧鹅",
+    "鸭肉",
+    "猪肚",
+    "叉烧",
+    "烧腊",
+    "鸡翅"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0JDDMTIMD",
+   "name": "深井煌烧鹅(员村店)",
+   "lon": 113.366729,
+   "lat": 23.120947,
+   "distance_m": 723,
+   "straight_m": null,
+   "address": "昌乐园4号员村市场",
+   "category_hint": "烧鹅",
+   "dish_hints": [
+    "烧鹅"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHRG54Q",
+   "name": "梅姐牛杂串",
+   "lon": 113.364572,
+   "lat": 23.119237,
+   "distance_m": 724,
+   "straight_m": null,
+   "address": "员村新街15号(员村地铁站C口步行480米)",
+   "category_hint": "牛杂",
+   "dish_hints": [
+    "牛杂"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KR4DVTJD",
+   "name": "潮汕粿条汤",
+   "lon": 113.365006,
+   "lat": 23.119729,
+   "distance_m": 726,
+   "straight_m": null,
+   "address": "员村新街与员村三横路交叉口西240米",
+   "category_hint": "潮州菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K3M7UGSM",
+   "name": "拌粉拌面",
+   "lon": 113.365006,
+   "lat": 23.119729,
+   "distance_m": 726,
+   "straight_m": null,
+   "address": "员村街综治信访维稳中心东北门旁",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAURUBYQ",
+   "name": "潮汕牛肉火锅",
+   "lon": 113.364925,
+   "lat": 23.119675,
+   "distance_m": 726,
+   "straight_m": null,
+   "address": "员村新街与员村二横路交叉口东北200米",
+   "category_hint": "牛肉火锅",
+   "dish_hints": [
+    "潮汕牛肉火锅"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGXKXYI",
+   "name": "抱朴轩茶庄",
+   "lon": 113.365381,
+   "lat": 23.120697,
+   "distance_m": 727,
+   "straight_m": null,
+   "address": "员村街道黄埔大道中22号白水塘小区",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00140MM81",
+   "name": "祥记潮州砂锅粥(员村店)",
+   "lon": 113.364986,
+   "lat": 23.119455,
+   "distance_m": 731,
+   "straight_m": null,
+   "address": "员村新街十一号",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "潮汕风味",
+    "炒花甲"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKN7QKVB",
+   "name": "员味小院",
+   "lon": 113.365125,
+   "lat": 23.119525,
+   "distance_m": 732,
+   "straight_m": null,
+   "address": "员村新街与员村二横路交叉口东220米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MRN779T7",
+   "name": "粤大食府(粤大金融城店)",
+   "lon": 113.372454,
+   "lat": 23.119982,
+   "distance_m": 738,
+   "straight_m": null,
+   "address": "黄埔大道中322号粤大金融城国际酒店",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0TSAS5R",
+   "name": "再吃一次新疆肉馕",
+   "lon": 113.364375,
+   "lat": 23.119425,
+   "distance_m": 741,
+   "straight_m": null,
+   "address": "员村新街与员村二横路交叉口东北140米",
+   "category_hint": "新疆菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0G3JR82Q4",
+   "name": "粤大金融城",
+   "lon": 113.372464,
+   "lat": 23.119908,
+   "distance_m": 745,
+   "straight_m": null,
+   "address": "黄埔大道中332号(科韵路地铁站C口步行450米)",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "吊炉火锅",
+    "马蹄",
+    "猪肉",
+    "猪肝"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KBFMRUJK",
+   "name": "K茶馆(员村消防局宿舍店)",
+   "lon": 113.367175,
+   "lat": 23.121425,
+   "distance_m": 747,
+   "straight_m": null,
+   "address": "工业大道白水塘1-2号首层",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0IUPDQKGZ",
+   "name": "伙记牛杂糖水",
+   "lon": 113.364774,
+   "lat": 23.119383,
+   "distance_m": 751,
+   "straight_m": null,
+   "address": "员村街道员村新街14号中国邮政储蓄银行对面",
+   "category_hint": "牛杂",
+   "dish_hints": [
+    "牛杂",
+    "金针菇",
+    "堂食",
+    "牛腩",
+    "麻辣烫"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3ASSESP",
+   "name": "粤大自助餐员工食堂",
+   "lon": 113.372625,
+   "lat": 23.119575,
+   "distance_m": 773,
+   "straight_m": null,
+   "address": "黄埔大道中与员村四横路交叉口东南140米",
+   "category_hint": "自助餐",
+   "dish_hints": [
+    "自助餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFIRBYZ0",
+   "name": "茶嘉宅(员村店)",
+   "lon": 113.372417,
+   "lat": 23.120625,
+   "distance_m": 774,
+   "straight_m": null,
+   "address": "程介坑10号(天润大厦旁边,四横路口对面)",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MGY76R1T",
+   "name": "潮品膳.新派融合菜",
+   "lon": 113.37327,
+   "lat": 23.119782,
+   "distance_m": 776,
+   "straight_m": null,
+   "address": "黄埔大道中328号习酒体验馆2层(粤大金融城酒店旁)",
+   "category_hint": "融合菜",
+   "dish_hints": [
+    "融合菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JKG16O69",
+   "name": "鸣香优卤鸭货铺",
+   "lon": 113.370582,
+   "lat": 23.116835,
+   "distance_m": 782,
+   "straight_m": null,
+   "address": "百合路14-32号百合苑A区",
+   "category_hint": "鸭脖",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG0V67O",
+   "name": "平安堂凉茶(员村五横路店)",
+   "lon": 113.37061,
+   "lat": 23.116821,
+   "distance_m": 783,
+   "straight_m": null,
+   "address": "百合苑A区西门旁",
+   "category_hint": "凉茶",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFF3UMCH",
+   "name": "源记快餐",
+   "lon": 113.3709,
+   "lat": 23.117138,
+   "distance_m": 783,
+   "straight_m": null,
+   "address": "员村四横路7-38号百合苑B区",
+   "category_hint": "中式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KAOCX20Z",
+   "name": "悦心阁潮州菜",
+   "lon": 113.373473,
+   "lat": 23.119852,
+   "distance_m": 794,
+   "straight_m": null,
+   "address": "黄埔大道中328号首层(科韵路地铁站C口步行400米)",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "特色菜",
+    "猪肉",
+    "私房菜",
+    "鱿鱼"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LAT103HR",
+   "name": "林记客家小食",
+   "lon": 113.370084,
+   "lat": 23.116338,
+   "distance_m": 800,
+   "straight_m": null,
+   "address": "员村四横路与百合路交叉口西南100米",
+   "category_hint": "客家菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L17U9A6D",
+   "name": "嘉琪饼家(员村市场店)",
+   "lon": 113.366784,
+   "lat": 23.121074,
+   "distance_m": 801,
+   "straight_m": null,
+   "address": "黄埔大道中与棠石路交叉口西南100米",
+   "category_hint": "面包",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKLB7DR3",
+   "name": "优品鲜农家菜",
+   "lon": 113.366725,
+   "lat": 23.121075,
+   "distance_m": 806,
+   "straight_m": null,
+   "address": "员村街道黄埔大道中22号白水塘小区",
+   "category_hint": "农家菜",
+   "dish_hints": [
+    "农家菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDBCH9FO",
+   "name": "三秋糖水铺",
+   "lon": 113.371148,
+   "lat": 23.117143,
+   "distance_m": 808,
+   "straight_m": null,
+   "address": "广州国际金融城",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "糖水铺"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HRPP4PTC",
+   "name": "天成烧腊(员村店)",
+   "lon": 113.370084,
+   "lat": 23.116161,
+   "distance_m": 811,
+   "straight_m": null,
+   "address": "员村四横路程界东村程界东东南巷7号",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "烧腊"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LRMSXEQ2",
+   "name": "小霞包点(员村四横路店)",
+   "lon": 113.370551,
+   "lat": 23.11654,
+   "distance_m": 815,
+   "straight_m": null,
+   "address": "百合苑A区西门旁",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "包点"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFHK03GJ",
+   "name": "味中味自选快餐(员村分店)",
+   "lon": 113.370524,
+   "lat": 23.116404,
+   "distance_m": 829,
+   "straight_m": null,
+   "address": "员村四横路程界东村东南向11号101铺",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "自选快餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MA1KDKKT",
+   "name": "富贵饭店(百合路店)",
+   "lon": 113.371498,
+   "lat": 23.117259,
+   "distance_m": 846,
+   "straight_m": null,
+   "address": "员村派出所西北门西50米",
+   "category_hint": "贵州菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGWJJUI",
+   "name": "峡山面汤馆(员村消防局宿舍店)",
+   "lon": 113.366529,
+   "lat": 23.121412,
+   "distance_m": 854,
+   "straight_m": null,
+   "address": "员村三横路白水塘18栋(员村消防局宿舍北门旁)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "面汤"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LDRHD00D",
+   "name": "爆打柠檬茶",
+   "lon": 113.372325,
+   "lat": 23.120675,
+   "distance_m": 865,
+   "straight_m": null,
+   "address": "黄埔大道中程介坑小区(科韵路地铁站C口步行490米)",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHYHI02",
+   "name": "茶美人",
+   "lon": 113.371001,
+   "lat": 23.121902,
+   "distance_m": 866,
+   "straight_m": null,
+   "address": "建华路99号105房",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0U1WJW7",
+   "name": "海南东山羊庄(金融城店)",
+   "lon": 113.373326,
+   "lat": 23.119316,
+   "distance_m": 868,
+   "straight_m": null,
+   "address": "御发商务B座(科韵路地铁站A口步行420米)",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JRMDNVDE",
+   "name": "美心西饼店(伟诚大厦店)",
+   "lon": 113.367417,
+   "lat": 23.12207,
+   "distance_m": 875,
+   "straight_m": null,
+   "address": "黄埔大道中197伟诚大厦F1层",
+   "category_hint": "糕点/烘焙",
+   "dish_hints": [
+    "巧克力"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00140AO1X",
+   "name": "麦当劳(伟城广场分店餐厅)",
+   "lon": 113.367533,
+   "lat": 23.122027,
+   "distance_m": 887,
+   "straight_m": null,
+   "address": "黄埔大道伟诚广场首、二层",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "麦当劳超值嗨餐",
+    "（2-3人餐）",
+    "板烧美味三件套",
+    "麦辣美味三件套",
+    "人气美味尽享套餐",
+    "家有金桶（脆鸡版）",
+    "麦辣鸡腿堡",
+    "安格斯系列",
+    "家有金桶（汉堡版）",
+    "大脆鸡扒麦满分组合",
+    "原味板烧鸡腿麦满分组合",
+    "可乐鸡翅",
+    "巨无霸汉堡",
+    "薯条",
+    "汉堡"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDJXL6C8",
+   "name": "喜记",
+   "lon": 113.373075,
+   "lat": 23.120725,
+   "distance_m": 890,
+   "straight_m": null,
+   "address": "黄埔大道中与员村四横路交叉口东140米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2XCYEFH",
+   "name": "快味家现炒快餐",
+   "lon": 113.370925,
+   "lat": 23.122175,
+   "distance_m": 892,
+   "straight_m": null,
+   "address": "佳都商务大厦东北门南90米",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFIIU8RJ",
+   "name": "羊门粉匠·红烧羊肉粉(员村店)",
+   "lon": 113.367575,
+   "lat": 23.121975,
+   "distance_m": 905,
+   "straight_m": null,
+   "address": "黄埔大道中197伟诚大厦F1层",
+   "category_hint": "羊肉粉",
+   "dish_hints": [
+    "羊肉",
+    "羊肉粉",
+    "肉夹馍",
+    "羊肉串"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00140BKU6",
+   "name": "存忠餐厅",
+   "lon": 113.370353,
+   "lat": 23.115653,
+   "distance_m": 914,
+   "straight_m": null,
+   "address": "员村程界东村北二巷24号之一",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "大排档"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2PZQ9AM",
+   "name": "谢记肉夹馍",
+   "lon": 113.372174,
+   "lat": 23.117406,
+   "distance_m": 917,
+   "straight_m": null,
+   "address": "百合路与员村四横路交叉口东160米",
+   "category_hint": "肉夹馍",
+   "dish_hints": [
+    "肉夹馍"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2ULFD1E",
+   "name": "广州伟诚广场餐厅(鸿运花园店)",
+   "lon": 113.367536,
+   "lat": 23.122141,
+   "distance_m": 919,
+   "straight_m": null,
+   "address": "黄埔大道中197-205号伟诚大厦",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LR9LPPWG",
+   "name": "豪客来牛排(广州伟诚广场餐厅)",
+   "lon": 113.367578,
+   "lat": 23.122161,
+   "distance_m": 923,
+   "straight_m": null,
+   "address": "黄埔大道中197号伟诚商务大厦3楼",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "新奥尔良黑椒牛排",
+    "沙朗牛排",
+    "菲力牛排",
+    "法式红酒牛排",
+    "T骨牛排",
+    "土豆泥",
+    "餐包",
+    "苹果木烟熏肋骨排",
+    "沙律",
+    "自选沙拉",
+    "奥尔良烤翅",
+    "黑椒沙朗",
+    "带骨纽约客",
+    "纽约带骨小牛排",
+    "巧克力冰激凌",
+    "牛肉",
+    "单人餐",
+    "牛排"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG0U5FK",
+   "name": "黄氏阳山农家鸡",
+   "lon": 113.370462,
+   "lat": 23.115439,
+   "distance_m": 942,
+   "straight_m": null,
+   "address": "员村四横路与椰林路交叉口东北60米",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "牛肉丸"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJD4T98",
+   "name": "柳州螺蛳粉(员村四横路店)",
+   "lon": 113.37045,
+   "lat": 23.115371,
+   "distance_m": 942,
+   "straight_m": null,
+   "address": "员村四横路163-1号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "螺蛳粉",
+    "柳州螺蛳粉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B00140USEV",
+   "name": "龙辉餐厅(员村四横路店)",
+   "lon": 113.37044,
+   "lat": 23.115301,
+   "distance_m": 949,
+   "straight_m": null,
+   "address": "员村四横路161号",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0IAVHI3IY",
+   "name": "潮汕鸿兴秘方拉肠",
+   "lon": 113.370281,
+   "lat": 23.115315,
+   "distance_m": 951,
+   "straight_m": null,
+   "address": "员村四横路与椰林路交叉口北40米",
+   "category_hint": "潮州菜",
+   "dish_hints": [
+    "拉肠"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDF1A9DT",
+   "name": "李家小厨",
+   "lon": 113.365575,
+   "lat": 23.114975,
+   "distance_m": 951,
+   "straight_m": null,
+   "address": "广州国际金融城(员村地铁站B口步行210米)",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRCOGYP3",
+   "name": "宏记湖南砍肉粉(员村店)",
+   "lon": 113.370424,
+   "lat": 23.115257,
+   "distance_m": 955,
+   "straight_m": null,
+   "address": "员村四横路与椰林路交叉口东北40米",
+   "category_hint": "米粉",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00140AWO9",
+   "name": "都城快餐(伟诚大厦店)",
+   "lon": 113.367822,
+   "lat": 23.122373,
+   "distance_m": 955,
+   "straight_m": null,
+   "address": "黄埔大道中197伟诚大厦F1层",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "家常菜",
+    "肠粉"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H251OJPW",
+   "name": "湘味自选小碗菜",
+   "lon": 113.372555,
+   "lat": 23.117486,
+   "distance_m": 956,
+   "straight_m": null,
+   "address": "公安宿舍西北门东北50米",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "小碗菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K3U1YIHZ",
+   "name": "33咖啡(科韵店)",
+   "lon": 113.369274,
+   "lat": 23.121716,
+   "distance_m": 956,
+   "straight_m": null,
+   "address": "锦明街与黄埔大道中交叉口北60米",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I2TASTNW",
+   "name": "遇见小面(伟诚广场店)",
+   "lon": 113.366948,
+   "lat": 23.122234,
+   "distance_m": 959,
+   "straight_m": null,
+   "address": "黄埔大道中207号伟诚广场A栋首层商铺自编之一、之二、之三",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "阳光番茄牛肉面",
+    "脆皮半只鸡麻辣小面",
+    "内蒙古羔羊羊肉串(3串)",
+    "酥脆鸡排(1块)",
+    "川味酸菜牛肉面",
+    "酸菜卤肉饭",
+    "酥掉渣芝麻烧饼(1个)",
+    "金碗酸辣粉",
+    "脆皮半只鸡阳光番茄汤面",
+    "葱酥骨汤抄手",
+    "白玉厚椰乳",
+    "秘制脆皮半只鸡",
+    "销魂擂椒卤肉面",
+    "酸菜卤肉面",
+    "老麻抄手",
+    "爆浆豆腐串(2串)",
+    "琥珀冰粉",
+    "双人餐",
+    "酸辣粉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J0R9MJXO",
+   "name": "嘎嘎香手撕鸡(原柳州老牌手撕鸡)",
+   "lon": 113.365708,
+   "lat": 23.114855,
+   "distance_m": 966,
+   "straight_m": null,
+   "address": "员村街道上社大街十八号新壹便利店门口",
+   "category_hint": "自助餐",
+   "dish_hints": [
+    "柠檬",
+    "手撕鸡"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LK5LVIPJ",
+   "name": "猪脚宝·隆江碳火猪脚饭",
+   "lon": 113.365725,
+   "lat": 23.114875,
+   "distance_m": 967,
+   "straight_m": null,
+   "address": "欣业大厦北门东170米(员村地铁站B口步行230米)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "猪脚",
+    "猪脚饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KG4RG8O6",
+   "name": "曾氏凉茶(员村程界西店)",
+   "lon": 113.365744,
+   "lat": 23.114825,
+   "distance_m": 969,
+   "straight_m": null,
+   "address": "员村程界西上社大街18号(员村地铁站B口步行230米)",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K6NU6WBE",
+   "name": "茶理宜世(棠石路店)",
+   "lon": 113.367871,
+   "lat": 23.122501,
+   "distance_m": 970,
+   "straight_m": null,
+   "address": "黄埔大道中棠石路伟诚街4号之五茶理宜世(棠石路店)",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "星天外",
+    "水牛奶奶",
+    "翠枝玉露",
+    "心芭上（中杯）",
+    "芭乐莓莓干酪（咸法酪酱）",
+    "画中游·千目抹茶特调",
+    "轻芝锡兰红茶",
+    "金桂乌龙",
+    "郁郁幽兰",
+    "月桂酿",
+    "特浓抹茶与白",
+    "贪杯乌龙",
+    "慢熬黑糖珠珠烤奶茶",
+    "白日梦椰椰",
+    "绿野干酪草莓派",
+    "星河筑影",
+    "画中游",
+    "龙井绿茶奶沫",
+    "一整块金砖港奶",
+    "凤凰单丛",
+    "鲜葡萄多肉",
+    "轻芝金桂乌龙",
+    "沉香普洱",
+    "水牛奶木薯大满贯",
+    "鲜芒老椰甘露",
+    "焦糖脆脆咸法酪·茉莉",
+    "单丛好彩香柠茶",
+    "骏眉红茶",
+    "焦糖脆脆咸法酪·骏眉红",
+    "芭乐莓莓干酪（轻芝云酪顶）",
+    "轻芝明前龙井",
+    "400次熔岩鸳鸯",
+    "茉莉毛尖",
+    "红豆薏米乳",
+    "青青玉露",
+    "莺莺",
+    "水牛奶炖桃胶木薯芋圆",
+    "生椰木薯大满贯",
+    "长乐未央",
+    "月中桂",
+    "素颜幽兰",
+    "芝士乳酪草莓星球",
+    "烟雨乌龙",
+    "生椰玉露",
+    "蓝莓之夜",
+    "明前龙井",
+    "轻芝茉莉毛尖",
+    "焦糖脆脆咸法酪锡兰红",
+    "焦糖脆脆咸法酪普洱",
+    "长安",
+    "茉莉好彩香柠",
+    "焦糖脆脆咸法酪·单丛",
+    "轻芝凤凰单丛",
+    "二重浓抹咸法酪",
+    "芋圆",
+    "奶油"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFLK141V",
+   "name": "棠石路浓心爷爷(棠石路店)",
+   "lon": 113.367823,
+   "lat": 23.122524,
+   "distance_m": 970,
+   "straight_m": null,
+   "address": "黄埔大道中伟城街12号之105号铺",
+   "category_hint": "蛋糕店",
+   "dish_hints": [
+    "蛋挞"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LU1DBV0T",
+   "name": "袁记云饺(广州市天河区鸿运花园店)",
+   "lon": 113.367875,
+   "lat": 23.122517,
+   "distance_m": 972,
+   "straight_m": null,
+   "address": "黄埔大道中197-1号",
+   "category_hint": "饺子",
+   "dish_hints": [
+    "单人餐",
+    "堂食"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LA3CLUT4",
+   "name": "朱熙熙三不炒(广州天河店)",
+   "lon": 113.370352,
+   "lat": 23.115041,
+   "distance_m": 979,
+   "straight_m": null,
+   "address": "员村四横路163号102铺",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "爆炒经典回锅肉",
+    "麻婆豆腐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JRT56VK4",
+   "name": "螺公馆鸭脚螺蛳煲·炒螺蛳粉(员村店)",
+   "lon": 113.365807,
+   "lat": 23.114809,
+   "distance_m": 979,
+   "straight_m": null,
+   "address": "欣业大厦北门东180米(员村地铁站B口步行230米)",
+   "category_hint": "米粉",
+   "dish_hints": [
+    "螺蛳粉",
+    "炒螺蛳",
+    "紫苏炒田螺"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU2OEX4B",
+   "name": "潮味一品鲜",
+   "lon": 113.367703,
+   "lat": 23.12243,
+   "distance_m": 995,
+   "straight_m": null,
+   "address": "鸿运花园东南门旁",
+   "category_hint": "潮州菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0G0PREWE9",
+   "name": "大龙燚(鸿运花园店)",
+   "lon": 113.367459,
+   "lat": 23.122647,
+   "distance_m": 995,
+   "straight_m": null,
+   "address": "电动车禁止进入小区广州市天河区黄埔大道中路伟诚街1号103房之二",
+   "category_hint": "冒菜",
+   "dish_hints": [
+    "小酥肉"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JRYD6LPD",
+   "name": "湘菜馆木桶饭(员村店)",
+   "lon": 113.372998,
+   "lat": 23.117573,
+   "distance_m": 1001,
+   "straight_m": null,
+   "address": "卫生健康局西北门旁",
+   "category_hint": "饭",
+   "dish_hints": [
+    "木桶饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JGKKQNR6",
+   "name": "甲味达粥粉面(百合路店)",
+   "lon": 113.373025,
+   "lat": 23.117575,
+   "distance_m": 1004,
+   "straight_m": null,
+   "address": "员村四横路自编72号之一甲",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LD5A1I5I",
+   "name": "草木功坊汉方凉茶",
+   "lon": 113.367775,
+   "lat": 23.122525,
+   "distance_m": 1005,
+   "straight_m": null,
+   "address": "棠石路2号",
+   "category_hint": "凉茶",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBUC98GI",
+   "name": "BBO STUDIO",
+   "lon": 113.373075,
+   "lat": 23.117447,
+   "distance_m": 1006,
+   "straight_m": null,
+   "address": "百合路与员村四横路交叉口东240米",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFLK0TL3",
+   "name": "食为鲜城市快餐(百合路店)",
+   "lon": 113.373075,
+   "lat": 23.117541,
+   "distance_m": 1008,
+   "straight_m": null,
+   "address": "员村四横路百合路自编19-2",
+   "category_hint": "中式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0NHRZ34",
+   "name": "山屿咖啡",
+   "lon": 113.368224,
+   "lat": 23.122026,
+   "distance_m": 1024,
+   "straight_m": null,
+   "address": "天河区黄埔大道中217号105铺",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MBN5SMTQ",
+   "name": "舒福德(广州罗浮宫店)",
+   "lon": 113.368339,
+   "lat": 23.122163,
+   "distance_m": 1041,
+   "straight_m": null,
+   "address": "黄埔大道666号罗浮宫家居C座2楼",
+   "category_hint": "家具",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1FSX85B",
+   "name": "潮味汤粉世家",
+   "lon": 113.37091,
+   "lat": 23.114999,
+   "distance_m": 1054,
+   "straight_m": null,
+   "address": "员村四横路161号之三",
+   "category_hint": "潮州菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU5XVJZV",
+   "name": "粤湘四海餐厅(四横路店)",
+   "lon": 113.371015,
+   "lat": 23.114987,
+   "distance_m": 1065,
+   "straight_m": null,
+   "address": "员村四横路自编161号之4号",
+   "category_hint": "湘菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00141I4S0",
+   "name": "美林潮菜(美林海岸)",
+   "lon": 113.371168,
+   "lat": 23.114915,
+   "distance_m": 1081,
+   "straight_m": null,
+   "address": "员村四横路美林海岸花园蒲林街15号",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HARZ16TM",
+   "name": "文记小食店(昌乐园店)",
+   "lon": 113.364494,
+   "lat": 23.119832,
+   "distance_m": 1091,
+   "straight_m": null,
+   "address": "员村新街昌乐园53幢101房(幼儿园门口)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "牛三星汤",
+    "猪蹄姜醋蛋",
+    "牛杂濑粉",
+    "猪脚姜",
+    "牛杂"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B00141R5UT",
+   "name": "美林居土菜馆(美林海岸北区店)",
+   "lon": 113.371415,
+   "lat": 23.115019,
+   "distance_m": 1106,
+   "straight_m": null,
+   "address": "美林海岸北区西北门北50米",
+   "category_hint": "农家菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGSS7BS",
+   "name": "潮汕美食(建华路店)",
+   "lon": 113.370767,
+   "lat": 23.122204,
+   "distance_m": 1163,
+   "straight_m": null,
+   "address": "五羊小区北门东80米",
+   "category_hint": "潮州菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LGLDI5HG",
+   "name": "双品糖水",
+   "lon": 113.371941,
+   "lat": 23.114729,
+   "distance_m": 1165,
+   "straight_m": null,
+   "address": "椰林路与员村四横路交叉口东180米",
+   "category_hint": "糖水",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GKGU6MTH",
+   "name": "妹记甜品",
+   "lon": 113.364964,
+   "lat": 23.120174,
+   "distance_m": 1167,
+   "straight_m": null,
+   "address": "员村新街16号",
+   "category_hint": "甜品店",
+   "dish_hints": [
+    "芝麻糊",
+    "马蹄",
+    "玉米"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFHDHMVV",
+   "name": "好客来梅州腌面(昌乐园店)",
+   "lon": 113.365063,
+   "lat": 23.120231,
+   "distance_m": 1179,
+   "straight_m": null,
+   "address": "昌乐园62栋101-A室",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "梅州腌面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFI2BY2X",
+   "name": "陈记梅州腌面",
+   "lon": 113.364936,
+   "lat": 23.120315,
+   "distance_m": 1182,
+   "straight_m": null,
+   "address": "员村昌乐园62号",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "梅州腌面"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KUZCL96E",
+   "name": "潮茗汇·潮汕私房菜",
+   "lon": 113.372208,
+   "lat": 23.115204,
+   "distance_m": 1190,
+   "straight_m": null,
+   "address": "椰林路9号克莱顿酒店一楼右侧",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "私房菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L14Z1RB6",
+   "name": "荔枝红奶茶",
+   "lon": 113.372575,
+   "lat": 23.115175,
+   "distance_m": 1225,
+   "straight_m": null,
+   "address": "椰林路与科韵南路辅路交叉口西180米",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  }
+ ],
+ "provider": "高德地图",
+ "radius": 1200
+}
