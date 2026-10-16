@@ -195,10 +195,21 @@
 <section class="wrap">
   <h2>内置两款能力 —— 也可以接你自己的</h2>
   <table>
-    <tr><th>能力</th><th>供什么</th></tr>
-    <tr><td>麦当劳</td><td>门店 + 推荐菜 + <strong>官方精确营养值</strong>（158 条，含蛋白 / 脂肪 / 碳水 / 钠 / 钙）</td></tr>
-    <tr><td>高德地图</td><td>周边<strong>任意</strong>餐厅 + 网友推荐菜 + <strong>真实路网</strong>步行距离</td></tr>
+    <tr><th>能力</th><th>供什么</th><th>来源</th></tr>
+    <tr><td>麦当劳</td><td>门店 + 推荐菜 + <strong>官方精确营养值</strong>（158 条，含蛋白 / 脂肪 / 碳水 / 钠 / 钙）</td><td>麦当劳官方 MCP</td></tr>
+    <tr><td>高德地图</td><td>周边<strong>任意</strong>餐厅 + 网友推荐菜 + <strong>真实路网</strong>步行距离</td><td>高德开放平台</td></tr>
   </table>
+
+  <div class="fact">
+    <strong>麦当劳有两条通道 —— 一个 Token 就能走实时</strong><br><br>
+    ① <strong>实时 MCP</strong>（正路）：<code>MCD_MCP_TOKEN</code> + <code>WALKKCAL_MCD_LIVE=1</code>
+    → 门店与营养值都<strong>实时</strong>从 <code>mcp.mcd.cn</code> 拉<br>
+    ② <strong>内嵌快照</strong>（默认降级）：什么都不用配
+    → 158 条官方营养值（2026-10-09 快照）+ 内置门店<br><br>
+    <span class="muted">★ <code>MCD_MCP_TOKEN</code> 的唯一用途就是走实时 MCP。
+    内嵌快照只是「没配 Token 时的降级」—— 让项目能被零门槛跑起来。</span>
+  </div>
+
   <div class="fact">
     两款<strong>可按需组合</strong>，一个环境变量的事：<br>
     默认两个都开（合并成一份结果）· <code>WALKKCAL_PACKS=mcd</code> 只看麦当劳 ·
