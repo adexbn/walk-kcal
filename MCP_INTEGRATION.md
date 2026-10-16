@@ -57,26 +57,7 @@ graph TD
 
 ---
 
-## 四、★ 实测踩坑（真实记录，非推测）
-
-> 这里只列 **MCP 调用层**的坑。数据/算法/渲染层的坑见
-> [`docs/工程历程.md`](docs/工程历程.md)。
-
-| # | 坑 | 结论 |
-|---|---|---|
-| 1 | `list-nutrition-foods` 返回**自定义文本**不是 JSON | 格式：`name,kcal,protein,fat,carb,sodium,calcium`（9 列，不是 10 列） |
-| 2 | 用 `rfind('{')` 解析响应会抓到嵌套的 `reservationTimeOptions` | 必须用 `txt.find('{"success"')` 定位 |
-| 3 | 「双层深海鳕鱼堡四件套」被双向包含匹配到「麦香鱼」 | 两笔订单都显示 472 卡，**看起来完全合理，实际差 160 卡** → 必须按 productCode 精确匹配 |
-| 4 | `list-nutrition-foods` **无「推荐顺序」字段** | 麦当劳没有官方推荐排序，`_MCD_COMBOS` 是项目自编（已标注） |
-| 5 | `query-meals` 需传 `orderType`（1 到店 / 2 外送） | 23:21 后部分门店报 600057 |
-| 6 | 高德 tag 对**连锁品牌 ≈ 菜单项**，对**本地小店 ≈ 特色菜** | 两种语义，需分别处理 |
-| 7 | **`query-nearby-stores` 不收经纬度** | 入参只有 `searchType` / `city` / `keyword` / `beType`（`searchType=2` 时 `city`+`keyword` 必填）。想按「用户在哪」搜，必须先把坐标**逆地理编码**成文字地标 |
-| 8 | **`query-nearby-stores` 不返回门店坐标** | 返回里没有 `longitude`/`latitude`（schema 里就没有），只有 `storeCode`/`storeName`/`address`/`distance`。所以它的 `distance` 是**相对 `keyword` 那个地标**算的，不是从用户脚下算的 —— 用它当步行距离要如实标注误差 |
-| 9 | `except Exception: pass` 会让「用快照冒充实时」变得不可见 | 实时路径失败必须**留下原因**：`McdPack.last_note` + 每行门店标 `src`（`mcp`/`snapshot`），`registry.notes()` 汇总。静默回退 = 假数据看起来是真的 |
-
----
-
-## 五、业务价值
+## 四、业务价值
 
 ### 1. 麦当劳 MCP 是「权威数据源」，不是「产品边界」
 
@@ -85,8 +66,7 @@ graph TD
 | 麦当劳门店的菜 | MCP `list-nutrition-foods` | **100% 精确** |
 | 周边本地餐厅的菜 | 自建语料库 155 万条 | 37%（算不出则弃权） |
 
-没有 MCP，我们只能做「又一个热量计算器」；
-有了 MCP，我们有了**同一街区的可信基准**，才能回答「和隔壁比怎么样」。
+有了这个官方测定的基准，才能回答「麦当劳和隔壁那家比，差多少」。
 
 ### 2. 用官方数据做校准基准
 
@@ -102,7 +82,7 @@ graph TD
 
 ---
 
-## 六、离线回退
+## 五、离线回退
 
 评委/访客**不申请 Token 也能看到完整效果**：
 - `packs/mcd_nutrition_snapshot.py` 保存了 MCP 实测快照（2026-10-09）
@@ -117,5 +97,3 @@ graph TD
 |---|---|---|
 | `MCD_MCP_TOKEN` | 调得动麦当劳 MCP | 读本地快照（默认路径） |
 | `AMAP_KEY` | 把坐标翻译成 `city`/`keyword` | 连 MCP 都不调，回退快照并说明原因 |
-
-**这是拿 Star 的第一关** —— 没人会为了看你项目先去申请 Token。

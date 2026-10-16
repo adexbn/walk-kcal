@@ -33,12 +33,7 @@
   }
   h1 em{font-style:normal;color:var(--teal-dk);}
   .lede{font-size:17px;color:var(--sub);margin:0 auto 12px;max-width:560px;}
-  .formula{
-    display:inline-block;margin:26px 0 30px;padding:14px 22px;
-    background:var(--card);border:1px solid var(--line);border-radius:12px;
-    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14.5px;color:var(--ink);
-  }
-  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px;}
   .btn{
     display:inline-block;text-decoration:none;font-weight:700;font-size:15px;
     padding:13px 28px;border-radius:999px;transition:transform .12s ease,opacity .12s ease;
@@ -113,10 +108,9 @@
   <p class="lede">
     站在楼下纠结「现在吃什么」时，你真正想知道的是——<strong>这一顿，我吃得下吗？</strong>
   </p>
-  <div class="formula">额度 = 450 + (步行米数 ÷ 80 + 1) × 4</div>
   <div class="cta">
     <a class="btn btn-main" href="demo/explore.html">试试看（不用装任何东西）</a>
-    <a class="btn btn-ghost" href="https://github.com/adexbn/walk-kcal">GitHub · 给个 ⭐</a>
+    <a class="btn btn-ghost" href="https://github.com/adexbn/walk-kcal">GitHub 源码</a>
   </div>
   <p class="hint">离线可交互 · 零依赖 · 纯前端</p>
 </header>
@@ -159,31 +153,22 @@
 <hr>
 
 <section class="wrap">
-  <h2>真的用了麦当劳 MCP</h2>
-  <p>
-    本项目的 MCP 入口对外暴露 4 个工具，<strong>它自己内部还会再去调麦当劳官方 MCP</strong>——
-    打 <code>mcp.mcd.cn</code> 拿回 158 条官方营养值（含蛋白 / 脂肪 / 碳水 / 钠 / 钙），
-    与本地中餐估算融合成一个统一结果。
-  </p>
-  <div class="fact">
-    <strong>最硬的一条实测证据</strong>——同一个坐标，门店变了：<br><br>
-    走快照：麦当劳(四川北路店) <b>1391 m</b><br>
-    走实时：<b class="green">麦当劳上海闸北虬江路永兴汇餐厅 792 m</b><br>
-    <span class="muted" style="font-size:14px">「永兴汇餐厅」本地快照里根本没有——只有真调 MCP 才会冒出来。</span>
-  </div>
-</section>
-
-<hr>
-
-<section class="wrap">
-  <h2>为什么是我们</h2>
-  <p class="muted">我们把这个赛道的 493 个报名翻了一遍：</p>
+  <h2>我们的独特之处</h2>
+  <p class="muted">同一个赛道里，这类项目大多在算麦当劳自己的菜；提到「步行」的，几乎没几个把它接到热量上。</p>
   <table>
-    <tr><th></th><th>数量</th><th>发现</th></tr>
-    <tr><td>热量/营养类项目</td><td>226 个</td><td>全都在算麦当劳自己的菜</td></tr>
-    <tr><td>提到「步行 / 距离」</td><td>79 个</td><td>只有 9 个和热量挂钩</td></tr>
-    <tr><td>麦当劳 + 周边本地 + 步行额度</td><td><b style="color:var(--mcd-red)">0 个</b></td><td>这就是我们的位置</td></tr>
+    <tr><th>别人通常做的</th><th>我们做的</th></tr>
+    <tr><td>只算麦当劳自家的菜</td><td>麦当劳 <strong>+</strong> 你楼下任意一家店</td></tr>
+    <tr><td>把距离当成「还有多远」</td><td>把距离换成「<strong>这顿能多吃多少卡</strong>」</td></tr>
+    <tr><td>只做一个平台</td><td><strong>三种形式</strong>，共用同一份内核</td></tr>
   </table>
+
+  <div class="fact">
+    <strong>三种形式，同一份结果</strong><br><br>
+    ① <strong>Skill</strong> —— 对 Agent 说一句「附近吃什么」<br>
+    ② <strong>Bot</strong> —— 在聊天软件里发消息，回复带可点的按钮<br>
+    ③ <strong>MCP</strong> —— 从任何 MCP 客户端调用，标准 JSON-RPC
+  </div>
+
   <blockquote>
     麦当劳 MCP 开放的，是它自己的营养表。可真实场景里，<strong>你 400 米外那家面馆多少卡？</strong><br>
     没有人做这件事。我们做了。
@@ -246,11 +231,11 @@ open demo/explore.html        # 离线可交互 demo</pre>
 <section class="wrap">
   <h2>我们诚实地告诉你</h2>
   <p>
-    中餐热量是估算的，<strong>平均误差 25–28%</strong>；麦当劳的数据是 MCP 官方精确值。
+    <strong>额度是你自己定的预算，不是算法塞给你的建议</strong> —— 走路只让它随距离增长。
   </p>
   <p class="muted">
-    因为语料库里 <strong>0% 的菜谱标注了份量</strong>，同一道菜的量级能差 40 倍。
-    我们花最多力气的地方，不是「算得更准」，而是<strong>知道什么时候算不准——然后老老实实显示「算不出」</strong>，
+    中餐热量是估算的（平均误差 <strong>25–28%</strong>），因为语料库里 <strong>0% 的菜谱标注了份量</strong>。
+    我们花最大力气的地方不是「算得更准」，而是<strong>知道什么时候算不准</strong>，然后如实显示「算不出」——
     而不是猜一个看起来正常的数字。
   </p>
   <blockquote>宁可少算，不可算错。</blockquote>
