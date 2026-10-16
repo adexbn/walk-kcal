@@ -44,5 +44,5 @@ printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | python entry/mc
 
 工具：`walk_allowance` / `nearby_food` / `what_can_i_eat` / `explain_concept`
 
-★ `mcp_server.py` 内部会去调**麦当劳 MCP**（MCP 调 MCP，第二跳），
+★ 从 MCP 客户端进来时，`mcp_server.py` 内部会再去调**麦当劳 MCP**（第二跳），
   把官方营养表与本地语料库估算融合成一个统一工具。

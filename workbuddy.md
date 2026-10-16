@@ -79,7 +79,8 @@ B 是**错得看起来很正常**。
 本项目全程在 WorkBuddy 中使用麦当劳 MCP 开发：
 
 1. **真实调用**：`list-nutrition-foods` 等 Tool 均直连 `https://mcp.mcd.cn` 实测
-2. **融合实现**：`entry/mcp_server.py` 实现「MCP 调 MCP」，把麦当劳 MCP 编排进算法层
+2. **融合实现**：本项目自身的 `entry/mcp_server.py` 对外是一个 MCP Server；
+   从 MCP 客户端进来时，它会再去调麦当劳 MCP（两级 MCP），把官方营养值编排进算法层
 3. **诚实标注**：无 Token 时回退快照，界面标注快照日期，不假装实时
 
 > 详细对话记录可参考仓库提交历史与 `docs/` 下的技术文档。

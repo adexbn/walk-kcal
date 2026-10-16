@@ -19,22 +19,42 @@
 
 ---
 
-## 二、★ 关键实现：MCP 调 MCP
+## 二、★ 三种入口，各自怎么调
 
-`entry/mcp_server.py` 是一个**真实的 MCP Server**（stdio + JSON-RPC 2.0），
-它内部会**去调麦当劳 MCP**（第二跳），把官方营养表与本地的中餐估算**融合**：
+同一份内核（`walkkcal/` + `packs/`），三个壳的差别只在**最外层那一跳由谁发起**。
+—— **「MCP 调 MCP」只在第 ③ 个入口成立。**
 
-```mermaid
-graph TD
-    A["Skill / Bot / 任何 MCP 客户端"] -->|tools/call| B["walkkcal-mcp<br/>entry/mcp_server.py（本机 MCP Server）"]
-    B -->|"tools/call（第二跳，MCP over HTTP）"| C["麦当劳 MCP<br/>https://mcp.mcd.cn"]
+| 入口 | 用户怎么用 | 最外层谁调起引擎 | 到麦当劳的那一跳 |
+|---|---|---|---|
+| **① Skill** | 对 Agent 说「附近吃什么」 | Agent 跑 `python walkkcal/shoot.py "地址"` | 程序调 MCP |
+| **② Bot** | 在聊天软件里发消息 / 分享位置 | `entry/bot.py` 收到消息 → `registry.collect()` | 程序调 MCP |
+| **③ MCP** | 任何 MCP 客户端 `tools/call` | `entry/mcp_server.py`（本机 MCP Server） | ★ **MCP 调 MCP** |
+
+> 「到麦当劳的那一跳」要额外满足两个条件才会真的走实时：
+> `MCD_MCP_TOKEN` + `WALKKCAL_MCD_LIVE=1`。否则读**内置快照**（效果仍完整）。
+
+三者的**数据源完全相同** —— 都要经过 `packs/registry.collect()`，
+再走 `pack_mcd` / `pack_nearby_dining`。**换了入口，算法和数据一行都不变。**
+
+### 只有第 ③ 条是「MCP 调 MCP」
+
+```
+任何 MCP 客户端 ──tools/call──▶ walkkcal-mcp（本机 MCP Server）
+                                        │
+                                        │ tools/call（★ 第二跳，仍是 MCP）
+                                        ▼
+                                  麦当劳 MCP（mcp.mcd.cn）
 ```
 
-这把「用一次 MCP」升级为「**把 MCP 能力编排进一个更大的算法层**」。
+**为什么值得单独说**：客户端只问一次，拿回的是**已经融合好的结论** ——
+官方营养值 + 周边餐厅估算 + 额度判定，不用自己去逐个编排多个 MCP。
+这把「用一次 MCP」变成了「**把一个 MCP 能力编排进更大的算法层**」。
+
+> 一句话区分：**从 Skill / Bot 进来是「程序调 MCP」；从 MCP 进来才是「MCP 调 MCP」。**
 
 ---
 
-## 三、调用流程
+## 三、调用流程（以 MCP 入口为例）
 
 ```
 ① initialize            → 协商协议版本 2025-06-18
@@ -74,11 +94,13 @@ graph TD
 「隔壁那家面馆的热量，是我们用 155 万条菜谱估算的；麦当劳的，
 是官方测定的。两者放一起看，才知道差距有多大。」
 
-### 3. 「MCP 调 MCP」展示可编排性
+### 3. 从 MCP 进来时，展示可编排性
 
-麦当劳 MCP 是**能力**，不是**终点**。我们的 MCP Server 把它包进一个
-更大的算法层（额度引擎 + 多源融合），任何 MCP 客户端都能一次性拿到
-「融合后的结论」，而不用自己编排多个 MCP。
+麦当劳 MCP 是**能力**，不是**终点**。当调用方本身就是 MCP 客户端时，
+我们的 MCP Server 再把麦当劳 MCP 包进一个更大的算法层（额度引擎 + 多源融合），
+客户端**一次调用**就能拿到「融合后的结论」，而不用自己编排多个 MCP。
+
+> 从 Skill / Bot 进来时走的是**同一条内核**，只是最外层那一跳不是 MCP —— 见第一节的对照表。
 
 ---
 
