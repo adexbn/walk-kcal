@@ -216,8 +216,11 @@ python walkkcal/render.py     # 出图（内置场景，1~2 秒）
 open demo/explore.html        # 离线可交互 demo</pre>
   <p class="muted">
     快照里已经存好了门店、推荐菜、步行距离和热量 —— 麦当劳那 158 条官方营养值也是内嵌的。
-    <strong>Key 只在两件事上需要</strong>：抓你自己楼下的点位（高德地图的 <code>AMAP_KEY</code>）、
-    让麦当劳走实时而非内置快照（<code>MCD_MCP_TOKEN</code> + <code>WALKKCAL_MCD_LIVE=1</code>）。
+  </p>
+  <p class="muted">
+    <strong>两套数据源，各配各的 —— 都不配也能跑</strong>：<br>
+    配上<strong>地图 Key</strong>（默认高德 <code>AMAP_KEY</code>）→ 你周边任意餐厅 + 真实步行距离；<br>
+    配上<strong>麦当劳 Token</strong>（<code>MCD_MCP_TOKEN</code>）→ 门店与营养值走实时而非内置快照。
   </p>
   <p class="muted">
     <strong>输出格式是可选的</strong>：默认出 <strong>SVG</strong> —— 浏览器打开就能看、放大不糊，大多数场景够用；
