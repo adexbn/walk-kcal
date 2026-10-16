@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "mcd-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.mcd.cn",
+      "headers": {
+        "Authorization": "Bearer ${MCD_MCP_TOKEN}"
+      }
+    },
+    "amap-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.amap.com",
+      "headers": {
+        "Authorization": "Bearer ${AMAP_MCP_TOKEN}"
+      }
+    }
+  },
+  "_notes": {
+    "MCD_MCP_TOKEN": "在 https://open.mcd.cn/mcp 申请（手机号登录 → 控制台 → 激活 → 复制 Token）",
+    "AMAP_MCP_TOKEN": "在 https://lbs.amap.com 申请个人 Key，用于高德 MCP 周边检索与步行路径规划",
+    "_security": "本文件仅含环境变量占位符，不含任何真实凭证"
+  }
+}
