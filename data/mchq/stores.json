@@ -1,0 +1,3212 @@
+{
+ "origin": {
+  "name": "上海·徐汇西岸麦当劳中国总部",
+  "lon": 121.463793,
+  "lat": 31.158689
+ },
+ "stores": [
+  {
+   "id": "B0LG096S46",
+   "name": "晚花轩上海热气羊肉火锅",
+   "lon": 121.463558,
+   "lat": 31.159121,
+   "distance_m": 52,
+   "straight_m": null,
+   "address": "龙华街道龙台路50号M17(劳斯莱斯旁)",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KK4XUTYW",
+   "name": "瑞幸咖啡(众腾大厦店)",
+   "lon": 121.463306,
+   "lat": 31.158406,
+   "distance_m": 218,
+   "straight_m": null,
+   "address": "龙腾大道2121号众腾大厦1号楼一层大堂",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "杨枝甘露",
+    "柠檬茶",
+    "生椰拿铁",
+    "果茶"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L111M98J",
+   "name": "上海徐汇滨江城际酒店自助餐厅",
+   "lon": 121.463475,
+   "lat": 31.159175,
+   "distance_m": 74,
+   "straight_m": null,
+   "address": "龙台路50号1楼(龙耀路地铁站出入口步行440米)",
+   "category_hint": "自助餐",
+   "dish_hints": [
+    "酒店自助餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2S75S7D",
+   "name": "桂芭蕉GBJ bistro",
+   "lon": 121.464857,
+   "lat": 31.158432,
+   "distance_m": 105,
+   "straight_m": null,
+   "address": "龙腾大道2266号GateM西岸梦中心12栋3楼",
+   "category_hint": "广西菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MDSCHOBI",
+   "name": "山海心-茶食团建艺术空间",
+   "lon": 121.463951,
+   "lat": 31.159722,
+   "distance_m": 115,
+   "straight_m": null,
+   "address": "龙文路19号融媒影城1楼南侧兰博基尼对面",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L1759H81",
+   "name": "野渡WildDock(西岸梦中心店)",
+   "lon": 121.464892,
+   "lat": 31.158192,
+   "distance_m": 118,
+   "straight_m": null,
+   "address": "龙腾大道2121号",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2X7XNDI",
+   "name": "BROWNSTONE VIEW布朗石西班牙餐厅(西岸梦中心店)",
+   "lon": 121.465025,
+   "lat": 31.158475,
+   "distance_m": 119,
+   "straight_m": null,
+   "address": "龙腾大道2266号12栋4层",
+   "category_hint": "西班牙菜",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JDA98TW3",
+   "name": "tencent餐厅",
+   "lon": 121.463356,
+   "lat": 31.159776,
+   "distance_m": 127,
+   "straight_m": null,
+   "address": "龙文路与云绣路交叉口东南80米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JKGCCNPW",
+   "name": "上金雀华人餐厅(西岸店)",
+   "lon": 121.463123,
+   "lat": 31.159702,
+   "distance_m": 180,
+   "straight_m": null,
+   "address": "龙文路69号1-M2(龙耀路地铁站2号口步行340米)",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "菠萝包",
+    "豆腐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MB4O0FIW",
+   "name": "野空间·Coffee·Bar(Gate M西岸梦中心南区店)",
+   "lon": 121.465025,
+   "lat": 31.158175,
+   "distance_m": 392,
+   "straight_m": null,
+   "address": "龙华街道龙腾大道2266号西岸梦中心12号楼2层",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "coffee"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAUDRLUS",
+   "name": "炒得湘·湘菜小炒(传媒港花园里店)",
+   "lon": 121.462445,
+   "lat": 31.158457,
+   "distance_m": 130,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里南区负1层B1-N-11-01室",
+   "category_hint": "湘菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LRJUH9KV",
+   "name": "曼谷·咖喱饭",
+   "lon": 121.462425,
+   "lat": 31.158525,
+   "distance_m": 244,
+   "straight_m": null,
+   "address": "国盛大楼(龙耀路地铁站出入口步行470米)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "咖喱饭"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KGCXU5VO",
+   "name": "味妙顺德厨房(国际传媒港店)",
+   "lon": 121.46318,
+   "lat": 31.159772,
+   "distance_m": 172,
+   "straight_m": null,
+   "address": "龙文路69号一楼01部位1-M71-M8号",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "金牌腊味煲仔饭",
+    "烤鹅",
+    "烧鹅"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KB6G3ZMQ",
+   "name": "luckin coffee 瑞幸咖啡(WeWork店)",
+   "lon": 121.463295,
+   "lat": 31.159857,
+   "distance_m": 159,
+   "straight_m": null,
+   "address": "龙文路69号WeWork一楼大堂",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "杨枝甘露",
+    "生椰拿铁",
+    "coffee",
+    "果茶"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L391UW53",
+   "name": "胡记锅贴(徐汇区国际传媒港店)",
+   "lon": 121.46243,
+   "lat": 31.159193,
+   "distance_m": 141,
+   "straight_m": null,
+   "address": "云绣路与龙台路交叉口西北40米",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L17C933A",
+   "name": "Golang(西岸梦中心店)",
+   "lon": 121.46528,
+   "lat": 31.158724,
+   "distance_m": 141,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心1F层(10栋滑板公园旁)",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MAU6R9ZV",
+   "name": "必胜客(央视店)",
+   "lon": 121.462639,
+   "lat": 31.159532,
+   "distance_m": 214,
+   "straight_m": null,
+   "address": "龙台路110号一层部位(1-L7&1-L8)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "披萨",
+    "牛排",
+    "双人餐",
+    "汉堡"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUYZOUQI",
+   "name": "黄启云私房牛肉面工坊(西岸滨江店)",
+   "lon": 121.464535,
+   "lat": 31.15983,
+   "distance_m": 152,
+   "straight_m": null,
+   "address": "龙文路19号2层2-M1-3(影院二层)",
+   "category_hint": "牛肉面",
+   "dish_hints": [
+    "私房牛肉面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J3GZAXXR",
+   "name": "M Stand(上海国际传媒港店)",
+   "lon": 121.462481,
+   "lat": 31.159397,
+   "distance_m": 147,
+   "straight_m": null,
+   "address": "龙台路110号1层L11号(龙耀路地铁站2号口步行390米)",
+   "category_hint": "餐饮服务,咖啡厅,咖啡厅",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUTOMQFC",
+   "name": "米小嗝东北砂锅米线(传媒港G·WALK店)",
+   "lon": 121.462459,
+   "lat": 31.159403,
+   "distance_m": 149,
+   "straight_m": null,
+   "address": "传媒港M区B1老乡鸡往南50米",
+   "category_hint": "米线",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JRU9TJAO",
+   "name": "Manner Coffee(CMG融媒影城店)",
+   "lon": 121.463954,
+   "lat": 31.160058,
+   "distance_m": 199,
+   "straight_m": null,
+   "address": "龙文路与龙腾大道交叉口西100米",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "海盐焦糖拿铁",
+    "烤坚果拿铁",
+    "coffee"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHQHHR",
+   "name": "西塔老太太泥炉烤肉(Gate M西岸梦中心)",
+   "lon": 121.465417,
+   "lat": 31.158656,
+   "distance_m": 482,
+   "straight_m": null,
+   "address": "龙腾大道GateM西岸梦中心南区10号楼2层202(在奇利斯的楼上)",
+   "category_hint": "烤肉",
+   "dish_hints": [
+    "烤肉",
+    "牛肉",
+    "土豆泥"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUDMHPRJ",
+   "name": "密丘咖啡店",
+   "lon": 121.46219,
+   "lat": 31.158922,
+   "distance_m": 154,
+   "straight_m": null,
+   "address": "龙台路与云绣路交叉口西60米",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAFRTRE7",
+   "name": "LAVAZZA拉瓦萨咖啡(国际传媒港店)",
+   "lon": 121.462575,
+   "lat": 31.159625,
+   "distance_m": 155,
+   "straight_m": null,
+   "address": "云绣路与龙文路交叉口南60米",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MA2UQS84",
+   "name": "巷子板凳面",
+   "lon": 121.462343,
+   "lat": 31.159369,
+   "distance_m": 245,
+   "straight_m": null,
+   "address": "龙台路10号5幢地下1层01部位B1层M10-A号,巷子板凳面",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "单人餐",
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MGF94HQR",
+   "name": "BeanStar比星咖啡(上海徐汇国盛大楼店)",
+   "lon": 121.462175,
+   "lat": 31.158375,
+   "distance_m": 157,
+   "straight_m": null,
+   "address": "云绣路9号/云绣路和黄石路交叉路口",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LRMAWR7J",
+   "name": "老乡鸡(国际传媒港店)",
+   "lon": 121.462305,
+   "lat": 31.159374,
+   "distance_m": 160,
+   "straight_m": null,
+   "address": "龙台路10号5幢地户1层01部位M-04A室、M-04B室",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6CHV2WM",
+   "name": "饿梨酱Hey Guac!美洲活力西餐(传媒港wework店)",
+   "lon": 121.463525,
+   "lat": 31.160125,
+   "distance_m": 161,
+   "straight_m": null,
+   "address": "龙文路69弄一层01部位1-M01号",
+   "category_hint": "西餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHTYC0",
+   "name": "Chili's奇利斯美式小餐馆(西岸梦中心1F层)",
+   "lon": 121.465526,
+   "lat": 31.158691,
+   "distance_m": 499,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心1F层",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "玉米",
+    "白切鸡"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LK0D7N6D",
+   "name": "阿祥嫂隆江猪脚饭(国际传媒港店)",
+   "lon": 121.462225,
+   "lat": 31.159376,
+   "distance_m": 256,
+   "straight_m": null,
+   "address": "龙台路110号地下1层01部分L-22室",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "绿豆汤"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K22DH5RV",
+   "name": "库迪咖啡(国际传媒港店)",
+   "lon": 121.462275,
+   "lat": 31.159475,
+   "distance_m": 249,
+   "straight_m": null,
+   "address": "龙腾大道2171号央视国际传媒港L1栋B1层01部位L-15商铺",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "五常米乳拿铁",
+    "云顶慕斯新品",
+    "【蕉个新朋友",
+    "暖咖季香蕉",
+    "【茸茸暖咖季",
+    "慕斯大红袍生酪拿铁",
+    "【柚味臻选",
+    "柚见冰沁系列",
+    "【桂人多旺事",
+    "富桂酒酿",
+    "【浓郁丝滑",
+    "流云拿铁",
+    "纯萃燕麦拿铁",
+    "生椰拿铁",
+    "潘帕斯蓝生酪茉莉拿铁",
+    "杨枝甘露"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K0SXE5N1",
+   "name": "申什一杯(传媒港店)",
+   "lon": 121.462275,
+   "lat": 31.159475,
+   "distance_m": 249,
+   "straight_m": null,
+   "address": "龙台路110号B1层01L-14",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MR5ZGRD2",
+   "name": "喜阿嬷爆炒浇头面",
+   "lon": 121.462166,
+   "lat": 31.159305,
+   "distance_m": 235,
+   "straight_m": null,
+   "address": "龙台路110号B1层01部位L20A-L20B室",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "浇头面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L135661N",
+   "name": "吴子劲沙茶海鲜面(传媒港店)",
+   "lon": 121.462269,
+   "lat": 31.159513,
+   "distance_m": 249,
+   "straight_m": null,
+   "address": "传媒港B1M层03B店铺(国际传媒港店老乡鸡旁边)",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L3SD2Q3Y",
+   "name": "鱼你在一起(传媒港花园里店)",
+   "lon": 121.462104,
+   "lat": 31.159277,
+   "distance_m": 242,
+   "straight_m": null,
+   "address": "龙台路110号地下1层01部位L21室",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "黑鱼"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LDAUFYY6",
+   "name": "阿佑鲜烫牛肉米线(国际传媒港店)",
+   "lon": 121.462281,
+   "lat": 31.159565,
+   "distance_m": 247,
+   "straight_m": null,
+   "address": "龙文路199号传媒港G·WALK负一层B1-M区-03",
+   "category_hint": "米线",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LDRN45ET",
+   "name": "马家乐自选西北菜·兰州牛肉面",
+   "lon": 121.462225,
+   "lat": 31.159525,
+   "distance_m": 253,
+   "straight_m": null,
+   "address": "云绣路与龙文路交叉口西南80米",
+   "category_hint": "牛肉面",
+   "dish_hints": [
+    "西北菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L121U6DP",
+   "name": "家加冒菜",
+   "lon": 121.462225,
+   "lat": 31.159525,
+   "distance_m": 253,
+   "straight_m": null,
+   "address": "云绣路与龙文路交叉口西南80米",
+   "category_hint": "冒菜",
+   "dish_hints": [
+    "单人餐",
+    "冒菜",
+    "素菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JKHMAPTR",
+   "name": "肯德基(徐汇滨江央视店)",
+   "lon": 121.462367,
+   "lat": 31.15973,
+   "distance_m": 258,
+   "straight_m": null,
+   "address": "龙台路110号二层01部位2-L14号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "下午茶",
+    "双人餐",
+    "汉堡",
+    "薯条",
+    "蛋挞",
+    "单人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHRK2I",
+   "name": "跑马场三明治(Gate M西岸梦中心)",
+   "lon": 121.465651,
+   "lat": 31.158992,
+   "distance_m": 471,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心1F层10号楼109室",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "猪柳蛋三明治",
+    "经典慢烤牛肉三明治",
+    "纳什维尔辣炸鸡",
+    "素食炸土豆泥堡",
+    "经典薯条",
+    "经典汉堡",
+    "脆皮鸡三明治",
+    "上海辣妹汉堡",
+    "炸鱼",
+    "弯弯薯",
+    "芝士培根蛋三明治",
+    "辣脆炸培根堡",
+    "炸鱼薯条三明治",
+    "黑松露炸牛肉堡",
+    "非传统费城牛肉三明治",
+    "炸鸡块",
+    "单人餐",
+    "三明治",
+    "汉堡",
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KRRUPOSA",
+   "name": "廖掌柜.重庆鲜货火锅(西岸梦中心店)",
+   "lon": 121.465303,
+   "lat": 31.159696,
+   "distance_m": 321,
+   "straight_m": null,
+   "address": "龙腾大道2230号1层3L101室,3L102室",
+   "category_hint": "重庆火锅",
+   "dish_hints": [
+    "奶油",
+    "牛肉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0J0KZ0GGK",
+   "name": "湘粤王府宴(徐汇滨江店)",
+   "lon": 121.463542,
+   "lat": 31.160336,
+   "distance_m": 182,
+   "straight_m": null,
+   "address": "龙文路26号芒果西岸广场E栋湘粤王府宴徐汇滨江店",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "双人餐",
+    "鸡肉",
+    "特色菜",
+    "玻璃皮润烧乳鸽"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L3VZH823",
+   "name": "響巷创意菜·音乐LiveHouse",
+   "lon": 121.462115,
+   "lat": 31.159536,
+   "distance_m": 185,
+   "straight_m": null,
+   "address": "龙文路199号传媒港GWALK-B1层B1区",
+   "category_hint": "音乐餐厅",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KKFO24HG",
+   "name": "逸城鲜老成都三样面(传媒港G·WALK店)",
+   "lon": 121.462207,
+   "lat": 31.159673,
+   "distance_m": 186,
+   "straight_m": null,
+   "address": "龙文路199号传媒港G·WALKB1层-L区-11A",
+   "category_hint": "川味小吃",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KK063H0W",
+   "name": "DQ·蛋糕·冰淇淋(上海西岸梦中心店)",
+   "lon": 121.46572,
+   "lat": 31.159178,
+   "distance_m": 436,
+   "straight_m": null,
+   "address": "龙腾大道2240号10栋1层",
+   "category_hint": "冰淇淋",
+   "dish_hints": [
+    "奶油",
+    "奶昔"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LKTCX5A8",
+   "name": "谷力GULI",
+   "lon": 121.465514,
+   "lat": 31.159634,
+   "distance_m": 194,
+   "straight_m": null,
+   "address": "龙腾大道2230号西岸梦中心7号楼2楼203室",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0PD0KB4",
+   "name": "蜜丘烘焙",
+   "lon": 121.462025,
+   "lat": 31.159575,
+   "distance_m": 271,
+   "straight_m": null,
+   "address": "云视路与龙台路交叉口东北80米",
+   "category_hint": "蛋糕店",
+   "dish_hints": [
+    "奶油"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MA5MNOY5",
+   "name": "西安名吃(传媒港G·WALK店)",
+   "lon": 121.462275,
+   "lat": 31.159875,
+   "distance_m": 195,
+   "straight_m": null,
+   "address": "龙文路199号B1层B1-M区-01A",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L3ASRDW0",
+   "name": "吉祥馄饨(上海国际传媒港店)",
+   "lon": 121.461975,
+   "lat": 31.159525,
+   "distance_m": 196,
+   "straight_m": null,
+   "address": "龙台路10号5幢地下一层(传媒港GWALK负一层)01部位M-09B室",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAXSKRTZ",
+   "name": "浙时码头·温州海鲜大排档(西岸梦中心店)",
+   "lon": 121.465509,
+   "lat": 31.15972,
+   "distance_m": 382,
+   "straight_m": null,
+   "address": "龙腾大道2230号西岸梦中心7号楼2楼203(开心麻花楼下)",
+   "category_hint": "江浙菜",
+   "dish_hints": [
+    "海鲜大排档"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LDF6RV3L",
+   "name": "FLOATING KITCHEN(海陵岛人民路店)",
+   "lon": 121.465375,
+   "lat": 31.159875,
+   "distance_m": 199,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心1F层",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LUZ7T2SS",
+   "name": "MINI-CO小咖咖啡(上海徐汇国际传媒港店)",
+   "lon": 121.46187,
+   "lat": 31.159504,
+   "distance_m": 287,
+   "straight_m": null,
+   "address": "龙台路110号一层01部位1层-L5",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "小确杏美式",
+    "美式",
+    "单人餐"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K0JZB1E9",
+   "name": "肥妈·澳门牛腩捞面·打边炉(传媒港G·WALK店)",
+   "lon": 121.461879,
+   "lat": 31.159574,
+   "distance_m": 285,
+   "straight_m": null,
+   "address": "龙文路199号传媒港·GWALK负一层B1-L区-10号",
+   "category_hint": "澳门菜",
+   "dish_hints": [
+    "下午茶",
+    "牛杂",
+    "羊肉",
+    "三明治",
+    "打边炉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LAMH1R1Y",
+   "name": "贯贯吉清真餐厅(国际传媒港店)",
+   "lon": 121.461804,
+   "lat": 31.159487,
+   "distance_m": 293,
+   "straight_m": null,
+   "address": "龙文路199号传媒港G·WALK负一层B1-L区-04",
+   "category_hint": "清真菜",
+   "dish_hints": [
+    "酸辣夹沙(牛肉)",
+    "新疆大盘鸡（内含皮带面",
+    "新疆炒米粉（牛肉）",
+    "馕包肉(羊肉)",
+    "玛琳娜紫米凉糕",
+    "红柳烤肉",
+    "手抓羊脖肉",
+    "干煸炒面",
+    "新疆大盘鸡加皮带面",
+    "手抓羊肉",
+    "辣皮子小炒黄牛肉",
+    "新疆黑抓饭",
+    "椒麻鸡",
+    "羊肉串",
+    "手抓饭",
+    "新疆黑抓饭",
+    "红柳烤肉",
+    "新疆大盘鸡",
+    "辣皮子小炒黄牛肉",
+    "羊肉",
+    "手抓羊肉",
+    "牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M61CIR9N",
+   "name": "孔岳冒菜(传媒港花园里店)",
+   "lon": 121.463248,
+   "lat": 31.160513,
+   "distance_m": 241,
+   "straight_m": null,
+   "address": "龙腾大道2171号传媒港花园里负一楼",
+   "category_hint": "冒菜",
+   "dish_hints": [
+    "冒菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KR9AC9PI",
+   "name": "米村拌饭(西岸传媒港店)",
+   "lon": 121.462736,
+   "lat": 31.160394,
+   "distance_m": 302,
+   "straight_m": null,
+   "address": "龙爱路58号地下一层K-11-01室,盒马鲜生方向,地铁一号口右拐直行300m",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "汤品",
+    "石锅拌饭",
+    "工作餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6T75IOK",
+   "name": "风味烤鱼",
+   "lon": 121.462475,
+   "lat": 31.160325,
+   "distance_m": 220,
+   "straight_m": null,
+   "address": "龙爱路139号诺布中心(龙耀路地铁站1号口步行330米)",
+   "category_hint": "烤鱼",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MD9CP7X0",
+   "name": "NEWA·尼泊尔餐厅(Gate M西岸梦中心南区店)",
+   "lon": 121.465475,
+   "lat": 31.160125,
+   "distance_m": 225,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东南60米",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHU4P9",
+   "name": "肯德基(徐汇滨江梦中心店)",
+   "lon": 121.465971,
+   "lat": 31.15956,
+   "distance_m": 466,
+   "straight_m": null,
+   "address": "龙腾大道2240号12L103号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "下午茶",
+    "单人餐",
+    "双人餐",
+    "汉堡"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LRMXZGSJ",
+   "name": "林起新·烧腊专门店(传媒港店)",
+   "lon": 121.463125,
+   "lat": 31.160675,
+   "distance_m": 268,
+   "straight_m": null,
+   "address": "云绣路与龙爱路交叉口东南80米",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "烧腊"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K0VN9JZK",
+   "name": "云阿蛮云南生烫牛肉米线(传媒港花园里店)",
+   "lon": 121.463102,
+   "lat": 31.160675,
+   "distance_m": 230,
+   "straight_m": null,
+   "address": "龙爱路58号地下一层B1-K19室",
+   "category_hint": "米粉",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K3RGVWJ1",
+   "name": "和食御殿(传媒港花园里店)",
+   "lon": 121.463625,
+   "lat": 31.160775,
+   "distance_m": 232,
+   "straight_m": null,
+   "address": "龙腾大道龙爱路7号芒果广场B1层",
+   "category_hint": "餐饮服务,外国餐厅,日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J1570A77",
+   "name": "Wagas沃歌斯(国际传媒港店)",
+   "lon": 121.461572,
+   "lat": 31.159591,
+   "distance_m": 353,
+   "straight_m": null,
+   "address": "龙文路129号一层1-L2号",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "双人餐",
+    "单人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MRAPY5IW",
+   "name": "PAOPAO Mini bakery(西岸梦中心店)",
+   "lon": 121.465549,
+   "lat": 31.160164,
+   "distance_m": 233,
+   "straight_m": null,
+   "address": "龙腾大道2266号GateM西岸梦中心8号楼1层BLOOMARKET内",
+   "category_hint": "面包",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K3R4VU2A",
+   "name": "必胜客",
+   "lon": 121.466175,
+   "lat": 31.159225,
+   "distance_m": 233,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心南区F1",
+   "category_hint": "披萨",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MA3O0MXF",
+   "name": "湘憨憨(传媒港店)",
+   "lon": 121.461325,
+   "lat": 31.158575,
+   "distance_m": 234,
+   "straight_m": null,
+   "address": "龙台路与云视路交叉口西南20米",
+   "category_hint": "湘菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2FR1W9F",
+   "name": "延岁酒家·串酒烩面大排档(西岸梦中心店)",
+   "lon": 121.465482,
+   "lat": 31.160248,
+   "distance_m": 314,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心8栋BlooMarket1楼",
+   "category_hint": "烩面",
+   "dish_hints": [
+    "大排档"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRB5U97F",
+   "name": "BLOOMARKET",
+   "lon": 121.465437,
+   "lat": 31.160315,
+   "distance_m": 238,
+   "straight_m": null,
+   "address": "龙华街道龙腾大道2266号西岸梦中心8号楼2层",
+   "category_hint": "集市",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHQ9VB",
+   "name": "宝莱纳餐厅(Gate M西岸梦中心)",
+   "lon": 121.46615,
+   "lat": 31.159469,
+   "distance_m": 240,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心10幢一层115-116单元",
+   "category_hint": "西餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDPXN31U",
+   "name": "春鹿秋鹿茶冰室",
+   "lon": 121.465425,
+   "lat": 31.160375,
+   "distance_m": 243,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东40米",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JRZDBD77",
+   "name": "Peet's皮爷咖啡(国际传媒港店)",
+   "lon": 121.461607,
+   "lat": 31.159836,
+   "distance_m": 372,
+   "straight_m": null,
+   "address": "龙文路129号国际传媒港与云视路交叉口",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "摘星芝士蛋糕",
+    "摘星奶砖拿铁",
+    "夏黑葡萄气泡美式",
+    "三重云萃小方瓶",
+    "重山云瑰拿铁",
+    "航海花蜜榛果风味拿铁",
+    "摘星拿铁",
+    "摘星气泡美式",
+    "重山云瑰澳白",
+    "芝士",
+    "芝士蛋糕",
+    "卡布奇诺"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRNMIVGH",
+   "name": "陈香贵·蘭州牛肉面(国际传媒港店)",
+   "lon": 121.463147,
+   "lat": 31.160832,
+   "distance_m": 263,
+   "straight_m": null,
+   "address": "龙腾大道龙爱路7号芒果广场B1层",
+   "category_hint": "牛肉面",
+   "dish_hints": [
+    "单人餐",
+    "牛肉面"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K0UNZO5Q",
+   "name": "美餐爱智选餐厅(传媒港GWALK店)",
+   "lon": 121.46142,
+   "lat": 31.159583,
+   "distance_m": 354,
+   "straight_m": null,
+   "address": "云视路与龙文路交叉口南40米",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "蛋挞"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2TD3LLJ",
+   "name": "soyamika(西岸梦中心店)",
+   "lon": 121.465588,
+   "lat": 31.160298,
+   "distance_m": 246,
+   "straight_m": null,
+   "address": "龙腾大道2266号8号楼1楼",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L255CXOI",
+   "name": "山风轻食",
+   "lon": 121.462367,
+   "lat": 31.160591,
+   "distance_m": 356,
+   "straight_m": null,
+   "address": "龙爱路58号地下1层B1-K-07室",
+   "category_hint": "蛋糕店",
+   "dish_hints": [
+    "蝴蝶酥"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0M6L76QHJ",
+   "name": "闽燕记八闽特色美食(国际传媒港店)",
+   "lon": 121.461225,
+   "lat": 31.159225,
+   "distance_m": 342,
+   "straight_m": null,
+   "address": "上海城区龙台路110号B1层01部位L-02室",
+   "category_hint": "闽菜",
+   "dish_hints": [
+    "双人餐",
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KR66PLD6",
+   "name": "秦䩊会·陕西biangbiang面(传媒港店)",
+   "lon": 121.462425,
+   "lat": 31.160625,
+   "distance_m": 339,
+   "straight_m": null,
+   "address": "云绣路与龙文路交叉口西北60米",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "单人餐",
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K05BU914",
+   "name": "Monguru·西北(BLOOMARKET店)",
+   "lon": 121.465825,
+   "lat": 31.160175,
+   "distance_m": 253,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东80米",
+   "category_hint": "西北菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0M6ZY0CO5",
+   "name": "知福里麻酱拌面·小牛汤(传媒港北区店)",
+   "lon": 121.462119,
+   "lat": 31.160475,
+   "distance_m": 254,
+   "straight_m": null,
+   "address": "龙文路与云绣路交叉口西北60米",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRLN1KZC",
+   "name": "小杨生煎(上海西岸传媒港店)",
+   "lon": 121.462282,
+   "lat": 31.160585,
+   "distance_m": 364,
+   "straight_m": null,
+   "address": "龙爱路与云绣路交叉口东100米(龙耀路地铁站1号口右转直走150米)",
+   "category_hint": "生煎",
+   "dish_hints": [
+    "小杨生煎",
+    "水煎包",
+    "白切鸡",
+    "锅贴"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRLA4CMP",
+   "name": "粉档·南昌粉面馆(传媒港花园里店)",
+   "lon": 121.463943,
+   "lat": 31.160981,
+   "distance_m": 254,
+   "straight_m": null,
+   "address": "龙爱路与龙腾大道交叉口西南80米",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAZUCUS8",
+   "name": "熟成咖喱",
+   "lon": 121.465805,
+   "lat": 31.160217,
+   "distance_m": 255,
+   "straight_m": null,
+   "address": "龙华街道龙腾大道2266号GateM西岸梦中心8号楼1层",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6RDZ4VA",
+   "name": "炊可可江西小炒",
+   "lon": 121.461196,
+   "lat": 31.159329,
+   "distance_m": 256,
+   "straight_m": null,
+   "address": "徐汇区龙文路199号传媒港G.WALK-B1层F-08A",
+   "category_hint": "江西菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K26RKHNF",
+   "name": "猩猩牛牧场(传媒港花园里店)",
+   "lon": 121.462208,
+   "lat": 31.160565,
+   "distance_m": 370,
+   "straight_m": null,
+   "address": "龙爱路58号地下一层BI-J-12(传媒港花园里-好特卖对面)",
+   "category_hint": "酸奶",
+   "dish_hints": [
+    "奶皮子"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L12OVGHV",
+   "name": "抹岛抹茶MATCHAISLAND",
+   "lon": 121.465907,
+   "lat": 31.16014,
+   "distance_m": 257,
+   "straight_m": null,
+   "address": "龙腾大道西岸梦中心8栋1楼中庭手扶梯旁",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LUCASVDY",
+   "name": "DAILEAF打抛饭(西岸梦中心店)",
+   "lon": 121.465825,
+   "lat": 31.160225,
+   "distance_m": 346,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东80米",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K0CUF8H4",
+   "name": "OJUUA·水果挞(BLOOMARKET店)",
+   "lon": 121.465775,
+   "lat": 31.160275,
+   "distance_m": 257,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东80米",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MDJ5JELL",
+   "name": "TEEMTONE彤甜筒",
+   "lon": 121.465725,
+   "lat": 31.160325,
+   "distance_m": 329,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东60米",
+   "category_hint": "甜品店",
+   "dish_hints": [
+    "甜筒"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K2H7MCQJ",
+   "name": "一围小火锅(传媒港花园里店)",
+   "lon": 121.462375,
+   "lat": 31.160675,
+   "distance_m": 358,
+   "straight_m": null,
+   "address": "龙爱路58号地下1层B1-K-05-01室B1-K-05-02室",
+   "category_hint": "小火锅",
+   "dish_hints": [
+    "小火锅"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LAKMD1CB",
+   "name": "Magnet Burger磁食汉堡(传媒港花园里店)",
+   "lon": 121.46237,
+   "lat": 31.160675,
+   "distance_m": 358,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里地下一层B1-J-15-04号商铺",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "单人餐",
+    "双人餐",
+    "汉堡"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K05STMRO",
+   "name": "CUCURUCU(西岸梦中心店)",
+   "lon": 121.465748,
+   "lat": 31.160337,
+   "distance_m": 260,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东60米",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K0UURE0E",
+   "name": "JUJUBOY·猪料理(BLOOMARKET店)",
+   "lon": 121.46587,
+   "lat": 31.160224,
+   "distance_m": 348,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东80米",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [
+    "料理"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LK36XJN7",
+   "name": "WANTALK汪说",
+   "lon": 121.465925,
+   "lat": 31.160175,
+   "distance_m": 261,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东80米",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K39LAU0T",
+   "name": "有红鸡毛店(传媒港店)",
+   "lon": 121.462403,
+   "lat": 31.160727,
+   "distance_m": 337,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里负1层",
+   "category_hint": "湖北菜",
+   "dish_hints": [
+    "牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MG41Z15F",
+   "name": "海野轻食",
+   "lon": 121.464152,
+   "lat": 31.161032,
+   "distance_m": 262,
+   "straight_m": null,
+   "address": "龙腾大道与龙爱路交叉口西南60米",
+   "category_hint": "轻食",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K0UB3NFQ",
+   "name": "CHAIKU·泰奶(BLOOMARKET店)",
+   "lon": 121.465912,
+   "lat": 31.160227,
+   "distance_m": 263,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心8栋BLOOMARKET一层W11",
+   "category_hint": "泰国菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K02SV7RV",
+   "name": "小红椒·湖湘盖码饭·米线·小炒(传媒港G·WALK店)",
+   "lon": 121.462209,
+   "lat": 31.160683,
+   "distance_m": 372,
+   "straight_m": null,
+   "address": "龙文路199号传媒港G·WALK负一层B1-M区-02",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "米线"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K3O5YY6G",
+   "name": "爷爷不泡茶NOYEYENOTEA(上海传媒港GWALK店)",
+   "lon": 121.461075,
+   "lat": 31.159425,
+   "distance_m": 383,
+   "straight_m": null,
+   "address": "龙文路199号传媒港负一楼F-07",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "桂花雪梨",
+    "红糖黑珍珠",
+    "花魁白雪",
+    "雪顶金桂",
+    "武汉茉莉",
+    "奶油苹果（圣诞限定款）",
+    "茉莉小草莓",
+    "初恋玫瑰青提",
+    "春回·樱花吸吸冻",
+    "重瓣玫瑰",
+    "咸宁桂花",
+    "江城飘雪",
+    "白兰玉露",
+    "桃桃双皮奶",
+    "荔枝冰酿",
+    "重玫瑰",
+    "杨梅冰酿",
+    "空山栀子",
+    "香柚栀子",
+    "花魁单丛",
+    "栀子白雪",
+    "双皮奶",
+    "杨枝甘露",
+    "果茶",
+    "热饮"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0ZHEPW7",
+   "name": "潮集锦鲜活牛肉店",
+   "lon": 121.46093,
+   "lat": 31.158667,
+   "distance_m": 271,
+   "straight_m": null,
+   "address": "龙爱路58号B1层B1-G-02-01室(中储大厦对面)",
+   "category_hint": "牛肉火锅",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KR6RWV6Y",
+   "name": "柠季·手打柠檬茶(上海传媒港花园里店)",
+   "lon": 121.46222,
+   "lat": 31.160737,
+   "distance_m": 372,
+   "straight_m": null,
+   "address": "徐汇区国际传媒港(传媒港店)上海市徐汇区龙爱路58号地下1层B1-K-11-03室",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "单人餐",
+    "双人餐",
+    "柠檬茶",
+    "手打柠檬茶"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L6OHCCAD",
+   "name": "Shiopon",
+   "lon": 121.465877,
+   "lat": 31.160386,
+   "distance_m": 273,
+   "straight_m": null,
+   "address": "龙腾大道2266号8栋BLOOMARKET一层",
+   "category_hint": "面包",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MGY76YGD",
+   "name": "阿喵说麻辣香锅(传媒港店)",
+   "lon": 121.461025,
+   "lat": 31.159425,
+   "distance_m": 359,
+   "straight_m": null,
+   "address": "云视路与龙文路交叉口西南60米B1",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "麻辣香锅"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDAZ31GC",
+   "name": "瑞幸咖啡(传媒港B1层G·WALK店)",
+   "lon": 121.461025,
+   "lat": 31.159425,
+   "distance_m": 359,
+   "straight_m": null,
+   "address": "云视路与龙文路交叉口西南60米",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "杨枝甘露",
+    "果茶",
+    "柠檬茶",
+    "生椰拿铁"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0IKRUNQA9",
+   "name": "星巴克(上海芒果广场办公楼店)",
+   "lon": 121.464014,
+   "lat": 31.161185,
+   "distance_m": 362,
+   "straight_m": null,
+   "address": "龙爱路7号1楼101单元(龙耀路地铁站1号口步行490米)",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "奶咖",
+    "牛乳",
+    "单人餐",
+    "美式咖啡"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MGCCFA8N",
+   "name": "鼎鼎轩·现炒浇头面(传媒港店)",
+   "lon": 121.461925,
+   "lat": 31.160625,
+   "distance_m": 517,
+   "straight_m": null,
+   "address": "龙爱路与云视路交叉口东南80米",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "虾仁",
+    "素菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L311W12L",
+   "name": "知福里·海派点心FINE DIMSUM(传媒港北区店)",
+   "lon": 121.461925,
+   "lat": 31.160625,
+   "distance_m": 517,
+   "straight_m": null,
+   "address": "龙爱路与云视路交叉口东南80米",
+   "category_hint": "餐饮服务,糕饼店,糕饼店",
+   "dish_hints": [
+    "点心"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MB1ZVUVM",
+   "name": "楂多喜(西岸传媒港店)",
+   "lon": 121.461907,
+   "lat": 31.160613,
+   "distance_m": 278,
+   "straight_m": null,
+   "address": "龙爱路58号诺布中心地下一层",
+   "category_hint": "轻食",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K05HV7IA",
+   "name": "胡麻(西岸梦中心店)",
+   "lon": 121.466079,
+   "lat": 31.160275,
+   "distance_m": 362,
+   "straight_m": null,
+   "address": "龙水南路50号",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [
+    "牛肉",
+    "小锅米线"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHQHHS",
+   "name": "喜鼎(Gate M西岸梦中心)",
+   "lon": 121.465477,
+   "lat": 31.160757,
+   "distance_m": 301,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心3F层",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "鲍鱼",
+    "脆炸蛎黄",
+    "东北菜",
+    "羊肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRYL1BML",
+   "name": "曾三仙米线(传媒港花园里店)",
+   "lon": 121.461825,
+   "lat": 31.160575,
+   "distance_m": 509,
+   "straight_m": null,
+   "address": "龙爱路58号西岸传媒港西岸花园里B1-J-01-02",
+   "category_hint": "米粉",
+   "dish_hints": [
+    "单人餐",
+    "米线"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0RZ5FJO",
+   "name": "老盛兴汤包馆(传媒港花园里店)",
+   "lon": 121.463775,
+   "lat": 31.161225,
+   "distance_m": 281,
+   "straight_m": null,
+   "address": "龙爱路与龙腾大道交叉口西80米",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LGBO0453",
+   "name": "星巴克咖啡(上海传媒港花园里B1店)",
+   "lon": 121.461875,
+   "lat": 31.160625,
+   "distance_m": 515,
+   "straight_m": null,
+   "address": "龙爱路139号诺布中心B1层",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "牛乳",
+    "美式咖啡",
+    "单人餐",
+    "奶咖"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2BZJDEG",
+   "name": "山牛将烧肉丼(西岸传媒港店)",
+   "lon": 121.461426,
+   "lat": 31.160219,
+   "distance_m": 281,
+   "straight_m": null,
+   "address": "龙文路199号国际传媒港地下1层01部位F-08B号",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU3SO4WL",
+   "name": "贾膳和现炒面馆",
+   "lon": 121.460875,
+   "lat": 31.159225,
+   "distance_m": 283,
+   "straight_m": null,
+   "address": "云视路与龙台路交叉口西北80米",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MD5UWTSF",
+   "name": "刘文祥麻辣烫(国际传媒港店)",
+   "lon": 121.460927,
+   "lat": 31.159473,
+   "distance_m": 383,
+   "straight_m": null,
+   "address": "龙文路199号B1层01部位F-3室",
+   "category_hint": "东北小吃",
+   "dish_hints": [
+    "麻辣烫"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K2N4TJUN",
+   "name": "温暖你的猪(国际传媒港店)",
+   "lon": 121.461875,
+   "lat": 31.160725,
+   "distance_m": 290,
+   "straight_m": null,
+   "address": "龙腾大道2171号(龙耀路地铁站1号口步行350米)",
+   "category_hint": "湘菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0JAO7W3AW",
+   "name": "星巴克沿街取餐点(上海芒果广场办公楼店)",
+   "lon": 121.463966,
+   "lat": 31.161301,
+   "distance_m": 290,
+   "straight_m": null,
+   "address": "龙腾大道2171号芒果广场(龙耀路地铁站1号口步行490米)",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LRLDNKSS",
+   "name": "三山野傣家菜",
+   "lon": 121.461965,
+   "lat": 31.160808,
+   "distance_m": 292,
+   "straight_m": null,
+   "address": "龙爱路139号诺布中心B1层",
+   "category_hint": "云南菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6DM4OOS",
+   "name": "大米先生(传媒港G.WALK店)",
+   "lon": 121.460839,
+   "lat": 31.159446,
+   "distance_m": 292,
+   "straight_m": null,
+   "address": "龙水南路169号",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LRVUK82Q",
+   "name": "楼下酸奶(西岸梦中心店)",
+   "lon": 121.465438,
+   "lat": 31.160932,
+   "distance_m": 293,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心5号楼101B",
+   "category_hint": "酸奶",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MBKKOLLX",
+   "name": "Family Meal(Gate M西岸梦中心南区店)",
+   "lon": 121.466325,
+   "lat": 31.160225,
+   "distance_m": 294,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东120米",
+   "category_hint": "餐饮服务,外国餐厅,外国餐厅",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GH1AKT",
+   "name": "星巴克(GateM西岸梦中心店)",
+   "lon": 121.465539,
+   "lat": 31.160905,
+   "distance_m": 361,
+   "straight_m": null,
+   "address": "龙腾大道2266号GATE M西岸梦中心5号楼102号",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "奶咖",
+    "美式咖啡",
+    "牛乳",
+    "单人餐"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KUCZZ8VP",
+   "name": "汉堡王(上海西岸传媒港)",
+   "lon": 121.461632,
+   "lat": 31.160624,
+   "distance_m": 542,
+   "straight_m": null,
+   "address": "龙腾大道2171号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "单人餐",
+    "双人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MBSSE2HL",
+   "name": "瑞幸咖啡(诺布中心店)",
+   "lon": 121.461723,
+   "lat": 31.160696,
+   "distance_m": 297,
+   "straight_m": null,
+   "address": "龙爱路169号诺布大厦底商(龙耀路地铁站1号口步行280米)",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LACMJPYZ",
+   "name": "徽味三分(传媒港店)",
+   "lon": 121.461761,
+   "lat": 31.16074,
+   "distance_m": 542,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里B1层B1-J-02号",
+   "category_hint": "徽菜",
+   "dish_hints": [
+    "下午茶",
+    "黄山臭鳜鱼",
+    "刀板香炖笋",
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MD3XHVP0",
+   "name": "汕膳茶铺",
+   "lon": 121.460632,
+   "lat": 31.158476,
+   "distance_m": 301,
+   "straight_m": null,
+   "address": "龙台路与云锦路交叉口东60米",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHR660",
+   "name": "Mill Hill(Gate M西岸梦中心)",
+   "lon": 121.466023,
+   "lat": 31.16063,
+   "distance_m": 354,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心1F层",
+   "category_hint": "甜品店",
+   "dish_hints": [
+    "下午茶"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBLM9DI6",
+   "name": "琥家(西岸梦中心店)",
+   "lon": 121.465525,
+   "lat": 31.160975,
+   "distance_m": 302,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心5栋201",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHYLAN",
+   "name": "哥哥の深夜食堂(Gate M西岸梦中心店)",
+   "lon": 121.466018,
+   "lat": 31.160643,
+   "distance_m": 302,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心2F层",
+   "category_hint": "夜宵",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LUBMCVBE",
+   "name": "庙口·鲁肉饭(传媒港G·WALK店)",
+   "lon": 121.46073,
+   "lat": 31.159565,
+   "distance_m": 451,
+   "straight_m": null,
+   "address": "传媒港B1-L1(龙耀路地铁站1号/2号出口直达商场)",
+   "category_hint": "台湾菜",
+   "dish_hints": [
+    "单人餐",
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MANCQ92J",
+   "name": "叫个厨房",
+   "lon": 121.466125,
+   "lat": 31.160625,
+   "distance_m": 308,
+   "straight_m": null,
+   "address": "龙腾大道与龙文路交叉口东100米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1KLNSVZ",
+   "name": "LELECHA乐乐茶(上海传媒港花园里店)",
+   "lon": 121.461317,
+   "lat": 31.160516,
+   "distance_m": 461,
+   "straight_m": null,
+   "address": "龙水南路159号",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "琥珀锡兰",
+    "芒果生打椰",
+    "大口草莓桃"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0LZ9C0M",
+   "name": "CCTV味道·咖啡",
+   "lon": 121.460775,
+   "lat": 31.159775,
+   "distance_m": 310,
+   "straight_m": null,
+   "address": "上海徐汇区龙文路199号国际传媒港F1栋一层大堂东侧",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAOXIUG3",
+   "name": "柴边边·南昌市井菜",
+   "lon": 121.46048,
+   "lat": 31.158294,
+   "distance_m": 317,
+   "straight_m": null,
+   "address": "云锦路与龙台路交叉口东南60米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHWVKJ",
+   "name": "阿嬷手作(Gate M西岸梦中心)",
+   "lon": 121.466278,
+   "lat": 31.16061,
+   "distance_m": 378,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心6栋一层108室(靠近江边船坞)",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "堂食",
+    "芋泥",
+    "麻薯",
+    "黄油"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GH032M",
+   "name": "LENBACH WESTBUND兰巴赫(西岸梦中心店)",
+   "lon": 121.466257,
+   "lat": 31.160638,
+   "distance_m": 318,
+   "straight_m": null,
+   "address": "龙腾大道2252号6号楼二层204室",
+   "category_hint": "西餐",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MA4CVBG1",
+   "name": "Xibo锡伯·新疆·丝路小馆(西岸梦中心店)",
+   "lon": 121.466125,
+   "lat": 31.160775,
+   "distance_m": 320,
+   "straight_m": null,
+   "address": "龙华街道龙腾大道2266号GateM西岸梦中心6号楼203",
+   "category_hint": "新疆菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRO7SFQM",
+   "name": "超级碗 FOODBOWL(上海传媒港花园里店)",
+   "lon": 121.461079,
+   "lat": 31.160433,
+   "distance_m": 466,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里B1E15室",
+   "category_hint": "轻食",
+   "dish_hints": [
+    "三文鱼",
+    "豆腐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHXAXA",
+   "name": "Tapa Tapa(Gate M西岸梦中心)",
+   "lon": 121.466177,
+   "lat": 31.160758,
+   "distance_m": 419,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心6号楼107",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "开胃菜"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LG4ZD38V",
+   "name": "ANG RAN COFFEE盎然咖啡(Gate M西岸梦中心北区店)",
+   "lon": 121.465279,
+   "lat": 31.161321,
+   "distance_m": 345,
+   "straight_m": null,
+   "address": "龙腾大道与龙爱路交叉口东60米",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "coffee"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LD19L5VE",
+   "name": "三清潭烧鹅(西岸梦中心店)",
+   "lon": 121.466228,
+   "lat": 31.160765,
+   "distance_m": 419,
+   "straight_m": null,
+   "address": "龙腾大道2266号GATE M西岸梦中心6栋3楼L302-L303室",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "金银菜炖白肺",
+    "鲍汁凤爪",
+    "桥底辣炒帝王蟹",
+    "潮式普宁豆酱啫黄鱼",
+    "萝卜牛腩煲",
+    "三清潭烧鹅",
+    "芦笋百合炒澳带",
+    "黑金叉烧",
+    "鲜虾豆苗饺",
+    "三清潭一品煲",
+    "腊味煲仔饭",
+    "海南黄椒酱蒸霜降",
+    "顺德白切鸡",
+    "黑金话梅叉烧",
+    "三清潭烧鹅",
+    "腊味煲仔饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LA2UKD8Q",
+   "name": "圈儿潮汕牛肉火锅(西岸梦中心店)",
+   "lon": 121.466075,
+   "lat": 31.160925,
+   "distance_m": 381,
+   "straight_m": null,
+   "address": "龙腾大道2252号6栋301室",
+   "category_hint": "牛肉火锅",
+   "dish_hints": [
+    "潮汕牛肉火锅"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHXAXB",
+   "name": "和牛十兵卫·炭火焼肉(西岸梦中心店)",
+   "lon": 121.466008,
+   "lat": 31.160978,
+   "distance_m": 329,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心2F层",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JK6L1WQH",
+   "name": "诺布c2餐厅",
+   "lon": 121.461375,
+   "lat": 31.160875,
+   "distance_m": 334,
+   "straight_m": null,
+   "address": "龙爱路与云视路交叉口东80米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHWNUF",
+   "name": "鸟栖(Gate M西岸梦中心)",
+   "lon": 121.466283,
+   "lat": 31.160817,
+   "distance_m": 425,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心6栋一层11L106室靠江边",
+   "category_hint": "日本料理",
+   "dish_hints": [
+    "牛肉",
+    "三文鱼",
+    "鸡肉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KU4BQYPN",
+   "name": "柏兰蒂西餐厅BAR·A·MUNDI(星扬西岸中心店)",
+   "lon": 121.462353,
+   "lat": 31.161453,
+   "distance_m": 431,
+   "straight_m": null,
+   "address": "龙耀路175号LUMINA星扬西岸中心F1层",
+   "category_hint": "特色小吃",
+   "dish_hints": [
+    "彩虹植物拼盘",
+    "炭烤三文鱼佐瑞典风味醋酱",
+    "绿标风干火腿配蜜瓜",
+    "柑橘牛油果色拉",
+    "纸包香草辣味奶油比目鱼",
+    "鹅肝惠灵顿牛排",
+    "海鲜马赛鱼汤",
+    "法式樱桃烤布雷",
+    "黑松露铁板海鲜饭",
+    "碳烤章鱼",
+    "香煎澳州带子芦笋烩饭",
+    "M3小战斧牛排",
+    "单人餐",
+    "奶油",
+    "薯条",
+    "蘑菇"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LD39PAIL",
+   "name": "上海澳发餐饮有限公司龙腾大道店",
+   "lon": 121.464912,
+   "lat": 31.161574,
+   "distance_m": 337,
+   "straight_m": null,
+   "address": "龙腾大道与龙爱路交叉口东北20米",
+   "category_hint": "上海菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRC1GJ17",
+   "name": "金饭碗",
+   "lon": 121.460979,
+   "lat": 31.16055,
+   "distance_m": 473,
+   "straight_m": null,
+   "address": "云视路与龙文路交叉口西北80米",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "老鸭汤",
+    "糖醋排骨",
+    "农家小炒肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H22SHWR3",
+   "name": "星巴克臻选(上海国际传媒港1层店)",
+   "lon": 121.460265,
+   "lat": 31.159259,
+   "distance_m": 433,
+   "straight_m": null,
+   "address": "龙文路199号F楼1层(龙耀路地铁站2号口旁)",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "美式咖啡",
+    "单人餐",
+    "奶咖",
+    "牛乳"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHUK1J",
+   "name": "瓦屋川菜(Gate M西岸梦中心)",
+   "lon": 121.466152,
+   "lat": 31.161041,
+   "distance_m": 419,
+   "straight_m": null,
+   "address": "龙腾大道西岸梦中心6栋2楼202号",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "鸡肉",
+    "牛肉",
+    "水煮牛肉",
+    "鲜切水煮吊龙",
+    "双人餐",
+    "沸腾水煮鱼",
+    "瓦屋山毛血旺",
+    "瓦屋山钵钵鸡"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LDJ6R08B",
+   "name": "鮨青·Omakase(徐汇西岸店)",
+   "lon": 121.462125,
+   "lat": 31.161525,
+   "distance_m": 352,
+   "straight_m": null,
+   "address": "龙耀路175号Lumina星扬F3层",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRRRVEUU",
+   "name": "华三爷干拌面(西岸传媒港花园里店)",
+   "lon": 121.460559,
+   "lat": 31.160303,
+   "distance_m": 499,
+   "straight_m": null,
+   "address": "龙华街道龙爱路58号西岸传媒港花园里B1-J-15-01",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "双人餐",
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0FBV0GU",
+   "name": "柒园·竹境(西岸国际会展中心店)",
+   "lon": 121.464062,
+   "lat": 31.161959,
+   "distance_m": 363,
+   "straight_m": null,
+   "address": "龙腾大道2277号",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KKD74QKU",
+   "name": "藕巷·藕汤饭",
+   "lon": 121.460456,
+   "lat": 31.160319,
+   "distance_m": 499,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里B1-E-13-01(龙耀路地铁1号口地下一层)",
+   "category_hint": "湖北菜",
+   "dish_hints": [
+    "下午茶"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHYLAL",
+   "name": "FIVEMATE·巴西马黛茶(西岸梦中心店)",
+   "lon": 121.466123,
+   "lat": 31.161314,
+   "distance_m": 418,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心1F层",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "堂食",
+    "柠檬",
+    "爆米花",
+    "牛乳"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K12MA5O8",
+   "name": "麦当劳(西岸传媒港餐厅)",
+   "lon": 121.460448,
+   "lat": 31.160328,
+   "distance_m": 499,
+   "straight_m": null,
+   "address": "龙腾大道西岸传媒港B1-E-12",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "薯条",
+    "鸡腿"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K3Y9G0AM",
+   "name": "三出山火锅(西岸梦中心店)",
+   "lon": 121.465987,
+   "lat": 31.161418,
+   "distance_m": 411,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心4号楼2层4号207",
+   "category_hint": "火锅",
+   "dish_hints": [
+    "牛肉"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHVT31",
+   "name": "红雀围·海鲜火锅(Gate M西岸梦中心)",
+   "lon": 121.466038,
+   "lat": 31.161412,
+   "distance_m": 411,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心3F层",
+   "category_hint": "海鲜火锅",
+   "dish_hints": [
+    "海鲜火锅"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J1MZUY0Q",
+   "name": "赛百味(星扬西岸中心旗舰店)",
+   "lon": 121.461489,
+   "lat": 31.161392,
+   "distance_m": 571,
+   "straight_m": null,
+   "address": "龙华街道龙耀路175号星扬西岸中心1楼",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "西式火腿三明治",
+    "黑胡椒厚切牛排三明治",
+    "香溢金枪鱼双拼三明治三件套",
+    "黑胡椒厚切牛排三明治三件套",
+    "日式照烧鸡三明治",
+    "热烤多芝三明治1+1",
+    "金枪鱼三明治",
+    "火鸡胸百味卷",
+    "照烧鸡蛋料双拼三明治3件套",
+    "金枪鱼肉肉双拼三明治2件套",
+    "照烧鸡蛋料双拼三明治三件套",
+    "黑胡椒厚切牛排三明治3件套",
+    "鲍鱼大虾",
+    "金枪鱼照烧鸡三明治2件套",
+    "三明治",
+    "双人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2HNAAJQ",
+   "name": "WINNER COFFEE",
+   "lon": 121.465004,
+   "lat": 31.161878,
+   "distance_m": 564,
+   "straight_m": null,
+   "address": "龙腾大道与龙爱路交叉口东北40米",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "coffee"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU2HCTWZ",
+   "name": "山川饺子铺(西岸传媒港店)",
+   "lon": 121.460335,
+   "lat": 31.160268,
+   "distance_m": 372,
+   "straight_m": null,
+   "address": "上海西岸传媒港地下空间商业地下一层B1-E-11-01",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6MRVOX5",
+   "name": "爱马哥",
+   "lon": 121.460661,
+   "lat": 31.160742,
+   "distance_m": 374,
+   "straight_m": null,
+   "address": "龙爱路与云视路交叉口西南60米",
+   "category_hint": "餐饮服务,快餐厅,快餐厅",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHU4P8",
+   "name": "BlueBottleCoffee蓝瓶咖啡(西岸梦中心店)",
+   "lon": 121.466266,
+   "lat": 31.161326,
+   "distance_m": 455,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心4号楼118A(近梦船坞)",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "coffee"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHU4PB",
+   "name": "侎唛食廠·码头 Pier 台北料理",
+   "lon": 121.466277,
+   "lat": 31.161334,
+   "distance_m": 456,
+   "straight_m": null,
+   "address": "龙腾大道2266号Gate M西岸梦中心4号楼206",
+   "category_hint": "餐饮服务,外国餐厅,外国餐厅",
+   "dish_hints": [
+    "料理"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I2OSNKLW",
+   "name": "Tims咖啡(星扬西岸中心店)",
+   "lon": 121.461433,
+   "lat": 31.161453,
+   "distance_m": 568,
+   "straight_m": null,
+   "address": "龙耀路175号L101(龙耀西岸中心1号口步行150米)",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "不止拿铁",
+    "农夫卷",
+    "巴旦木炼乳拿铁",
+    "鲜萃奶咖",
+    "柠檬气泡饮",
+    "全麦贝果",
+    "拿铁",
+    "巴旦木炼乳澳白",
+    "无肉也欢火腿蛋贝果三明治",
+    "牛油果生椰冷萃",
+    "美式",
+    "椰子水",
+    "油条",
+    "奶咖",
+    "柠檬",
+    "牛乳"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUD9L9T5",
+   "name": "物体系DarkLake cafe(Gate M西岸梦中心北区店)",
+   "lon": 121.465525,
+   "lat": 31.161775,
+   "distance_m": 380,
+   "straight_m": null,
+   "address": "龙腾大道与龙爱路交叉口东80米",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1N7JDLD",
+   "name": "喜茶(上海西岸传媒港花园里店)",
+   "lon": 121.4603,
+   "lat": 31.160387,
+   "distance_m": 610,
+   "straight_m": null,
+   "address": "龙爱路58号上海西岸传媒港地下空间商业地下一层B1-E-10-02",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "烤黑糖波波牛乳茶",
+    "烤黑糖波波牛乳(首创)",
+    "芝芝绿妍茶后(首创)",
+    "芒芒甘露(首创)",
+    "清爽芭乐葡(白芭乐)",
+    "去火*纤体瓶(首创)",
+    "羽衣纤体瓶(首创)",
+    "奇兰苹果杏特调",
+    "奇兰粉芭乐",
+    "苦巧·咸酪碎银子",
+    "芭乐雪毫茉王",
+    "多肉桃李(首创)",
+    "清爽芭乐提(白芭乐)",
+    "咸酪碎银子",
+    "多肉葡萄(首创)",
+    "雪域·牦牛乳恰安莫",
+    "酱香白脱碎银子",
+    "金韵酸木瓜枇杷",
+    "茶坊苦抹·清",
+    "提拉米苏·浓巧",
+    "牛乳",
+    "提拉米苏",
+    "牦牛"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K01L2OU7",
+   "name": "一寸亭·寿喜锅·日本料理(传媒港花园里店)",
+   "lon": 121.460284,
+   "lat": 31.160371,
+   "distance_m": 610,
+   "straight_m": null,
+   "address": "云锦路与龙爱路交叉口东南80米(龙耀路地铁站1号口旁)",
+   "category_hint": "日本料理",
+   "dish_hints": [
+    "寿喜锅",
+    "日本料理"
+   ],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K2Z76B8R",
+   "name": "MStand(上海腾讯滨江店)",
+   "lon": 121.460027,
+   "lat": 31.159915,
+   "distance_m": 382,
+   "straight_m": null,
+   "address": "龙爱路231号二层101室(龙耀路地铁站1号口步行70米)",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LUC5WSZW",
+   "name": "新京熹·北京涮肉(西岸梦中心店)",
+   "lon": 121.466038,
+   "lat": 31.161553,
+   "distance_m": 426,
+   "straight_m": null,
+   "address": "龙腾大道2266号梦中心4栋3层",
+   "category_hint": "老北京火锅",
+   "dish_hints": [
+    "北京涮肉",
+    "糖饼"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L6SD5EK3",
+   "name": "桂满陇(西岸梦中心)",
+   "lon": 121.466038,
+   "lat": 31.161553,
+   "distance_m": 426,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心4号楼2层205B",
+   "category_hint": "江浙菜",
+   "dish_hints": [
+    "金蒜蓉粉丝虾"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J1LHP8E6",
+   "name": "柠季·手打柠檬茶(上海星扬西岸中心店)",
+   "lon": 121.46134,
+   "lat": 31.161465,
+   "distance_m": 547,
+   "straight_m": null,
+   "address": "龙华街道龙耀路175号星扬西岸中心地下一夹层BM03室",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "柠檬茶",
+    "手打柠檬茶",
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0JDSXTOYX",
+   "name": "醉辉皇.尊 (西岸滨江店)",
+   "lon": 121.461929,
+   "lat": 31.161814,
+   "distance_m": 482,
+   "straight_m": null,
+   "address": "龙耀路175号星扬西岸中心L",
+   "category_hint": "海鲜",
+   "dish_hints": [
+    "椒麻翘嘴鱼王",
+    "油盐煎焗银鳕鱼头",
+    "黑松露黄焖鱼唇",
+    "象拔蚌",
+    "文火牛肉",
+    "秦皇咖喱肉蟹",
+    "战斧牛排",
+    "牛肉",
+    "鸡肉",
+    "豆腐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LDL9TWUY",
+   "name": "LUCCAGELATO(西岸梦中心店)",
+   "lon": 121.465345,
+   "lat": 31.161954,
+   "distance_m": 441,
+   "straight_m": null,
+   "address": "龙华街道龙腾大道2266号西岸梦中心北区3号楼102室",
+   "category_hint": "冰淇淋",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L26ZE4U5",
+   "name": "颂糍饭团(龙耀路店)",
+   "lon": 121.460204,
+   "lat": 31.160425,
+   "distance_m": 610,
+   "straight_m": null,
+   "address": "龙爱路58号传媒港花园里B1楼层B1-E-21",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J1G7AEMH",
+   "name": "陈香贵·兰州牛肉面(星杨西岸中心店)",
+   "lon": 121.461616,
+   "lat": 31.161693,
+   "distance_m": 576,
+   "straight_m": null,
+   "address": "龙耀路175号Lumina星扬B1层",
+   "category_hint": "牛肉面",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0M6AZYHYX",
+   "name": "蔓味轻食·沙拉·健康餐(星扬西岸店)",
+   "lon": 121.461175,
+   "lat": 31.161425,
+   "distance_m": 567,
+   "straight_m": null,
+   "address": "龙耀路175号B1-05(龙耀路地铁站1号口步行230米)",
+   "category_hint": "轻食",
+   "dish_hints": [
+    "沙拉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHUK1H",
+   "name": "半山腰·云南菜(Gate M西岸梦中心店)",
+   "lon": 121.466298,
+   "lat": 31.161512,
+   "distance_m": 476,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心4栋117号半山腰餐厅",
+   "category_hint": "云南菜",
+   "dish_hints": [
+    "手指饵块蒸黑松露香肠",
+    "焖肉小锅米线",
+    "薄荷牛舌卷",
+    "野生树番茄炖牛腩",
+    "黑松露酱炒饭",
+    "武定母鸡炖菌汤(小份)",
+    "牛扒烀",
+    "香茅草烤罗非鱼",
+    "傣味楚雄牛肝菌",
+    "煎石屏包浆豆腐",
+    "豌豆黄浸豌豆尖",
+    "薄荷炒牛肉",
+    "彝族大烧",
+    "香料牛肉清酸汤锅",
+    "牛肉",
+    "鲜花饼",
+    "鸡肉",
+    "焖肉小锅米线"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6XURAPA",
+   "name": "阿昆叔砂锅鸡公煲(传媒港店)",
+   "lon": 121.460175,
+   "lat": 31.160425,
+   "distance_m": 393,
+   "straight_m": null,
+   "address": "云锦路与龙爱路交叉口东南60米(龙耀路地铁站1号口旁)",
+   "category_hint": "砂锅",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L67RPJGE",
+   "name": "湘记小厨·紫砂锅拌饭(徐汇店)",
+   "lon": 121.46105,
+   "lat": 31.161356,
+   "distance_m": 554,
+   "straight_m": null,
+   "address": "龙耀路175号1幢地下一夹层BM04室",
+   "category_hint": "砂锅",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1GHXY47",
+   "name": "BegL餐厅(上海GateM西岸梦中心店)",
+   "lon": 121.465225,
+   "lat": 31.162053,
+   "distance_m": 397,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心1栋109",
+   "category_hint": "西餐",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L33LBQH2",
+   "name": "BLACK TREE·泰茶",
+   "lon": 121.466594,
+   "lat": 31.161364,
+   "distance_m": 398,
+   "straight_m": null,
+   "address": "龙腾大道2266号西岸梦中心船坞码头旁边",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L24ZP3F7",
+   "name": "CHAGEE茶姬现萃(传媒港花园里店)",
+   "lon": 121.460166,
+   "lat": 31.160521,
+   "distance_m": 400,
+   "straight_m": null,
+   "address": "龙华街道龙爱路58号传媒港花园里地下一层B1-E-13-02室",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LAMZ31ZD",
+   "name": "KOI Thé(传媒港花园里店)",
+   "lon": 121.460049,
+   "lat": 31.160365,
+   "distance_m": 610,
+   "straight_m": null,
+   "address": "龙爱路58号地下一层的B1-E-10-01号",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "粉盐金凤梨果茶",
+    "金凤梨百香果茶",
+    "金凤梨芒果果茶",
+    "果茶"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3CHJL6D",
+   "name": "柠檬向右(西岸传媒港店)",
+   "lon": 121.46007,
+   "lat": 31.1604,
+   "distance_m": 610,
+   "straight_m": null,
+   "address": "龙华街道龙爱路58号传媒港B1-E-07-01号店铺",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "柠檬"
+   ],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  }
+ ],
+ "provider": "高德地图",
+ "radius": 800
+}

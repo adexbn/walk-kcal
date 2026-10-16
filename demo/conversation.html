@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>walk-kcal · 对话演示</title>
+<style>
+:root{--ink:#16191d;--sub:#5b6570;--mute:#8e99a4;--line:#e6e2dc;
+  --bg:#f0ece6;--teal:#0ac89e;--teal-l:#e2f8f3}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
+  background:var(--bg);padding:26px 16px;line-height:1.65}
+.wrap{max-width:780px;margin:0 auto}
+
+/* 窗口标题栏 */
+.win{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  box-shadow:0 6px 28px rgba(0,0,0,.10)}
+.bar{background:#faf9f7;border-bottom:1px solid var(--line);padding:11px 16px;
+  display:flex;align-items:center;gap:8px}
+.bar .d{width:11px;height:11px;border-radius:50%}
+.bar .t{font-size:12.5px;font-weight:600;margin-left:8px}
+.bar .r{margin-left:auto;font-size:10.5px;color:var(--mute)}
+.body{padding:22px 20px;display:flex;flex-direction:column;gap:15px}
+
+.b{max-width:82%;padding:12px 16px;border-radius:15px;font-size:14px;position:relative}
+.u{align-self:flex-end;background:var(--teal);color:#fff;border-bottom-right-radius:4px}
+.a{align-self:flex-start;background:#f7f5f1;border:1px solid var(--line);
+  border-bottom-left-radius:4px;width:92%}
+.a .who{font-size:10.5px;color:var(--teal);font-weight:700;margin-bottom:6px;
+  display:flex;align-items:center;gap:5px}
+.a p+p{margin-top:8px}
+.mono{font-family:ui-monospace,'SF Mono',Consolas,monospace;font-size:11.5px;
+  background:#fff;border:1px solid var(--line);border-radius:9px;padding:9px 11px;
+  margin-top:9px;color:#3d444d;overflow-x:auto;line-height:1.55}
+.tool{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:600;
+  background:#fff;border:1px solid var(--line);border-radius:8px;padding:3px 9px;
+  color:var(--sub);margin-bottom:7px}
+.tool.ok{color:var(--t1,#3fa66b);border-color:#c8e6d0;background:#f2fbf5}
+.dot{width:6px;height:6px;border-radius:50%;background:currentColor}
+
+/* 卡片（Agent 返回的网页）*/
+.card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:14px 16px;
+  margin-top:10px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.card .ttl{font-size:13.5px;font-weight:700;margin-bottom:3px}
+.card .sub{font-size:11px;color:var(--sub);margin-bottom:12px}
+.kpis{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:13px}
+.kpi{flex:1;min-width:110px;border-radius:10px;padding:10px 12px}
+.kpi .lb{font-size:10.5px;margin-bottom:2px;opacity:.85}
+.kpi .vl{font-size:22px;font-weight:700;line-height:1.1}
+.pick{display:flex;align-items:center;gap:10px;padding:9px 11px;border:1px solid var(--line);
+  border-radius:10px;margin-bottom:7px;font-size:12.5px}
+.pick .n{font-weight:600;min-width:132px}
+.pick .w{font-size:11px;color:var(--mute);min-width:64px}
+.pick .q{margin-left:auto;font-weight:700;font-size:13px}
+.pick.hi{background:var(--teal-l);border-color:var(--teal)}
+.tbl{width:100%;border-collapse:collapse;font-size:11.5px;margin-top:10px}
+.tbl th,.tbl td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--line)}
+.tbl th{background:#faf9f7;font-size:10.5px;color:var(--sub)}
+.tbl td.n{text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.badge{font-size:9px;padding:1px 6px;border-radius:7px;font-weight:600}
+.b-mcd{background:#fff3e0;color:#c62828}
+.b-loc{background:#e8f5e9;color:#2e7d32}
+.ok{color:#3fa66b}.mid{color:#f08a24}.no{color:#da291c}
+.foot{padding:12px 18px;background:#faf9f7;border-top:1px solid var(--line);
+  font-size:10.5px;color:var(--mute);line-height:1.7}
+.hint{font-size:12px;color:var(--mute);font-style:italic;margin-top:7px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="win">
+  <div class="bar">
+    <span class="d" style="background:#ff5f57"></span>
+    <span class="d" style="background:#febc2e"></span>
+    <span class="d" style="background:#28c840"></span>
+    <span class="t">WorkBuddy · walk-kcal</span>
+    <span class="r">MCP 已连接：mcd.mcd.cn · amap.amap.com</span>
+  </div>
+
+  <div class="body">
+
+    <!-- 1 用户提问 -->
+    <div class="b u">我在静安虬江路这边，今天还剩 300 卡，附近能吃什么？</div>
+
+    <!-- 2 Agent 调工具 -->
+    <div class="b a">
+      <div class="who">◆ walk-kcal</div>
+      <div class="tool ok"><span class="dot"></span>query-nearby-stores · 麦当劳门店 2.6km 内</div>
+      <div class="tool ok"><span class="dot"></span>query-nearby-stores · 周边餐饮 800m 内</div>
+      <div class="tool ok"><span class="dot"></span>direction-walking · 真实步行路径 × 5</div>
+      <div class="tool ok"><span class="dot"></span>list-nutrition-foods · 官方营养表 158 条</div>
+      <p>附近 800 米内 <b>202 家餐饮</b>，其中 <b>31 家麦当劳</b>。</p>
+      <p>有个反直觉的事：<b>走路会消耗热量，所以走得越远，你反而能吃越多。</b></p>
+      <p class="hint">我把额度重算了一遍，按「能吃下几道」排了个序：</p>
+    </div>
+
+    <!-- 3 返回的卡片 -->
+    <div class="b a" style="width:96%">
+      <div class="who">◆ walk-kcal</div>
+
+      <div class="card">
+        <div class="ttl">🎯 走到哪家，额度就涨到多少</div>
+        <div class="sub">上海 · 静安虬江路（距人民广场 2.2km）· 数据来自高德 MCP + 麦当劳 MCP</div>
+
+        <div class="kpis">
+          <div class="kpi" style="background:#f2fbf5;color:#2a7048">
+            <div class="lb">基准额度（你设定）</div><div class="vl">300 卡</div></div>
+          <div class="kpi" style="background:#fff6dd;color:#8a6100">
+            <div class="lb">走到 253m 后</div><div class="vl">316 卡</div></div>
+          <div class="kpi" style="background:#fdeee0;color:#a85c10">
+            <div class="lb">走到 1480m 后</div><div class="vl">368 卡</div></div>
+        </div>
+
+        <div class="pick hi">
+          <span class="n">① 麦当劳(虬江路店)</span>
+          <span class="w">253m · 4分钟</span>
+          <span class="q" style="color:#8a6100">额度 316 · 能吃 2 道</span>
+        </div>
+        <div class="pick">
+          <span class="n">② 麦当劳(大悦城北座)</span>
+          <span class="w">980m · 13分钟</span>
+          <span class="q" style="color:#2a7048">额度 352 · 能吃 3 道</span>
+        </div>
+        <div class="pick">
+          <span class="n">③ 麦当劳(四川北路店)</span>
+          <span class="w">1391m · 18分钟</span>
+          <span class="q" style="color:#2a7048">额度 356 · 能吃 3 道</span>
+        </div>
+        <div class="pick">
+          <span class="n">④ 麦当劳(金融街中心)</span>
+          <span class="w">1480m · 19分钟</span>
+          <span class="q" style="color:#2a7048">额度 368 · 能吃 3 道</span>
+        </div>
+
+        <div class="ttl" style="margin-top:15px;font-size:12.5px">🥗 顺带一个发现：麦当劳在这附近是低热量选项</div>
+        <table class="tbl">
+          <thead><tr><th>菜品</th><th style="text-align:right">热量</th>
+            <th style="text-align:right">占 316 卡</th><th>结果</th><th>来源</th></tr></thead>
+          <tbody>
+            <tr><td>麦鸡翅（3块）</td><td class="n ok">247 卡</td><td class="n">78%</td>
+              <td class="ok">✓ 轻松</td><td><span class="badge b-mcd">MCP 官方</span></td></tr>
+            <tr><td>麦香鱼</td><td class="n mid">325 卡</td><td class="n">103%</td>
+              <td class="mid">⚠ 刚好超</td><td><span class="badge b-mcd">MCP 官方</span></td></tr>
+            <tr><td>迷你草莓新地</td><td class="n ok">122 卡</td><td class="n">39%</td>
+              <td class="ok">✓ 轻松</td><td><span class="badge b-mcd">MCP 官方</span></td></tr>
+            <tr><td>本帮红烧肉盖饭</td><td class="n no">780 卡</td><td class="n">247%</td>
+              <td class="no">✗ 吃不下</td><td><span class="badge b-loc">自建语料库</span></td></tr>
+            <tr><td>小馄饨（8只）</td><td class="n mid">226 卡</td><td class="n">72%</td>
+              <td class="ok">✓ 轻松</td><td><span class="badge b-loc">自建语料库</span></td></tr>
+          </tbody>
+        </table>
+        <p class="hint">同一街区：麦当劳单点 122-325 卡，本地盖饭 780 卡起。<br>
+        不是说麦当劳更好吃，是<b>热量密度反而更低</b>。</p>
+      </div>
+    </div>
+
+    <!-- 4 用户追问 -->
+    <div class="b u">那非麦当劳的怎么算准？</div>
+
+    <!-- 5 Agent 回答 -->
+    <div class="b a">
+      <div class="who">◆ walk-kcal</div>
+      <div class="tool ok"><span class="dot"></span>gaode-nearby · 周边 202 家本地餐厅</div>
+      <div class="tool"><span class="dot"></span>quality-gate · 主料闸 + 品类合理性闸</div>
+      <p>说实话：<b>算不准。</b>麦当劳 MCP 给了 158 条官方营养数据，精确；
+      但本地中餐没有官方数据，我用 155 万条菜谱做估算，
+      <b>平均误差 25-28%</b>。</p>
+      <p>所以我设了两道闸门 —— 主料热量算不出、或超出这道菜常识区间时，
+      直接显示「算不出」，<b>不猜一个数字</b>。</p>
+      <p class="hint">例：「奥灶面」语料库 0 命中（苏州地方面馆招牌，
+      网友写菜谱的极少）→ 显示「算不出」，而不是硬凑一个数。</p>
+    </div>
+
+    <!-- 6 用户追问扩展性 -->
+    <div class="b u">麦当劳的数据只能用于麦当劳吧？</div>
+
+    <div class="b a">
+      <div class="who">◆ walk-kcal</div>
+      <p>麦当劳 MCP 开放的是它自己的营养表。但真实场景里，
+      你 400 米外那家潮汕火锅多少卡？<b>没人做这件事。</b></p>
+      <p>所以我把数据源做成<b>可插拔</b>的 —— 麦当劳只是其中一个包：</p>
+      <div class="mono">packs/
+├── pack_mcd.py            麦当劳（MCP 官方 158 条）
+├── pack_gaode_nearby.py   周边任意餐厅（自建语料库）
+└── pack_template.py       你的品牌 —— 30 行</div>
+      <p>写完 30 行，星巴克、海底捞、你楼下那家面馆都能接进来。</p>
+    </div>
+
+  </div>
+
+  <div class="foot">
+    <b>walk-kcal</b> · 2026 麦当劳程序员创意开发大赛参赛作品<br>
+    麦当劳营养：MCP <code>list-nutrition-foods</code>（快照 2026-10-09，158 条）·
+    POI 与步行路径：高德 MCP · 本页面为离线 Demo，数据为快照，不构成医疗建议
+  </div>
+</div>
+</div>
+</body>
+</html>

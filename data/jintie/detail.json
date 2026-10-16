@@ -1,0 +1,3352 @@
+{
+ "origin": {
+  "name": "上海·普陀近铁城市广场",
+  "lon": 121.3817,
+  "lat": 31.232492
+ },
+ "stores": [
+  {
+   "id": "B0J6YC6MW5",
+   "name": "LAVAZZA拉瓦萨咖啡(上海近铁店)",
+   "lon": 121.3817,
+   "lat": 31.232492,
+   "distance_m": 1,
+   "straight_m": null,
+   "address": "真北路788号近铁城市广场地下二层S-B2-01-E商铺",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "牛乳",
+    "下午茶",
+    "提拉米苏"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KAUSMIMM",
+   "name": "鼎锋老酒馆(近铁城市广场店)",
+   "lon": 121.381725,
+   "lat": 31.232525,
+   "distance_m": 4,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场F1层(真北路地铁站3号口旁)",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MD09SWRV",
+   "name": "捡角台湾食堂近铁城市广场店",
+   "lon": 121.381592,
+   "lat": 31.232446,
+   "distance_m": 11,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二楼N-B2-27",
+   "category_hint": "台湾菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JDZLUG0D",
+   "name": "读酥世家(近铁广场店)",
+   "lon": 121.381858,
+   "lat": 31.232687,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "长征镇真北路818号近铁城市广场北区地下二楼N-B2-27-A+B商铺",
+   "category_hint": "中式糕点",
+   "dish_hints": [
+    "年糕",
+    "麻薯",
+    "黄油",
+    "提拉米苏"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0G0FB7B4Q",
+   "name": "左庭右院鲜牛肉火锅(近铁广场店)",
+   "lon": 121.381895,
+   "lat": 31.232663,
+   "distance_m": 78,
+   "straight_m": null,
+   "address": "长征镇真北路818号北区三楼N-F3-13N-F3-14-B号",
+   "category_hint": "火锅",
+   "dish_hints": [
+    "牛肉",
+    "双人餐"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J0FXKAV5",
+   "name": "茉莉奶白(上海近铁城市广场店)",
+   "lon": 121.381701,
+   "lat": 31.232736,
+   "distance_m": 89,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区1楼N-F1-01",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "桂花米麻薯",
+    "茉莉熔岩榛巧",
+    "栀子奶白",
+    "一朵栀子花",
+    "开心果茉莉椰",
+    "茉莉杨枝甘露",
+    "高山四季春",
+    "一朵茉莉花",
+    "杨枝甘露",
+    "规划酒酿米麻薯",
+    "一口老铁",
+    "白兰",
+    "开心果茉莉葡萄/茉莉葡萄",
+    "茉莉奶白",
+    "蜜桃老铁",
+    "双人餐"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GUAOENI0",
+   "name": "五芳斋粽子(近铁店)",
+   "lon": 121.381963,
+   "lat": 31.232589,
+   "distance_m": 27,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北座b2层(真北路地铁站3号口旁)",
+   "category_hint": "特产",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HRJPLZGK",
+   "name": "三个蒙古大叔烤羊肉串(近铁广场店)",
+   "lon": 121.381676,
+   "lat": 31.232739,
+   "distance_m": 153,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北座B1层(真北路地铁站3号口旁)",
+   "category_hint": "烧烤",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I0C7I0DX",
+   "name": "M Stand(近铁城市广场店)",
+   "lon": 121.38189,
+   "lat": 31.232705,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路858号近铁城市广场北区B2-02C商铺",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "香肠",
+    "卡布奇诺",
+    "油条",
+    "美式咖啡"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0IBLCLKI6",
+   "name": "绝味鸭脖(真北路地铁站店)",
+   "lon": 121.38168,
+   "lat": 31.232773,
+   "distance_m": 154,
+   "straight_m": null,
+   "address": "金沙江路1518号近铁城市广场B2层(真北路地铁站3号口旁)",
+   "category_hint": "卤味",
+   "dish_hints": [
+    "双人餐",
+    "素菜"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L33CBDH5",
+   "name": "YogurtDay酸奶(近铁城市广场店)",
+   "lon": 121.381675,
+   "lat": 31.232775,
+   "distance_m": 31,
+   "straight_m": null,
+   "address": "真北路818号北区一楼N-F1-22商铺",
+   "category_hint": "酸奶",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKRU6X5X",
+   "name": "牛元宝牛肉饭(近铁城市广场店)",
+   "lon": 121.381966,
+   "lat": 31.232662,
+   "distance_m": 51,
+   "straight_m": null,
+   "address": "近铁城市广场北区B2(真北路地铁站3号口旁)",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "牛肉饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MBHLIWQP",
+   "name": "吉野家(近铁广场店)",
+   "lon": 121.381834,
+   "lat": 31.232752,
+   "distance_m": 31,
+   "straight_m": null,
+   "address": "长风新村街道真北路818号近铁城市广场北区地下二楼N-B2-20-A商铺",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KGPC0BPC",
+   "name": "胖哥俩肉蟹煲(上海近铁广场店)",
+   "lon": 121.38164,
+   "lat": 31.2328,
+   "distance_m": 150,
+   "straight_m": null,
+   "address": "金沙江路818号近铁城市广场3楼胖哥俩",
+   "category_hint": "江浙菜",
+   "dish_hints": [
+    "豆花",
+    "小酥肉",
+    "螃蟹",
+    "鸡翅",
+    "大虾",
+    "泡菜",
+    "玉米",
+    "豆腐",
+    "鸡爪"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFGAYC3V",
+   "name": "多乐之日(真北路店)",
+   "lon": 121.381661,
+   "lat": 31.232813,
+   "distance_m": 153,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二楼N-B2-02A+B室",
+   "category_hint": "蛋糕店",
+   "dish_hints": [
+    "方形草莓蛋糕",
+    "蛋糕卷",
+    "奶油毛毛虫面包",
+    "卡通猫面包",
+    "缤果奇缘鲜奶油蛋糕",
+    "莫之香面包",
+    "超级南瓜花面包",
+    "花生曲奇",
+    "经典绿茶蛋糕",
+    "墨鱼奶油棒",
+    "多乐属于你切片",
+    "蛋挞",
+    "奶油多纳滋",
+    "三明治",
+    "奶油",
+    "杨枝甘露",
+    "下午茶",
+    "面包蛋糕"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1UB2ET9",
+   "name": "周贵初烧腊猪脚饭(近铁南广场南里小街店)",
+   "lon": 121.381724,
+   "lat": 31.232162,
+   "distance_m": 305,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层",
+   "category_hint": "猪脚饭",
+   "dish_hints": [
+    "烧腊"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LUA5H860",
+   "name": "鮨人饭团(上海近铁广场店)",
+   "lon": 121.381907,
+   "lat": 31.232775,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "长风新村街道真北路818号近铁城市广场北区地下二层N-B2-16-M商铺",
+   "category_hint": "日本料理",
+   "dish_hints": [
+    "饭团"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0J01L859D",
+   "name": "柠檬向右(近铁城市广场店)",
+   "lon": 121.381904,
+   "lat": 31.232781,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "长风新村街道金沙江路1518号北座地下二层N-B2-16-K商铺",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "柠檬茶",
+    "柠檬"
+   ],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L61ZMXPK",
+   "name": "煲珠公(近铁广场店)",
+   "lon": 121.381949,
+   "lat": 31.232763,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "金沙江路1518号近铁城市广场北区B2层",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "柠檬水",
+    "珍珠奶茶"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MAFLUFRU",
+   "name": "MollyTea(近铁城市广场商场北区店)",
+   "lon": 121.381888,
+   "lat": 31.232818,
+   "distance_m": 40,
+   "straight_m": null,
+   "address": "金沙江路与真北路交叉口东北80米(真北路地铁站3号口旁)",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MUSUC9KA",
+   "name": "莉莲蛋挞(近铁广场店)",
+   "lon": 121.381975,
+   "lat": 31.232775,
+   "distance_m": 40,
+   "straight_m": null,
+   "address": "金沙江路与真北路交叉口东北100米(真北路地铁站3号口旁)",
+   "category_hint": "蛋糕店",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0HK9SZK5R",
+   "name": "胡子大厨·湖南小炒(近铁广场店)",
+   "lon": 121.381975,
+   "lat": 31.232775,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号北区地下二楼N-B2-16-B商铺",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "单人餐",
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG0Z90P",
+   "name": "麦当劳(近铁城市广场店)",
+   "lon": 121.382018,
+   "lat": 31.232749,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区B2层04",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "家有金桶（汉堡版）",
+    "麦辣美味三件套",
+    "原味板烧鸡腿麦满分组合",
+    "麦当劳超值嗨餐",
+    "（2-3人餐）",
+    "大脆鸡扒麦满分组合",
+    "人气美味尽享套餐",
+    "板烧美味三件套",
+    "麦辣鸡腿堡",
+    "安格斯系列",
+    "家有金桶（脆鸡版）",
+    "可乐鸡翅",
+    "巨无霸汉堡",
+    "汉堡",
+    "薯条",
+    "鸡肉"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MBKRQR0R",
+   "name": "文通冰室(近铁城市广场店)",
+   "lon": 121.382091,
+   "lat": 31.232679,
+   "distance_m": 42,
+   "straight_m": null,
+   "address": "真北路818号近铁城市⼴场北区B2层N-B2-14",
+   "category_hint": "西餐",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H3SDKWFV",
+   "name": "云中鱼蒸汽石锅鱼(近铁城市广场店)",
+   "lon": 121.381988,
+   "lat": 31.232795,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁广场北座地下一楼(真北路地铁站3号口旁)",
+   "category_hint": "石锅鱼",
+   "dish_hints": [
+    "涮菜",
+    "烤鱼",
+    "蒸汽石锅鱼",
+    "鱼汤",
+    "涮肉",
+    "石锅鱼"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUP7ENR5",
+   "name": "哥哥的深夜食堂",
+   "lon": 121.382125,
+   "lat": 31.232675,
+   "distance_m": 45,
+   "straight_m": null,
+   "address": "真北路近铁城市广场北区地下2层N-B2-04",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MD649OZL",
+   "name": "山下福至",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 45,
+   "straight_m": null,
+   "address": "金沙江路与真北路交叉口东北100米(真北路地铁站3号口旁)",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LDP7O4KO",
+   "name": "老碗会(上海普陀近铁城市广场店)",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 45,
+   "straight_m": null,
+   "address": "真北路818号的近铁城市广场北区地下二楼N-B2-16-C商铺",
+   "category_hint": "西北菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2SR6NZ0",
+   "name": "柠季·手打柠檬茶(上海近铁城市广场店)",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "长风新村街道真北路818号近铁城市广场北区地下二楼N-B2-16-P铺",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "双人餐",
+    "手打柠檬茶",
+    "柠檬茶"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2R5MFXE",
+   "name": "醉庐·新上海菜(近铁广场店)",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区3层-03(地铁13号线真北路站1号口)",
+   "category_hint": "上海菜",
+   "dish_hints": [
+    "上海菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1YCF808",
+   "name": "鸡柳大人(上海近铁城市广场店)",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层(真北路地铁站3号口旁)",
+   "category_hint": "油炸",
+   "dish_hints": [
+    "年糕",
+    "鸡柳"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JB4YY9VL",
+   "name": "Peet's皮爷咖啡(近铁广场店)",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二楼N-B2-04-A铺位",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "航海花蜜榛果风味拿铁",
+    "三重云萃小方瓶",
+    "重山云瑰拿铁",
+    "摘星拿铁",
+    "摘星气泡美式",
+    "重山云瑰澳白",
+    "摘星奶砖拿铁",
+    "夏黑葡萄气泡美式",
+    "摘星芝士蛋糕",
+    "芝士蛋糕"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H11YO93D",
+   "name": "LELECHA乐乐茶(近铁城市广场店)",
+   "lon": 121.381907,
+   "lat": 31.232865,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区一楼04商铺(近商场2号门)",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "琥珀锡兰",
+    "芒果生打椰",
+    "大口草莓桃"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3HH7O8T",
+   "name": "十二湘·湖南山野小炒(近铁城市广场店)",
+   "lon": 121.381905,
+   "lat": 31.232868,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "上海城区真北路818号北区B1层N-B2-18",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LGL76U7A",
+   "name": "花味自助烤肉(普陀近铁店)",
+   "lon": 121.381867,
+   "lat": 31.232917,
+   "distance_m": 80,
+   "straight_m": null,
+   "address": "真北路818号北区三楼N-F3-02商铺",
+   "category_hint": "自助餐",
+   "dish_hints": [
+    "自助烤肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRSMH65A",
+   "name": "遇见小面(近铁城市广场店)",
+   "lon": 121.382235,
+   "lat": 31.232637,
+   "distance_m": 66,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二楼N-B2-26商铺",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "阳光番茄牛肉面",
+    "脆皮半只鸡麻辣小面",
+    "内蒙古羔羊羊肉串(3串)",
+    "酥脆鸡排(1块)",
+    "川味酸菜牛肉面",
+    "酸菜卤肉饭",
+    "酸菜卤肉面",
+    "老麻抄手",
+    "爆浆豆腐串(2串)",
+    "琥珀冰粉",
+    "酥掉渣芝麻烧饼(1个)",
+    "金碗酸辣粉",
+    "脆皮半只鸡阳光番茄汤面",
+    "葱酥骨汤抄手",
+    "白玉厚椰乳",
+    "秘制脆皮半只鸡",
+    "销魂擂椒卤肉面",
+    "双人餐",
+    "酸辣粉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0G3ZUSFC1",
+   "name": "金匠寿司(近铁城市广场店)",
+   "lon": 121.381704,
+   "lat": 31.232992,
+   "distance_m": 168,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场F3",
+   "category_hint": "寿司",
+   "dish_hints": [
+    "炸鸡",
+    "寿司"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MG7RI4VD",
+   "name": "湘小盏本味馆",
+   "lon": 121.381925,
+   "lat": 31.232975,
+   "distance_m": 178,
+   "straight_m": null,
+   "address": "真北路818号北区三楼(真北路地铁站3号口步行90米)",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3J5EI26",
+   "name": "麦记牛奶公司(近铁城市广场店)",
+   "lon": 121.382298,
+   "lat": 31.232608,
+   "distance_m": 58,
+   "straight_m": null,
+   "address": "近铁城市广场北区B2-33(星巴克对面)",
+   "category_hint": "糖水",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKS9GJS",
+   "name": "baker&spice(上海近铁城市广场店)",
+   "lon": 121.382123,
+   "lat": 31.232912,
+   "distance_m": 79,
+   "straight_m": null,
+   "address": "真北路818号近铁广场北座N-F1-20商铺",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "下午茶",
+    "单人餐"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LAA7IW9R",
+   "name": "嘻北·西北菜(近铁广场店)",
+   "lon": 121.382175,
+   "lat": 31.232875,
+   "distance_m": 56,
+   "straight_m": null,
+   "address": "金沙江路与真北路交叉口东北140米",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KBKGAE56",
+   "name": "小菜园新徽菜(上海普陀近铁城市广场店)",
+   "lon": 121.382047,
+   "lat": 31.232977,
+   "distance_m": 185,
+   "straight_m": null,
+   "address": "真北路818号近铁生活广场北座负一楼",
+   "category_hint": "徽菜",
+   "dish_hints": [
+    "红烧肉",
+    "夫妻肺片",
+    "麻婆豆腐",
+    "家常菜",
+    "徽菜",
+    "酸菜鱼"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKH9QYG6",
+   "name": "angtea艾孰茶(上海近铁城市广场店)",
+   "lon": 121.382075,
+   "lat": 31.232975,
+   "distance_m": 64,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二楼N-B2-16-Q",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFIXDHU2",
+   "name": "阿甘锅盔(真北路店)",
+   "lon": 121.382058,
+   "lat": 31.233003,
+   "distance_m": 188,
+   "straight_m": null,
+   "address": "长风新村街道真北路818号近铁城市广场北区地下二楼N-B2-16-T商铺",
+   "category_hint": "锅盔",
+   "dish_hints": [
+    "梅干菜",
+    "芝士"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KA9HKE62",
+   "name": "河州味道马六七西北清真餐厅(近铁广场店)",
+   "lon": 121.38199,
+   "lat": 31.233042,
+   "distance_m": 188,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区B2层-16H",
+   "category_hint": "清真菜",
+   "dish_hints": [
+    "双人餐",
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K3M7L60Q",
+   "name": "满巍明生炸鸡架(上海近铁广场店)",
+   "lon": 121.382089,
+   "lat": 31.232996,
+   "distance_m": 189,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二楼N-B2-16-J-A号铺",
+   "category_hint": "炸鸡炸串",
+   "dish_hints": [
+    "招牌生炸鸡架",
+    "超级鸡叉骨",
+    "究极鸡腿肉",
+    "单人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I095MC9I",
+   "name": "肥汁米蘭香港米线(近铁城市广场店)",
+   "lon": 121.382089,
+   "lat": 31.232996,
+   "distance_m": 189,
+   "straight_m": null,
+   "address": "真北路818号北区地下二楼N-B2-16-A商铺",
+   "category_hint": "米线",
+   "dish_hints": [
+    "米线",
+    "鸡肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFM9EHCH",
+   "name": "老乡鸡(上海近铁城市广场店)",
+   "lon": 121.382125,
+   "lat": 31.232975,
+   "distance_m": 67,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JDZ5700B",
+   "name": "NOWWA挪瓦咖啡(近铁广场店)",
+   "lon": 121.381602,
+   "lat": 31.231893,
+   "distance_m": 271,
+   "straight_m": null,
+   "address": "真北路788号南区B2层S-B2-A(真北路地铁站4号口旁)",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "生椰拿铁",
+    "下午茶"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0G2K9VIYO",
+   "name": "Manner Coffee(近铁城市广场店)",
+   "lon": 121.382193,
+   "lat": 31.232926,
+   "distance_m": 57,
+   "straight_m": null,
+   "address": "金沙江路1518号近铁广场北区,B2层(真北路地铁站1号口步行60米)",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "coffee"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBORC7XS",
+   "name": "KPRO(普陀近铁餐厅)",
+   "lon": 121.381425,
+   "lat": 31.231925,
+   "distance_m": 68,
+   "straight_m": null,
+   "address": "真北路788号近铁城市广场南区地下二层B2-03-B",
+   "category_hint": "轻食",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LAOUOO4U",
+   "name": "嘻麻香餐饮管理有限公司真北路店",
+   "lon": 121.382256,
+   "lat": 31.232901,
+   "distance_m": 69,
+   "straight_m": null,
+   "address": "金沙江路1518号淘宝闪购近铁北区(真北路地铁站1号口旁)",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUHCP3ZU",
+   "name": "喜多藏汤咖喱",
+   "lon": 121.382325,
+   "lat": 31.232825,
+   "distance_m": 69,
+   "straight_m": null,
+   "address": "金沙江路与真北路交叉口东120米(真北路地铁站1号口旁)",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J2RHWSW9",
+   "name": "霸王茶姬(上海近铁城市广场店)",
+   "lon": 121.382325,
+   "lat": 31.232825,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "真北路818号北区地下二楼N-B2-05商铺",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "春日桃桃",
+    "桂馥兰香",
+    "桂子飘香",
+    "花田乌龙",
+    "伯牙绝弦",
+    "青青糯山",
+    "冰沙",
+    "牛乳"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHDSC8C",
+   "name": "星巴克(近铁城市广场店)",
+   "lon": 121.382366,
+   "lat": 31.232761,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "长征镇真北路818号近铁城市广场北座B2层06-22单元",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "牛乳",
+    "美式咖啡",
+    "单人餐",
+    "奶咖"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6AAYIJ4",
+   "name": "茶百道近铁城市广场店",
+   "lon": 121.382175,
+   "lat": 31.232975,
+   "distance_m": 70,
+   "straight_m": null,
+   "address": "长风新村街道真北路818号北区地下二楼N-B2-20",
+   "category_hint": "饮品",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJXTC7O",
+   "name": "蜀里成都名小吃(近铁城市广场店)",
+   "lon": 121.381508,
+   "lat": 31.23188,
+   "distance_m": 280,
+   "straight_m": null,
+   "address": "真北路818号726弄3号B2-11A近铁城市广场南里小街蜀里地铁口4号口",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "牛肉火锅",
+    "鸡汤",
+    "牛肉担担面",
+    "小酥肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUTULHN9",
+   "name": "柳州肥姨妈大骨螺蛳粉(近铁城市广场店)",
+   "lon": 121.382436,
+   "lat": 31.232617,
+   "distance_m": 106,
+   "straight_m": null,
+   "address": "近铁城市广场北区B2层N-B2-36号(近高老九火锅)",
+   "category_hint": "米粉",
+   "dish_hints": [
+    "螺蛳粉",
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0I6PSGZ4D",
+   "name": "DQ·蛋糕·冰淇淋(上海近铁广场店)",
+   "lon": 121.382025,
+   "lat": 31.233075,
+   "distance_m": 193,
+   "straight_m": null,
+   "address": "真北路818号上海近铁广场北区地下二楼N-B2-16-I商铺",
+   "category_hint": "冰淇淋",
+   "dish_hints": [
+    "堂食",
+    "奶昔",
+    "奶油"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KB7MLMCM",
+   "name": "米村拌饭(近铁城市广场店)",
+   "lon": 121.382425,
+   "lat": 31.232675,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "金沙江路1518弄2号近铁城市广场北区n-b2-13,近铁城市广场北座b2层东侧扶梯旁",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "牛肉",
+    "拌饭",
+    "鸡肉"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBXYCLHI",
+   "name": "BAKER LIFE(近铁城市广场店)",
+   "lon": 121.382248,
+   "lat": 31.232948,
+   "distance_m": 72,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层",
+   "category_hint": "餐饮服务,糕饼店,糕饼店",
+   "dish_hints": [],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L2HSAF3Q",
+   "name": "正烧记现捞卤味(上海近铁广场店)",
+   "lon": 121.382275,
+   "lat": 31.232925,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下二层N-B2-25-B商铺",
+   "category_hint": "卤味",
+   "dish_hints": [
+    "现捞"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFFO9XGC",
+   "name": "四海游龙(近铁城市广场店)",
+   "lon": 121.382375,
+   "lat": 31.232875,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层(真北路地铁站1号口旁)",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "台式原味锅贴",
+    "招牌酸辣汤",
+    "半筋半肉牛肉面",
+    "士林盐酥鸡",
+    "辣味锅贴",
+    "基隆小香肠",
+    "香炸地瓜条",
+    "台南卤肉饭",
+    "炸猪排",
+    "台式豆豉排骨面",
+    "白灼鲜鱿",
+    "卤豆腐",
+    "盐酥鸡菜脯蛋饭",
+    "台南卤肉拌面",
+    "牛肉煎包",
+    "卤肉饭",
+    "牛肉面",
+    "酸辣汤",
+    "锅贴",
+    "酸菜鱼",
+    "牛肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1NKV0V9",
+   "name": "蟹玉阳澄湖",
+   "lon": 121.382378,
+   "lat": 31.232877,
+   "distance_m": 77,
+   "straight_m": null,
+   "address": "金沙江路1529号淘宝闪购访客接待中心",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JG3ZVTTK",
+   "name": "瑞幸咖啡(近铁城市广场店)",
+   "lon": 121.382379,
+   "lat": 31.232878,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "真北路818号北区负二层N-B2-16-N号",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "果茶",
+    "杨枝甘露",
+    "生椰拿铁"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFFPG8A1",
+   "name": "萨莉亚意式餐厅(近铁城市广场店)",
+   "lon": 121.382379,
+   "lat": 31.232878,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "真北路818号近铁广场北区B2层(真北路地铁站1号口旁)",
+   "category_hint": "意大利菜",
+   "dish_hints": [
+    "意面",
+    "披萨",
+    "鸡翅"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L6VDR0O9",
+   "name": "西广大排档·卤味·生腌",
+   "lon": 121.382499,
+   "lat": 31.232648,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "金沙江路1529号淘宝闪购访客接待中心",
+   "category_hint": "鸭脖",
+   "dish_hints": [
+    "大排档"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JGY6UAUE",
+   "name": "煲仔皇(近铁城市广场店)",
+   "lon": 121.381446,
+   "lat": 31.231806,
+   "distance_m": 281,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层(真北路地铁站2号口旁)",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "煲仔饭",
+    "鸡肉",
+    "牛肉"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFJ1FWZ7",
+   "name": "虎丸烧肉(近铁城市广场北区店)",
+   "lon": 121.381852,
+   "lat": 31.233211,
+   "distance_m": 195,
+   "straight_m": null,
+   "address": "金沙江路1518弄2号(近铁北广场B1-13-1号)",
+   "category_hint": "日式烧烤",
+   "dish_hints": [
+    "五花肉",
+    "牛肉"
+   ],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K6YU24EU",
+   "name": "杨国福麻辣烫( 真北路店)",
+   "lon": 121.381272,
+   "lat": 31.231858,
+   "distance_m": 262,
+   "straight_m": null,
+   "address": "真北路726弄3号B2-13商铺(真北路地铁站2号口旁)",
+   "category_hint": "麻辣烫",
+   "dish_hints": [
+    "素菜",
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUVOY3GV",
+   "name": "伊客徕麻辣香锅(近铁广场店)",
+   "lon": 121.382464,
+   "lat": 31.232841,
+   "distance_m": 108,
+   "straight_m": null,
+   "address": "近铁城市广场北区地下二层伊客徕麻辣香锅",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "麻辣香锅"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H0BX3B9E",
+   "name": "裕兴旺老上海特色里脊肉(近铁城市广场店)",
+   "lon": 121.382142,
+   "lat": 31.233136,
+   "distance_m": 82,
+   "straight_m": null,
+   "address": "金沙江路1518号淘宝闪购近铁北区",
+   "category_hint": "上海菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKFWTDN",
+   "name": "小杨生煎(上海近铁城市广场店)",
+   "lon": 121.381994,
+   "lat": 31.233199,
+   "distance_m": 197,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区地下2楼N-B2-16-D商铺1",
+   "category_hint": "生煎",
+   "dish_hints": [
+    "油豆腐百叶包粉丝汤",
+    "老鸭粉丝汤",
+    "特色酸辣粉",
+    "藤椒大虾生煎",
+    "小杨生煎",
+    "蟹粉生煎",
+    "牛肉汤",
+    "生煎包",
+    "酸辣粉",
+    "鸭血粉丝汤",
+    "大虾",
+    "生煎"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFG77ACN",
+   "name": "蜀天上麻辣香锅(近铁城市广场店)",
+   "lon": 121.382126,
+   "lat": 31.233157,
+   "distance_m": 197,
+   "straight_m": null,
+   "address": "真北路1356号",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "五花肉",
+    "麻辣香锅",
+    "年糕",
+    "毛肚",
+    "牛蛙",
+    "鱿鱼"
+   ],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFH6CNYN",
+   "name": "云海肴云南菜(近铁城市广场店)",
+   "lon": 121.382291,
+   "lat": 31.233114,
+   "distance_m": 312,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北座二楼",
+   "category_hint": "云南菜",
+   "dish_hints": [
+    "云南过桥米线",
+    "四喜临门破酥包",
+    "傣味菠萝饭",
+    "金雀花百合五彩时蔬",
+    "鸡丝凉米线",
+    "金雀花百合汽锅鸡",
+    "黑三剁",
+    "树番茄百合拌金雀花",
+    "汽锅鸡",
+    "咕嘟肉沫包浆豆腐",
+    "云海肴汽锅鸡",
+    "双人餐",
+    "豆腐",
+    "烤鱼",
+    "牛肉",
+    "牛蛙",
+    "鸡汤",
+    "米线",
+    "鸡肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L31XWTWP",
+   "name": "渝八两重庆鸡公煲(上海近铁城市广场店)",
+   "lon": 121.381156,
+   "lat": 31.231837,
+   "distance_m": 252,
+   "straight_m": null,
+   "address": "近铁城市广场南里B2-17-B",
+   "category_hint": "鸡公煲",
+   "dish_hints": [
+    "锅巴土豆",
+    "娃娃菜",
+    "金针菇",
+    "小酥肉",
+    "红糖糍粑"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KR3SXUCZ",
+   "name": "CUBIC3三立方咖啡(近铁广场店)",
+   "lon": 121.380975,
+   "lat": 31.231925,
+   "distance_m": 237,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B2层(真北路地铁站2号口旁)",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "冰美式"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0G2XNIX5O",
+   "name": "赛百味SUBWAY(近铁广场店)",
+   "lon": 121.380975,
+   "lat": 31.231925,
+   "distance_m": 237,
+   "straight_m": null,
+   "address": "真北路1356号",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "黑胡椒厚切牛排三明治",
+    "香溢金枪鱼双拼三明治三件套",
+    "黑胡椒厚切牛排三明治三件套",
+    "日式照烧鸡三明治",
+    "鲍鱼大虾",
+    "金枪鱼三明治",
+    "西式火腿三明治",
+    "火鸡胸百味卷",
+    "照烧鸡蛋料双拼三明治三件套",
+    "双人餐",
+    "三明治"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKXVD01",
+   "name": "金饭碗(真北路店)",
+   "lon": 121.381159,
+   "lat": 31.231777,
+   "distance_m": 253,
+   "straight_m": null,
+   "address": "长风新村街道真北路726弄3号近铁城市广场南区B2层B2-15、B2-16",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "小吃街",
+    "蘑菇",
+    "鸡肉"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J22C0R2K",
+   "name": "重庆高老九火锅(近铁广场店)",
+   "lon": 121.382705,
+   "lat": 31.23254,
+   "distance_m": 128,
+   "straight_m": null,
+   "address": "真北路818号北区地下二楼N-B2-09-AN-B2-10-D",
+   "category_hint": "重庆火锅",
+   "dish_hints": [
+    "豆花",
+    "白切鸡",
+    "蹄花"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MRNH7CNJ",
+   "name": "老成都大碗面(近铁城市广场店)",
+   "lon": 121.381075,
+   "lat": 31.231775,
+   "distance_m": 245,
+   "straight_m": null,
+   "address": "金沙江路与真北路交叉口南80米(真北路地铁站2号口旁)",
+   "category_hint": "川味小吃",
+   "dish_hints": [
+    "大碗面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H2JGTHX6",
+   "name": "大米先生(近铁城市广场店)",
+   "lon": 121.381072,
+   "lat": 31.231773,
+   "distance_m": 245,
+   "straight_m": null,
+   "address": "真北路726弄3号B2-08.09商铺",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "酸菜鱼",
+    "牛肉",
+    "口水鸡"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHRGU7J",
+   "name": "成都你六姐·牛肉冒菜(近铁城市广场店)",
+   "lon": 121.382669,
+   "lat": 31.232863,
+   "distance_m": 114,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场北区B2层(真北路地铁站1号口旁)",
+   "category_hint": "冒菜",
+   "dish_hints": [
+    "泡菜",
+    "牛肉",
+    "冒菜",
+    "小酥肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JG17E35C",
+   "name": "Tims天好咖啡(饿了么总部捷枫店)",
+   "lon": 121.380936,
+   "lat": 31.231803,
+   "distance_m": 238,
+   "straight_m": null,
+   "address": "真北路718号近铁城市广场南区1楼(真北路地铁站2号口旁)",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "不止拿铁",
+    "农夫卷",
+    "巴旦木炼乳拿铁",
+    "鲜萃奶咖",
+    "柠檬气泡饮",
+    "无肉也欢火腿蛋贝果三明治",
+    "牛油果生椰冷萃",
+    "美式",
+    "全麦贝果",
+    "拿铁",
+    "巴旦木炼乳澳白",
+    "奶咖"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFH0ZQK1",
+   "name": "淘宝闪购近铁美食街(近铁城市广场店)",
+   "lon": 121.380934,
+   "lat": 31.231801,
+   "distance_m": 105,
+   "straight_m": null,
+   "address": "真北路818号近铁城市广场B1层",
+   "category_hint": "美食街",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFKXAZ51",
+   "name": "初山饭团(近铁广场店)",
+   "lon": 121.380886,
+   "lat": 31.2317,
+   "distance_m": 388,
+   "straight_m": null,
+   "address": "真北路788号近铁广场南座B2-17A",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "单人餐",
+    "饭团"
+   ],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFH6T49M",
+   "name": "肯德基(真北路地铁站店)",
+   "lon": 121.380697,
+   "lat": 31.231688,
+   "distance_m": 190,
+   "straight_m": null,
+   "address": "真北路788号近铁城市广场南区地下二层B2-03",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "下午茶",
+    "单人餐",
+    "汉堡",
+    "蛋挞",
+    "双人餐",
+    "鸡块"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JAO7X54N",
+   "name": "星巴克沿街取餐点(上海近铁城市广场南座店)",
+   "lon": 121.380425,
+   "lat": 31.231775,
+   "distance_m": 144,
+   "straight_m": null,
+   "address": "长风新村街道金沙江路816号近铁城市广场南座",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFFH9658",
+   "name": "星巴克臻选(上海近铁城市广场南座店)",
+   "lon": 121.380418,
+   "lat": 31.231755,
+   "distance_m": 230,
+   "straight_m": null,
+   "address": "真北路788号近铁城市广场南南区一楼S-F1-01-A",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "奶咖",
+    "单人餐",
+    "美式咖啡",
+    "牛乳"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K69UPBD6",
+   "name": "共比邻",
+   "lon": 121.380251,
+   "lat": 31.233401,
+   "distance_m": 170,
+   "straight_m": null,
+   "address": "长征镇金沙江路1628弄绿洲中环中心10号楼2楼",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LD941AGT",
+   "name": "大米先生(绿洲中环中心店)",
+   "lon": 121.380408,
+   "lat": 31.233808,
+   "distance_m": 190,
+   "straight_m": null,
+   "address": "金沙江路831号(真北路地铁站3号口步行400米)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFKS8TIT",
+   "name": "饭团美妍(绿洲中环店)",
+   "lon": 121.380819,
+   "lat": 31.234244,
+   "distance_m": 211,
+   "straight_m": null,
+   "address": "长征镇金沙江路1628号绿洲中环中心915号楼909室",
+   "category_hint": "美容",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MDBXJ4NG",
+   "name": "上海拼豆啦",
+   "lon": 121.380775,
+   "lat": 31.234275,
+   "distance_m": 216,
+   "straight_m": null,
+   "address": "真北路与真江路交叉口西140米",
+   "category_hint": "上海菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0MDRSBL3K",
+   "name": "君桐语茶馆",
+   "lon": 121.379525,
+   "lat": 31.233125,
+   "distance_m": 218,
+   "straight_m": null,
+   "address": "金沙江路1628弄1号楼607室",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDBSGZCY",
+   "name": "盛安禾茶舍",
+   "lon": 121.379525,
+   "lat": 31.233125,
+   "distance_m": 218,
+   "straight_m": null,
+   "address": "金沙江路1628弄1号1908室",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MUDZIAHI",
+   "name": "肯德基车速取餐点(绿洲中环店)",
+   "lon": 121.380469,
+   "lat": 31.234157,
+   "distance_m": 218,
+   "straight_m": null,
+   "address": "915大楼门口(真北路地铁站3号口步行470米)",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KRTAKZ2U",
+   "name": "晨曦炖汤鲍鱼饭(金沙江路店)",
+   "lon": 121.384056,
+   "lat": 31.233156,
+   "distance_m": 581,
+   "straight_m": null,
+   "address": "真北路958号天地科技广场1号楼B1层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "炖汤"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MANCQXRW",
+   "name": "汇馔自选餐厅",
+   "lon": 121.384025,
+   "lat": 31.233275,
+   "distance_m": 237,
+   "straight_m": null,
+   "address": "天地科技广场1号楼",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L1FUXC0S",
+   "name": "蔬叔说SUSU中式健康厨房(真北路店)",
+   "lon": 121.384025,
+   "lat": 31.233275,
+   "distance_m": 237,
+   "straight_m": null,
+   "address": "天地科技广场1号楼",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MD9CP7UB",
+   "name": "口口香手抓饼烤冷面(真北路店)",
+   "lon": 121.384025,
+   "lat": 31.233375,
+   "distance_m": 580,
+   "straight_m": null,
+   "address": "真北路958号天地科技广场1号楼F1层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "手抓饼",
+    "烤冷面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LAOXV2WQ",
+   "name": "库迪咖啡(绿洲中环中心7号楼店)",
+   "lon": 121.380335,
+   "lat": 31.234347,
+   "distance_m": 435,
+   "straight_m": null,
+   "address": "金沙江路1628弄7号楼117室",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "生椰拿铁",
+    "杨枝甘露",
+    "热饮"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LD1KFNAF",
+   "name": "飘香面馆",
+   "lon": 121.380125,
+   "lat": 31.234225,
+   "distance_m": 243,
+   "straight_m": null,
+   "address": "真北路与金沙江路交叉口北180米",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFK6IPA3",
+   "name": "一芳台湾水果茶(绿洲中环店)",
+   "lon": 121.380162,
+   "lat": 31.234256,
+   "distance_m": 430,
+   "straight_m": null,
+   "address": "金沙江路1628弄7号楼117室",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [
+    "水果茶"
+   ],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J6GSH2U4",
+   "name": "肯德基(绿洲中环店)",
+   "lon": 121.380185,
+   "lat": 31.234281,
+   "distance_m": 439,
+   "straight_m": null,
+   "address": "金沙江路1628号7号楼一层102号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "胡萝卜"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JGJC4PV0",
+   "name": "达美乐比萨(金沙江路店)",
+   "lon": 121.379986,
+   "lat": 31.234247,
+   "distance_m": 441,
+   "straight_m": null,
+   "address": "金沙江路1628弄7号楼1层106号",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "经典意式肉酱比萨",
+    "金枪鱼海鲜荟萃比萨",
+    "黑松露风味菌菇鸡肉比萨",
+    "苏丹王榴莲多多给荔比萨",
+    "嫩滋肋眼牛排",
+    "芝士焗烤嫩汁三文鱼",
+    "经典大阪烧风味海陆比萨",
+    "西西里风情尊牛多多笋鲜比萨",
+    "可可火山饼底",
+    "苏丹王榴莲红毛丹比萨",
+    "美式豪情牛肉培根菠萝比萨",
+    "金尊猫山王榴莲多多比萨",
+    "照烧风味牛肉土豆比萨",
+    "意大利雪球芝士多肉多芝比萨",
+    "新加坡砂煲风味腊肠鸡肉比萨",
+    "呼伦贝尔羔羊排",
+    "马德里风情牛腩大虾比萨",
+    "托斯卡纳风情芝浓三文鱼比萨",
+    "冬日暖饮",
+    "火山饼底",
+    "香甜双虾菠萝比萨",
+    "英式惠灵顿菲力牛排比萨",
+    "可可熔岩芝士流心卷边",
+    "双人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJBOK5O",
+   "name": "瑞幸咖啡(绿洲中环中心店)",
+   "lon": 121.379625,
+   "lat": 31.233975,
+   "distance_m": 442,
+   "straight_m": null,
+   "address": "金沙江路1628弄楼绿洲中环中心5号楼金逸影城一层大堂",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "陨石拿铁",
+    "菠萝的海瑞纳冰",
+    "圣诞甜心厚乳拿铁",
+    "牛油果森林瑞纳冰",
+    "冰镇杨梅瑞纳冰",
+    "海盐芝士厚乳拿铁",
+    "SOE耶加雪菲美式",
+    "陨石厚乳拿铁",
+    "杨枝甘露瑞纳冰",
+    "生椰拿铁yyds",
+    "拿铁",
+    "美式",
+    "小火山黑糖厚乳",
+    "陨石拿铁瑞纳冰",
+    "夏日桃桃冰",
+    "椰子OK瑞纳冰",
+    "秋香厚乳拿铁",
+    "小陨石抹茶厚乳",
+    "西柚冰萃咖啡",
+    "厚乳拿铁",
+    "如梦令·功夫轻乳茶",
+    "coffee",
+    "杨枝甘露",
+    "生椰拿铁"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LR4NOXZL",
+   "name": "湖湘寻鲜(金沙江路店)",
+   "lon": 121.379162,
+   "lat": 31.233385,
+   "distance_m": 377,
+   "straight_m": null,
+   "address": "金沙江路真北路绿洲中环中心1628弄2号楼201室",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LR0UMT5T",
+   "name": "三碗面绿洲中环店",
+   "lon": 121.379228,
+   "lat": 31.233683,
+   "distance_m": 399,
+   "straight_m": null,
+   "address": "金沙江路1628弄3号1层1010A-1A商铺",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "碗面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFHTOPJK",
+   "name": "夏缘面馆(绿洲中环店)",
+   "lon": 121.379833,
+   "lat": 31.234325,
+   "distance_m": 269,
+   "straight_m": null,
+   "address": "长征镇金沙江路真北路1628弄绿洲中环中心7号楼",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MU151T1I",
+   "name": "鑫源嘉宴",
+   "lon": 121.379025,
+   "lat": 31.233325,
+   "distance_m": 270,
+   "straight_m": null,
+   "address": "普通区金沙江路1628弄2号楼",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B00155L22J",
+   "name": "必胜客(金沙江店)",
+   "lon": 121.378867,
+   "lat": 31.231978,
+   "distance_m": 458,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场1-2层",
+   "category_hint": "披萨",
+   "dish_hints": [
+    "必胜硬核肉多多比萨",
+    "法式红酒厚切慢煮牛肋排",
+    "炙烤西冷牛排能量碗",
+    "黄金六两松板肉比萨",
+    "海鲜至尊比萨",
+    "金枕榴莲多多比萨",
+    "汉堡",
+    "牛排",
+    "牛肉",
+    "蘑菇",
+    "披萨"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0KRTDTMK1",
+   "name": "Manner Coffee(绿洲中环中心店)",
+   "lon": 121.379461,
+   "lat": 31.234278,
+   "distance_m": 462,
+   "straight_m": null,
+   "address": "真北路与金沙江路交叉口北200米",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "烤坚果拿铁",
+    "海盐焦糖拿铁",
+    "coffee"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MRZ94S8O",
+   "name": "甜小咪·patty",
+   "lon": 121.379475,
+   "lat": 31.234425,
+   "distance_m": 301,
+   "straight_m": null,
+   "address": "真北路与金沙江路交叉口北220米",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFFOTCGA",
+   "name": "汉堡王(118广场店)",
+   "lon": 121.378525,
+   "lat": 31.232332,
+   "distance_m": 411,
+   "straight_m": null,
+   "address": "金沙江路1685号四区地下一层B1-101",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "单人餐",
+    "汉堡",
+    "薯条",
+    "鸡块",
+    "双人餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFIG857P",
+   "name": "永和大王(金沙江路2店)",
+   "lon": 121.378409,
+   "lat": 31.232352,
+   "distance_m": 447,
+   "straight_m": null,
+   "address": "上海市上海城区上海市上海城区上海市普陀区金沙江路1685号15栋B1-105,118广场永和大王",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "双人餐",
+    "鸡排",
+    "卤肉饭",
+    "油条"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0K2SU9J3Z",
+   "name": "友缘茶人(118店)",
+   "lon": 121.378375,
+   "lat": 31.232275,
+   "distance_m": 316,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场B1楼(金字塔下)",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LDTLR712",
+   "name": "星巴克(118广场店)",
+   "lon": 121.378306,
+   "lat": 31.232304,
+   "distance_m": 456,
+   "straight_m": null,
+   "address": "金沙江路1685号-4区星巴克咖啡(金字塔建筑)",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "单人餐",
+    "美式咖啡",
+    "奶咖",
+    "牛乳"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J6PU2UZ3",
+   "name": "星巴克沿街取餐点(上海绿洲中环中心店)",
+   "lon": 121.378225,
+   "lat": 31.233175,
+   "distance_m": 338,
+   "straight_m": null,
+   "address": "金时代顺风大酒店(中环店)西侧",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFF3NQVZ",
+   "name": "星巴克(上海绿洲中环中心店)",
+   "lon": 121.378175,
+   "lat": 31.233225,
+   "distance_m": 392,
+   "straight_m": null,
+   "address": "金沙江路1678号1层108室",
+   "category_hint": "饮品",
+   "dish_hints": [
+    "单人餐",
+    "美式咖啡",
+    "奶咖",
+    "牛乳"
+   ],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJ14ZLL",
+   "name": "馨远美食小镇(绿洲中环中心店)",
+   "lon": 121.377992,
+   "lat": 31.233238,
+   "distance_m": 361,
+   "straight_m": null,
+   "address": "长征镇绿洲中环中心6号楼金沙江路1678号地下一层",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJGM6BI",
+   "name": "卷来卷去·煎饼(近铁店)",
+   "lon": 121.377932,
+   "lat": 31.233228,
+   "distance_m": 415,
+   "straight_m": null,
+   "address": "金沙江路1678号1层A区-01",
+   "category_hint": "煎饼",
+   "dish_hints": [
+    "堂食",
+    "皮蛋瘦肉粥"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFL82G5Z",
+   "name": "瑞幸咖啡(118广场店)",
+   "lon": 121.377989,
+   "lat": 31.231524,
+   "distance_m": 536,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场16幢一层BN1-7号",
+   "category_hint": "咖啡",
+   "dish_hints": [
+    "陨石拿铁",
+    "菠萝的海瑞纳冰",
+    "牛油果森林瑞纳冰",
+    "冰镇杨梅瑞纳冰",
+    "海盐芝士厚乳拿铁",
+    "SOE耶加雪菲美式",
+    "陨石厚乳拿铁",
+    "杨枝甘露瑞纳冰",
+    "生椰拿铁yyds",
+    "西柚冰萃咖啡",
+    "厚乳拿铁",
+    "拿铁",
+    "美式",
+    "小火山黑糖厚乳",
+    "陨石拿铁瑞纳冰",
+    "夏日桃桃冰",
+    "椰子OK瑞纳冰",
+    "秋香厚乳拿铁",
+    "小陨石抹茶厚乳",
+    "杨枝甘露",
+    "生椰拿铁"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LRCHFKRA",
+   "name": "霸碗盖码饭(上海普陀118广场店)",
+   "lon": 121.378116,
+   "lat": 31.231059,
+   "distance_m": 551,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场地下一层(17-B01-32)",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0M6FDYN5M",
+   "name": "泰式柠檬手撕鸡菜饭",
+   "lon": 121.377675,
+   "lat": 31.231475,
+   "distance_m": 398,
+   "straight_m": null,
+   "address": "长征镇金沙江路1685号118广场15幢地下一层17X-B01-(21、22、23、25、26、27、28)-A30",
+   "category_hint": "泰国菜",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JA14PAO6",
+   "name": "上海圣诺亚皇冠假日酒店·诺亚厨房(118广场店)",
+   "lon": 121.377454,
+   "lat": 31.232464,
+   "distance_m": 530,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店F1层",
+   "category_hint": "上海菜",
+   "dish_hints": [
+    "提拉米苏",
+    "下午茶",
+    "奶油",
+    "芝士蛋糕"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0I2P6YNC8",
+   "name": "上座·金沙江",
+   "lon": 121.377432,
+   "lat": 31.232432,
+   "distance_m": 405,
+   "straight_m": null,
+   "address": "金沙江路1699号圣诺亚皇冠假日酒店二层",
+   "category_hint": "川菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K37MK8FO",
+   "name": "KUMOZAWA芝士蛋糕",
+   "lon": 121.377375,
+   "lat": 31.231825,
+   "distance_m": 635,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "蛋糕店",
+   "dish_hints": [
+    "芝士蛋糕"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LKOSFZBE",
+   "name": "超能鹿战队(118广场店)",
+   "lon": 121.377323,
+   "lat": 31.231682,
+   "distance_m": 425,
+   "straight_m": null,
+   "address": "长征镇金沙江路1685、1699号15幢地下一层17X-B01-18",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LAHRIVKG",
+   "name": "虞潮荟·潮粤菜(普陀店)",
+   "lon": 121.379251,
+   "lat": 31.229276,
+   "distance_m": 425,
+   "straight_m": null,
+   "address": "中环路出口与中环路交叉口东80米",
+   "category_hint": "潮州菜",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B00155C1VS",
+   "name": "意家人酒店",
+   "lon": 121.37735,
+   "lat": 31.233529,
+   "distance_m": 428,
+   "straight_m": null,
+   "address": "金沙江路1818号(近真光路紧邻地铁13号线真北路站)",
+   "category_hint": "经济型",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LK3Z01Z8",
+   "name": "谷田稻香现煲瓦锅饭(118广场店)",
+   "lon": 121.377225,
+   "lat": 31.231725,
+   "distance_m": 433,
+   "straight_m": null,
+   "address": "金沙江路1685、1699号15幢地下一层17X-B01-19",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0I1PYMCKS",
+   "name": "牛约堡-手作牛肉汉堡(金沙江路店)",
+   "lon": 121.377663,
+   "lat": 31.230665,
+   "distance_m": 597,
+   "straight_m": null,
+   "address": "金沙江路1685号",
+   "category_hint": "西式快餐",
+   "dish_hints": [
+    "牛肉堡",
+    "牛肉汉堡"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L3H7AB5S",
+   "name": "三垠筑夜市",
+   "lon": 121.386275,
+   "lat": 31.232448,
+   "distance_m": 434,
+   "straight_m": null,
+   "address": "新曹杨工业园区南门旁(真北路地铁站1号口步行470米)",
+   "category_hint": "美食街",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0IAJGSBYH",
+   "name": "稻引外带寿司(118广场店)",
+   "lon": 121.377098,
+   "lat": 31.232195,
+   "distance_m": 650,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "寿司",
+   "dish_hints": [
+    "炸猪排",
+    "鳗鱼",
+    "日本料理",
+    "鱼籽",
+    "鹅肝",
+    "三文鱼刺身",
+    "外带寿司"
+   ],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFFEACQ7",
+   "name": "诺亚轩(118广场店)",
+   "lon": 121.37708,
+   "lat": 31.232838,
+   "distance_m": 440,
+   "straight_m": null,
+   "address": "长征镇金沙江路1699号圣诺亚皇冠假日酒店1楼",
+   "category_hint": "奶茶/茶饮",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JKFR10DL",
+   "name": "陶记渔粉(118广场店)",
+   "lon": 121.37712,
+   "lat": 31.231733,
+   "distance_m": 701,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "鱼粉",
+   "dish_hints": [
+    "渔粉",
+    "煎蛋"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDZXC99D",
+   "name": "Food Game超级厨房(金沙江路店)",
+   "lon": 121.377075,
+   "lat": 31.231725,
+   "distance_m": 447,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口南160米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6R92S2P",
+   "name": "黄记煌三汁焖锅(118广场店)",
+   "lon": 121.377075,
+   "lat": 31.231725,
+   "distance_m": 447,
+   "straight_m": null,
+   "address": "上海城区金沙江路1685号118广场地下B一层17 X-B01-11黄记煌餐厅",
+   "category_hint": "焖锅",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKRN5FDW",
+   "name": "食里香中式快餐(118广场店)",
+   "lon": 121.377075,
+   "lat": 31.231725,
+   "distance_m": 703,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "中式快餐"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K35H2482",
+   "name": "广城记港式茶餐厅(金沙江路店)",
+   "lon": 121.377069,
+   "lat": 31.231739,
+   "distance_m": 447,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "港式小吃",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAOHHK1Z",
+   "name": "觅弄堂炸鸡(普陀长征店)",
+   "lon": 121.377025,
+   "lat": 31.231725,
+   "distance_m": 705,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层28号铺子",
+   "category_hint": "油炸",
+   "dish_hints": [
+    "炸鸡"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKGU2L6D",
+   "name": "四季红东北熏酱手工水饺(金沙江路店)",
+   "lon": 121.377025,
+   "lat": 31.231725,
+   "distance_m": 705,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "手工水饺"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKAC9K9X",
+   "name": "黄山菜饭骨头汤(118广场店)",
+   "lon": 121.377025,
+   "lat": 31.231725,
+   "distance_m": 705,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店F7层",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "菜饭骨头汤",
+    "黄山菜饭"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JBSUSO9I",
+   "name": "香積府(118广场店)",
+   "lon": 121.377025,
+   "lat": 31.231725,
+   "distance_m": 705,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KU1XS42S",
+   "name": "稻花湘(118广场店)",
+   "lon": 121.377008,
+   "lat": 31.231736,
+   "distance_m": 704,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "素菜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MAYC22ZT",
+   "name": "项大黔贵州特色小吃(118广场店)",
+   "lon": 121.377025,
+   "lat": 31.231575,
+   "distance_m": 656,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "贵州菜",
+   "dish_hints": [
+    "特色小吃"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L0K5Q65P",
+   "name": "李东白的干锅店(普陀118广场店)",
+   "lon": 121.376975,
+   "lat": 31.231725,
+   "distance_m": 706,
+   "straight_m": null,
+   "address": "长征镇金沙江路1685号农工商食荟美食广场负一楼33号铺子",
+   "category_hint": "干锅",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JR1KQ5MQ",
+   "name": "沙拉plus健康轻食(近铁广场店)",
+   "lon": 121.376933,
+   "lat": 31.231858,
+   "distance_m": 693,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "沙拉"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKNLQPBF",
+   "name": "江西小炒(星食荟美食广场店)",
+   "lon": 121.376925,
+   "lat": 31.231825,
+   "distance_m": 459,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店F1层",
+   "category_hint": "江西菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L37BKB7V",
+   "name": "时尚智选餐厅(118广场金沙江路店)",
+   "lon": 121.37692,
+   "lat": 31.231765,
+   "distance_m": 460,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFFEGA8I",
+   "name": "味鲜美中式快餐店(金沙江路店)",
+   "lon": 121.376943,
+   "lat": 31.231579,
+   "distance_m": 656,
+   "straight_m": null,
+   "address": "金沙江路1685号15幢B1-503.504",
+   "category_hint": "中式快餐",
+   "dish_hints": [
+    "砂锅土豆粉",
+    "土豆粉",
+    "面汤"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0GUB5NHS3",
+   "name": "PUPU扑扑轻食粥(圣诺亚大厦店)",
+   "lon": 121.376882,
+   "lat": 31.231854,
+   "distance_m": 462,
+   "straight_m": null,
+   "address": "金沙江路1759号1幢C1-108、C1-109室熊猫星厨A3档口伯士路57号",
+   "category_hint": "小吃快餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J6YAZGIV",
+   "name": "曼玲粥店(118广场店)",
+   "lon": 121.376846,
+   "lat": 31.232083,
+   "distance_m": 672,
+   "straight_m": null,
+   "address": "长征镇给金沙江路1685号118广场地下一楼星选闪电厨房03号铺曼玲粥店",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "八宝粥",
+    "流沙包",
+    "绿豆粥"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LGRN9VIY",
+   "name": "青花椒外卖专营店(中环118广场店)",
+   "lon": 121.376875,
+   "lat": 31.231775,
+   "distance_m": 464,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0LBZ5OQK4",
+   "name": "磁盛天毛血旺(金沙江路店)",
+   "lon": 121.376875,
+   "lat": 31.231775,
+   "distance_m": 703,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "金汤原切肥牛",
+    "江津酸菜鱼",
+    "古法水煮牛肉",
+    "经典毛血旺",
+    "乐山泡椒牛蛙",
+    "麻辣馋嘴蛙",
+    "麻辣水煮牛肉",
+    "双人餐"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0KGP70C5L",
+   "name": "米麒麟云南小锅米线(118广场店)",
+   "lon": 121.376875,
+   "lat": 31.231775,
+   "distance_m": 703,
+   "straight_m": null,
+   "address": "金沙江路118广场负一楼星食荟美食广场米麒麟云南小锅米线",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "土豆片",
+    "小锅米线",
+    "小酥肉"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JGPGHNFS",
+   "name": "MUERBEN牧尔本牛排馆(伯士路118广场店)",
+   "lon": 121.376848,
+   "lat": 31.231819,
+   "distance_m": 699,
+   "straight_m": null,
+   "address": "金沙江路1685,1699号16栋地面一层",
+   "category_hint": "西餐",
+   "dish_hints": [
+    "意大利松露菌菇薄饼",
+    "法国兰伯特生蚝1号",
+    "澳洲纯血M8和牛战斧牛排",
+    "下午茶",
+    "单人餐",
+    "汉堡",
+    "黄油",
+    "牛排",
+    "生蚝",
+    "蘑菇"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0JUYHSAMZ",
+   "name": "炭小签贵阳特色烧烤(118广场店)",
+   "lon": 121.376825,
+   "lat": 31.231875,
+   "distance_m": 693,
+   "straight_m": null,
+   "address": "农工商超市(118广场店)",
+   "category_hint": "烤串",
+   "dish_hints": [
+    "特色烧烤"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LKJL318D",
+   "name": "眷村飘香·豆浆油条(118广场店)",
+   "lon": 121.376825,
+   "lat": 31.231725,
+   "distance_m": 709,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "豆浆油条"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MDNXFKPC",
+   "name": "唐小研蒸鸡·手撕鸡(118广场店)",
+   "lon": 121.376793,
+   "lat": 31.231786,
+   "distance_m": 704,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场(金沙江路店)",
+   "category_hint": "中餐",
+   "dish_hints": [
+    "手撕鸡"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6LH60YA",
+   "name": "孙北北面包(臣风大厦店)",
+   "lon": 121.379325,
+   "lat": 31.228675,
+   "distance_m": 748,
+   "straight_m": null,
+   "address": "同普路800弄1-5 号臣风大厦F7层",
+   "category_hint": "面包",
+   "dish_hints": [
+    "蛋挞",
+    "巧克力",
+    "泡芙"
+   ],
+   "industries": [
+    "面包甜点"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M65AGOJO",
+   "name": "炸物酒饮局(伯士路店)",
+   "lon": 121.376725,
+   "lat": 31.231675,
+   "distance_m": 480,
+   "straight_m": null,
+   "address": "长征镇金沙江路1685、1699号16幢一层17X-F01-13",
+   "category_hint": "餐饮服务,餐饮相关场所,餐饮相关",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0I2TNREMG",
+   "name": "星食荟美食城(118广场店)",
+   "lon": 121.376724,
+   "lat": 31.231545,
+   "distance_m": 483,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场金沙江路店B1层",
+   "category_hint": "美食城",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LBS7US0H",
+   "name": "孙教头生烫牛肉米线(118广场店)",
+   "lon": 121.376661,
+   "lat": 31.231585,
+   "distance_m": 731,
+   "straight_m": null,
+   "address": "伯士路农工商超市进口处一楼",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "米线"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0MRSU6QHN",
+   "name": "吉祥明阳春面舍(金沙江路118广场店)",
+   "lon": 121.376518,
+   "lat": 31.232578,
+   "distance_m": 635,
+   "straight_m": null,
+   "address": "长征镇金沙江路1759号1幢1层X1A-F1-12",
+   "category_hint": "面馆",
+   "dish_hints": [
+    "阳春面"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0M6TR6BI9",
+   "name": "如家小馆",
+   "lon": 121.376675,
+   "lat": 31.233675,
+   "distance_m": 494,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口西北60米",
+   "category_hint": "中餐",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1PN3OYM",
+   "name": "赣湘菜馆(金沙江路店)",
+   "lon": 121.376675,
+   "lat": 31.233725,
+   "distance_m": 496,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口西北60米(金沙江路1820号)",
+   "category_hint": "江西菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFJ34VTX",
+   "name": "胡桃里音乐酒馆(118广场店)",
+   "lon": 121.376638,
+   "lat": 31.231327,
+   "distance_m": 757,
+   "straight_m": null,
+   "address": "金沙江路118广场一楼BW1-20(伯士路边)",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "双人餐",
+    "牛肉",
+    "烤鸡",
+    "酸菜鱼",
+    "鸡肉",
+    "夫妻肺片",
+    "柠檬酸菜鱼",
+    "家味毛血旺"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0G1TXXDQZ",
+   "name": "图门烧烤·三签两串(圣诺亚大厦店)",
+   "lon": 121.376445,
+   "lat": 31.232081,
+   "distance_m": 500,
+   "straight_m": null,
+   "address": "金沙江路1759号圣诺亚大厦F1层",
+   "category_hint": "烤串",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L1SLQYQ6",
+   "name": "穆凡兰州拉面",
+   "lon": 121.376607,
+   "lat": 31.233747,
+   "distance_m": 503,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口西北80米",
+   "category_hint": "拉面",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L05KSJQL",
+   "name": "妯娌老鸭粉丝汤",
+   "lon": 121.376575,
+   "lat": 31.233725,
+   "distance_m": 505,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口西北80米",
+   "category_hint": "粉丝汤",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0JDUDCM8J",
+   "name": "隆江猪脚饭(118广场店)",
+   "lon": 121.376546,
+   "lat": 31.233727,
+   "distance_m": 562,
+   "straight_m": null,
+   "address": "真光路798弄之1-21号象源丽都",
+   "category_hint": "猪脚饭",
+   "dish_hints": [
+    "猪脚饭",
+    "汤品"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LGS58DXN",
+   "name": "醉辉皇の法式铁板烧",
+   "lon": 121.376575,
+   "lat": 31.231125,
+   "distance_m": 780,
+   "straight_m": null,
+   "address": "金沙江路1699号118广场金沙江路店F2层",
+   "category_hint": "铁板烧",
+   "dish_hints": [
+    "法式铁板烧"
+   ],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0H0MAK9HC",
+   "name": "辛香汇(金沙江路店)",
+   "lon": 121.376327,
+   "lat": 31.232088,
+   "distance_m": 690,
+   "straight_m": null,
+   "address": "金沙江路1759号圣诺亚大厦B座2层206",
+   "category_hint": "川菜",
+   "dish_hints": [
+    "钵钵鸡",
+    "鸡爪",
+    "毛血旺",
+    "酸菜鱼",
+    "地三鲜",
+    "蛋炒饭",
+    "毛血旺",
+    "老坛酸菜鱼",
+    "辣子鸡"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0LR5G8YQH",
+   "name": "香源木桶饭",
+   "lon": 121.376494,
+   "lat": 31.233813,
+   "distance_m": 570,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口西北80米",
+   "category_hint": "木桶饭",
+   "dish_hints": [
+    "木桶饭"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0JRFOUP63",
+   "name": "夜玲珑油边皇(118广场店)",
+   "lon": 121.376492,
+   "lat": 31.231113,
+   "distance_m": 784,
+   "straight_m": null,
+   "address": "伯士路57号对面",
+   "category_hint": "夜宵",
+   "dish_hints": [
+    "单人餐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0FFF5VKJK",
+   "name": "金湘隆·清派湘菜(金沙江路店)",
+   "lon": 121.376375,
+   "lat": 31.233788,
+   "distance_m": 579,
+   "straight_m": null,
+   "address": "金沙江路1830号",
+   "category_hint": "湘菜",
+   "dish_hints": [
+    "鸳鸯鱼头",
+    "手撕包菜",
+    "农家小炒肉",
+    "腊肉手撕白菜",
+    "手撕排骨",
+    "剁椒鱼头",
+    "干锅牛蛙",
+    "攸县香干",
+    "酒酿小圆子",
+    "铁锅一品鸭",
+    "干花菜",
+    "混椒鸡",
+    "秘制串串烧虾",
+    "孜然牛肉",
+    "玉米汁",
+    "辣椒炒肉",
+    "鱼头",
+    "小炒肉",
+    "柠檬茶",
+    "清派剁椒鱼头"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0IU2UO4D8",
+   "name": "呷佬长沙石磨手工米粉",
+   "lon": 121.376324,
+   "lat": 31.233806,
+   "distance_m": 584,
+   "straight_m": null,
+   "address": "金沙江路1836号",
+   "category_hint": "米粉",
+   "dish_hints": [
+    "老长沙糖油粑粑",
+    "鸭头",
+    "牛肉",
+    "米粉",
+    "老长沙臭豆腐"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3KRCB9L",
+   "name": "广添福·鸡煲小海鲜",
+   "lon": 121.376136,
+   "lat": 31.231692,
+   "distance_m": 738,
+   "straight_m": null,
+   "address": "金沙江路1759号一楼伯士路上面",
+   "category_hint": "粤菜",
+   "dish_hints": [
+    "小海鲜",
+    "鸡煲"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0K1L7JC46",
+   "name": "鸡西大冷面烧烤东北菜",
+   "lon": 121.376118,
+   "lat": 31.231598,
+   "distance_m": 748,
+   "straight_m": null,
+   "address": "长征镇金沙江路1759号1幢层X1A-F1-18",
+   "category_hint": "小吃快餐",
+   "dish_hints": [
+    "鸡爪",
+    "东北菜",
+    "羊肉串",
+    "宵夜"
+   ],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0L3JSEEL3",
+   "name": "裕蘭茶楼(118广场店)",
+   "lon": 121.375986,
+   "lat": 31.231883,
+   "distance_m": 546,
+   "straight_m": null,
+   "address": "金沙江路1759号圣诺亚大厦B座F1层",
+   "category_hint": "茶座",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0M65SGWEW",
+   "name": "烟火小巷烧烤大排档",
+   "lon": 121.376236,
+   "lat": 31.23088,
+   "distance_m": 796,
+   "straight_m": null,
+   "address": "金沙江路1685号118广场(金沙江路店)",
+   "category_hint": "大排档",
+   "dish_hints": [
+    "烧烤大排档"
+   ],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "B0J6PU3POZ",
+   "name": "星巴克沿街取餐点(上海沁和坊店)",
+   "lon": 121.383568,
+   "lat": 31.227684,
+   "distance_m": 562,
+   "straight_m": null,
+   "address": "星巴克(上海沁和坊店)",
+   "category_hint": "咖啡",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0L3A1X1TG",
+   "name": "千岛湖鱼头馆",
+   "lon": 121.375992,
+   "lat": 31.233988,
+   "distance_m": 644,
+   "straight_m": null,
+   "address": "金沙江路与伯士路交叉口西北140米",
+   "category_hint": "鱼头",
+   "dish_hints": [
+    "千岛湖鱼头"
+   ],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "B0FFJ8SA5S",
+   "name": "爱醇客葡萄酒文化体验馆(圣诺亚大厦A幢店)",
+   "lon": 121.375762,
+   "lat": 31.231327,
+   "distance_m": 578,
+   "straight_m": null,
+   "address": "长征镇伯士路57号圣诺亚大厦C座三层C305室",
+   "category_hint": "洋酒",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  }
+ ]
+}

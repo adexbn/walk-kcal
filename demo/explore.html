@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>walk-kcal · 附近有什么能吃的</title>
+<style>
+  :root{
+    --ink:#16191d; --sub:#5b6570; --mute:#98a2ac; --line:#e6e2dc;
+    --bg:#fbf8f4; --mapbg:#f2f7f5; --teal:#0ac89e; --tealL:#e2f8f3;
+    --lo:#3fa66b; --mid:#ffc72c; --hi:#da291c;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:14px/1.55 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased}
+  header{padding:16px 16px 10px;max-width:1080px;margin:0 auto}
+  h1{margin:0;font-size:19px;letter-spacing:.3px}
+  h1 .loc{font-size:12.5px;font-weight:400;color:var(--sub);margin-left:8px}
+  .quota{margin-top:4px;font-size:12.5px;color:var(--sub)}
+  .quota b{color:var(--teal)}
+  nav{display:flex;gap:7px;overflow-x:auto;padding:6px 16px 12px;
+    max-width:1080px;margin:0 auto;scrollbar-width:none}
+  nav::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto;padding:6px 12px;border-radius:999px;border:1px solid var(--line);
+    background:#fff;color:var(--sub);font-size:12.5px;cursor:pointer;white-space:nowrap;
+    transition:.15s}
+  .chip:hover{border-color:#cfd6d1}
+  .chip.on{background:var(--teal);border-color:var(--teal);color:#fff;font-weight:600}
+  .chip .n{opacity:.65;font-size:11px;margin-left:3px}
+  main{max-width:1080px;margin:0 auto;padding:0 16px 40px;
+    display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:18px;align-items:start}
+  @media(max-width:860px){main{grid-template-columns:1fr}}
+  .panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
+  .bar{display:flex;align-items:center;justify-content:space-between;
+    gap:10px;margin-bottom:8px;flex-wrap:wrap}
+  .bar .info{font-size:12.5px;color:var(--sub)}
+  .bar .info b{color:var(--ink)}
+  button.next{padding:7px 15px;border-radius:9px;border:1px solid var(--teal);
+    background:var(--teal);color:#fff;font-size:13px;font-weight:600;cursor:pointer}
+  button.next:hover{filter:brightness(1.06)}
+  button.next:disabled{background:#fff;color:var(--mute);border-color:var(--line);cursor:default}
+  svg{display:block;width:100%;height:auto}
+  .card{border:1px solid var(--line);border-radius:11px;padding:9px 11px;margin-bottom:9px;
+    background:#fff;position:relative;overflow:hidden}
+  .card .rail{position:absolute;left:0;top:0;bottom:0;width:4px}
+  .card h3{margin:0 0 6px;font-size:13.5px;font-weight:600;display:flex;
+    align-items:baseline;gap:6px}
+  .card h3 .idx{font-size:11px;color:var(--mute);font-weight:400}
+  .card h3 .why{margin-left:auto;font-size:10.5px;color:var(--teal);
+    border:1px solid var(--tealL);background:var(--tealL);border-radius:5px;padding:1px 5px}
+  .card h3 .dist{font-size:11px;color:var(--mute);font-weight:400}
+  .dish{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;
+    padding:2px 0;border-bottom:1px dashed #f0ede9}
+  .dish:last-child{border-bottom:0}
+  .dish .k{color:var(--sub);font-variant-numeric:tabular-nums}
+  .dish.no{color:var(--mute);text-decoration:line-through}
+  .dish .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px;
+    vertical-align:1px}
+  .legend{font-size:11.5px;color:var(--mute);margin-top:12px;line-height:1.7}
+  .legend b{color:var(--sub)}
+  .foot{max-width:1080px;margin:0 auto;padding:0 16px 36px;font-size:11.5px;
+    color:var(--mute);line-height:1.8}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>附近有什么能吃的 <span class="loc" id="loc"></span></h1>
+  <div class="quota">本餐额度 <b id="quota">450</b> 卡 —— 走得越远，额度越高，能吃的越多</div>
+</header>
+
+<nav id="chips"></nav>
+
+<main>
+  <section class="panel">
+    <div class="bar">
+      <div class="info" id="mapinfo"></div>
+    </div>
+    <svg id="map" viewBox="0 0 400 400"></svg>
+    <div class="legend">
+      <b>地图</b>：每个灰点 = 附近一家餐饮；彩色图标 = 本批为你选出的店<br>
+      <b>颜色</b>：<span style="color:var(--lo)">●</span> 大多在额度之下 ·
+      <span style="color:#c99a00">●</span> 一半左右卡在额度 ·
+      <span style="color:var(--hi)">●</span> 大多超过额度
+    </div>
+  </section>
+
+  <section>
+    <div class="panel" style="margin-bottom:14px">
+      <div class="bar">
+        <div class="info" id="info"></div>
+        <button class="next" id="next">换一批 →</button>
+      </div>
+      <div id="cards"></div>
+    </div>
+  </section>
+</main>
+
+<div class="foot" id="foot"></div>
+
+<script src="scene-k11.js"></script>
+<script>
+(function(){
+  var S = window.SCENE;
+  if(!S){ document.body.innerHTML = '<p style="padding:20px">数据文件 scene-k11.js 未加载</p>'; return; }
+  var TEAL='#0ac89e', LO='#3fa66b', MID='#ffc72c', HI='#da291c';
+  var state = { kw:'全部', page:0 };
+  var N = 15;
+
+  // ── 方位象限（与 walkkcal/select.py 一致）──────────────
+  var kx = 111000*Math.cos(S.lat*Math.PI/180);
+  function quadOf(s){
+    var dx=(s.lng-S.lng)*kx, dy=(s.lat-S.lat)*111000;
+    var b=(Math.atan2(dx,dy)*180/Math.PI+360)%360;
+    return b<90?0:(b<180?1:(b<270?2:3));
+  }
+  // 候选 = 可评估的门店；补上 quad
+  S.stores.forEach(function(s){ s.quad = quadOf(s); });
+
+  function order(cands){
+    var q={0:[],1:[],2:[],3:[]};
+    cands.forEach(function(s){ (q[s.quad]=q[s.quad]||[]).push(s); });
+    [0,1,2,3].forEach(function(k){
+      q[k].sort(function(a,b){ return (b.f-a.f) || (a.w-b.w); });
+    });
+    var out=[], used=new Set(), idx={0:0,1:0,2:0,3:0};
+    for(;;){
+      var prog=false;
+      for(var i=0;i<4;i++){
+        var k=[0,1,2,3][i], lst=q[k];
+        while(idx[k]<lst.length && used.has(lst[idx[k]])) idx[k]++;
+        if(idx[k]<lst.length){
+          out.push(lst[idx[k]]); used.add(lst[idx[k]]); idx[k]++; prog=true;
+        }
+      }
+      if(!prog) break;
+    }
+    return out;
+  }
+
+  function capMcd(batch, all){
+    var cap = Math.max(1, Math.floor(N/3));
+    var mcd = batch.filter(function(s){return s.m;});
+    if(mcd.length<=cap) return batch;
+    var drop = new Set(mcd.slice(cap));
+    var used = new Set(batch);
+    var keep = batch.filter(function(s){return !drop.has(s);});
+    var need = drop.size;
+    for(var i=0;i<all.length && need>0;i++){
+      var s=all[i];
+      if(!s.m && !used.has(s)){ keep.push(s); used.add(s); need--; }
+    }
+    keep.sort(function(a,b){ return (b.f-a.f) || (a.w-b.w); });
+    return keep;
+  }
+
+  function current(){
+    var kw = state.kw;
+    var cands = kw==='全部' ? S.stores.slice()
+              : S.stores.filter(function(s){ return s.i.indexOf(kw)>=0; });
+    var all = order(cands);
+    var pages = Math.max(1, Math.ceil(all.length/N));
+    state.page = Math.max(0, Math.min(state.page, pages-1));
+    var batch = all.slice(state.page*N, state.page*N+N);
+    batch = capMcd(batch, all);
+    batch.sort(function(a,b){ return (a.t-b.t) || (a.w-b.w); });
+    return {batch:batch, total:all.length, pages:pages};
+  }
+
+  // ── 地图：R_OUT 由本批最远距离决定（与长图同思路）──────
+  function drawMap(batch){
+    var root = document.getElementById('map');
+    var W=400, PAD=22;
+    var dmax = Math.max.apply(null, batch.map(function(s){return s.w;}).concat([300]));
+    var step = [100,150,200,250,300,400,500,750,1000].filter(function(x){return x*2>=dmax;})[0]||1000;
+    var R = Math.max(step*2, dmax);
+    var EXP=0.75, half=(W-2*PAD)/2;
+    function rn(m){ if(m>R) m=R; return Math.pow(m/R,EXP)*half; }
+    var o = ['<rect x="0" y="0" width="'+W+'" height="'+W+'" fill="var(--mapbg)"/>'];
+
+    // 淡点：附近全部餐饮（只画圈内）
+    S.pool.forEach(function(p){
+      var w=p.w; if(!w||w>R) return;
+      var dx=(p.lng-S.lng)*kx, dy=(p.lat-S.lat)*111000;
+      var b=Math.atan2(dx,dy), r=rn(w);
+      o.push('<circle cx="'+(W/2+Math.sin(b)*r).toFixed(1)+'" cy="'+(W/2-Math.cos(b)*r).toFixed(1)+
+             '" r="1.7" fill="#bcc9c2"/>');
+    });
+    // 圈层
+    for(var i=1;i<=2;i++){
+      o.push('<circle cx="'+W/2+'" cy="'+W/2+'" r="'+rn(step*i).toFixed(1)+
+             '" fill="none" stroke="#e0e7e3" stroke-width="1"/>');
+      o.push('<text x="'+(W/2+7)+'" y="'+(W/2-rn(step*i)+13).toFixed(0)+
+             '" font-size="9.5" fill="#a9b3ad">'+(step*i)+'米</text>');
+    }
+    // 我的位置
+    o.push('<circle cx="'+W/2+'" cy="'+W/2+'" r="7" fill="'+TEAL+'"/>');
+    o.push('<circle cx="'+W/2+'" cy="'+W/2+'" r="2.6" fill="#f2f7f5"/>');
+    // 店铺
+    batch.forEach(function(s,i){
+      var dx=(s.lng-S.lng)*kx, dy=(s.lat-S.lat)*111000;
+      var b=Math.atan2(dx,dy), r=rn(s.w);
+      var x=W/2+Math.sin(b)*r, y=W/2-Math.cos(b)*r;
+      var col=[LO,MID,HI][s.t];
+      o.push('<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="9" fill="'+col+'"/>');
+      o.push('<text x="'+x.toFixed(1)+'" y="'+(y+3.3).toFixed(1)+
+             '" font-size="9.5" font-weight="700" fill="#fff" text-anchor="middle">'+(i+1)+'</text>');
+    });
+    root.innerHTML = o.join('');
+  }
+
+  function drawChips(){
+    var el = document.getElementById('chips');
+    var chips = [['全部', S.stores.length]].concat(
+      S.industries.map(function(k){ return [k, S.counts[k]||0]; })
+                 .filter(function(x){ return x[1]>0; }));
+    el.innerHTML = chips.map(function(c){
+      var on = (c[0]===state.kw) ? ' on' : '';
+      return '<button class="chip'+on+'" data-kw="'+c[0]+'">'+c[0]+
+             '<span class="n">'+c[1]+'</span></button>';
+    }).join('');
+    Array.prototype.forEach.call(el.querySelectorAll('.chip'), function(b){
+      b.onclick = function(){ state.kw = b.dataset.kw; state.page = 0; render(); };
+    });
+  }
+
+  function drawCards(batch){
+    var el = document.getElementById('cards');
+    if(!batch.length){ el.innerHTML='<div class="info">这个业态附近暂时没有可评估的店。</div>'; return; }
+    el.innerHTML = batch.map(function(s,i){
+      var col=[LO,MID,HI][s.t];
+      // 入选理由
+      var why = '';
+      if(s.m) why='麦当劳';
+      else if(s.f>=Math.max.apply(null,batch.map(function(z){return z.f;}))) why='最多';
+      else if(i<2) why='最近';
+      else why='均衡';
+      var ds = s.d.map(function(d){
+        var ok = d[1] <= s.q;
+        return '<div class="dish'+(ok?'':' no')+'">'+
+               '<span><span class="dot" style="background:'+(ok?LO:HI)+'"></span>'+d[0]+'</span>'+
+               '<span class="k">'+d[1]+'</span></div>';
+      }).join('');
+      return '<div class="card"><div class="rail" style="background:'+col+'"></div>'+
+        '<h3><span class="idx">'+(i+1)+'</span>'+s.n+
+        '<span class="dist">'+s.w+'m</span>'+
+        (why?'<span class="why">'+why+'</span>':'')+'</h3>'+ds+'</div>';
+    }).join('');
+  }
+
+  function render(){
+    var r = current();
+    document.getElementById('loc').textContent = S.name;
+    document.getElementById('quota').textContent = S.base;
+    document.getElementById('info').innerHTML =
+      (state.kw==='全部' ? '' : '筛选「<b>'+state.kw+'</b>」：') +
+      '附近 <b>'+S.pool.length+'</b> 家餐饮，其中 <b>'+r.total+'</b> 家可评估 · ' +
+      '本批 <b>'+r.batch.length+'</b> 家（第 <b>'+(state.page+1)+'/'+r.pages+'</b> 批）';
+    document.getElementById('mapinfo').textContent =
+      '附近的店 ' + S.pool.length + ' 家 · 本批 ' + r.batch.length + ' 家';
+    document.getElementById('next').disabled = (r.pages<=1);
+    document.getElementById('foot').innerHTML =
+      '选店规则：四象限各取几家（地图不偏）· 麦当劳最多占 1/3（避免变成麦当劳广告）· ' +
+      '同档优先「额度内能吃几道」再比远近 · 「换一批」按同一排序取下一段。<br>' +
+      '热量分三层：菜谱推算 → 品类估算 → 同类估算（误差 25~45%）；算不出的不猜。' +
+      '数据快照 2026-10-13 · 不构成医疗建议。';
+    drawMap(r.batch);
+    drawChips();
+    drawCards(r.batch);
+  }
+
+  document.getElementById('next').onclick = function(){
+    var r = current();
+    if(state.page+1 < r.pages) state.page++;
+    else state.page = 0;                 // 到头回到第一批
+    render();
+  };
+
+  render();
+})();
+</script>
+</body>
+</html>

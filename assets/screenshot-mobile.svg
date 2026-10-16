@@ -1,0 +1,882 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 1838" width="480" height="1838" font-family="system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+<rect width="480" height="1838" fill="#fbf8f4"/>
+<text x="20" y="34" font-size="17" font-weight="700" fill="#16191d">走多远</text>
+<text x="74" y="34" font-size="17" font-weight="700" fill="#0ac89e">·</text>
+<text x="84" y="34" font-size="17" font-weight="700" fill="#16191d">吃什么</text>
+<rect x="152" y="21" width="4" height="15" rx="2" fill="#0ac89e"/>
+<text x="163" y="22" font-size="9.5" fill="#98a2ac">当前位置</text>
+<text x="163" y="37" font-size="13" font-weight="600" fill="#5b6570">上海·静安虬江路</text>
+<text x="20" y="62" font-size="11.5" fill="#5b6570">本餐额度 450 卡 —— 走得越远，额度越高，能吃的越多</text>
+<line x1="20" y1="74" x2="460" y2="74" stroke="#e6e2dc" stroke-width="1"/>
+<rect x="13" y="86" width="454" height="454" rx="11" fill="#f2f7f5"/>
+<circle cx="278.1" cy="304.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="279.8" cy="307.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="210.5" cy="272.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="297.3" cy="325.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="225.5" cy="255.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="181.1" cy="321.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="181.1" cy="321.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="177.2" cy="318.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="233.2" cy="250.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="179.4" cy="294.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="225.7" cy="251.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="173.3" cy="302.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="169.6" cy="302.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="169.2" cy="328.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="167.8" cy="305.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="165.1" cy="317.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="159.9" cy="310.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="167.7" cy="277.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="173.3" cy="264.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="169.2" cy="264.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="153.5" cy="321.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="152.8" cy="314.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="152.8" cy="314.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="149.5" cy="315.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="149.5" cy="315.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="143.2" cy="302.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="141.6" cy="331.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="134.6" cy="330.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="133.6" cy="330.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="332.0" cy="255.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="333.3" cy="245.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="341.1" cy="254.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="125.8" cy="285.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="357.6" cy="306.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="357.8" cy="302.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="125.1" cy="274.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="187.6" cy="203.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="344.0" cy="248.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="118.8" cy="329.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="125.9" cy="357.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="341.2" cy="239.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="114.8" cy="333.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="259.9" cy="186.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="113.4" cy="333.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="352.7" cy="249.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="264.2" cy="185.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="348.1" cy="240.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="109.8" cy="326.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="186.5" cy="192.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="133.7" cy="234.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="184.6" cy="192.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="130.4" cy="236.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="104.0" cy="318.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="361.4" cy="249.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="105.1" cy="339.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="276.4" cy="179.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="132.0" cy="225.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="121.2" cy="240.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="209.0" cy="449.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="125.6" cy="228.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="229.4" cy="170.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="116.4" cy="239.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="204.7" cy="452.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="115.4" cy="240.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="95.9" cy="326.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="111.7" cy="242.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="107.9" cy="380.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="117.3" cy="230.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="198.9" cy="455.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="92.1" cy="327.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="106.4" cy="244.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="113.8" cy="230.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="196.4" cy="168.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="88.1" cy="320.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="85.9" cy="318.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="85.7" cy="317.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="89.4" cy="274.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="378.3" cy="240.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="85.7" cy="284.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="246.3" cy="470.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="186.7" cy="461.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="381.3" cy="239.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="381.9" cy="240.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="223.3" cy="472.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="79.3" cy="322.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="335.2" cy="183.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="182.3" cy="464.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="383.5" cy="237.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="241.8" cy="475.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="305.8" cy="462.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="268.0" cy="149.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="115.9" cy="201.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="72.9" cy="323.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="386.7" cy="230.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="225.7" cy="481.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="391.6" cy="233.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="68.9" cy="332.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="393.2" cy="233.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="395.6" cy="238.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="393.0" cy="232.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="187.3" cy="146.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="301.7" cy="478.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="398.1" cy="235.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="292.2" cy="481.9" r="1.9" fill="#bcc9c2"/>
+<circle cx="101.6" cy="201.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="162.9" cy="473.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="291.7" cy="484.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="159.9" cy="474.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="293.8" cy="485.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="175.8" cy="144.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="290.7" cy="486.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="288.9" cy="487.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="204.8" cy="491.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="61.0" cy="280.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="292.8" cy="487.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="293.0" cy="488.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="299.2" cy="486.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="291.8" cy="489.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="201.6" cy="493.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="91.9" cy="203.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="198.8" cy="492.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="100.5" cy="192.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="97.6" cy="194.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="88.1" cy="206.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="293.9" cy="490.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="289.9" cy="492.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="187.9" cy="491.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="294.3" cy="492.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="288.7" cy="494.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="85.1" cy="206.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="405.4" cy="223.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="298.3" cy="492.2" r="1.9" fill="#bcc9c2"/>
+<circle cx="84.4" cy="206.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="192.8" cy="497.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="80.6" cy="209.1" r="1.9" fill="#bcc9c2"/>
+<circle cx="417.0" cy="242.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="192.7" cy="497.5" r="1.9" fill="#bcc9c2"/>
+<circle cx="300.5" cy="493.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="298.1" cy="496.3" r="1.9" fill="#bcc9c2"/>
+<circle cx="77.6" cy="209.0" r="1.9" fill="#bcc9c2"/>
+<circle cx="405.9" cy="212.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="83.0" cy="198.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="389.4" cy="188.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="245.6" cy="507.6" r="1.9" fill="#bcc9c2"/>
+<circle cx="266.6" cy="506.4" r="1.9" fill="#bcc9c2"/>
+<circle cx="185.7" cy="500.7" r="1.9" fill="#bcc9c2"/>
+<circle cx="71.3" cy="212.8" r="1.9" fill="#bcc9c2"/>
+<circle cx="152.8" cy="314.8" r="1.9" fill="#bcc9c2"/>
+<line x1="240.0" y1="226.6" x2="247.5" y2="226.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="247.5" y1="226.9" x2="255.0" y2="227.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="255.0" y1="227.9" x2="262.4" y2="229.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="262.4" y1="229.5" x2="269.6" y2="231.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="269.6" y1="231.8" x2="276.5" y2="234.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="276.5" y1="234.7" x2="283.2" y2="238.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="283.2" y1="238.2" x2="289.6" y2="242.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="289.6" y1="242.2" x2="295.6" y2="246.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="295.6" y1="246.8" x2="301.1" y2="251.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="301.1" y1="251.9" x2="306.2" y2="257.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="306.2" y1="257.4" x2="310.8" y2="263.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="310.8" y1="263.4" x2="314.8" y2="269.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="314.8" y1="269.8" x2="318.3" y2="276.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="318.3" y1="276.5" x2="321.2" y2="283.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="321.2" y1="283.4" x2="323.5" y2="290.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="323.5" y1="290.6" x2="325.1" y2="298.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="325.1" y1="298.0" x2="326.1" y2="305.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="326.1" y1="305.5" x2="326.4" y2="313.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="326.4" y1="313.0" x2="326.1" y2="320.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="326.1" y1="320.5" x2="325.1" y2="328.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="325.1" y1="328.0" x2="323.5" y2="335.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="323.5" y1="335.4" x2="321.2" y2="342.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="321.2" y1="342.6" x2="318.3" y2="349.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="318.3" y1="349.5" x2="314.8" y2="356.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="314.8" y1="356.2" x2="310.8" y2="362.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="310.8" y1="362.6" x2="306.2" y2="368.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="306.2" y1="368.6" x2="301.1" y2="374.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="301.1" y1="374.1" x2="295.6" y2="379.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="295.6" y1="379.2" x2="289.6" y2="383.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="289.6" y1="383.8" x2="283.2" y2="387.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="283.2" y1="387.8" x2="276.5" y2="391.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="276.5" y1="391.3" x2="269.6" y2="394.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="269.6" y1="394.2" x2="262.4" y2="396.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="262.4" y1="396.5" x2="255.0" y2="398.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="255.0" y1="398.1" x2="247.5" y2="399.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="247.5" y1="399.1" x2="240.0" y2="399.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="240.0" y1="399.4" x2="232.5" y2="399.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="232.5" y1="399.1" x2="225.0" y2="398.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="225.0" y1="398.1" x2="217.6" y2="396.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="217.6" y1="396.5" x2="210.4" y2="394.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="210.4" y1="394.2" x2="203.5" y2="391.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="203.5" y1="391.3" x2="196.8" y2="387.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="196.8" y1="387.8" x2="190.4" y2="383.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="190.4" y1="383.8" x2="184.4" y2="379.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="184.4" y1="379.2" x2="178.9" y2="374.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="178.9" y1="374.1" x2="173.8" y2="368.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="173.8" y1="368.6" x2="169.2" y2="362.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="169.2" y1="362.6" x2="165.2" y2="356.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="165.2" y1="356.2" x2="161.7" y2="349.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="161.7" y1="349.5" x2="158.8" y2="342.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="158.8" y1="342.6" x2="156.5" y2="335.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="156.5" y1="335.4" x2="154.9" y2="328.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="154.9" y1="328.0" x2="153.9" y2="320.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="153.9" y1="320.5" x2="153.6" y2="313.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="153.6" y1="313.0" x2="153.9" y2="305.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="153.9" y1="305.5" x2="154.9" y2="298.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="154.9" y1="298.0" x2="156.5" y2="290.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="156.5" y1="290.6" x2="158.8" y2="283.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="158.8" y1="283.4" x2="161.7" y2="276.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="161.7" y1="276.5" x2="165.2" y2="269.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="165.2" y1="269.8" x2="169.2" y2="263.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="169.2" y1="263.4" x2="173.8" y2="257.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="173.8" y1="257.4" x2="178.9" y2="251.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="178.9" y1="251.9" x2="184.4" y2="246.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="184.4" y1="246.8" x2="190.4" y2="242.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="190.4" y1="242.2" x2="196.8" y2="238.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="196.8" y1="238.2" x2="203.5" y2="234.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="203.5" y1="234.7" x2="210.4" y2="231.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="210.4" y1="231.8" x2="217.6" y2="229.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="217.6" y1="229.5" x2="225.0" y2="227.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="225.0" y1="227.9" x2="232.5" y2="226.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="232.5" y1="226.9" x2="240.0" y2="226.6" stroke="#cfdad6" stroke-width="1"/>
+<text x="175.4" y="389.9" font-size="9.5" fill="#98a2ac" text-anchor="middle">250米</text>
+<line x1="240.0" y1="167.7" x2="252.7" y2="168.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="252.7" y1="168.2" x2="265.2" y2="169.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="265.2" y1="169.9" x2="277.6" y2="172.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="277.6" y1="172.6" x2="289.7" y2="176.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="289.7" y1="176.4" x2="301.4" y2="181.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="301.4" y1="181.3" x2="312.7" y2="187.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="312.7" y1="187.1" x2="323.4" y2="193.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="323.4" y1="193.9" x2="333.4" y2="201.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="333.4" y1="201.7" x2="342.8" y2="210.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="342.8" y1="210.2" x2="351.3" y2="219.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="351.3" y1="219.6" x2="359.1" y2="229.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="359.1" y1="229.6" x2="365.9" y2="240.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="365.9" y1="240.3" x2="371.7" y2="251.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="371.7" y1="251.6" x2="376.6" y2="263.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="376.6" y1="263.3" x2="380.4" y2="275.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="380.4" y1="275.4" x2="383.1" y2="287.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="383.1" y1="287.8" x2="384.8" y2="300.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="384.8" y1="300.3" x2="385.3" y2="313.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="385.3" y1="313.0" x2="384.8" y2="325.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="384.8" y1="325.7" x2="383.1" y2="338.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="383.1" y1="338.2" x2="380.4" y2="350.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="380.4" y1="350.6" x2="376.6" y2="362.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="376.6" y1="362.7" x2="371.7" y2="374.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="371.7" y1="374.4" x2="365.9" y2="385.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="365.9" y1="385.7" x2="359.1" y2="396.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="359.1" y1="396.4" x2="351.3" y2="406.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="351.3" y1="406.4" x2="342.8" y2="415.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="342.8" y1="415.8" x2="333.4" y2="424.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="333.4" y1="424.3" x2="323.4" y2="432.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="323.4" y1="432.1" x2="312.7" y2="438.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="312.7" y1="438.9" x2="301.4" y2="444.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="301.4" y1="444.7" x2="289.7" y2="449.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="289.7" y1="449.6" x2="277.6" y2="453.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="277.6" y1="453.4" x2="265.2" y2="456.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="265.2" y1="456.1" x2="252.7" y2="457.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="252.7" y1="457.8" x2="240.0" y2="458.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="240.0" y1="458.3" x2="227.3" y2="457.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="227.3" y1="457.8" x2="214.8" y2="456.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="214.8" y1="456.1" x2="202.4" y2="453.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="202.4" y1="453.4" x2="190.3" y2="449.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="190.3" y1="449.6" x2="178.6" y2="444.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="178.6" y1="444.7" x2="167.3" y2="438.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="167.3" y1="438.9" x2="156.6" y2="432.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="156.6" y1="432.1" x2="146.6" y2="424.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="146.6" y1="424.3" x2="137.2" y2="415.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="137.2" y1="415.8" x2="128.7" y2="406.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="128.7" y1="406.4" x2="120.9" y2="396.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="120.9" y1="396.4" x2="114.1" y2="385.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="114.1" y1="385.7" x2="108.3" y2="374.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="108.3" y1="374.4" x2="103.4" y2="362.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="103.4" y1="362.7" x2="99.6" y2="350.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="99.6" y1="350.6" x2="96.9" y2="338.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="96.9" y1="338.2" x2="95.2" y2="325.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="95.2" y1="325.7" x2="94.7" y2="313.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="94.7" y1="313.0" x2="95.2" y2="300.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="95.2" y1="300.3" x2="96.9" y2="287.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="96.9" y1="287.8" x2="99.6" y2="275.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="99.6" y1="275.4" x2="103.4" y2="263.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="103.4" y1="263.3" x2="108.3" y2="251.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="108.3" y1="251.6" x2="114.1" y2="240.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="114.1" y1="240.3" x2="120.9" y2="229.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="120.9" y1="229.6" x2="128.7" y2="219.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="128.7" y1="219.6" x2="137.2" y2="210.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="137.2" y1="210.2" x2="146.6" y2="201.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="146.6" y1="201.7" x2="156.6" y2="193.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="156.6" y1="193.9" x2="167.3" y2="187.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="167.3" y1="187.1" x2="178.6" y2="181.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="178.6" y1="181.3" x2="190.3" y2="176.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="190.3" y1="176.4" x2="202.4" y2="172.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="202.4" y1="172.6" x2="214.8" y2="169.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="214.8" y1="169.9" x2="227.3" y2="168.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="227.3" y1="168.2" x2="240.0" y2="167.7" stroke="#cfdad6" stroke-width="1"/>
+<text x="137.6" y="435.1" font-size="9.5" fill="#98a2ac" text-anchor="middle">500米</text>
+<line x1="240.0" y1="116.0" x2="257.2" y2="116.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="257.2" y1="116.7" x2="274.2" y2="119.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="274.2" y1="119.0" x2="291.0" y2="122.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="291.0" y1="122.7" x2="307.4" y2="127.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="307.4" y1="127.9" x2="323.3" y2="134.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="323.3" y1="134.5" x2="338.5" y2="142.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="338.5" y1="142.4" x2="353.0" y2="151.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="353.0" y1="151.6" x2="366.6" y2="162.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="366.6" y1="162.1" x2="379.3" y2="173.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="379.3" y1="173.7" x2="390.9" y2="186.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="390.9" y1="186.4" x2="401.4" y2="200.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="401.4" y1="200.0" x2="410.6" y2="214.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="410.6" y1="214.5" x2="418.5" y2="229.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="418.5" y1="229.7" x2="425.1" y2="245.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="425.1" y1="245.6" x2="430.3" y2="262.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="430.3" y1="262.0" x2="434.0" y2="278.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="434.0" y1="278.8" x2="436.3" y2="295.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="436.3" y1="295.8" x2="437.0" y2="313.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="437.0" y1="313.0" x2="436.3" y2="330.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="436.3" y1="330.2" x2="434.0" y2="347.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="434.0" y1="347.2" x2="430.3" y2="364.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="430.3" y1="364.0" x2="425.1" y2="380.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="425.1" y1="380.4" x2="418.5" y2="396.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="418.5" y1="396.3" x2="410.6" y2="411.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="410.6" y1="411.5" x2="401.4" y2="426.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="401.4" y1="426.0" x2="390.9" y2="439.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="390.9" y1="439.6" x2="379.3" y2="452.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="379.3" y1="452.3" x2="366.6" y2="463.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="366.6" y1="463.9" x2="353.0" y2="474.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="353.0" y1="474.4" x2="338.5" y2="483.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="338.5" y1="483.6" x2="323.3" y2="491.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="323.3" y1="491.5" x2="307.4" y2="498.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="307.4" y1="498.1" x2="291.0" y2="503.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="291.0" y1="503.3" x2="274.2" y2="507.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="274.2" y1="507.0" x2="257.2" y2="509.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="257.2" y1="509.3" x2="240.0" y2="510.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="240.0" y1="510.0" x2="222.8" y2="509.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="222.8" y1="509.3" x2="205.8" y2="507.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="205.8" y1="507.0" x2="189.0" y2="503.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="189.0" y1="503.3" x2="172.6" y2="498.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="172.6" y1="498.1" x2="156.7" y2="491.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="156.7" y1="491.5" x2="141.5" y2="483.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="141.5" y1="483.6" x2="127.0" y2="474.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="127.0" y1="474.4" x2="113.4" y2="463.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="113.4" y1="463.9" x2="100.7" y2="452.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="100.7" y1="452.3" x2="89.1" y2="439.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="89.1" y1="439.6" x2="78.6" y2="426.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="78.6" y1="426.0" x2="69.4" y2="411.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="69.4" y1="411.5" x2="61.5" y2="396.3" stroke="#cfdad6" stroke-width="1"/>
+<line x1="61.5" y1="396.3" x2="54.9" y2="380.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="54.9" y1="380.4" x2="49.7" y2="364.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="49.7" y1="364.0" x2="46.0" y2="347.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="46.0" y1="347.2" x2="43.7" y2="330.2" stroke="#cfdad6" stroke-width="1"/>
+<line x1="43.7" y1="330.2" x2="43.0" y2="313.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="43.0" y1="313.0" x2="43.7" y2="295.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="43.7" y1="295.8" x2="46.0" y2="278.8" stroke="#cfdad6" stroke-width="1"/>
+<line x1="46.0" y1="278.8" x2="49.7" y2="262.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="49.7" y1="262.0" x2="54.9" y2="245.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="54.9" y1="245.6" x2="61.5" y2="229.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="61.5" y1="229.7" x2="69.4" y2="214.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="69.4" y1="214.5" x2="78.6" y2="200.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="78.6" y1="200.0" x2="89.1" y2="186.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="89.1" y1="186.4" x2="100.7" y2="173.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="100.7" y1="173.7" x2="113.4" y2="162.1" stroke="#cfdad6" stroke-width="1"/>
+<line x1="113.4" y1="162.1" x2="127.0" y2="151.6" stroke="#cfdad6" stroke-width="1"/>
+<line x1="127.0" y1="151.6" x2="141.5" y2="142.4" stroke="#cfdad6" stroke-width="1"/>
+<line x1="141.5" y1="142.4" x2="156.7" y2="134.5" stroke="#cfdad6" stroke-width="1"/>
+<line x1="156.7" y1="134.5" x2="172.6" y2="127.9" stroke="#cfdad6" stroke-width="1"/>
+<line x1="172.6" y1="127.9" x2="189.0" y2="122.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="189.0" y1="122.7" x2="205.8" y2="119.0" stroke="#cfdad6" stroke-width="1"/>
+<line x1="205.8" y1="119.0" x2="222.8" y2="116.7" stroke="#cfdad6" stroke-width="1"/>
+<line x1="222.8" y1="116.7" x2="240.0" y2="116.0" stroke="#cfdad6" stroke-width="1"/>
+<text x="104.4" y="474.6" font-size="9.5" fill="#98a2ac" text-anchor="middle">750米</text>
+<path d="M 173.9 331.9 L 175.3 337.4 L 179.9 338.6 L 188.0 338.6 L 192.6 337.4 L 194.0 331.9" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="173.9" y1="331.9" x2="194.0" y2="331.9" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 175.7 331.9 L 176.6 329.8 L 177.5 328.7 L 178.5 327.8 L 179.4 327.2 L 180.3 326.6 L 181.2 326.2 L 182.1 325.9 L 183.0 325.7 L 184.0 325.7 L 184.9 325.7 L 185.8 325.9 L 186.7 326.2 L 187.6 326.6 L 188.6 327.2 L 189.5 327.8 L 190.4 328.7 L 191.3 329.8 L 192.2 331.9" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="181.5" cy="329.3" rx="0.8" ry="0.5" fill="none" stroke="#3fa66b" stroke-width="0.8"/>
+<ellipse cx="184.1" cy="328.4" rx="0.8" ry="0.5" fill="none" stroke="#3fa66b" stroke-width="0.8"/>
+<ellipse cx="186.8" cy="329.4" rx="0.8" ry="0.5" fill="none" stroke="#3fa66b" stroke-width="0.8"/>
+<circle cx="184.0" cy="314.2" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="184.0" y="314.7" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">1</text>
+<path d="M 168.7 299.8 L 184.6 299.8 L 181.9 307.7 L 171.4 307.7 L 168.7 299.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="176.6" cy="299.8" rx="7.9" ry="2.1" fill="none" stroke="#3fa66b" stroke-width="1.4"/>
+<ellipse cx="167.2" cy="299.8" rx="1.9" ry="1.3" fill="none" stroke="#3fa66b" stroke-width="1.4"/>
+<ellipse cx="186.1" cy="299.8" rx="1.9" ry="1.3" fill="none" stroke="#3fa66b" stroke-width="1.4"/>
+<line x1="173.5" y1="297.8" x2="173.5" y2="293.8" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="176.6" y1="297.8" x2="176.6" y2="292.3" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="179.8" y1="297.8" x2="179.8" y2="293.8" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="176.6" cy="284.0" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="176.6" y="284.5" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">2</text>
+<path d="M 143.5 338.3 L 143.7 337.5 L 144.0 336.7 L 144.5 335.9 L 145.2 335.2 L 146.1 334.6 L 147.1 334.0 L 148.3 333.5 L 149.6 333.1 L 151.0 332.9 L 152.4 332.7 L 153.9 332.6 L 155.3 332.7 L 156.8 332.9 L 158.2 333.1 L 159.4 333.5 L 160.6 334.0 L 161.7 334.6 L 162.6 335.2 L 163.3 335.9 L 163.8 336.7 L 164.1 337.5 L 164.2 338.3 L 164.2 339.0 L 143.5 339.0 L 143.5 338.3 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="149.1" y1="334.9" x2="149.1" y2="336.0" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="152.9" y1="333.9" x2="152.9" y2="335.0" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="157.5" y1="335.1" x2="157.5" y2="336.2" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 142.8 339.0 L 146.4 337.7 L 150.1 339.0 L 153.9 337.7 L 157.6 339.0 L 161.3 337.7 L 164.9 339.0" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="153.9" cy="341.0" rx="10.6" ry="1.0" fill="none" stroke="#3fa66b" stroke-width="1.2"/>
+<path d="M 143.8 342.7 L 163.9 342.7 L 162.5 346.0 L 145.2 346.0 L 143.8 342.7 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="153.9" cy="322.4" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="153.9" y="322.9" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">3</text>
+<path d="M 293.8 480.8 L 309.6 480.8 L 306.9 488.7 L 296.5 488.7 L 293.8 480.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="301.7" cy="480.8" rx="7.9" ry="2.1" fill="none" stroke="#3fa66b" stroke-width="1.4"/>
+<ellipse cx="292.2" cy="480.8" rx="1.9" ry="1.3" fill="none" stroke="#3fa66b" stroke-width="1.4"/>
+<ellipse cx="311.2" cy="480.8" rx="1.9" ry="1.3" fill="none" stroke="#3fa66b" stroke-width="1.4"/>
+<line x1="298.6" y1="478.9" x2="298.6" y2="474.8" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="301.7" y1="478.9" x2="301.7" y2="473.3" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="304.8" y1="478.9" x2="304.8" y2="474.8" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="301.7" cy="465.0" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="301.7" y="465.5" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">4</text>
+<path d="M 264.1 509.8 L 264.2 509.0 L 264.5 508.2 L 265.0 507.5 L 265.7 506.8 L 266.6 506.1 L 267.6 505.6 L 268.8 505.1 L 270.1 504.7 L 271.5 504.4 L 272.9 504.3 L 274.4 504.2 L 275.8 504.3 L 277.3 504.4 L 278.7 504.7 L 280.0 505.1 L 281.1 505.6 L 282.2 506.1 L 283.1 506.8 L 283.8 507.5 L 284.3 508.2 L 284.6 509.0 L 284.7 509.8 L 284.7 510.5 L 264.1 510.5 L 264.1 509.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="269.6" y1="506.5" x2="269.6" y2="507.6" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="273.4" y1="505.5" x2="273.4" y2="506.6" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="278.0" y1="506.7" x2="278.0" y2="507.7" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 263.3 510.5 L 266.9 509.3 L 270.7 510.5 L 274.4 509.3 L 278.1 510.5 L 281.8 509.3 L 285.4 510.5" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="274.4" cy="512.6" rx="10.6" ry="1.0" fill="none" stroke="#3fa66b" stroke-width="1.2"/>
+<path d="M 264.3 514.3 L 284.5 514.3 L 283.0 517.6 L 265.7 517.6 L 264.3 514.3 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="274.4" cy="494.0" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="274.4" y="494.5" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">5</text>
+<path d="M 425.7 296.3 L 425.8 295.5 L 426.1 294.7 L 426.6 294.0 L 427.3 293.3 L 428.2 292.6 L 429.3 292.1 L 430.5 291.6 L 431.7 291.2 L 433.1 290.9 L 434.6 290.8 L 436.0 290.7 L 437.5 290.8 L 438.9 290.9 L 440.3 291.2 L 441.6 291.6 L 442.8 292.1 L 443.8 292.6 L 444.7 293.3 L 445.4 294.0 L 445.9 294.7 L 446.2 295.5 L 446.4 296.3 L 446.4 297.0 L 425.7 297.0 L 425.7 296.3 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="431.2" y1="293.0" x2="431.2" y2="294.1" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="435.1" y1="292.0" x2="435.1" y2="293.1" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="439.6" y1="293.2" x2="439.6" y2="294.2" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 425.0 297.0 L 428.6 295.7 L 432.3 297.0 L 436.0 295.7 L 439.8 297.0 L 443.5 295.7 L 447.1 297.0" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="436.0" cy="299.1" rx="10.6" ry="1.0" fill="none" stroke="#3fa66b" stroke-width="1.2"/>
+<path d="M 426.0 300.8 L 446.1 300.8 L 444.7 304.1 L 427.4 304.1 L 426.0 300.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="436.0" cy="280.5" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="436.0" y="281.0" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">6</text>
+<path d="M 41.8 256.5 L 41.9 255.7 L 42.2 254.9 L 42.8 254.2 L 43.5 253.5 L 44.3 252.8 L 45.4 252.3 L 46.6 251.8 L 47.9 251.4 L 49.2 251.1 L 50.7 251.0 L 52.1 250.9 L 53.6 251.0 L 55.1 251.1 L 56.4 251.4 L 57.7 251.8 L 58.9 252.3 L 59.9 252.8 L 60.8 253.5 L 61.5 254.2 L 62.0 254.9 L 62.4 255.7 L 62.5 256.5 L 62.5 257.2 L 41.8 257.2 L 41.8 256.5 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="47.3" y1="253.2" x2="47.3" y2="254.3" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="51.2" y1="252.2" x2="51.2" y2="253.3" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="55.7" y1="253.4" x2="55.7" y2="254.4" stroke="#3fa66b" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 41.1 257.2 L 44.7 255.9 L 48.4 257.2 L 52.1 255.9 L 55.9 257.2 L 59.6 255.9 L 63.2 257.2" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="52.1" cy="259.3" rx="10.6" ry="1.0" fill="none" stroke="#3fa66b" stroke-width="1.2"/>
+<path d="M 42.1 261.0 L 62.2 261.0 L 60.8 264.3 L 43.5 264.3 L 42.1 261.0 Z" fill="none" stroke="#3fa66b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="52.1" cy="240.7" r="9" fill="#ffffff" stroke="#3fa66b" stroke-width="1.4"/>
+<text x="52.1" y="241.2" font-size="11" font-weight="700" fill="#2a7048" text-anchor="middle" dominant-baseline="central">7</text>
+<path d="M 200.4 277.2 L 201.8 282.7 L 206.4 283.9 L 214.5 283.9 L 219.1 282.7 L 220.5 277.2" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="200.4" y1="277.2" x2="220.5" y2="277.2" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 202.2 277.2 L 203.1 275.1 L 204.0 274.0 L 205.0 273.1 L 205.9 272.4 L 206.8 271.9 L 207.7 271.5 L 208.6 271.2 L 209.5 271.0 L 210.5 271.0 L 211.4 271.0 L 212.3 271.2 L 213.2 271.5 L 214.1 271.9 L 215.1 272.4 L 216.0 273.1 L 216.9 274.0 L 217.8 275.1 L 218.7 277.2" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="208.0" cy="274.6" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="210.6" cy="273.7" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="213.3" cy="274.7" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<circle cx="210.5" cy="259.5" r="9" fill="#ffffff" stroke="#ffc72c" stroke-width="1.4"/>
+<text x="210.5" y="260.0" font-size="11" font-weight="700" fill="#8a6100" text-anchor="middle" dominant-baseline="central">8</text>
+<path d="M 176.5 366.9 L 177.9 372.4 L 182.6 373.6 L 190.6 373.6 L 195.3 372.4 L 196.7 366.9" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="176.5" y1="366.9" x2="196.7" y2="366.9" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 178.4 366.9 L 179.3 364.8 L 180.2 363.6 L 181.1 362.8 L 182.0 362.1 L 182.9 361.6 L 183.9 361.2 L 184.8 360.9 L 185.7 360.7 L 186.6 360.6 L 187.5 360.7 L 188.5 360.9 L 189.4 361.2 L 190.3 361.6 L 191.2 362.1 L 192.1 362.8 L 193.0 363.6 L 194.0 364.8 L 194.9 366.9" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="184.1" cy="364.2" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="186.8" cy="363.4" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="189.4" cy="364.4" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<circle cx="186.6" cy="349.1" r="9" fill="#ffffff" stroke="#ffc72c" stroke-width="1.4"/>
+<text x="186.6" y="349.6" font-size="11" font-weight="700" fill="#8a6100" text-anchor="middle" dominant-baseline="central">9</text>
+<path d="M 347.6 311.0 L 349.0 316.5 L 353.6 317.7 L 361.7 317.7 L 366.3 316.5 L 367.7 311.0" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="347.6" y1="311.0" x2="367.7" y2="311.0" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 349.4 311.0 L 350.3 308.9 L 351.2 307.8 L 352.1 306.9 L 353.1 306.2 L 354.0 305.7 L 354.9 305.3 L 355.8 305.0 L 356.7 304.8 L 357.6 304.7 L 358.6 304.8 L 359.5 305.0 L 360.4 305.3 L 361.3 305.7 L 362.2 306.2 L 363.2 306.9 L 364.1 307.8 L 365.0 308.9 L 365.9 311.0" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="355.2" cy="308.4" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="357.8" cy="307.5" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="360.5" cy="308.5" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<circle cx="357.6" cy="293.3" r="9" fill="#ffffff" stroke="#ffc72c" stroke-width="1.4"/>
+<text x="357.6" y="293.8" font-size="11" font-weight="700" fill="#8a6100" text-anchor="middle" dominant-baseline="central">10</text>
+<path d="M 336.1 251.6 L 352.0 251.6 L 349.3 259.5 L 338.8 259.5 L 336.1 251.6 Z" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="344.0" cy="251.6" rx="7.9" ry="2.1" fill="none" stroke="#ffc72c" stroke-width="1.4"/>
+<ellipse cx="334.6" cy="251.6" rx="1.9" ry="1.3" fill="none" stroke="#ffc72c" stroke-width="1.4"/>
+<ellipse cx="353.5" cy="251.6" rx="1.9" ry="1.3" fill="none" stroke="#ffc72c" stroke-width="1.4"/>
+<line x1="340.9" y1="249.7" x2="340.9" y2="245.6" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="344.0" y1="249.7" x2="344.0" y2="244.2" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="347.2" y1="249.7" x2="347.2" y2="245.6" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="344.0" cy="235.8" r="9" fill="#ffffff" stroke="#ffc72c" stroke-width="1.4"/>
+<text x="344.0" y="236.3" font-size="11" font-weight="700" fill="#8a6100" text-anchor="middle" dominant-baseline="central">11</text>
+<path d="M 236.2 475.4 L 237.6 480.9 L 242.3 482.1 L 250.3 482.1 L 255.0 480.9 L 256.4 475.4" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="236.2" y1="475.4" x2="256.4" y2="475.4" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 238.0 475.4 L 239.0 473.3 L 239.9 472.2 L 240.8 471.3 L 241.7 470.7 L 242.6 470.1 L 243.6 469.7 L 244.5 469.4 L 245.4 469.2 L 246.3 469.2 L 247.2 469.2 L 248.2 469.4 L 249.1 469.7 L 250.0 470.1 L 250.9 470.7 L 251.8 471.3 L 252.7 472.2 L 253.7 473.3 L 254.6 475.4" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="243.8" cy="472.8" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="246.5" cy="471.9" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="249.1" cy="472.9" rx="0.8" ry="0.5" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<circle cx="246.3" cy="457.7" r="9" fill="#ffffff" stroke="#ffc72c" stroke-width="1.4"/>
+<text x="246.3" y="458.2" font-size="11" font-weight="700" fill="#8a6100" text-anchor="middle" dominant-baseline="central">12</text>
+<path d="M 399.7 415.4 L 399.8 414.6 L 400.1 413.8 L 400.6 413.1 L 401.3 412.4 L 402.2 411.7 L 403.2 411.2 L 404.4 410.7 L 405.7 410.3 L 407.1 410.0 L 408.5 409.9 L 410.0 409.8 L 411.5 409.9 L 412.9 410.0 L 414.3 410.3 L 415.6 410.7 L 416.7 411.2 L 417.8 411.7 L 418.7 412.4 L 419.4 413.1 L 419.9 413.8 L 420.2 414.6 L 420.3 415.4 L 420.3 416.1 L 399.7 416.1 L 399.7 415.4 Z" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="405.2" y1="412.1" x2="405.2" y2="413.2" stroke="#ffc72c" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="409.0" y1="411.1" x2="409.0" y2="412.2" stroke="#ffc72c" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="413.6" y1="412.3" x2="413.6" y2="413.3" stroke="#ffc72c" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 398.9 416.1 L 402.5 414.8 L 406.3 416.1 L 410.0 414.8 L 413.7 416.1 L 417.4 414.8 L 421.0 416.1" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="410.0" cy="418.2" rx="10.6" ry="1.0" fill="none" stroke="#ffc72c" stroke-width="1.2"/>
+<path d="M 399.9 419.9 L 420.1 419.9 L 418.6 423.2 L 401.3 423.2 L 399.9 419.9 Z" fill="none" stroke="#ffc72c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="410.0" cy="399.6" r="9" fill="#ffffff" stroke="#ffc72c" stroke-width="1.4"/>
+<text x="410.0" y="400.1" font-size="11" font-weight="700" fill="#8a6100" text-anchor="middle" dominant-baseline="central">13</text>
+<path d="M 233.3 254.8 L 234.7 260.3 L 239.3 261.5 L 247.4 261.5 L 252.0 260.3 L 253.4 254.8" fill="none" stroke="#da291c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="233.3" y1="254.8" x2="253.4" y2="254.8" stroke="#da291c" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 235.1 254.8 L 236.0 252.7 L 236.9 251.6 L 237.9 250.8 L 238.8 250.1 L 239.7 249.5 L 240.6 249.1 L 241.5 248.8 L 242.5 248.6 L 243.4 248.6 L 244.3 248.6 L 245.2 248.8 L 246.1 249.1 L 247.0 249.5 L 248.0 250.1 L 248.9 250.8 L 249.8 251.6 L 250.7 252.7 L 251.6 254.8" fill="none" stroke="#da291c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="240.9" cy="252.2" rx="0.8" ry="0.5" fill="none" stroke="#da291c" stroke-width="0.8"/>
+<ellipse cx="243.5" cy="251.3" rx="0.8" ry="0.5" fill="none" stroke="#da291c" stroke-width="0.8"/>
+<ellipse cx="246.2" cy="252.3" rx="0.8" ry="0.5" fill="none" stroke="#da291c" stroke-width="0.8"/>
+<circle cx="243.4" cy="237.1" r="9" fill="#ffffff" stroke="#da291c" stroke-width="1.4"/>
+<text x="243.4" y="237.6" font-size="11" font-weight="700" fill="#a01e18" text-anchor="middle" dominant-baseline="central">14</text>
+<path d="M 191.6 490.4 L 207.5 490.4 L 204.8 498.3 L 194.3 498.3 L 191.6 490.4 Z" fill="none" stroke="#da291c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="199.6" cy="490.4" rx="7.9" ry="2.1" fill="none" stroke="#da291c" stroke-width="1.4"/>
+<ellipse cx="190.1" cy="490.4" rx="1.9" ry="1.3" fill="none" stroke="#da291c" stroke-width="1.4"/>
+<ellipse cx="209.0" cy="490.4" rx="1.9" ry="1.3" fill="none" stroke="#da291c" stroke-width="1.4"/>
+<line x1="196.4" y1="488.4" x2="196.4" y2="484.4" stroke="#da291c" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="199.6" y1="488.4" x2="199.6" y2="482.9" stroke="#da291c" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="202.7" y1="488.4" x2="202.7" y2="484.4" stroke="#da291c" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="199.6" cy="474.6" r="9" fill="#ffffff" stroke="#da291c" stroke-width="1.4"/>
+<text x="199.6" y="475.1" font-size="11" font-weight="700" fill="#a01e18" text-anchor="middle" dominant-baseline="central">15</text>
+<path d="M 227.9 312.9 L 252.1 312.9 L 240.0 333.2 Z" fill="#ffffff"/>
+<path d="M 231.2 312.9 L 248.8 312.9 L 240.0 333.2 Z" fill="#0ac89e"/>
+<circle cx="240.0" cy="308.8" r="13.4" fill="#ffffff"/>
+<circle cx="240.0" cy="308.8" r="10.2" fill="#0ac89e"/>
+<circle cx="240.0" cy="308.8" r="4.5" fill="#ffffff"/>
+<text x="240.0" y="353.0" font-size="12" font-weight="700" fill="none" stroke="#f2f7f5" stroke-width="3.4" stroke-linejoin="round" text-anchor="middle">我在这</text>
+<text x="240.0" y="353.0" font-size="12" font-weight="700" fill="#0ac89e" text-anchor="middle">我在这</text>
+<g opacity="0.5">
+<path d="M 31.0 99.0 L 27.0 113.0 L 35.0 113.0 Z" fill="#5b6570"/>
+<text x="31.0" y="124.0" font-size="8.5" fill="#98a2ac" text-anchor="middle">N</text>
+</g>
+<rect x="20.0" y="558.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="558.0" width="3.5" height="132.0" rx="1.8" fill="#3fa66b"/>
+<text x="33.0" y="580.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">1</text>
+<path d="M 42.1 580.8 L 43.6 586.8 L 48.6 588.1 L 57.4 588.1 L 62.4 586.8 L 63.9 580.8" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="42.1" y1="580.8" x2="63.9" y2="580.8" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M 44.0 580.8 L 45.0 578.5 L 46.0 577.3 L 47.0 576.4 L 48.0 575.6 L 49.0 575.0 L 50.0 574.6 L 51.0 574.3 L 52.0 574.1 L 53.0 574.0 L 54.0 574.1 L 55.0 574.3 L 56.0 574.6 L 57.0 575.0 L 58.0 575.6 L 59.0 576.4 L 60.0 577.3 L 61.0 578.5 L 62.0 580.8" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="50.3" cy="577.9" rx="0.9" ry="0.6" fill="none" stroke="#3fa66b" stroke-width="0.8"/>
+<ellipse cx="53.2" cy="577.0" rx="0.9" ry="0.6" fill="none" stroke="#3fa66b" stroke-width="0.8"/>
+<ellipse cx="56.0" cy="578.1" rx="0.9" ry="0.6" fill="none" stroke="#3fa66b" stroke-width="0.8"/>
+<text x="71.0" y="584.2" font-size="12.5" font-weight="600" fill="#16191d">云南风味美食</text>
+<text x="225.0" y="580.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">152m</text>
+<text x="199.0" y="580.0" font-size="8.5" fill="#0ac89e" text-anchor="end" dominant-baseline="central">最近</text>
+<circle cx="33.0" cy="602.6" r="3" fill="#3fa66b"/>
+<text x="44" y="606.0" font-size="11" fill="#16191d">火腿豌豆米线</text>
+<text x="225.0" y="606.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">301<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="621.6" r="3" fill="#3fa66b"/>
+<text x="44" y="625.0" font-size="11" fill="#16191d">焖肉米线</text>
+<text x="225.0" y="625.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">236<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="640.6" r="3" fill="#3fa66b"/>
+<text x="44" y="644.0" font-size="11" fill="#16191d">牛肉米线</text>
+<text x="225.0" y="644.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">277<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="659.6" r="3" fill="#da291c"/>
+<text x="44" y="663.0" font-size="11" fill="#16191d">火腿土豆焖饭</text>
+<text x="225.0" y="663.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">559<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="43.0" y1="659.0" x2="111.0" y2="659.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<rect x="20.0" y="706.0" width="215.0" height="113.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="706.0" width="3.5" height="113.0" rx="1.8" fill="#3fa66b"/>
+<text x="33.0" y="728.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">4</text>
+<path d="M 44.4 726.7 L 61.6 726.7 L 58.7 735.3 L 47.3 735.3 L 44.4 726.7 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="53.0" cy="726.7" rx="8.6" ry="2.2" fill="none" stroke="#3fa66b" stroke-width="1.5"/>
+<ellipse cx="42.7" cy="726.7" rx="2.1" ry="1.4" fill="none" stroke="#3fa66b" stroke-width="1.5"/>
+<ellipse cx="63.3" cy="726.7" rx="2.1" ry="1.4" fill="none" stroke="#3fa66b" stroke-width="1.5"/>
+<line x1="49.6" y1="724.6" x2="49.6" y2="720.2" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="53.0" y1="724.6" x2="53.0" y2="718.6" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="56.4" y1="724.6" x2="56.4" y2="720.2" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<text x="71.0" y="732.2" font-size="12.5" font-weight="600" fill="#16191d">朱光玉火锅馆</text>
+<text x="225.0" y="728.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">646m</text>
+<text x="199.0" y="728.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="33.0" cy="750.6" r="3" fill="#3fa66b"/>
+<text x="44" y="754.0" font-size="11" fill="#16191d">炒饭</text>
+<text x="225.0" y="754.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">459<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="769.6" r="3" fill="#3fa66b"/>
+<text x="44" y="773.0" font-size="11" fill="#16191d">牛乳冰</text>
+<text x="225.0" y="773.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">250<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="788.6" r="3" fill="#3fa66b"/>
+<text x="44" y="792.0" font-size="11" fill="#16191d">红糖冰汤团</text>
+<text x="225.0" y="792.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">194<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="20.0" y="835.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="835.0" width="3.5" height="132.0" rx="1.8" fill="#3fa66b"/>
+<text x="33.0" y="857.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">5</text>
+<path d="M 41.8 855.8 L 41.9 854.9 L 42.3 854.0 L 42.8 853.2 L 43.6 852.5 L 44.6 851.8 L 45.7 851.2 L 47.0 850.6 L 48.4 850.2 L 49.9 849.9 L 51.4 849.7 L 53.0 849.7 L 54.6 849.7 L 56.1 849.9 L 57.6 850.2 L 59.0 850.6 L 60.3 851.2 L 61.4 851.8 L 62.4 852.5 L 63.2 853.2 L 63.7 854.0 L 64.1 854.9 L 64.2 855.8 L 64.2 856.5 L 41.8 856.5 L 41.8 855.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="47.8" y1="852.2" x2="47.8" y2="853.3" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="52.0" y1="851.1" x2="52.0" y2="852.2" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="56.9" y1="852.3" x2="56.9" y2="853.5" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 41.0 856.5 L 44.9 855.1 L 49.0 856.5 L 53.0 855.1 L 57.0 856.5 L 61.1 855.1 L 65.0 856.5" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="53.0" cy="858.7" rx="11.4" ry="1.1" fill="none" stroke="#3fa66b" stroke-width="1.3"/>
+<path d="M 42.1 860.6 L 63.9 860.6 L 62.4 864.2 L 43.6 864.2 L 42.1 860.6 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="71.0" y="861.2" font-size="12.5" font-weight="600" fill="#16191d">麦当劳</text>
+<text x="225.0" y="857.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">980m</text>
+<text x="199.0" y="857.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="33.0" cy="879.6" r="3" fill="#3fa66b"/>
+<text x="44" y="883.0" font-size="11" fill="#16191d">麦香鱼</text>
+<text x="225.0" y="883.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">325<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="898.6" r="3" fill="#3fa66b"/>
+<text x="44" y="902.0" font-size="11" fill="#16191d">薯条（中）</text>
+<text x="225.0" y="902.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">337<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="917.6" r="3" fill="#3fa66b"/>
+<text x="44" y="921.0" font-size="11" fill="#16191d">麦鸡腿汉堡</text>
+<text x="225.0" y="921.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">390<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="936.6" r="3" fill="#3fa66b"/>
+<text x="44" y="940.0" font-size="11" fill="#16191d">麦满分</text>
+<text x="225.0" y="940.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">250<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="20.0" y="983.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="983.0" width="3.5" height="132.0" rx="1.8" fill="#3fa66b"/>
+<text x="33.0" y="1005.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">7</text>
+<path d="M 41.8 1003.8 L 41.9 1002.9 L 42.3 1002.0 L 42.8 1001.2 L 43.6 1000.5 L 44.6 999.8 L 45.7 999.2 L 47.0 998.6 L 48.4 998.2 L 49.9 997.9 L 51.4 997.7 L 53.0 997.7 L 54.6 997.7 L 56.1 997.9 L 57.6 998.2 L 59.0 998.6 L 60.3 999.2 L 61.4 999.8 L 62.4 1000.5 L 63.2 1001.2 L 63.7 1002.0 L 64.1 1002.9 L 64.2 1003.8 L 64.2 1004.5 L 41.8 1004.5 L 41.8 1003.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="47.8" y1="1000.2" x2="47.8" y2="1001.3" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="52.0" y1="999.1" x2="52.0" y2="1000.2" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="56.9" y1="1000.3" x2="56.9" y2="1001.5" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 41.0 1004.5 L 44.9 1003.1 L 49.0 1004.5 L 53.0 1003.1 L 57.0 1004.5 L 61.1 1003.1 L 65.0 1004.5" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="53.0" cy="1006.7" rx="11.4" ry="1.1" fill="none" stroke="#3fa66b" stroke-width="1.3"/>
+<path d="M 42.1 1008.6 L 63.9 1008.6 L 62.4 1012.2 L 43.6 1012.2 L 42.1 1008.6 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="71.0" y="1009.2" font-size="12.5" font-weight="600" fill="#16191d">麦当劳</text>
+<text x="225.0" y="1005.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">1480m</text>
+<text x="199.0" y="1005.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="33.0" cy="1027.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1031.0" font-size="11" fill="#16191d">麦辣鸡腿堡</text>
+<text x="225.0" y="1031.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">517<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1046.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1050.0" font-size="11" fill="#16191d">麦辣鸡翅（3块）</text>
+<text x="225.0" y="1050.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">247<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1065.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1069.0" font-size="11" fill="#16191d">麦满分</text>
+<text x="225.0" y="1069.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">250<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1084.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1088.0" font-size="11" fill="#16191d">吉士汉堡包</text>
+<text x="225.0" y="1088.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">277<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="20.0" y="1131.0" width="215.0" height="75.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="1131.0" width="3.5" height="75.0" rx="1.8" fill="#ffc72c"/>
+<text x="33.0" y="1153.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">10</text>
+<path d="M 42.1 1153.8 L 43.6 1159.8 L 48.6 1161.1 L 57.4 1161.1 L 62.4 1159.8 L 63.9 1153.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="42.1" y1="1153.8" x2="63.9" y2="1153.8" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M 44.0 1153.8 L 45.0 1151.5 L 46.0 1150.3 L 47.0 1149.4 L 48.0 1148.6 L 49.0 1148.0 L 50.0 1147.6 L 51.0 1147.3 L 52.0 1147.1 L 53.0 1147.0 L 54.0 1147.1 L 55.0 1147.3 L 56.0 1147.6 L 57.0 1148.0 L 58.0 1148.6 L 59.0 1149.4 L 60.0 1150.3 L 61.0 1151.5 L 62.0 1153.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="50.3" cy="1150.9" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="53.2" cy="1150.0" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="56.0" cy="1151.1" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<text x="71.0" y="1157.2" font-size="12.5" font-weight="600" fill="#16191d">林林面馆</text>
+<text x="225.0" y="1153.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">378m</text>
+<text x="199.0" y="1153.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="33.0" cy="1175.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1179.0" font-size="11" fill="#16191d">红烧牛肉面</text>
+<text x="225.0" y="1179.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">387<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="20.0" y="1222.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="1222.0" width="3.5" height="132.0" rx="1.8" fill="#ffc72c"/>
+<text x="33.0" y="1244.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">12</text>
+<path d="M 42.1 1244.8 L 43.6 1250.8 L 48.6 1252.1 L 57.4 1252.1 L 62.4 1250.8 L 63.9 1244.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="42.1" y1="1244.8" x2="63.9" y2="1244.8" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M 44.0 1244.8 L 45.0 1242.5 L 46.0 1241.3 L 47.0 1240.4 L 48.0 1239.6 L 49.0 1239.0 L 50.0 1238.6 L 51.0 1238.3 L 52.0 1238.1 L 53.0 1238.0 L 54.0 1238.1 L 55.0 1238.3 L 56.0 1238.6 L 57.0 1239.0 L 58.0 1239.6 L 59.0 1240.4 L 60.0 1241.3 L 61.0 1242.5 L 62.0 1244.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="50.3" cy="1241.9" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="53.2" cy="1241.0" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="56.0" cy="1242.1" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<text x="71.0" y="1248.2" font-size="12.5" font-weight="600" fill="#16191d">沙县小吃</text>
+<text x="225.0" y="1244.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">558m</text>
+<text x="199.0" y="1244.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="33.0" cy="1266.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1270.0" font-size="11" fill="#16191d">螺蛳粉</text>
+<text x="225.0" y="1270.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">385<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1285.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1289.0" font-size="11" fill="#16191d">酸辣粉</text>
+<text x="225.0" y="1289.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">361<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1304.6" r="3" fill="#da291c"/>
+<text x="44" y="1308.0" font-size="11" fill="#16191d">米粉</text>
+<text x="225.0" y="1308.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">575<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="43.0" y1="1304.0" x2="67.0" y2="1304.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="33.0" cy="1323.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1327.0" font-size="11" fill="#16191d">红烧牛肉面</text>
+<text x="225.0" y="1327.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">387<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="20.0" y="1370.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="20.0" y="1370.0" width="3.5" height="132.0" rx="1.8" fill="#da291c"/>
+<text x="33.0" y="1392.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">14</text>
+<path d="M 42.1 1392.8 L 43.6 1398.8 L 48.6 1400.1 L 57.4 1400.1 L 62.4 1398.8 L 63.9 1392.8" fill="none" stroke="#da291c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="42.1" y1="1392.8" x2="63.9" y2="1392.8" stroke="#da291c" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M 44.0 1392.8 L 45.0 1390.5 L 46.0 1389.3 L 47.0 1388.4 L 48.0 1387.6 L 49.0 1387.0 L 50.0 1386.6 L 51.0 1386.3 L 52.0 1386.1 L 53.0 1386.0 L 54.0 1386.1 L 55.0 1386.3 L 56.0 1386.6 L 57.0 1387.0 L 58.0 1387.6 L 59.0 1388.4 L 60.0 1389.3 L 61.0 1390.5 L 62.0 1392.8" fill="none" stroke="#da291c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="50.3" cy="1389.9" rx="0.9" ry="0.6" fill="none" stroke="#da291c" stroke-width="0.8"/>
+<ellipse cx="53.2" cy="1389.0" rx="0.9" ry="0.6" fill="none" stroke="#da291c" stroke-width="0.8"/>
+<ellipse cx="56.0" cy="1390.1" rx="0.9" ry="0.6" fill="none" stroke="#da291c" stroke-width="0.8"/>
+<text x="71.0" y="1396.2" font-size="12.5" font-weight="600" fill="#16191d">润苑·本帮融合菜</text>
+<text x="225.0" y="1392.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">164m</text>
+<text x="199.0" y="1392.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="33.0" cy="1414.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1418.0" font-size="11" fill="#16191d">小龙虾</text>
+<text x="225.0" y="1418.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">281<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1433.6" r="3" fill="#3fa66b"/>
+<text x="44" y="1437.0" font-size="11" fill="#16191d">水晶虾仁</text>
+<text x="225.0" y="1437.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">184<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="33.0" cy="1452.6" r="3" fill="#da291c"/>
+<text x="44" y="1456.0" font-size="11" fill="#16191d">老上海熏鱼</text>
+<text x="225.0" y="1456.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">539<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="43.0" y1="1452.0" x2="100.0" y2="1452.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="33.0" cy="1471.6" r="3" fill="#da291c"/>
+<text x="44" y="1475.0" font-size="11" fill="#16191d">桂花红烧肉</text>
+<text x="225.0" y="1475.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">745<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="43.0" y1="1471.0" x2="100.0" y2="1471.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<rect x="245.0" y="558.0" width="215.0" height="113.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="558.0" width="3.5" height="113.0" rx="1.8" fill="#3fa66b"/>
+<text x="258.0" y="580.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">2</text>
+<path d="M 269.4 578.7 L 286.6 578.7 L 283.7 587.3 L 272.3 587.3 L 269.4 578.7 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="278.0" cy="578.7" rx="8.6" ry="2.2" fill="none" stroke="#3fa66b" stroke-width="1.5"/>
+<ellipse cx="267.7" cy="578.7" rx="2.1" ry="1.4" fill="none" stroke="#3fa66b" stroke-width="1.5"/>
+<ellipse cx="288.3" cy="578.7" rx="2.1" ry="1.4" fill="none" stroke="#3fa66b" stroke-width="1.5"/>
+<line x1="274.6" y1="576.6" x2="274.6" y2="572.2" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="278.0" y1="576.6" x2="278.0" y2="570.6" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="281.4" y1="576.6" x2="281.4" y2="572.2" stroke="#3fa66b" stroke-width="1.5" stroke-linecap="round"/>
+<text x="296.0" y="584.2" font-size="12.5" font-weight="600" fill="#16191d">周记潮汕海鲜砂锅</text>
+<text x="450.0" y="580.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">164m</text>
+<text x="424.0" y="580.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="258.0" cy="602.6" r="3" fill="#3fa66b"/>
+<text x="269" y="606.0" font-size="11" fill="#16191d">烤生蚝</text>
+<text x="450.0" y="606.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">425<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="621.6" r="3" fill="#3fa66b"/>
+<text x="269" y="625.0" font-size="11" fill="#16191d">砂锅粥</text>
+<text x="450.0" y="625.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">193<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="640.6" r="3" fill="#3fa66b"/>
+<text x="269" y="644.0" font-size="11" fill="#16191d">潮汕海鲜砂锅粥</text>
+<text x="450.0" y="644.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">295<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="687.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="687.0" width="3.5" height="132.0" rx="1.8" fill="#3fa66b"/>
+<text x="258.0" y="709.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">3</text>
+<path d="M 266.8 707.8 L 266.9 706.9 L 267.3 706.0 L 267.8 705.2 L 268.6 704.5 L 269.6 703.8 L 270.7 703.2 L 272.0 702.6 L 273.4 702.2 L 274.9 701.9 L 276.4 701.7 L 278.0 701.7 L 279.6 701.7 L 281.1 701.9 L 282.6 702.2 L 284.0 702.6 L 285.3 703.2 L 286.4 703.8 L 287.4 704.5 L 288.2 705.2 L 288.7 706.0 L 289.1 706.9 L 289.2 707.8 L 289.2 708.5 L 266.8 708.5 L 266.8 707.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="272.8" y1="704.2" x2="272.8" y2="705.3" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="277.0" y1="703.1" x2="277.0" y2="704.2" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="281.9" y1="704.3" x2="281.9" y2="705.5" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 266.0 708.5 L 269.9 707.1 L 274.0 708.5 L 278.0 707.1 L 282.0 708.5 L 286.1 707.1 L 290.0 708.5" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="278.0" cy="710.7" rx="11.4" ry="1.1" fill="none" stroke="#3fa66b" stroke-width="1.3"/>
+<path d="M 267.1 712.6 L 288.9 712.6 L 287.4 716.2 L 268.6 716.2 L 267.1 712.6 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="296.0" y="713.2" font-size="12.5" font-weight="600" fill="#16191d">麦当劳</text>
+<text x="450.0" y="709.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">253m</text>
+<text x="424.0" y="709.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="258.0" cy="731.6" r="3" fill="#da291c"/>
+<text x="269" y="735.0" font-size="11" fill="#16191d">麦辣鸡腿堡</text>
+<text x="450.0" y="735.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">517<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="268.0" y1="731.0" x2="325.0" y2="731.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="258.0" cy="750.6" r="3" fill="#3fa66b"/>
+<text x="269" y="754.0" font-size="11" fill="#16191d">麦辣鸡翅（3块）</text>
+<text x="450.0" y="754.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">247<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="769.6" r="3" fill="#3fa66b"/>
+<text x="269" y="773.0" font-size="11" fill="#16191d">麦满分</text>
+<text x="450.0" y="773.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">250<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="788.6" r="3" fill="#3fa66b"/>
+<text x="269" y="792.0" font-size="11" fill="#16191d">吉士汉堡包</text>
+<text x="450.0" y="792.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">277<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="835.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="835.0" width="3.5" height="132.0" rx="1.8" fill="#3fa66b"/>
+<text x="258.0" y="857.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">6</text>
+<path d="M 266.8 855.8 L 266.9 854.9 L 267.3 854.0 L 267.8 853.2 L 268.6 852.5 L 269.6 851.8 L 270.7 851.2 L 272.0 850.6 L 273.4 850.2 L 274.9 849.9 L 276.4 849.7 L 278.0 849.7 L 279.6 849.7 L 281.1 849.9 L 282.6 850.2 L 284.0 850.6 L 285.3 851.2 L 286.4 851.8 L 287.4 852.5 L 288.2 853.2 L 288.7 854.0 L 289.1 854.9 L 289.2 855.8 L 289.2 856.5 L 266.8 856.5 L 266.8 855.8 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="272.8" y1="852.2" x2="272.8" y2="853.3" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="277.0" y1="851.1" x2="277.0" y2="852.2" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="281.9" y1="852.3" x2="281.9" y2="853.5" stroke="#3fa66b" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 266.0 856.5 L 269.9 855.1 L 274.0 856.5 L 278.0 855.1 L 282.0 856.5 L 286.1 855.1 L 290.0 856.5" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="278.0" cy="858.7" rx="11.4" ry="1.1" fill="none" stroke="#3fa66b" stroke-width="1.3"/>
+<path d="M 267.1 860.6 L 288.9 860.6 L 287.4 864.2 L 268.6 864.2 L 267.1 860.6 Z" fill="none" stroke="#3fa66b" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="296.0" y="861.2" font-size="12.5" font-weight="600" fill="#16191d">麦当劳</text>
+<text x="450.0" y="857.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">1391m</text>
+<text x="424.0" y="857.0" font-size="8.5" fill="#0ac89e" text-anchor="end" dominant-baseline="central">最淡</text>
+<circle cx="258.0" cy="879.6" r="3" fill="#3fa66b"/>
+<text x="269" y="883.0" font-size="11" fill="#16191d">麦鸡腿汉堡</text>
+<text x="450.0" y="883.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">390<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="898.6" r="3" fill="#3fa66b"/>
+<text x="269" y="902.0" font-size="11" fill="#16191d">麦辣鸡翅（3块）</text>
+<text x="450.0" y="902.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">247<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="917.6" r="3" fill="#3fa66b"/>
+<text x="269" y="921.0" font-size="11" fill="#16191d">吉士汉堡包</text>
+<text x="450.0" y="921.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">277<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="936.6" r="3" fill="#3fa66b"/>
+<text x="269" y="940.0" font-size="11" fill="#16191d">香芋派</text>
+<text x="450.0" y="940.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">232<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="983.0" width="215.0" height="75.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="983.0" width="3.5" height="75.0" rx="1.8" fill="#ffc72c"/>
+<text x="258.0" y="1005.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">8</text>
+<path d="M 267.1 1005.8 L 268.6 1011.8 L 273.6 1013.1 L 282.4 1013.1 L 287.4 1011.8 L 288.9 1005.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="267.1" y1="1005.8" x2="288.9" y2="1005.8" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M 269.0 1005.8 L 270.0 1003.5 L 271.0 1002.3 L 272.0 1001.4 L 273.0 1000.6 L 274.0 1000.0 L 275.0 999.6 L 276.0 999.3 L 277.0 999.1 L 278.0 999.0 L 279.0 999.1 L 280.0 999.3 L 281.0 999.6 L 282.0 1000.0 L 283.0 1000.6 L 284.0 1001.4 L 285.0 1002.3 L 286.0 1003.5 L 287.0 1005.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="275.3" cy="1002.9" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="278.2" cy="1002.0" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="281.0" cy="1003.1" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<text x="296.0" y="1009.2" font-size="12.5" font-weight="600" fill="#16191d">惠香缘红烧牛肉面</text>
+<text x="450.0" y="1005.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">121m</text>
+<text x="424.0" y="1005.0" font-size="8.5" fill="#0ac89e" text-anchor="end" dominant-baseline="central">最近</text>
+<circle cx="258.0" cy="1027.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1031.0" font-size="11" fill="#16191d">红烧牛肉面</text>
+<text x="450.0" y="1031.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">387<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="1074.0" width="215.0" height="75.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="1074.0" width="3.5" height="75.0" rx="1.8" fill="#ffc72c"/>
+<text x="258.0" y="1096.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">9</text>
+<path d="M 267.1 1096.8 L 268.6 1102.8 L 273.6 1104.1 L 282.4 1104.1 L 287.4 1102.8 L 288.9 1096.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="267.1" y1="1096.8" x2="288.9" y2="1096.8" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M 269.0 1096.8 L 270.0 1094.5 L 271.0 1093.3 L 272.0 1092.4 L 273.0 1091.6 L 274.0 1091.0 L 275.0 1090.6 L 276.0 1090.3 L 277.0 1090.1 L 278.0 1090.0 L 279.0 1090.1 L 280.0 1090.3 L 281.0 1090.6 L 282.0 1091.0 L 283.0 1091.6 L 284.0 1092.4 L 285.0 1093.3 L 286.0 1094.5 L 287.0 1096.8" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="275.3" cy="1093.9" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="278.2" cy="1093.0" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<ellipse cx="281.0" cy="1094.1" rx="0.9" ry="0.6" fill="none" stroke="#ffc72c" stroke-width="0.8"/>
+<text x="296.0" y="1100.2" font-size="12.5" font-weight="600" fill="#16191d">早阳鲜包</text>
+<text x="450.0" y="1096.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">198m</text>
+<text x="424.0" y="1096.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="258.0" cy="1118.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1122.0" font-size="11" fill="#16191d">鱼香肉丝</text>
+<text x="450.0" y="1122.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">367<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="1165.0" width="215.0" height="75.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="1165.0" width="3.5" height="75.0" rx="1.8" fill="#ffc72c"/>
+<text x="258.0" y="1187.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">11</text>
+<path d="M 269.4 1185.7 L 286.6 1185.7 L 283.7 1194.3 L 272.3 1194.3 L 269.4 1185.7 Z" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="278.0" cy="1185.7" rx="8.6" ry="2.2" fill="none" stroke="#ffc72c" stroke-width="1.5"/>
+<ellipse cx="267.7" cy="1185.7" rx="2.1" ry="1.4" fill="none" stroke="#ffc72c" stroke-width="1.5"/>
+<ellipse cx="288.3" cy="1185.7" rx="2.1" ry="1.4" fill="none" stroke="#ffc72c" stroke-width="1.5"/>
+<line x1="274.6" y1="1183.6" x2="274.6" y2="1179.2" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="278.0" y1="1183.6" x2="278.0" y2="1177.6" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="281.4" y1="1183.6" x2="281.4" y2="1179.2" stroke="#ffc72c" stroke-width="1.5" stroke-linecap="round"/>
+<text x="296.0" y="1191.2" font-size="12.5" font-weight="600" fill="#16191d">九九脆炭烤烧腊茶</text>
+<text x="450.0" y="1187.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">397m</text>
+<text x="424.0" y="1187.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="258.0" cy="1209.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1213.0" font-size="11" fill="#16191d">烧腊</text>
+<text x="450.0" y="1213.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">353<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="1256.0" width="215.0" height="132.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="1256.0" width="3.5" height="132.0" rx="1.8" fill="#ffc72c"/>
+<text x="258.0" y="1278.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">13</text>
+<path d="M 266.8 1276.8 L 266.9 1275.9 L 267.3 1275.0 L 267.8 1274.2 L 268.6 1273.5 L 269.6 1272.8 L 270.7 1272.2 L 272.0 1271.6 L 273.4 1271.2 L 274.9 1270.9 L 276.4 1270.7 L 278.0 1270.7 L 279.6 1270.7 L 281.1 1270.9 L 282.6 1271.2 L 284.0 1271.6 L 285.3 1272.2 L 286.4 1272.8 L 287.4 1273.5 L 288.2 1274.2 L 288.7 1275.0 L 289.1 1275.9 L 289.2 1276.8 L 289.2 1277.5 L 266.8 1277.5 L 266.8 1276.8 Z" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="272.8" y1="1273.2" x2="272.8" y2="1274.3" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="277.0" y1="1272.1" x2="277.0" y2="1273.2" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="281.9" y1="1273.3" x2="281.9" y2="1274.5" stroke="#ffc72c" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 266.0 1277.5 L 269.9 1276.1 L 274.0 1277.5 L 278.0 1276.1 L 282.0 1277.5 L 286.1 1276.1 L 290.0 1277.5" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="278.0" cy="1279.7" rx="11.4" ry="1.1" fill="none" stroke="#ffc72c" stroke-width="1.3"/>
+<path d="M 267.1 1281.6 L 288.9 1281.6 L 287.4 1285.2 L 268.6 1285.2 L 267.1 1281.6 Z" fill="none" stroke="#ffc72c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="296.0" y="1282.2" font-size="12.5" font-weight="600" fill="#16191d">麦当劳</text>
+<text x="450.0" y="1278.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">1401m</text>
+<text x="424.0" y="1278.0" font-size="8.5" fill="#98a2ac" text-anchor="end" dominant-baseline="central">均衡</text>
+<circle cx="258.0" cy="1300.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1304.0" font-size="11" fill="#16191d">麦辣鸡腿堡</text>
+<text x="450.0" y="1304.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">517<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="1319.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1323.0" font-size="11" fill="#16191d">双层深海鳕鱼堡</text>
+<text x="450.0" y="1323.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">485<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="1338.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1342.0" font-size="11" fill="#16191d">麦辣鸡翅（3块）</text>
+<text x="450.0" y="1342.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">247<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="1357.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1361.0" font-size="11" fill="#16191d">麦满分</text>
+<text x="450.0" y="1361.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">250<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<rect x="245.0" y="1404.0" width="215.0" height="208.0" rx="10" fill="#ffffff"/>
+<rect x="245.0" y="1404.0" width="3.5" height="208.0" rx="1.8" fill="#da291c"/>
+<text x="258.0" y="1426.0" font-size="11.5" font-weight="600" fill="#98a2ac" text-anchor="middle" dominant-baseline="central">15</text>
+<path d="M 269.4 1424.7 L 286.6 1424.7 L 283.7 1433.3 L 272.3 1433.3 L 269.4 1424.7 Z" fill="none" stroke="#da291c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="278.0" cy="1424.7" rx="8.6" ry="2.2" fill="none" stroke="#da291c" stroke-width="1.5"/>
+<ellipse cx="267.7" cy="1424.7" rx="2.1" ry="1.4" fill="none" stroke="#da291c" stroke-width="1.5"/>
+<ellipse cx="288.3" cy="1424.7" rx="2.1" ry="1.4" fill="none" stroke="#da291c" stroke-width="1.5"/>
+<line x1="274.6" y1="1422.6" x2="274.6" y2="1418.2" stroke="#da291c" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="278.0" y1="1422.6" x2="278.0" y2="1416.6" stroke="#da291c" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="281.4" y1="1422.6" x2="281.4" y2="1418.2" stroke="#da291c" stroke-width="1.5" stroke-linecap="round"/>
+<text x="296.0" y="1430.2" font-size="12.5" font-weight="600" fill="#16191d">太琼糟粕醋·海南</text>
+<text x="450.0" y="1426.0" font-size="9" fill="#98a2ac" text-anchor="end" dominant-baseline="central">661m</text>
+<text x="424.0" y="1426.0" font-size="8.5" fill="#0ac89e" text-anchor="end" dominant-baseline="central">最多</text>
+<circle cx="258.0" cy="1448.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1452.0" font-size="11" fill="#16191d">海南黑猪五花肉片</text>
+<text x="450.0" y="1452.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">437<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="1467.6" r="3" fill="#da291c"/>
+<text x="269" y="1471.0" font-size="11" fill="#16191d">椰香米饭</text>
+<text x="450.0" y="1471.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">600<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="268.0" y1="1467.0" x2="314.0" y2="1467.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="258.0" cy="1486.6" r="3" fill="#da291c"/>
+<text x="269" y="1490.0" font-size="11" fill="#16191d">鲜活罗氏虾</text>
+<text x="450.0" y="1490.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">700<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="268.0" y1="1486.0" x2="325.0" y2="1486.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="258.0" cy="1505.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1509.0" font-size="11" fill="#16191d">8秒乌鱼片</text>
+<text x="450.0" y="1509.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">348<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="1524.6" r="3" fill="#da291c"/>
+<text x="269" y="1528.0" font-size="11" fill="#16191d">菠萝蜜椰香糯米饭</text>
+<text x="450.0" y="1528.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">578<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="268.0" y1="1524.0" x2="358.0" y2="1524.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="258.0" cy="1543.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1547.0" font-size="11" fill="#16191d">手打鲍鱼虾滑</text>
+<text x="450.0" y="1547.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">204<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<circle cx="258.0" cy="1562.6" r="3" fill="#da291c"/>
+<text x="269" y="1566.0" font-size="11" fill="#16191d">田园拼盘</text>
+<text x="450.0" y="1566.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">700<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<line x1="268.0" y1="1562.0" x2="314.0" y2="1562.0" stroke="#c9a3a0" stroke-width="0.9"/>
+<circle cx="258.0" cy="1581.6" r="3" fill="#3fa66b"/>
+<text x="269" y="1585.0" font-size="11" fill="#16191d">海鲜拼盘</text>
+<text x="450.0" y="1585.0" font-size="10" font-weight="700" fill="#16191d" text-anchor="end">259<tspan font-size="7" font-weight="400" fill="#16191d">卡</tspan></text>
+<text x="20" y="1658.0" font-size="11" font-weight="700" fill="#5b6570">颜色看这家店的网友推荐菜，和你的热量缺口比</text>
+<rect x="20.0" y="1668.0" width="13" height="13" rx="3" fill="#3fa66b"/>
+<text x="37.0" y="1679.0" font-size="10" font-weight="700" fill="#5b6570">低于缺口</text>
+<rect x="89.0" y="1668.0" width="13" height="13" rx="3" fill="#ffc72c"/>
+<text x="106.0" y="1679.0" font-size="10" font-weight="700" fill="#5b6570">适配缺口</text>
+<rect x="158.0" y="1668.0" width="13" height="13" rx="3" fill="#da291c"/>
+<text x="175.0" y="1679.0" font-size="10" font-weight="700" fill="#5b6570">高于缺口</text>
+<text x="227.0" y="1679.0" font-size="9.5" fill="#98a2ac">（绿=大多在缺口之下 · 黄=一半刚好 · 红=大多超过）</text>
+<text x="20" y="1704.0" font-size="9.5" fill="#98a2ac">· 淡点 = 附近一家餐饮（共 233 家，仅画 750 米内）· 15 家可评估 · 本批 15 家（1/1 批）</text>
+<text x="20" y="1721.0" font-size="9.5" fill="#98a2ac">· 选店规则：四象限各取几家 · 麦当劳最多占 1/3 · 同档优先「额度内能吃几道」再比远近</text>
+<text x="20" y="1738.0" font-size="9.5" fill="#98a2ac">· 已隐去 1 家只卖饮品的店 —— 想看请按业态筛选</text>
+<text x="20" y="1755.0" font-size="9.5" fill="#98a2ac">· 缺口 = 本餐额度；每道菜按"能不能填进这个缺口"判定，绿吃得下、红超了（划掉）</text>
+<text x="20" y="1772.0" font-size="9.5" fill="#98a2ac">· 热量分三层：菜谱推算 → 品类估算 → 同类估算（误差 25~45%）；算不出的不猜</text>
+<text x="20" y="1789.0" font-size="9.5" fill="#98a2ac">· 菜名来自地图的网友推荐（非店家官方菜单，会有遗漏）· 每店最多 8 道</text>
+<text x="20" y="1806.0" font-size="9.5" fill="#98a2ac">· 步行距离为地图路径规划 · 数据快照 2026-10-09 · 不构成医疗建议</text>
+</svg>

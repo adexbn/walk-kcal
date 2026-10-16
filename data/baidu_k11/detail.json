@@ -1,0 +1,747 @@
+{
+ "origin": {
+  "name": "31.2209,121.4700（百度地图）",
+  "lon": 121.47,
+  "lat": 31.2209
+ },
+ "stores": [
+  {
+   "id": "3a0fbba854b2e7589fe32182",
+   "name": "永兴餐厅(复兴中路店)",
+   "lon": 121.46363520369724,
+   "lat": 31.21461701663719,
+   "distance_m": 20,
+   "straight_m": null,
+   "address": "复兴中路626弄1号(近茂名路)",
+   "category_hint": "上海菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "21fad995556c89cec909f0f1",
+   "name": "馨源楼",
+   "lon": 121.46385559995382,
+   "lat": 31.214048116310273,
+   "distance_m": 87,
+   "straight_m": null,
+   "address": "瑞金二路街道瑞金二路118号瑞金洲际酒店4号楼(近复兴中路)",
+   "category_hint": "米其林推介",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "c53aa5a5386058d3deee8bda",
+   "name": "琅庐自助餐厅",
+   "lon": 121.46353814950486,
+   "lat": 31.213948378704366,
+   "distance_m": 91,
+   "straight_m": null,
+   "address": "上海市黄浦区瑞金二路街道瑞金二路118号瑞金洲际酒店主楼1楼(近日月光商业中心)",
+   "category_hint": "自助餐",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "5c2dc21d8dd3e81d6ec02c86",
+   "name": "瑞福园联谊餐室(茂名南路店)",
+   "lon": 121.4619654533011,
+   "lat": 31.215132191057023,
+   "distance_m": 154,
+   "straight_m": null,
+   "address": "瑞金二路街道茂名南路132号(近复兴中路)",
+   "category_hint": "上海菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "99afeebdce1bae501ef74dda",
+   "name": "张记烧味馆(北万新香山店)",
+   "lon": 121.46514105651072,
+   "lat": 31.214713619431187,
+   "distance_m": 155,
+   "straight_m": null,
+   "address": "瑞金二路111号（复兴中路与瑞金二路交叉口）",
+   "category_hint": "烧腊",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "18be8f4eccec5d46213bf209",
+   "name": "手作团子",
+   "lon": 121.46505894323934,
+   "lat": 31.215418977117768,
+   "distance_m": 162,
+   "straight_m": null,
+   "address": "上海市黄浦区瑞金二路香山丽舍",
+   "category_hint": "江浙小吃",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "8ab0dfc4e24e450fd8ecedc0",
+   "name": "阿三烤鸭店(复兴中路店)",
+   "lon": 121.46521566650989,
+   "lat": 31.21476199606543,
+   "distance_m": 162,
+   "straight_m": null,
+   "address": "上海市黄浦区复兴中路587弄1-7号思南社区",
+   "category_hint": "烤鸭店",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "1ebb09f9dfba66ab4f3a5912",
+   "name": "夏",
+   "lon": 121.46452793551474,
+   "lat": 31.21617805055459,
+   "distance_m": 181,
+   "straight_m": null,
+   "address": "上海市黄浦区瑞金二路48弄小区",
+   "category_hint": "",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "afa8f8089e9ca8ab704b8723",
+   "name": "雅泰阁",
+   "lon": 121.46317149911862,
+   "lat": 31.21309293039166,
+   "distance_m": 189,
+   "straight_m": null,
+   "address": "瑞金二路118号(近瑞金医院田子坊)瑞金洲际酒店",
+   "category_hint": "",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "e6ee2fd2e991e3512a11d182",
+   "name": "春秋火锅(复兴中路店)",
+   "lon": 121.46580975387162,
+   "lat": 31.214865054678796,
+   "distance_m": 219,
+   "straight_m": null,
+   "address": "复兴中路581号",
+   "category_hint": "火锅店",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "8856fa829c545c8c12882497",
+   "name": "中华老字号(瑞金二路店)",
+   "lon": 121.46434132263971,
+   "lat": 31.216928507460384,
+   "distance_m": 250,
+   "straight_m": null,
+   "address": "上海市黄浦区瑞金二路五金新邨",
+   "category_hint": "",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "4c9025312890f722b21e36e7",
+   "name": "鸟啸酒場by MIG(瑞金路店)",
+   "lon": 121.46456025309928,
+   "lat": 31.216989518766468,
+   "distance_m": 263,
+   "straight_m": null,
+   "address": "瑞金二路75号1层",
+   "category_hint": "日式烧烤",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "504d6113c50002aa46572641",
+   "name": "清真顺和饮食店(复兴中路店)",
+   "lon": 121.46634413553483,
+   "lat": 31.21493207339522,
+   "distance_m": 270,
+   "straight_m": null,
+   "address": "复兴中路563-2号",
+   "category_hint": "快餐店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "555eb69662a8cb97b45f1ee9",
+   "name": "manna manna(茂名南路店)",
+   "lon": 121.4617472488645,
+   "lat": 31.216883103408094,
+   "distance_m": 291,
+   "straight_m": null,
+   "address": "上海市黄浦区瑞金二路街道茂名南路139",
+   "category_hint": "",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "1f6e3e8ca34c47291e580094",
+   "name": "十二間·山",
+   "lon": 121.46265185337617,
+   "lat": 31.211875884996207,
+   "distance_m": 331,
+   "straight_m": null,
+   "address": "茂名南路178号(上海文化广场)3号门",
+   "category_hint": "创意菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "fbe2979d76d5a3bd00294f70",
+   "name": "品愉正宗台湾小吃(环贸店)",
+   "lon": 121.45970143376049,
+   "lat": 31.214946790895766,
+   "distance_m": 365,
+   "straight_m": null,
+   "address": "南昌路509号104室",
+   "category_hint": "台湾菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "9753457ea3c5bf74260bd0d6",
+   "name": "奈寿司(南昌路店)",
+   "lon": 121.45965163167078,
+   "lat": 31.214962970808337,
+   "distance_m": 370,
+   "straight_m": null,
+   "address": "南昌路509号403-404室",
+   "category_hint": "寿司店",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "3864bc0464c7c619b6f42f7a",
+   "name": "Dawn Rise(上海店)",
+   "lon": 121.46509316074845,
+   "lat": 31.217911226139538,
+   "distance_m": 377,
+   "straight_m": null,
+   "address": "上海市黄浦区南昌路228号",
+   "category_hint": "",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "41572e00e7ebf4adb55f1e86",
+   "name": "红房子西菜馆(淮海中路店)",
+   "lon": 121.46199749774873,
+   "lat": 31.217907318347567,
+   "distance_m": 380,
+   "straight_m": null,
+   "address": "上海黄浦区瑞金二路街道淮海中路845号(近茂名南路)",
+   "category_hint": "法国菜",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "c3bb1cb160d157afb6f42f09",
+   "name": "大米先生(陕西南路店)",
+   "lon": 121.4595553575123,
+   "lat": 31.215940231499314,
+   "distance_m": 402,
+   "straight_m": null,
+   "address": "上海市陕西南路141号101-1101-2室",
+   "category_hint": "中式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "74b07a13b9e27431eb56fa69",
+   "name": "沪食光老羌饼(瑞金路店)",
+   "lon": 121.46560822142486,
+   "lat": 31.211651882345187,
+   "distance_m": 404,
+   "straight_m": null,
+   "address": "瑞金二路120号-4",
+   "category_hint": "小吃",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "13eb5c048fc910d009b93aad",
+   "name": "老上海馄饨铺(瑞金二路店)",
+   "lon": 121.46556644918022,
+   "lat": 31.211618109450217,
+   "distance_m": 405,
+   "straight_m": null,
+   "address": "瑞金二路120-4号",
+   "category_hint": "馄饨店",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "e8d7ec5ee97b1f78ede4a5b5",
+   "name": "老盛兴汤包馆(瑞金店)",
+   "lon": 121.46548287956068,
+   "lat": 31.21158055850022,
+   "distance_m": 405,
+   "straight_m": null,
+   "address": "永嘉路1号",
+   "category_hint": "支持外卡支付餐馆",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "d305db1f9cec0727922ca380",
+   "name": "霞飞阁餐厅(淮海中路店)",
+   "lon": 121.46030836836925,
+   "lat": 31.217164496891783,
+   "distance_m": 409,
+   "straight_m": null,
+   "address": "上海市黄浦区瑞金二路街道淮海中路935号8楼(近陕西南路)",
+   "category_hint": "上海菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "10dc140bfb4e56205e17c3a4",
+   "name": "祥兴面馆",
+   "lon": 121.4651834711198,
+   "lat": 31.211383028371,
+   "distance_m": 412,
+   "straight_m": null,
+   "address": "永嘉路9号2楼(近瑞金二路)",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "面馆"
+   ],
+   "cost": null
+  },
+  {
+   "id": "ec715490269f1e839d9d68f6",
+   "name": "筱田的食堂·izakaya(淮海中路店)",
+   "lon": 121.45959387445352,
+   "lat": 31.216423784248057,
+   "distance_m": 420,
+   "straight_m": null,
+   "address": "淮海中路939号巴黎春天(淮海店)5楼502号（22:30最后点单）",
+   "category_hint": "日本料理",
+   "dish_hints": [],
+   "industries": [
+    "日料"
+   ],
+   "cost": null
+  },
+  {
+   "id": "8afeef7508002d9622f01791",
+   "name": "纯味斑鱼府(淮海中路店)",
+   "lon": 121.4629886042075,
+   "lat": 31.218589762331238,
+   "distance_m": 428,
+   "straight_m": null,
+   "address": "淮海中路780号新歌大厦3楼",
+   "category_hint": "鱼火锅",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "13eab2b7947870014bcc4a6c",
+   "name": "吉野家(上海淮海巴黎春天店)",
+   "lon": 121.45953104198696,
+   "lat": 31.216570733787293,
+   "distance_m": 433,
+   "straight_m": null,
+   "address": "淮海中路939-949号B1-01号",
+   "category_hint": "日式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "b46b9d75125308714afc8daf",
+   "name": "私房小厨私房谷味(淮海中路第二食品店)",
+   "lon": 121.45954790839693,
+   "lat": 31.216667994240474,
+   "distance_m": 437,
+   "straight_m": null,
+   "address": "淮海中路1000号第二食品商店",
+   "category_hint": "快餐店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "aa6353683364fd8b10293592",
+   "name": "肯德基(淮海路店)",
+   "lon": 121.46334586895662,
+   "lat": 31.218751153199662,
+   "distance_m": 442,
+   "straight_m": null,
+   "address": "淮海中路778号",
+   "category_hint": "汉堡店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "e81bd253aa9fc18dc16c1469",
+   "name": "钢头娃电玩餐吧",
+   "lon": 121.46427057830203,
+   "lat": 31.218720954860697,
+   "distance_m": 443,
+   "straight_m": null,
+   "address": "上海市黄浦区淮海中路755号",
+   "category_hint": "西式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "1466b21c10f89b71d9d89183",
+   "name": "老乡鸡(淮海路巴黎春天店)",
+   "lon": 121.45932895593768,
+   "lat": 31.21646246052202,
+   "distance_m": 445,
+   "straight_m": null,
+   "address": "淮海中路939-949号地下二层",
+   "category_hint": "中式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "317f98f3a5b207555b109371",
+   "name": "sandwich(巴黎春天淮海店)",
+   "lon": 121.45925514387164,
+   "lat": 31.21664523565229,
+   "distance_m": 460,
+   "straight_m": null,
+   "address": "上海市黄浦区淮海中路939号巴黎春天F3",
+   "category_hint": "西式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "83e8e82a77ab4c55d2f49ef9",
+   "name": "茉莉奶白(上海环贸iapm店)",
+   "lon": 121.45869637852907,
+   "lat": 31.215252502506168,
+   "distance_m": 464,
+   "straight_m": null,
+   "address": "淮海中路999号LG2层275铺",
+   "category_hint": "茶饮店",
+   "dish_hints": [],
+   "industries": [
+    "茶饮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "f5e3bcaefacac2d85f17c38a",
+   "name": "麦当劳(淮海百盛店)",
+   "lon": 121.4596828694001,
+   "lat": 31.21741809128616,
+   "distance_m": 474,
+   "straight_m": null,
+   "address": "淮海路918号淮海百盛B1层",
+   "category_hint": "汉堡店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "96321e4378389293d8eced8f",
+   "name": "老弄堂爆鱼面馆(嘉善路店)",
+   "lon": 121.4595003924665,
+   "lat": 31.212176007906596,
+   "distance_m": 475,
+   "straight_m": null,
+   "address": "嘉善路53号甲",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "面馆"
+   ],
+   "cost": null
+  },
+  {
+   "id": "4783eb9fcd52658377026930",
+   "name": "平安里(瑞金二路店)",
+   "lon": 121.4658296930684,
+   "lat": 31.21102014847303,
+   "distance_m": 476,
+   "straight_m": null,
+   "address": "瑞金二路130号（瑞金医院正对面）",
+   "category_hint": "快餐店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "454404691308a2359cec2bdc",
+   "name": "海底捞火锅(淮海路店)",
+   "lon": 121.45960215805698,
+   "lat": 31.21750075594335,
+   "distance_m": 486,
+   "straight_m": null,
+   "address": "淮海中路918号百盛购物中心8楼",
+   "category_hint": "四川火锅",
+   "dish_hints": [],
+   "industries": [
+    "火锅烧烤"
+   ],
+   "cost": null
+  },
+  {
+   "id": "738cc4246da0e54ae856fa85",
+   "name": "利苑(环贸iapm店)",
+   "lon": 121.45868775236276,
+   "lat": 31.216222206223755,
+   "distance_m": 491,
+   "straight_m": null,
+   "address": "湖南路街道淮海中路999号环贸广场L4-401(近陕西南路)",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "5309bbe7b9cea089d7851f69",
+   "name": "Manner Coffee(环贸iapm商场店)",
+   "lon": 121.45844627381037,
+   "lat": 31.21542152083231,
+   "distance_m": 491,
+   "straight_m": null,
+   "address": "淮海中路999号环贸广场LG1-139-141",
+   "category_hint": "咖啡厅",
+   "dish_hints": [],
+   "industries": [
+    "咖啡"
+   ],
+   "cost": null
+  },
+  {
+   "id": "da7193720175f3dc2cb96dc0",
+   "name": "Fusion Deli(环贸iapm商场店)",
+   "lon": 121.45842233177486,
+   "lat": 31.215477134982677,
+   "distance_m": 494,
+   "straight_m": null,
+   "address": "淮海中路999号环贸广场LG1-110-111citysuper超生活内",
+   "category_hint": "西式快餐",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "d08a0dba2742097c02294f3c",
+   "name": "广慈员工餐厅(思南路店)",
+   "lon": 121.46824039600884,
+   "lat": 31.212977407053888,
+   "distance_m": 497,
+   "straight_m": null,
+   "address": "瑞金二路197号上海交通大学医学院附属瑞金医院38号楼2楼",
+   "category_hint": "食堂",
+   "dish_hints": [],
+   "industries": [],
+   "cost": null
+  },
+  {
+   "id": "2f90dfdbc0a3a05d901fc95a",
+   "name": "Shake Shack(环贸iapm店)",
+   "lon": 121.45817746901459,
+   "lat": 31.215254340378124,
+   "distance_m": 513,
+   "straight_m": null,
+   "address": "上海市徐汇区淮海中路999号环贸iapm商场地下一夹层142号商铺",
+   "category_hint": "汉堡店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "d698a1c70d279abc4c6d4635",
+   "name": "军屯锅盔",
+   "lon": 121.46623214995809,
+   "lat": 31.218874366875294,
+   "distance_m": 519,
+   "straight_m": null,
+   "address": "上海市黄浦区-思南路11号",
+   "category_hint": "锅盔",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "3cef8ced682b5d5c02294f79",
+   "name": "林记老上海馄饨铺(瑞金店)",
+   "lon": 121.46368288653598,
+   "lat": 31.219527142608268,
+   "distance_m": 528,
+   "straight_m": null,
+   "address": "瑞金一路130号底层",
+   "category_hint": "馄饨店",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  },
+  {
+   "id": "6e122d40f2c30a2b17b54bcf",
+   "name": "蘩楼(淮海百盛店)",
+   "lon": 121.45900863076173,
+   "lat": 31.2174921337124,
+   "distance_m": 530,
+   "straight_m": null,
+   "address": "淮海中路918号百盛购物中心4楼",
+   "category_hint": "粤菜",
+   "dish_hints": [],
+   "industries": [
+    "中餐本帮"
+   ],
+   "cost": null
+  },
+  {
+   "id": "aa2632f1270b7fb295f08c9c",
+   "name": "子午路张记肉夹馍·朱秀英梆梆肉·葫芦头泡馍(思南路店)",
+   "lon": 121.46612839115033,
+   "lat": 31.21934835562084,
+   "distance_m": 561,
+   "straight_m": null,
+   "address": "思南路7号",
+   "category_hint": "快餐店",
+   "dish_hints": [],
+   "industries": [
+    "快餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "fe7b0371dfd4f465b6f42f7c",
+   "name": "沧浪亭·百年姑苏面(黄浦店)",
+   "lon": 121.46587824845625,
+   "lat": 31.210108244650712,
+   "distance_m": 570,
+   "straight_m": null,
+   "address": "绍兴路1号",
+   "category_hint": "面馆",
+   "dish_hints": [],
+   "industries": [
+    "面馆"
+   ],
+   "cost": null
+  },
+  {
+   "id": "ff4b3db61669052c3310af67",
+   "name": "HUGO HUSKY HOUSE(永嘉路店)",
+   "lon": 121.46103873148645,
+   "lat": 31.209905170395245,
+   "distance_m": 586,
+   "straight_m": null,
+   "address": "瑞金一路169号(近淮海中路)",
+   "category_hint": "西餐厅",
+   "dish_hints": [],
+   "industries": [
+    "西餐"
+   ],
+   "cost": null
+  },
+  {
+   "id": "64e8c5cc1cde1f20ac0457b2",
+   "name": "Chill Chill周周螺蛳粉(瑞金一路店)",
+   "lon": 121.46369153779143,
+   "lat": 31.220131225834667,
+   "distance_m": 595,
+   "straight_m": null,
+   "address": "瑞金一路155号",
+   "category_hint": "螺蛳粉店",
+   "dish_hints": [],
+   "industries": [
+    "小吃"
+   ],
+   "cost": null
+  }
+ ]
+}
