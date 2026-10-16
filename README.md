@@ -118,7 +118,7 @@ grep -rnE "[0-9a-f]{32}" --include='*.py' .
 ## 三步跑起来（不填任何 Token 也能看效果）
 
 ```bash
-git clone https://github.com/<your>/walk-kcal && cd walk-kcal
+git clone https://github.com/adexbn/walk-kcal && cd walk-kcal
 
 # ① 浏览器打开离线 demo —— 不需要任何凭证
 open demo/explore.html      # ★ 可交互：业态筛选 + 换一批

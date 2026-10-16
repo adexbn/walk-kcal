@@ -36,7 +36,7 @@ def allowance(walk_m: float) -> int:
     u"""走过去能拿到的卡路里额度（卡）
 
     额度 = 基础额度 + 步行挣来的额度
-    这是诚实的物理模型：走 80 米才挣 4 卡，走 1.3km 才够一个 517 卡招牌堡。
+    这是诚实的物理模型：走 80 米才挣 4 卡，走 1.3km 才够一个 485 卡的招牌堡。
     """
     return ALLOWANCE_BASE + (int(walk_m) // 80 + 1) * KCAL_PER_80M
 
