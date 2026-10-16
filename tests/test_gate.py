@@ -1953,6 +1953,71 @@ def test_reply_source_notes():
         _reg.LAST_NOTES.update(old)
 
 
+# ── ★ 文字链必须真的用坐标（曾经的 bug：收了坐标只读快照）────────
+def test_nearby_live_uses_coords():
+    u"""「问北京、答上海」那个 bug 的回归。
+
+    旧实现：`NearbyDiningPack.search_stores(lon, lat, radius)`
+    **签名收坐标、实现完全不用**，只读 `_detail_doc()` 快照 ——
+    实测上海 / 北京 / 成都三个坐标返回**逐字相同**的答案。
+
+    现在：有坐标 → 实时抓（POI + 批量路网距离）；
+          没坐标 / 抓失败 → 退快照，**并把原因写进 `last_note`**（不静默冒充）。
+    """
+    print(u'── 文字链的位置感 ──')
+    import walkkcal.geo as G
+    from packs import pack_nearby_dining as N
+
+    calls = {}
+
+    class FakeGeo(object):
+        name = u'假地图'
+        provides_dishes = True
+
+        def nearby_dining(self, lon, lat, radius=1500, limit=600):
+            calls['nearby'] = (lon, lat, radius)
+            return [{'id': 'x1', 'name': u'某店', 'lon': lon, 'lat': lat,
+                     'distance_m': 30, 'address': u'某路1号',
+                     'category_hint': u'', 'industries': [u'中餐本帮'],
+                     'dish_hints': [u'红烧肉'], 'cost': None}]
+
+        def walk_route_batch(self, f, tos, chunk=100):
+            calls['batch'] = (f, list(tos))
+            return [{'distance_m': 120, 'duration_s': 90} for _ in tos]
+
+    old = G.get
+    G.get = lambda: FakeGeo()
+    try:
+        pk = N.NearbyDiningPack()
+        rows = pk.search_stores(116.397, 39.909, 1200)
+        check(u'★有坐标 → 走实时检索', 'nearby' in calls, True)
+        check(u'★坐标原样传下去（不再被丢）',
+              calls.get('nearby', (None, None))[:2], (116.397, 39.909))
+        check(u'★用了批量算路', 'batch' in calls, True)
+        check(u'★距离取路网值 120（而非直线 30）',
+              rows[0]['distance'] if rows else None, 120)
+        check(u'实时走通时不记 note', pk.last_note, None)
+
+        # 没坐标 → 快照，且必须说明
+        calls.clear()
+        pk2 = N.NearbyDiningPack()
+        pk2.search_stores(None, None, 1200)
+        check(u'没坐标 → 不调实时', 'nearby' in calls, False)
+        check(u'没坐标 → note 说明用的是快照', bool(pk2.last_note), True)
+
+        # 实时失败 → 退快照 + 原因进 note（不静默）
+        class Boom(FakeGeo):
+            def nearby_dining(self, *a, **k):
+                raise RuntimeError(u'模拟接口挂了')
+        G.get = lambda: Boom()
+        pk3 = N.NearbyDiningPack()
+        pk3.search_stores(116.397, 39.909, 1200)
+        check(u'实时失败 → note 带上原因',
+              u'模拟接口挂了' in (pk3.last_note or u''), True)
+    finally:
+        G.get = old
+
+
 def test_keys_not_in_source():
     u"""★ 密钥不许写在 `.py` 里（用户要求；只进配置文件 / 环境变量）。
 
@@ -2054,6 +2119,7 @@ if __name__ == '__main__':
     test_mcd_live_falls_back_loudly()
     test_mcd_live_scope_is_text_chain_only()
     test_reply_source_notes()
+    test_nearby_live_uses_coords()
     test_keys_not_in_source()
     print()
     if _fail:

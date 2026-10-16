@@ -154,9 +154,16 @@ def keyboard_of(nx):
 
 
 # ── 共享流水线（与 MCP 完全一致）────────────────────────────
-def pipeline(quota=None, industry=None, page=0, radius=None):
+def pipeline(quota=None, industry=None, page=0, radius=None, lon=None, lat=None):
+    u"""共享流水线。
+
+    ★ 2026-10-16 补 `lon` / `lat`：以前这里写死 `collect(None, None, r)` ——
+      **连坐标都不传**，于是 Bot 永远读内置场景快照（问北京、答上海）。
+      MCP 入口一直收坐标，Bot 一直没收；现在两边对齐。
+      拿不到用户位置时传 `None`，会走快照并在 `registry.notes()` 里说明原因。
+    """
     r = radius or DEFAULT_RADIUS
-    rows = registry.collect(None, None, r)
+    rows = registry.collect(lon, lat, r)
     q = int(quota) if quota else ALLOWANCE_BASE
     for row in rows:
         row['quota'] = q
@@ -201,13 +208,15 @@ def render_image(industry=None, page=0, radius=None, out=None, quota=None):
 
 def state_of(chat_id):
     return STATE.setdefault(chat_id, {'quota': None, 'industry': None,
-                                      'page': 0, 'radius': None})
+                                      'page': 0, 'radius': None,
+                                      'lon': None, 'lat': None})
 
 
 def respond(chat_id, st, with_image=True, note=None):
     u"""按当前状态出一轮结果：图 + 一句话 + 按钮"""
     q, rows, batch, meta, nx = pipeline(
-        st.get('quota'), st.get('industry'), st.get('page'), st.get('radius'))
+        st.get('quota'), st.get('industry'), st.get('page'), st.get('radius'),
+        st.get('lon'), st.get('lat'))
     payload = reply.build(q, batch, meta, nx, pool_size=len(rows))
     text = payload['text']
     if note:
@@ -250,12 +259,23 @@ def handle(update):
         respond(chat_id, st)
         return
 
-    # ② 文本消息
+    # ② 位置消息（Telegram「分享位置」）—— ★ 2026-10-16 新增
+    #    以前 Bot 完全不收位置，所以无论谁问都读内置场景快照（问北京、答上海）。
     msg = update.get('message') or {}
     chat_id = (msg.get('chat') or {}).get('id')
-    text = (msg.get('text') or '').strip()
     if not chat_id:
         return
+    loc = msg.get('location') or {}
+    if loc.get('longitude') is not None and loc.get('latitude') is not None:
+        st = state_of(chat_id)
+        st['lon'] = float(loc['longitude'])
+        st['lat'] = float(loc['latitude'])
+        st['page'] = 0
+        respond(chat_id, st, note=u'收到位置 —— 按你所在的地方找。')
+        return
+
+    # ③ 文本消息
+    text = (msg.get('text') or '').strip()
     st = state_of(chat_id)
 
     if text.startswith('/start') or text.startswith('/help'):
@@ -276,7 +296,7 @@ def handle(update):
         respond(chat_id, st)
         return
 
-    # ③ 自然语言 → 映射到参数（Bot 没有 LLM，只能做关键词兜底）
+    # ④ 自然语言 → 映射到参数（Bot 没有 LLM，只能做关键词兜底）
     if text:
         from walkkcal import filter as _f
         hit = [ind for ind in _f.INDUSTRIES if ind in text]

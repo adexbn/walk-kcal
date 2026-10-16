@@ -47,6 +47,12 @@ def _short_name(name):
     return name.strip()
 
 
+def _brief(exc, n=60):
+    u"""异常信息截断 —— note 是要给用户看的，不能把堆栈塞进去。"""
+    s = (u'%s' % exc).replace(u'\n', u' ').strip()
+    return s if len(s) <= n else s[:n] + u'…'
+
+
 
 class NearbyDiningPack(BasePack):
     name = u'周边餐厅（地图 + 语料）'
@@ -78,6 +84,9 @@ class NearbyDiningPack(BasePack):
             or os.path.join(data, 'menu.json')
         self._menu = self._load_menu()
         self._detail = None
+        # ★ 最近一次「为什么没用实时数据」的说明。`registry.collect()` 会读它，
+        #   汇总进 `registry.notes()` → 进用户可见的文案。**不许静默回退。**
+        self.last_note = None
         self._pool = None
 
     # ── ★ 自带菜品表：把「店 → 推荐菜」补上 ────────────────────
@@ -156,6 +165,85 @@ class NearbyDiningPack(BasePack):
 
     # ── 找店 ────────────────────────────────────────────────
     def search_stores(self, lon, lat, radius=1500):
+        u"""找周边餐厅。
+
+        ★★ 2026-10-16 起重写 —— 以前这个方法**接收坐标却完全不用**，只读快照。
+          后果是「问北京，答上海」：三个不同城市返回**逐字相同**的答案。
+          现在分两条路：
+
+            有坐标  → **实时抓**（POI + 批量路网距离），与 `shoot.py` 同一条路
+            没坐标 / 抓失败 → 读快照，**并把原因写进 `last_note`**
+                              （`registry.notes()` 会把它带进用户可见的文案 ——
+                               快照可以兜底，但**不许冒充「你附近」**）
+        """
+        if lon is not None and lat is not None:
+            rows = self._search_live(lon, lat, radius)
+            if rows is not None:
+                return rows
+        else:
+            self.last_note = u'没有坐标 —— 用了内置场景快照（不是你的位置）'
+        return self._rows_from_snapshot(radius)
+
+    # ── 实时抓：与 `shoot.py` 同一条路（批量算路优先）──────────
+    def _search_live(self, lon, lat, radius):
+        u"""实时取门店。成功返回行列表；任何一步不行 → None（上层退快照）。
+
+        ★ provider 返回的已经是**归一化结构**（含 `industries` / `dish_hints`），
+          所以这里只做「路网距离校正 + 字段改名」，**不做任何翻译** ——
+          翻译是 provider 的职责（见 `walkkcal/geo.py` 的契约）。
+        """
+        try:
+            from walkkcal import geo as _geo
+            prov = _geo.get()
+        except Exception as e:
+            self.last_note = u'拿不到地图数据源：%s' % _brief(e)
+            return None
+        try:
+            pois = prov.nearby_dining(lon, lat, radius)
+        except Exception as e:
+            self.last_note = u'实时检索失败：%s' % _brief(e)
+            return None
+        if not pois:
+            self.last_note = u'实时检索没有返回门店'
+            return None
+
+        # ★ 批量路网距离（一次可带 100 个目的地）——
+        #   失败就退回 provider 给的直线距离，不在这里逐店重试
+        #   （逐店会让 149 家变成 125 秒，见 `geo.py::walk_route_batch` 的说明）。
+        dests = [(p['lon'], p['lat']) for p in pois]
+        try:
+            batch = getattr(prov, 'walk_route_batch', None)
+            res = (batch((lon, lat), dests) if batch else []) or []
+        except Exception:
+            res = []
+
+        out = []
+        for i, p in enumerate(pois):
+            walk = p.get('distance_m')            # provider 给的（一般是直线）
+            w = res[i] if i < len(res) else None
+            if isinstance(w, dict) and w.get('distance_m'):
+                walk = int(w['distance_m'])       # ★ 换成真实路网距离
+            if walk is None:
+                continue
+            if radius and int(walk) > int(radius):
+                continue
+            dishes = list(p.get('dish_hints') or [])
+            if not dishes:                        # ★ 地图没给推荐菜 → 问本地表
+                dishes = self._menu_of(p)
+            out.append({'id': p.get('id'), 'name': p.get('name') or u'',
+                        'lon': p['lon'], 'lat': p['lat'],
+                        'distance': int(walk),
+                        'address': p.get('address') or u'',
+                        'category_hint': p.get('category_hint') or u'',
+                        'industries': list(p.get('industries') or []),
+                        'dish_hints': dishes,
+                        'cost': p.get('cost')})
+        out.sort(key=lambda x: x['distance'])
+        self.last_note = None                     # 这一路走通了
+        return out
+
+    # ── 快照路径（降级兜底用）────────────────────────────────
+    def _rows_from_snapshot(self, radius=1500):
         u"""读详情快照，转成 registry/select 需要的行。
 
         `radius` 真的生效 —— 用户点「别走太远」时上层传 radius=500。
