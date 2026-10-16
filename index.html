@@ -154,10 +154,10 @@
 
 <section class="wrap">
   <h2>独特之处</h2>
-  <p class="muted">同类赛道里，大多数项目都在算菜的热量；提到「步行」的，几乎没几个把它接到热量上。</p>
+  <p class="muted">同类赛道里，大多数项目只算了菜品的热量；提到「步行」的，几乎没几个把它接到热量上。</p>
   <table>
     <tr><th>别人通常做的</th><th>我们做的</th></tr>
-    <tr><td>只算麦当劳自家的菜</td><td>麦当劳 <strong>+</strong> 你楼下任意一家店</td></tr>
+    <tr><td>算一下麦当劳某一款汉堡的热量</td><td><strong>你楼下的任意一家店</strong>，例如麦当劳</td></tr>
     <tr><td>把距离当成「还有多远」</td><td>把距离换成「<strong>这顿能多吃多少卡</strong>」</td></tr>
     <tr><td>只做一个平台</td><td><strong>三种形式</strong>，共用同一份内核</td></tr>
   </table>
@@ -168,6 +168,9 @@
     ② <strong>Bot</strong> —— 在聊天软件里发消息，回复带可点的按钮<br>
     ③ <strong>MCP</strong> —— 从任何 MCP 客户端调用，标准 JSON-RPC
   </div>
+  <p style="text-align:center;margin:18px 0 0">
+    <img src="assets/screenshot-three-shells.png" alt="三种接入形式：① Skill（Agent 宿主）② Bot（聊天软件）③ MCP（任何 MCP 客户端）" style="max-width:100%;border:1px solid var(--line);border-radius:12px">
+  </p>
 
   <blockquote>
     麦当劳 MCP 开放的，是它自己的营养表。可真实场景里，<strong>你 400 米外那家面馆多少卡？</strong><br>
@@ -217,9 +220,8 @@ open demo/explore.html        # 离线可交互 demo</pre>
     让麦当劳走实时而非内置快照（<code>MCD_MCP_TOKEN</code> + <code>WALKKCAL_MCD_LIVE=1</code>）。
   </p>
   <p class="muted">
-    <strong>出图依赖也是可选的</strong>：什么都不装 → 出 SVG、退出码仍是 0；
-    装了 <code>Pillow</code> + <code>pillow_lunasvg</code> → 多一张 PNG。
-    缺包时自动降级，<strong>不会撞 ImportError</strong>。
+    <strong>输出格式是可选的</strong>：默认出 <strong>SVG</strong> —— 浏览器打开就能看、放大不糊，大多数场景够用；
+    想要 <strong>PNG</strong>（例如直接发微信、小红书），装一个很小的扩展包即可。
   </p>
 </section>
 
