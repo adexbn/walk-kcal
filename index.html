@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>walk-kcal · 你今天还能吃多少卡，取决于你愿意走多远</title>
+<meta name="description" content="用步行距离换卡路里额度的吃饭决策：麦当劳官方营养值 × 周边餐厅，算你这顿还吃得下什么。">
+<style>
+  :root{
+    --ink:#16191d; --sub:#5b6570; --mute:#98a2ac; --line:#e6e2dc;
+    --bg:#fbf8f4; --card:#ffffff; --teal:#0AC89E; --teal-dk:#079C7B;
+    --mcd-red:#DA291C; --mcd-yellow:#FFC72C;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",
+         "PingFang SC","Hiragino Sans GB",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  hr{border:0;border-top:1px solid var(--line);margin:0;}
+
+  /* ── 首屏 ───────────────────────────────────── */
+  header{padding:56px 0 40px;text-align:center;}
+  .tag{
+    display:inline-block;font-size:12px;letter-spacing:.06em;color:var(--teal-dk);
+    background:#E4F7F1;border-radius:999px;padding:5px 14px;margin-bottom:26px;
+  }
+  h1{
+    font-size:clamp(26px,5.2vw,40px);line-height:1.35;margin:0 0 20px;
+    letter-spacing:-.01em;font-weight:800;
+  }
+  h1 em{font-style:normal;color:var(--teal-dk);}
+  .lede{font-size:17px;color:var(--sub);margin:0 auto 12px;max-width:560px;}
+  .formula{
+    display:inline-block;margin:26px 0 30px;padding:14px 22px;
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14.5px;color:var(--ink);
+  }
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+  .btn{
+    display:inline-block;text-decoration:none;font-weight:700;font-size:15px;
+    padding:13px 28px;border-radius:999px;transition:transform .12s ease,opacity .12s ease;
+  }
+  .btn:hover{transform:translateY(-1px);opacity:.92;}
+  .btn-main{background:var(--teal);color:#fff;}
+  .btn-ghost{background:var(--card);color:var(--ink);border:1px solid var(--line);}
+  .hint{font-size:13px;color:var(--mute);margin-top:16px;}
+
+  /* ── 预览 ───────────────────────────────────── */
+  .preview{padding:48px 0 56px;text-align:center;}
+  .phone{
+    display:inline-block;width:268px;height:540px;overflow:hidden;
+    border:1px solid var(--line);border-radius:22px;background:var(--card);
+    box-shadow:0 12px 32px rgba(22,25,29,.09);
+  }
+  .phone img{width:100%;display:block;}
+  .caption{font-size:13px;color:var(--mute);margin-top:16px;}
+
+  /* ── 章节 ───────────────────────────────────── */
+  section{padding:52px 0;}
+  h2{font-size:22px;margin:0 0 18px;letter-spacing:-.01em;}
+  h2 span{color:var(--mcd-red);}
+  p{margin:0 0 14px;}
+  .muted{color:var(--sub);}
+
+  .fact{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:22px 24px;margin:18px 0;
+  }
+  .fact b{font-size:20px;}
+  .fact .red{color:var(--mcd-red);}
+  .fact .green{color:var(--teal-dk);}
+
+  table{width:100%;border-collapse:collapse;font-size:14.5px;margin:16px 0;}
+  th,td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);}
+  th{color:var(--sub);font-weight:600;background:#f6f3ef;}
+  td:first-child{font-weight:600;}
+
+  blockquote{
+    margin:20px 0;padding:16px 20px;background:var(--card);
+    border-left:3px solid var(--teal);border-radius:0 10px 10px 0;
+    color:var(--ink);font-size:15.5px;
+  }
+
+  code{
+    background:#f2efea;padding:2px 6px;border-radius:5px;
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px;
+  }
+  pre{
+    background:#16191d;color:#e8e6e3;padding:18px 20px;border-radius:12px;
+    overflow-x:auto;font-size:13.5px;line-height:1.65;
+    font-family:ui-monospace,Menlo,Consolas,monospace;
+  }
+
+  footer{padding:40px 0 60px;text-align:center;color:var(--mute);font-size:13px;}
+  footer strong{display:block;font-size:16px;color:var(--ink);margin-bottom:10px;}
+  footer a{color:var(--teal-dk);text-decoration:none;}
+  .disc{font-size:12px;color:var(--mute);margin-top:22px;line-height:1.7;}
+  @media(max-width:520px){
+    header{padding:40px 0 28px;}
+    section{padding:38px 0;}
+    .phone{width:228px;height:460px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <div class="tag">麦当劳程序员节创意开发大赛参赛作品</div>
+  <h1>你今天还能吃多少卡，<br>取决于你<em>愿意走多远</em>。</h1>
+  <p class="lede">
+    站在楼下纠结「现在吃什么」时，你真正想知道的是——<strong>这一顿，我吃得下吗？</strong>
+  </p>
+  <div class="formula">额度 = 450 + (步行米数 ÷ 80 + 1) × 4</div>
+  <div class="cta">
+    <a class="btn btn-main" href="demo/explore.html">试试看（不用装任何东西）</a>
+    <a class="btn btn-ghost" href="https://github.com/adexbn/walk-kcal">GitHub · 给个 ⭐</a>
+  </div>
+  <p class="hint">离线可交互 · 零依赖 · 纯前端</p>
+</header>
+
+<hr>
+
+<div class="preview wrap">
+  <div class="phone"><img src="assets/screenshot-mobile.png" alt="walk-kcal 输出的竖屏长图"></div>
+  <p class="caption">一张竖屏长图：附近哪家店、哪道菜<strong>你这顿吃不吃得下</strong>——绿色 = 吃得起，红色 = 超了。</p>
+</div>
+
+<hr>
+
+<section class="wrap">
+  <h2>反常识：麦当劳居然是个<span>低热量选项</span></h2>
+  <p class="muted">我们把 158 条麦当劳官方营养数据、155 万条中餐菜谱摊在一起算了一遍。</p>
+  <div class="fact">
+    <b class="green">麦香鱼 325 卡</b> · 麦满分 250 卡 · 迷你草莓新地 122 卡<br>
+    <b class="red">而隔一条街那家面馆的红烧肉盖饭，780 卡起步</b>
+  </div>
+  <p><strong>同一街区里，麦当劳的推荐菜大多落在普通人的一餐额度之内。</strong></p>
+  <p class="muted">这不是我们编的，是算出来的。</p>
+  <blockquote>对热量预算紧张的人来说，走进麦当劳，反而是最安全的选择。</blockquote>
+</section>
+
+<hr>
+
+<section class="wrap">
+  <h2>它做什么</h2>
+  <table>
+    <tr><th>你说</th><th>它做</th></tr>
+    <tr><td>我现在还能吃 450 卡，附近有什么能吃的</td><td>算额度、列附近店、每道菜标「吃得下 / 超了」</td></tr>
+    <tr><td>走过去 500 米能多吃多少</td><td>走 500 米 ≈ 多挣 28 卡，额度实时重算</td></tr>
+    <tr><td>麦当劳和隔壁面馆哪个更合适</td><td>同一额度下对比热量，一眼看出差距</td></tr>
+    <tr><td>这家店整体会不会吃超</td><td>按推荐菜相对额度给店铺定性 🟢 🟡 🔴</td></tr>
+  </table>
+  <p class="muted">输出一张竖屏长图，可以直接发微信、发小红书。</p>
+</section>
+
+<hr>
+
+<section class="wrap">
+  <h2>真的用了麦当劳 MCP</h2>
+  <p>
+    本项目的 MCP 入口对外暴露 4 个工具，<strong>它自己内部还会再去调麦当劳官方 MCP</strong>——
+    打 <code>mcp.mcd.cn</code> 拿回 158 条官方营养值（含蛋白 / 脂肪 / 碳水 / 钠 / 钙），
+    与本地中餐估算融合成一个统一结果。
+  </p>
+  <div class="fact">
+    <strong>最硬的一条实测证据</strong>——同一个坐标，门店变了：<br><br>
+    走快照：麦当劳(四川北路店) <b>1391 m</b><br>
+    走实时：<b class="green">麦当劳上海闸北虬江路永兴汇餐厅 792 m</b><br>
+    <span class="muted" style="font-size:14px">「永兴汇餐厅」本地快照里根本没有——只有真调 MCP 才会冒出来。</span>
+  </div>
+</section>
+
+<hr>
+
+<section class="wrap">
+  <h2>为什么是我们</h2>
+  <p class="muted">我们把这个赛道的 493 个报名翻了一遍：</p>
+  <table>
+    <tr><th></th><th>数量</th><th>发现</th></tr>
+    <tr><td>热量/营养类项目</td><td>226 个</td><td>全都在算麦当劳自己的菜</td></tr>
+    <tr><td>提到「步行 / 距离」</td><td>79 个</td><td>只有 9 个和热量挂钩</td></tr>
+    <tr><td>麦当劳 + 周边本地 + 步行额度</td><td><b style="color:var(--mcd-red)">0 个</b></td><td>这就是我们的位置</td></tr>
+  </table>
+  <blockquote>
+    麦当劳 MCP 开放的，是它自己的营养表。可真实场景里，<strong>你 400 米外那家面馆多少卡？</strong><br>
+    没有人做这件事。我们做了。
+  </blockquote>
+</section>
+
+<hr>
+
+<section class="wrap">
+  <h2>跑起来</h2>
+  <pre>git clone https://github.com/adexbn/walk-kcal &amp;&amp; cd walk-kcal
+
+# 离线 demo —— 不需要 Key、不需要 Token、不需要装任何包
+open demo/explore.html
+
+# 直接出一张图（需要 AMAP_KEY）
+python walkkcal/shoot.py "上海市黄浦区南京东路100号"</pre>
+  <p class="muted">
+    <strong>出图依赖是可选增强，不是前置条件</strong>：什么都不装 → 出 SVG、退出码仍是 0；
+    装了 <code>Pillow</code> + <code>pillow_lunasvg</code> → 多一张 PNG。
+    缺包时自动降级，<strong>不会撞 ImportError</strong>。
+  </p>
+</section>
+
+<hr>
+
+<section class="wrap">
+  <h2>我们诚实地告诉你</h2>
+  <p>
+    中餐热量是估算的，<strong>平均误差 25–28%</strong>；麦当劳的数据是 MCP 官方精确值。
+  </p>
+  <p class="muted">
+    因为语料库里 <strong>0% 的菜谱标注了份量</strong>，同一道菜的量级能差 40 倍。
+    我们花最多力气的地方，不是「算得更准」，而是<strong>知道什么时候算不准——然后老老实实显示「算不出」</strong>，
+    而不是猜一个看起来正常的数字。
+  </p>
+  <blockquote>宁可少算，不可算错。</blockquote>
+</section>
+
+<hr>
+
+<footer class="wrap">
+  <strong>你今天还能吃多少卡，取决于你愿意走多远。</strong>
+  如果这个想法让你想多走两步 —— <a href="https://github.com/adexbn/walk-kcal">给个 ⭐ 吧</a>。
+  <p class="disc">
+    本项目为麦当劳程序员节创意开发大赛参赛作品，由参赛者独立开发，<strong>非麦当劳官方产品</strong>。<br>
+    输出仅供参考，不构成医疗、营养或其他专业建议。餐品信息、价格及供应状态以麦当劳官方渠道的实时结果为准。
+  </p>
+</footer>
+
+</body>
+</html>
