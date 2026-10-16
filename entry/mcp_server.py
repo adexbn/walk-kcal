@@ -164,7 +164,13 @@ def tool_what_can_i_eat(args):
     quota = int(args.get('quota', ALLOWANCE_BASE))
     industry = args.get('industry') or None
     radius = int(args.get('radius_m') or DEFAULT_RADIUS)
-    rows, batch, meta, nx = _pipeline(None, None, quota, industry, radius, 0)
+    # ★ 2026-10-16 修：这里以前**写死 `_pipeline(None, None, …)`** ——
+    #   调用方传了经纬度也被丢掉，于是麦当劳实时路径永远报「没有坐标 ——
+    #   翻译不出 city/keyword」，**就算 token 有效也照样回退**。
+    #   实测：显式传 longitude/latitude 仍然回退，才查出是这一行。
+    lon = args.get('longitude')
+    lat = args.get('latitude')
+    rows, batch, meta, nx = _pipeline(lon, lat, quota, industry, radius, 0)
 
     fits = []
     for r in batch:
@@ -243,6 +249,12 @@ TOOLS = [
                     u'\n\n用户给业态限定时填 industry；'
                     u'用户说"还有吗"时用 nearby_food 的 page 参数。',
      'inputSchema': {'type': 'object', 'properties': {
+         'longitude': {'type': 'number',
+                       'description': u'用户所在经度。**传了才能走麦当劳实时** —— '
+                                      u'麦当劳 MCP 只吃文字地名，需要用它把坐标'
+                                      u'翻译成 city+keyword；不传就只能用本地快照。'},
+         'latitude': {'type': 'number',
+                      'description': u'用户所在纬度，配 longitude 一起传。'},
          'quota': {'type': 'number', 'description': u'本餐额度（卡）'},
          'industry': {'type': 'string', 'enum': _IND_ENUM,
                       'description': u'业态限定，同 nearby_food。不填=不限。'},

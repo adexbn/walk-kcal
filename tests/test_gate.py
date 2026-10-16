@@ -1230,6 +1230,62 @@ def test_excluded_drink_count():
         _sh.rmtree(tmp, ignore_errors=True)
 
 
+def test_mcp_tool_forwards_coords():
+    u"""★ MCP 工具层必须把经纬度**真正传下去**（2026-10-16 实测发现）。
+
+    病根：`tool_what_can_i_eat` 里写死 `_pipeline(None, None, …)` ——
+    调用方传了经纬度也被丢掉，于是麦当劳实时路径永远报
+    「没有坐标 —— 翻译不出 city/keyword」，**token 有效也照样回退快照**。
+
+    ★ 这条链路是四跳：Agent 传参 → 工具 → `_pipeline` → `registry.collect`
+      → `pack.search_stores`。以前只测了**最下游的 pack**
+      （`test_mcd_live_translates_lonlat_to_keyword`），**中间两跳没人守** ——
+      所以「token 有了但跑不通」这种事故能一直藏着。
+
+    发现方式：用**假 token** 压测文字链（`MCD_MCP_TOKEN=invalid-probe
+    WALKKCAL_MCD_LIVE=1`），显式传经纬度仍看到回退 → 才查到这一行。
+    正因如此，改完必须两边各一个断言：**schema 要声明** + **实现要转发**。
+    """
+    import os as _os
+    import sys as _sys
+
+    root = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+    entries = [_os.path.join(root, 'entry'), root]
+    for p in entries:
+        if p not in _sys.path:
+            _sys.path.insert(0, p)
+    import mcp_server as M
+
+    seen = {}
+
+    def _fake_pipeline(lon=None, lat=None, quota=None, industry=None,
+                       radius=None, page=0):
+        seen['args'] = (lon, lat, quota, industry, radius)
+        return [], [], {'total': 0, 'shown': 0, 'page': 0, 'pages': 1,
+                        'keyword': u'全部', 'candidates': 0}, []
+
+    real = M._pipeline
+    M._pipeline = _fake_pipeline
+    try:
+        M.tool_what_can_i_eat({'longitude': 121.4759, 'latitude': 31.2523,
+                               'quota': 350})
+    finally:
+        M._pipeline = real
+
+    lon, lat, quota, industry, radius = seen['args']
+    check(u'★经度真的传到了流水线（不是 None）', lon, 121.4759)
+    check(u'★纬度真的传到了流水线（不是 None）', lat, 31.2523)
+    check(u'额度也传对了', quota, 350)
+
+    # ★ 另一半：schema 不声明，Agent 就不知道能传 —— 两头都要有
+    _tool = [t for t in M.TOOLS if t['name'] == 'what_can_i_eat'][0]
+    _props = _tool['inputSchema']['properties']
+    check(u'★schema 声明了 longitude', 'longitude' in _props, True)
+    check(u'★schema 声明了 latitude', 'latitude' in _props, True)
+    check(u'★schema 里说明了「传了才能走实时」',
+          u'实时' in (_props['longitude'].get('description') or u''), True)
+
+
 # ── 渲染端：额度必须能由调用方指定（WALKKCAL_QUOTA）─────────────
 def test_render_quota_env():
     u"""★ 文字链说 350，长图上也必须是 350。
@@ -1994,6 +2050,7 @@ if __name__ == '__main__':
     test_render_quota_env()
     test_mcd_two_chains_same_source()
     test_mcd_live_translates_lonlat_to_keyword()
+    test_mcp_tool_forwards_coords()
     test_mcd_live_falls_back_loudly()
     test_mcd_live_scope_is_text_chain_only()
     test_reply_source_notes()
