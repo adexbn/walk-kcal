@@ -286,7 +286,7 @@ def test_paging():
 
     # ★ 回归：**所有批次合起来不能有重复**。
     #   曾经在 pick() 里对单批做「麦当劳超了换本地店」，替换会从批次外借店，
-    #   结果每批都借同一批 → 翻页严重串批（第 1/2/3 批都出现同几家）。实测踩过。
+    #   结果每批都借同一批 → 翻页严重串批（第 1/2/3 批都出现同几家）。实测中出过问题。
     mixed = ([{'name': u'麦%d' % i, 'quad': i % 4, 'walk': 100 + i * 10,
                'fit_n': 9, 'is_mcd': True} for i in range(30)]
              + [{'name': u'本地%d' % i, 'quad': i % 4, 'walk': 50 + i * 10,
@@ -617,7 +617,7 @@ def test_snapshot_adapters():
 
 
 def test_provider_without_dishes():
-    u"""④ 服务商不提供推荐菜时，不能把门店全丢掉（★ 实测踩过的坑）。
+    u"""④ 服务商不提供推荐菜时，不能把门店全丢掉（★ 实测中出过问题）。
 
     实测（2026-10-14，百度 AK）：K11 半径 600m 抓到 50 家门店，
     因为百度**没有推荐菜字段**，50 家全被判「没有可展示的菜」剔除，
@@ -770,7 +770,7 @@ def test_rate_limit():
     check(u'百度并发恒为 1（间隔 >0）', b.limiter.min_interval > 0, True)
 
     # ⑤ ★ provides_dishes 必须显式声明（默认 False 会误伤高德）
-    #    踩过：忘了给高德声明 True → 高德也被当成「不提供推荐菜」，
+    #    出过的问题：忘了给高德声明 True → 高德也被当成「不提供推荐菜」，
     #    门店不再按「有没有菜」剔除，渲染口径悄悄变了。
     check(u'★高德声明提供推荐菜', AmapProvider(key='x').provides_dishes, True)
     check(u'★百度声明不提供推荐菜', BaiduProvider(ak='x').provides_dishes, False)
@@ -1133,7 +1133,7 @@ def test_drink_only_parity():
 
     ★ 为什么需要：`render.py` 的象限分桶会丢掉「一道可用菜都没有」的店，
       那里要用**同一个判据**认出「只卖喝的」并计数 —— 否则脚注「已隐去 N 家」
-      会漏数（店静默消失）。项目踩过「两条链路两套规则」的坑
+      会漏数（店静默消失）。项目出过「两条链路两套规则」的问题
       （同一条数据在网页被滤、在 MCP 没滤），所以用并行断言守住。
     """
     import walkkcal.select as S

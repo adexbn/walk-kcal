@@ -120,7 +120,7 @@ def encode(params):
     u"""把 next 里的 params 压成 callback_data（Telegram 限 64 字节）
 
     ★ 注意：`industry: None` 是**显式的「不限」**（「看全部」按钮），
-      不能被当成「没这个字段」丢掉 —— 否则点了没反应。实测踩过。
+      不能被当成「没这个字段」丢掉 —— 否则点了没反应。实测中出过问题。
     """
     q = {}
     if 'industry' in params:

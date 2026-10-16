@@ -156,7 +156,7 @@ class NearbyDiningPack(BasePack):
         u"""淡点层用的**全量餐饮池**（含没有推荐菜、被选掉的店）。
 
         ★ 密度可视化必须用这个，不能用「可评估」的那批 ——
-          只画有推荐菜的，密度感会明显变稀（实测踩过）。
+          只画有推荐菜的，密度感会明显变稀（实测中出过问题）。
         """
         if self._pool is None:
             self._pool = snap.read_stores(self.snapshot_path,
