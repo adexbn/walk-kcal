@@ -37,7 +37,7 @@ description: 走得越远，这一顿的卡路里额度越高 —— 用步行�
 1. **零参数调用必须先出结果**，不得先反问用户偏好。
    唯一例外是**位置**：没有位置算不出距离，因此没有"走多远"。
    但位置也**先自行获取**（见 1.3 四档），四档都失败才向用户询问。
-   **不得**把 `data/*` 里的演示快照当作"用户附近"。
+   **不得**把 `examples/*` 里的演示快照当作"用户附近"。
 2. **用 `next` 字段引导，不罗列参数。**
    `next=[{'label':'只看快餐'},…]` → 输出「要只看快餐吗？」；
    禁止输出「可用参数：industry=快餐|小吃|西餐…」。
@@ -105,18 +105,20 @@ python walkkcal/config.py      # 一次看清：配置来自哪个文件 / 有�
 | 情况 | 允许的做法 |
 |---|---|
 | 有地图 Key | 按四档依次取 |
-| 无地图 Key | ① 用户已给出地名 → 直接用；③ 试 `delivery-query-addresses`；④ 询问用户，并说明「实时查需要配一个地图 Key」；或者**明确告知**「这是 `data/<场景>` 的预采集演示点位，不是你的位置」后再出图 |
+| 无地图 Key | ① 用户已给出地名 → 直接用；③ 试 `delivery-query-addresses`；④ 询问用户，并说明「实时查需要配一个地图 Key」；或者**明确告知**「这是 `examples/<场景>` 的预采集演示点位，不是你的位置」后再出图 |
 
-**禁止**：把 `data/*` 中的演示快照当作"用户附近"（等价于用演示数据冒充真实结果）。
+**禁止**：把 `examples/*` 中的演示快照当作"用户附近"（等价于用演示数据冒充真实结果）。
 
 ### 演示点位清单（与用户位置无关）
 
 | 场景目录 | 点位 |
 |---|---|
-| `data/`（`render.py` 默认） | 上海·静安虬江路 |
-| `data/linghelu` | 上海·浦东凌河路 618 弄 |
-| `data/k11` / `data/baidu_k11` | 上海·淮海路 K11 |
-| `data/jintie` / `data/mchq` | 另外两个点位 |
+| `examples/default`（`render.py` 默认） | 上海·静安虬江路 |
+| `examples/linghelu` | 上海·浦东凌河路 618 弄 |
+| `examples/k11` / `examples/baidu_k11` | 上海·淮海路 K11 |
+| `examples/jintie` / `examples/mchq` | 另外两个点位 |
+
+这些是仓库里**预采集的演示点位**（见 `examples/README.md`）—— 不是用户位置。
 
 用离线场景出图时，**回复中必须点明是哪个点位**，且不得表述为「你附近」。
 
@@ -303,7 +305,7 @@ python walkkcal/shoot.py "人民广场" --keep-scene           # 留下场景数
 
 # 渲染已有场景（不联网，1~2 秒；适合换业态 / 翻页）
 python walkkcal/render.py
-WALKKCAL_DATA=data/linghelu python walkkcal/render.py
+WALKKCAL_DATA=examples/linghelu python walkkcal/render.py
 
 # 只采集数据、不出图
 python walkkcal/fetch_pois_at.py <lat> <lon> <radius> <场景名> --scene
@@ -312,7 +314,7 @@ python walkkcal/fetch_pois_at.py <lat> <lon> <radius> <场景名> --scene
 两者的分工：`shoot.py` 用于**只有地址、要联网抓一个新点位**；
 `render.py` 用于**已有场景数据、只想换业态或翻页**。
 
-⚠️ 不传 `WALKKCAL_DATA` 时，`render.py` 读的是 `data/` = 上海·静安虬江路 ——
+⚠️ 不传 `WALKKCAL_DATA` 时，`render.py` 读的是 `examples/default` = 上海·静安虬江路 ——
 那是**演示点位，不是用户位置**。
 
 ★ 抓取速度（134 秒 → 14 秒）来自把「逐店算距离」改成**批量算距离**
@@ -329,7 +331,7 @@ python walkkcal/fetch_pois_at.py <lat> <lon> <radius> <场景名> --scene
 | `MCD_MCP_TOKEN` | — | 麦当劳官方营养值 / 实时找店。不设则读内置快照 |
 | `BAIDU_AK` | — | 换百度地图时用 |
 | `WALKKCAL_CONFIG` | — | 显式指定配置文件路径 |
-| `WALKKCAL_DATA` | `data/` | 场景目录（`data/k11`、`data/jintie`、`data/mchq`…） |
+| `WALKKCAL_DATA` | `examples/default` | 场景目录（`examples/k11`、`examples/jintie`…） |
 | `WALKKCAL_QUOTA` | 450 | 额度基线（`--quota` 的离线等价物） |
 | `WALKKCAL_FILTER` | 不限 | 业态过滤（`西餐` / `快餐` / `咖啡`…） |
 | `WALKKCAL_PAGE` | 0 | 批次号；「换一批」加 1 |
@@ -357,7 +359,7 @@ python walkkcal/fetch_pois_at.py <lat> <lon> <radius> <场景名> --scene
 | 高德 MCP `https://mcp.amap.com` | 周边检索 / 步行路径 | 本地餐厅 + 真实步行距离 | 推荐 |
 
 配置见 `mcp-config.example.json`（只含 `${MCD_MCP_TOKEN}` 占位符）。
-不配 Token 也能跑离线演示：读 `data/` 快照 + `packs/mcd_nutrition_snapshot.py`。
+不配 Token 也能跑离线演示：读 `examples/default/` 快照 + `packs/mcd_nutrition_snapshot.py`。
 
 ## 3.2 麦当劳实时路径（默认关闭）
 
@@ -390,7 +392,7 @@ WALKKCAL_MCD_LIVE=1 python packs/registry.py
 | 链 | 怎么取数 |
 |---|---|
 | **文字链**（MCP / Bot） | 有坐标 → 实时抓（`provider.nearby_dining()` + 批量算距离）；无坐标或抓失败 → 退内置快照，**并把原因写进 `registry.notes()`** |
-| **图片链**（`render.py`） | 读 `data/<场景>/*.json` 快照 |
+| **图片链**（`render.py`） | 读 `examples/<场景>/*.json` 快照 |
 
 两者默认同源：`shoot.py` 先实时抓成场景，渲染再读它。
 （图上的麦当劳来自地图 POI 的名称匹配，不来自 MCP —— 所以打开实时后文字与图片可能不一致。）

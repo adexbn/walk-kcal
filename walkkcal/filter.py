@@ -249,7 +249,7 @@ if __name__ == '__main__':
     import json
     import os
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    d = json.load(io.open(os.path.join(root, 'data', 'k11', 'stores.json'),
+    d = json.load(io.open(os.path.join(root, 'examples', 'k11', 'stores.json'),
                           encoding='utf-8'))
     pool = d['mcd_stores'] + d['local_shops']
     # 快照里的 industries 由 provider / 包在采集时写好（见 geo.py 契约）

@@ -141,7 +141,7 @@ python packs/pack_mcd.py --refresh     # 拉取并缓存最新营养表
 
 | | 门店 | 距离 | 来源 |
 |---|---|---|---|
-| 走快照 | 麦当劳(四川北路店) | 1391 m | `data/*/stores.json` |
+| 走快照 | 麦当劳(四川北路店) | 1391 m | `examples/*/stores.json` |
 | **走实时** | **麦当劳上海闸北虬江路永兴汇餐厅** | **792 m** | MCP `query-nearby-stores` |
 
 「永兴汇餐厅」这家**本地快照里根本没有** —— 只有真调 MCP 才会出现。

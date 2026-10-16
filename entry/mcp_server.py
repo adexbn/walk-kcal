@@ -75,7 +75,7 @@ def _dishes_of(r):
 
 # ★ 门店行实际来自哪 —— **不许写死**（2026-10-16）
 _SRC_LABEL = {'mcp': u'麦当劳 MCP（官方实时）',
-              'snapshot': u'本地快照（data/<场景>/*.json）'}
+              'snapshot': u'本地快照（examples/<场景>/*.json）'}
 
 
 def _sources_of(rows):

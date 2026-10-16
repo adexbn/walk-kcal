@@ -32,7 +32,7 @@ ROOT = os.path.dirname(BASE)
 PROV = geo.get()
 
 # 候选池：从快照读（由 fetch_pois_at.py 生成）
-_SNAPSHOT = os.path.join(ROOT, 'data', 'stores.json')
+_SNAPSHOT = os.path.join(ROOT, 'examples', 'default', 'stores.json')
 D = json.load(io.open(_SNAPSHOT, encoding='utf-8')) if os.path.exists(_SNAPSHOT) else {}
 
 

@@ -34,7 +34,7 @@ from walkkcal.corpus import CorpusProvider
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _ROOT = os.path.dirname(os.path.dirname(_HERE))
-_DATA = os.path.join(_ROOT, 'data')
+_CORPUS = os.path.join(_ROOT, 'corpus')
 
 
 class DianpingProvider(CorpusProvider):
@@ -42,7 +42,7 @@ class DianpingProvider(CorpusProvider):
 
     def __init__(self, table_path=None, api_url=None, api_key=None):
         # 两种接法：本地导出的表（最简单）或直连 API（需授权）
-        self.table_path = table_path or os.path.join(_DATA, 'dianping_heat.json')
+        self.table_path = table_path or os.path.join(_CORPUS, 'dianping_heat.json')
         self.api_url = api_url or os.environ.get('DIANPING_API')
         self.api_key = api_key or os.environ.get('DIANPING_KEY')
         self._table = {}
@@ -55,7 +55,7 @@ class DianpingProvider(CorpusProvider):
     def heat(self, dish):
         if not dish:
             return None
-        # TODO ① 本地表命中（把大众点评的热量导出成 {菜名: 卡} 放 data/dianping_heat.json）
+        # TODO ① 本地表命中（把大众点评的热量导出成 {菜名: 卡} 放 corpus/dianping_heat.json）
         v = self._table.get(dish)
         if v is not None:
             k = v if isinstance(v, int) else v.get('kcal')
@@ -74,6 +74,6 @@ class DianpingProvider(CorpusProvider):
 
 if __name__ == '__main__':
     p = DianpingProvider()
-    print(u'%s · 本地表 %d 条（桩：填 data/dianping_heat.json 或配 API）'
+    print(u'%s · 本地表 %d 条（桩：填 corpus/dianping_heat.json 或配 API）'
           % (p.name, len(p._table)))
     print(u'  heat(%s) → %s' % (u'红烧肉', p.heat(u'红烧肉')))

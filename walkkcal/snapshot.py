@@ -9,10 +9,10 @@ u"""snapshot —— 快照读写（**唯一**认快照格式的地方）
                                {'origin', 'radius', 'provider', 'stores':[
                                    {'id','name','lon','lat','distance_m',
                                     'category_hint','dish_hints','industries'}]}
-    ② data/stores.json         池子（淡点层用）
+    ② examples/default/stores.json   池子（淡点层用）
                                {'origin','mcd_stores':[{'walk','straight','tag'}],
                                 'local_shops':[{'walk','type','tag'}]}
-    ③ data/detail.json         详情（卡片用）
+    ③ examples/default/detail.json   详情（卡片用）
                                {'origin','mcd':[{'walk','tag','keytag','atag'}],
                                 'local':[{'walk','tag','keytag','atag','cost'}]}
 
@@ -235,7 +235,7 @@ def _load(path):
 def read_stores(path, translate=None):
     u"""读「池子」快照（淡点层 + 麦当劳门店）。
 
-    兼容 `data/stores.json`（池子格式）与标准结构（`stores: [...]`）。
+    兼容 `examples/default/stores.json`（池子格式）与标准结构（`stores: [...]`）。
     返回 {'origin', 'mcd', 'local', 'all', 'scenes'}
     """
     doc = _load(path)
@@ -272,7 +272,7 @@ def merge_mcd(*groups):
     两个文件的**采集半径本来就不一样**（实测：池子 ≈1.4 km / 明细 ≈0.8 km），
     所以「条数」天然对不上 —— 那**不是** bug（默认场景 31 vs 6 就是这种）。
     真 bug 是：某个店**落在池子范围内、却越过明细的采集线**时，
-    文字链说得出、图里画不出。实测 `data/linghelu`：
+    文字链说得出、图里画不出。实测 `examples/linghelu`：
     「麦当劳(浦东融创精彩天地餐厅)」走 **807 m**，只存在于池子里 →
     宿主（Trae CN）为此向用户道歉，而且编了个错理由（猜「800 米半径挡住」）。
 
@@ -301,7 +301,7 @@ def merge_mcd(*groups):
 def read_detail(path, translate=None):
     u"""读「详情」快照（卡片用）。
 
-    兼容 `data/detail.json`（mcd/local）与标准结构。
+    兼容 `examples/default/detail.json`（mcd/local）与标准结构。
     返回 {'origin', 'mcd', 'local'}
     """
     doc = _load(path)
@@ -374,13 +374,15 @@ def snapshot_of(store, lon0=None, lat0=None):
 if __name__ == '__main__':
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     for label, path, fn in [
-            (u'池子 data/stores.json', os.path.join(root, 'data', 'stores.json'),
+            (u'池子 examples/default/stores.json',
+             os.path.join(root, 'examples', 'default', 'stores.json'),
              read_stores),
-            (u'K11 池子', os.path.join(root, 'data', 'k11', 'stores.json'),
+            (u'K11 池子', os.path.join(root, 'examples', 'k11', 'stores.json'),
              read_stores),
-            (u'详情 data/detail.json', os.path.join(root, 'data', 'detail.json'),
+            (u'详情 examples/default/detail.json',
+             os.path.join(root, 'examples', 'default', 'detail.json'),
              read_detail),
-            (u'K11 详情', os.path.join(root, 'data', 'k11', 'detail.json'),
+            (u'K11 详情', os.path.join(root, 'examples', 'k11', 'detail.json'),
              read_detail)]:
         d = fn(path)
         print(u'%s' % label)

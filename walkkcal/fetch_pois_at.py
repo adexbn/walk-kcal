@@ -9,9 +9,9 @@ u"""抓周边餐饮 POI —— **薄 CLI，不含任何地图服务商的知识*
     # ② 直接生成一个「场景目录」，之后就能渲染
     python walkkcal/fetch_pois_at.py <lat> <lon> <半径米> <场景名> --scene
 
-        → data/<场景名>/stores.json   （全量池，画淡点用）
-        → data/<场景名>/detail.json   （有推荐菜的，出卡片用）
-        → WALKKCAL_DATA=data/<场景名> python walkkcal/render.py
+        → examples/<场景名>/stores.json   （全量池，画淡点用）
+        → examples/<场景名>/detail.json   （有推荐菜的，出卡片用）
+        → WALKKCAL_DATA=examples/<场景名> python walkkcal/render.py
 
     # ③ 指定长图顶端的「当前位置」标签
     #    （不指定就问地图的逆地理编码，形如 `上海·静安区宝山路街道`）
@@ -192,7 +192,7 @@ def main():
         return
 
     # ── 场景目录模式 ────────────────────────────────────────
-    scene = os.path.join(ROOT, 'data', name)
+    scene = os.path.join(ROOT, 'examples', name)
     do_route = '--no-route' not in flags
     if do_route:
         _iv = getattr(prov, 'min_interval', None)
@@ -212,7 +212,7 @@ def main():
 
     print(u'\n场景已生成 → %s' % scene)
     print(u'  全量池 %d 家 ｜ 半径内 %d 家' % (st['pool'], st['cardable']))
-    print(u'  渲染：WALKKCAL_DATA=data/%s python walkkcal/render.py' % name)
+    print(u'  渲染：WALKKCAL_DATA=examples/%s python walkkcal/render.py' % name)
 
     rows = snap.read_detail(os.path.join(scene, 'detail.json'))
     _print_table((rows['mcd'] + rows['local'])[:20])

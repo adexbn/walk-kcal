@@ -116,7 +116,7 @@ class McdPack(BasePack):
     provides_dishes = True          # ★ 官方菜单：明确声明给「推荐菜」
 
     # ★★ 实时找店的作用域：**只影响文字链**（2026-10-16 定案）
-    #   图片链（`walkkcal/render.py`）读的是 `data/<场景>/stores.json` 快照，
+    #   图片链（`walkkcal/render.py`）读的是 `examples/<场景>/stores.json` 快照，
     #   **不经过本 pack** —— 所以「打开实时」= 文字链换成官方门店、图片链还是快照，
     #   两边会不一致（撞铁律 4）。目前**故意不自动同步**（往用户场景目录写快照
     #   属于「写用户数据」，得先想清楚），但这件事必须是**显式**的：
@@ -242,7 +242,8 @@ class McdPack(BasePack):
         """
         from walkkcal import snapshot as snap
         root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        data = os.environ.get('WALKKCAL_DATA') or os.path.join(root, 'data')
+        data = os.environ.get('WALKKCAL_DATA') or os.path.join(
+            root, 'examples', 'default')
         if not os.path.isabs(data):
             data = os.path.join(root, data)
         doc = snap.read_stores(os.path.join(data, 'stores.json'))

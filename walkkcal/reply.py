@@ -400,7 +400,7 @@ if __name__ == '__main__':
     from walkkcal import snapshot as snap
 
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    K11 = os.path.join(root, 'data', 'k11')
+    K11 = os.path.join(root, 'examples', 'k11')
     # ★ 通过 snapshot 层读（唯一认快照格式的地方）
     doc = snap.read_detail(os.path.join(K11, 'detail.json'))
     pool = doc['mcd'] + doc['local']

@@ -34,8 +34,9 @@ from walkkcal.theme import (TIER_FILL, TIER_TEXT, TIER_BG, TIER_ORDER,
                             category_of, WB_TEAL)
 from packs.mcd_nutrition_snapshot import nutrition_of, SNAPSHOT_DATE
 
-# ★ 场景化数据目录：默认 data/，可用 WALKKCAL_DATA=data/k11 切到别的点位
-DATA = os.environ.get('WALKKCAL_DATA') or os.path.join(ROOT, 'data')
+# ★ 场景化数据目录：默认 examples/default（虬江路点位），
+#   可用 WALKKCAL_DATA=examples/k11 切到别的点位
+DATA = os.environ.get('WALKKCAL_DATA') or os.path.join(ROOT, 'examples', 'default')
 if not os.path.isabs(DATA):
     DATA = os.path.join(ROOT, DATA)
 
@@ -93,7 +94,7 @@ D = {'origin': _S['origin'], 'mcd_stores': _S['mcd'],
 #
 #   根因：文字链（`packs/pack_mcd.py`）读 `stores.json` 的 `mcd`，本文件只读
 #   `detail.json` 的 `mcd` —— 而**两个文件采集半径不同**（池子 ≈1.4 km / 明细 ≈0.8 km）。
-#        data/linghelu：文字链说得出「麦当劳 807 m」，图上连一家都没有
+#        examples/linghelu：文字链说得出「麦当劳 807 m」，图上连一家都没有
 #        （807 m 那家落在 detail 的 ~800 m 采集线之外）
 #   Trae CN 实测里宿主为此向用户道歉，而且编了个**错的**理由（猜「800 米半径挡住」）。
 #

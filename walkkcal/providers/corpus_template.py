@@ -37,7 +37,7 @@ class YourCorpusProvider(CorpusProvider):
     name = u'你的语料源'
 
     def __init__(self, table_path=None):
-        self.table_path = table_path or os.path.join(_ROOT, 'data', 'your_heat.json')
+        self.table_path = table_path or os.path.join(_ROOT, 'corpus', 'your_heat.json')
         self._table = {}
         if os.path.exists(self.table_path):
             self._table = json.load(io.open(self.table_path, encoding='utf-8'))

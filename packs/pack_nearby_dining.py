@@ -4,7 +4,7 @@ u"""pack_nearby_dining —— 周边任意餐厅包（★ 差异化护城河）
 数据源
 ──────
   · 门店 + 推荐菜：**当前地图 provider**（高德 / 百度 / …，见 `walkkcal/geo.py`）
-    抓下来的快照（`data/detail.json`）
+    抓下来的快照（`examples/<场景>/detail.json`）
   · 热量：**当前语料 provider**（下厨房 / 大众点评 / 薄荷…，见 `walkkcal/corpus.py`）
       —— 本包**不再自带语料表**，统一走 `corpus.lookup()`（全项目唯一入口）
 
@@ -74,7 +74,8 @@ class NearbyDiningPack(BasePack):
 
     def __init__(self, snapshot_path=None, detail_path=None, menu_path=None):
         root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        data = os.environ.get('WALKKCAL_DATA') or os.path.join(root, 'data')
+        data = os.environ.get('WALKKCAL_DATA') or os.path.join(
+            root, 'examples', 'default')
         if not os.path.isabs(data):
             data = os.path.join(root, data)
         self.detail_path = detail_path or os.path.join(data, 'detail.json')
@@ -91,7 +92,7 @@ class NearbyDiningPack(BasePack):
 
     # ── ★ 自带菜品表：把「店 → 推荐菜」补上 ────────────────────
     def _load_menu(self):
-        u"""读可选的本地菜品表 `data/menu.json`。
+        u"""读可选的本地菜品表 `examples/<场景>/menu.json`。
 
         **为什么需要这个口子**
           地图里只有高德提供「这家店有什么推荐菜」。换成百度/腾讯后，
@@ -297,7 +298,7 @@ if __name__ == '__main__':
     print(u'%s' % pack.name)
     print(u'  可评估（有推荐菜）%d 家 ｜ 全量池 %d 家' % (len(stores), len(pool)))
     print(u'  自带菜品表: %s' % (u'有，%d 家' % len(pack._menu) if pack._menu
-                                   else u'无（可放 data/menu.json）'))
+                                   else u'无（可放 examples/<场景>/menu.json）'))
     print(u'  当前地图 provider:', end=' ')
     try:
         from walkkcal import geo

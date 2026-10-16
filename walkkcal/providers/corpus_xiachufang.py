@@ -3,12 +3,12 @@ u"""corpus_xiachufang —— 下厨房语料库实现（默认语料源，已实
 
 数据来源
 ────────
-  · `data/local_dish_heat.json` —— 已批量算好的本地热量表（194 条，**开箱即用**）
+  · `corpus/local_dish_heat.json` —— 已批量算好的本地热量表（194 条，**开箱即用**）
   · `datasets/xcx_dishes.json`   —— 菜名索引（28.4 万条，可选）
   · `datasets/XiaChuFang/data/recipe_corpus_full.json` —— 2GB 原始语料（可选）
 
 ★ 为什么要三档
-    只带 `data/local_dish_heat.json`（几十 KB）就能跑 demo；
+    只带 `corpus/local_dish_heat.json`（几十 KB）就能跑 demo；
     要覆盖新点位，再用 `walkkcal/batch_heat.py` 扫原始语料补表。
 
 换语料源只影响 L1；L2/L3 兜底（prior）与语料无关，仍然生效。
@@ -30,7 +30,7 @@ from walkkcal.corpus import CorpusProvider
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _ROOT = os.path.dirname(os.path.dirname(_HERE))          # walk-kcal/
-_DATA = os.path.join(_ROOT, 'data')
+_CORPUS = os.path.join(_ROOT, 'corpus')
 _DATASETS = os.path.join(os.path.dirname(_ROOT), 'datasets')
 
 
@@ -132,7 +132,7 @@ class XiachufangProvider(CorpusProvider):
     name = u'下厨房'
 
     def __init__(self, table_path=None, index_path=None):
-        self.table_path = table_path or os.path.join(_DATA, 'local_dish_heat.json')
+        self.table_path = table_path or os.path.join(_CORPUS, 'local_dish_heat.json')
         self.index_path = index_path or os.path.join(_DATASETS, 'xcx_dishes.json')
         self._table = self._load(self.table_path) or {}
         self._index = None          # 懒加载（8.8MB，用到才读）

@@ -274,7 +274,7 @@ if __name__ == '__main__':
     import os
     from walkkcal import snapshot as snap
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    data = os.environ.get('WALKKCAL_DATA') or 'data/k11'
+    data = os.environ.get('WALKKCAL_DATA') or 'examples/k11'
     if not os.path.isabs(data):
         data = os.path.join(root, data)
     # ★ 通过 snapshot 层读（唯一认快照格式的地方）

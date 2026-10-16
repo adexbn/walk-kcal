@@ -777,7 +777,7 @@ def test_rate_limit():
 
 
 def test_local_menu_hook():
-    u"""⑥ 自带菜品表（`data/menu.json`）：把「店 → 推荐菜」补上。
+    u"""⑥ 自带菜品表（`examples/<场景>/menu.json`）：把「店 → 推荐菜」补上。
 
     场景：地图不给推荐菜（如百度），但**用户自己**手上有菜品数据。
     这一步让链路不必依赖任何地图就能出完整卡片。
@@ -888,7 +888,7 @@ def test_channels():
     # 合并的正确性：只启用麦当劳时，门店应当**全是**麦当劳
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     old_data = os.environ.get('WALKKCAL_DATA')
-    os.environ['WALKKCAL_DATA'] = os.path.join(root, 'data')
+    os.environ['WALKKCAL_DATA'] = os.path.join(root, 'examples', 'default')
     try:
         mcd_rows = registry.collect(packs=[McdPack(offline=True)])
         check(u'★只启用麦当劳 → 全是麦当劳',
@@ -1619,7 +1619,7 @@ def test_business_status():
 
 
 # ── ★★ 两条链的麦当劳必须同源（2026-10-16 新增）─────────────────
-#   触发的事故（Trae CN 实测暴露）：`data/linghelu` 里文字链说「麦当劳 807 m」，
+#   触发的事故（Trae CN 实测暴露）：`examples/linghelu` 里文字链说「麦当劳 807 m」，
 #   图上连一家麦当劳都没有 —— 宿主为此向用户道歉，而且编了个**错的**理由
 #   （它猜「快照半径 800 米把 807 米的店挡在外面」，真因是 `detail.json` 缺这条）。
 #
@@ -1672,7 +1672,7 @@ def test_mcd_two_chains_same_source():
         return p.returncode, log, svg
 
     # ── ① 事故点位：凌河路那家 807 m 的麦当劳 ─────────────────────
-    scene = os.path.join(ROOT, 'data', 'linghelu')
+    scene = os.path.join(ROOT, 'examples', 'linghelu')
     text_names = text_side(scene)
     check(u'★文字链看得到那家 807 m 的麦当劳',
           text_names, [u'麦当劳(浦东融创精彩天地餐厅)'])
@@ -1690,7 +1690,7 @@ def test_mcd_two_chains_same_source():
     # ── ② 反向保护：「31 vs 6」不许被当成 bug 修掉 ────────────────
     #   默认场景两个文件条数天然不同（池子 31 / 明细 6），
     #   但展示半径内是**同样那 5 家** —— 两链必须仍然一致。
-    scene2 = os.path.join(ROOT, 'data')
+    scene2 = os.path.join(ROOT, 'examples', 'default')
     S = snap.read_stores(os.path.join(scene2, 'stores.json'))
     D = snap.read_detail(os.path.join(scene2, 'detail.json'))
     check(u'默认场景两个文件条数确实不同（这就是「31 vs 6」的来源）',
@@ -1852,7 +1852,7 @@ def test_mcd_live_falls_back_loudly():
 def test_mcd_live_scope_is_text_chain_only():
     u"""★ 图片链侧（铁律 4）：实时路径**只动文字链**，不许碰图片链读的文件。
 
-    图片链（`walkkcal/render.py`）读的是 `data/<场景>/{stores,detail}.json` 快照，
+    图片链（`walkkcal/render.py`）读的是 `examples/<场景>/{stores,detail}.json` 快照，
     **不经过 `McdPack`**。所以「打开实时」天然会让两侧不一致 —— 这件事必须**显式**：
       · 默认装配两侧同源（`test_mcd_two_chains_same_source` 守着）；
       · 实时路径**绝不改写**那两个文件（本用例守）；
@@ -1876,7 +1876,7 @@ def test_mcd_live_scope_is_text_chain_only():
                               'storeName': u'麦当劳(富平路店)',
                               'distance': 420}]}
 
-    scene = os.path.join(ROOT, 'data', 'linghelu')
+    scene = os.path.join(ROOT, 'examples', 'linghelu')
     files = [os.path.join(scene, 'stores.json'),
              os.path.join(scene, 'detail.json')]
 
