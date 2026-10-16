@@ -11,9 +11,8 @@ u"""config —— 配置/密钥的唯一入口（★ **Key 不许写在 `.py` �
 ────────────────────────────────
     ① 环境变量                —— 宿主/CI 注入，只活在进程里（最高优先）
     ② `WALKKCAL_CONFIG` 指向的 JSON —— 显式指定；**设了就用它，不再看下面**
-    ③ `<仓库>/config.local.json`           ← 真正的项目配置文件
+    ③ `<仓库>/config.local.json`           ← 项目配置文件（推荐放这里）
     ④ `<仓库>/walkkcal/config.local.json`
-    ⑤ `<仓库>/../internal/config.local.json`  ← 仓库外的工作区副本
 
 文件格式：**JSON**
 ──────────────────
@@ -29,7 +28,7 @@ u"""config —— 配置/密钥的唯一入口（★ **Key 不许写在 `.py` �
 提交前
 ──────
 `config.local.json` **永远不进版本库**（见 `.gitignore`）。
-自检：`python ../internal/_check_secrets.py`（退出码 1 = 发现明文密钥）。
+自检：仓库里不该出现明文密钥 —— 搜索形如 32 位十六进制串的常量即可。
 """
 from __future__ import annotations
 
@@ -59,9 +58,7 @@ def candidate_paths():
     if env:
         return [os.path.abspath(env)]
     return [os.path.join(_REPO, 'config.local.json'),
-            os.path.join(_HERE, 'config.local.json'),
-            os.path.join(os.path.dirname(_REPO), 'internal',
-                         'config.local.json')]
+            os.path.join(_HERE, 'config.local.json')]
 
 
 def _read(path):

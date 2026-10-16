@@ -284,7 +284,8 @@ def merge_mcd(*groups):
 
     ★ 判据 / 回归
     ──────────────
-    `python internal/_check_scene_mcd.py`（按**展示半径**比对，退出码 1 = 真冲突）。
+    `tests/test_gate.py::test_mcd_two_chains_same_source`
+    （断言两条链在**展示半径内**是同一批店）。
     """
     out, seen = [], set()
     for g in groups:

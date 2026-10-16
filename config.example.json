@@ -1,6 +1,6 @@
 {
   "_说明": "模板。复制成 config.local.json 再填值；config.local.json 已被 .gitignore 忽略，不进版本库。",
-  "_取值顺序": "环境变量 > WALKKCAL_CONFIG 指向的文件 > <仓库>/config.local.json > <仓库>/walkkcal/config.local.json > <仓库>/../internal/config.local.json",
+  "_取值顺序": "环境变量 > WALKKCAL_CONFIG 指向的文件 > <仓库>/config.local.json > <仓库>/walkkcal/config.local.json",
   "_生成密钥": {
     "AMAP_KEY": "https://lbs.amap.com → 应用管理 → 添加 Key，服务平台选「Web 服务」",
     "BAIDU_AK": "https://lbsyun.baidu.com → 控制台 → 应用管理 → 创建应用（浏览器端）",

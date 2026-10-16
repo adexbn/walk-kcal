@@ -18,7 +18,7 @@ u"""shoot —— 一步式入口：**地址 → 一张图**
     --city TEXT      地址所属城市（**跨城市消歧**，如「苏州」）
     --lat N --lon N  **直接给坐标**，跳过地址解析（优先级高于地址）
     --dish-mode X    菜品配色方案，默认 C（正式版）
-    --keep-scene     保留场景快照到 internal/scenes/<slug>/（排查用）
+    --keep-scene     保留本次抓取的场景快照到 out/scenes/<slug>/（排查用）
     --no-route       跳过路网距离校正（快，但额度偏小）
 
 位置从哪来（三档降级，见 `walkkcal/locate.py`）
@@ -89,8 +89,8 @@ from walkkcal import fetch_pois_at as fetch  # noqa: E402
 from walkkcal import geo  # noqa: E402
 from walkkcal import locate  # noqa: E402
 
-# 仓库外的「内部工作区」（测试产物、场景留档都放这儿，不污染仓库）
-INTERNAL = os.path.join(os.path.dirname(ROOT), 'internal')
+# 排查产物（`--keep-scene`）落在 out/ 下 —— out/ 已被 .gitignore 排除，不污染版本库
+INTERNAL = os.path.join(ROOT, 'out')
 
 RENDER_TIMEOUT = 180
 

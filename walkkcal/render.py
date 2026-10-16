@@ -101,8 +101,8 @@ D = {'origin': _S['origin'], 'mcd_stores': _S['mcd'],
 #   ★ 实测 6 个场景并集 == 池子那一侧 → **出图内容与旧版完全一致**
 #     （默认场景 1500 m 内仍是同样那 5 家；k11/jintie/mchq/baidu_k11 全等；
 #      只有 linghelu 从 0 家变 1 家 —— 正是要修的那条）。
-#   ★ 判据 / 回归：`python internal/_check_scene_mcd.py`（按展示半径比对）
-#     + `tests/test_gate.py::test_mcd_two_chains_same_source`（两边各一个断言）。
+#   ★ 判据 / 回归：`tests/test_gate.py::test_mcd_two_chains_same_source`
+#     （两条链在**展示半径内**必须同源；两边各一个断言）。
 DET = {'mcd': _snap.merge_mcd(_S['mcd'], _DT['mcd']), 'local': _DT['local']}
 
 # ═══════════════════════════════════════════════════════════════════

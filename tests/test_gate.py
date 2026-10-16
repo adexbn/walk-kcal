@@ -1619,7 +1619,7 @@ def test_business_status():
 #
 #   ⚠ 别搞反：「31 vs 6」**不是** bug —— 默认场景两个文件条数天然不同，
 #     只要**展示半径内**一致就没问题。所以断言的是「展示半径内两边同一批店」，
-#     不是「条数相等」。判据同理，见 `internal/_check_scene_mcd.py`。
+#     不是「条数相等」。
 def test_mcd_two_chains_same_source():
     import subprocess
     from walkkcal import snapshot as snap
@@ -2062,7 +2062,7 @@ def test_keys_not_in_source():
         except OSError:
             pass
 
-    # ③ 仓库里没有明文密钥 —— 判据与 internal/_check_secrets.py 保持一致
+    # ③ 仓库里没有明文密钥 —— 判据：形如 32 位十六进制的、名字含 KEY/TOKEN/AK/SECRET 的常量
     hex32 = re.compile(r'\b[0-9a-f]{32}\b')
     assign = re.compile(u'(?i)\\b[A-Z_]{0,20}(KEY|TOKEN|AK|SECRET)[A-Z_]{0,20}'
                         u'\\s*=\\s*[\\x22\\x27][A-Za-z0-9_\\-]{16,}[\\x22\\x27]')
