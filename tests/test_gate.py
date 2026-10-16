@@ -2030,6 +2030,61 @@ def test_nearby_live_uses_coords():
         G.get = old
 
 
+def test_heat_strips_tail_noise():
+    u"""★ 剥尾部噪声：品牌 / 规格 / 分隔符后缀（2026-10-17 实测补充）。
+
+    原实现只剥**前缀**（`点都德虾饺皇` → `虾饺皇`），救不了后缀式 ——
+    实测 4 个后缀样例（`烧鹅(陶陶居)` / `虾饺皇·点都德` / `多肉葡萄(首创)` /
+    `CBT经典柠檬红`）**全部失败**，因为循环只从头部逐字剥。
+
+    现在：原词查不到 → 剥掉括号内容 / 分隔符之后的内容，**再查一次**。
+    实测（5 个场景 969 条推荐菜）：新增命中 **10 条**
+    （`内蒙古羔羊羊肉串(3串)`→`羊肉串`、`提拉米苏·浓巧`→`提拉米苏`、`馕包肉(羊肉)`→`馕包肉`…）。
+
+    ★ 三条硬约束：
+      ① **只作回退** —— 原词查得到就用原词，label 不许被这条逻辑动过；
+      ② **地区无关** —— 不查任何品牌词表（所以广东 / 北京 / 川渝同效）；
+      ③ 剥完为空（如 `(3串)`）不许崩。
+    """
+    import tempfile
+    from walkkcal.providers import corpus_xiachufang as X
+
+    tmp = tempfile.mkdtemp(prefix='walkkcal_heat_')
+    tpath = os.path.join(tmp, 't.json')
+    # 表里只放「剥完之后」的菜名 —— 模拟补表跑完后的效果
+    io.open(tpath, 'w', encoding='utf-8').write(json.dumps(
+        {u'羊肉串': 120, u'烧鹅': 280, u'提拉米苏': 330, u'虾饺皇': 210},
+        ensure_ascii=False))
+    prov = X.XiachufangProvider(table_path=tpath,
+                               index_path=os.path.join(tmp, 'nope.json'))
+
+    # ① 品牌括号（广东）
+    r = prov.heat(u'烧鹅(陶陶居)')
+    check(u'★剥品牌括号：烧鹅(陶陶居)', bool(r and r['kcal'] == 280), True)
+    check(u'★label 标注「去后缀」', bool(r and u'去后缀' in r['label']), True)
+
+    # ② 规格括号
+    r = prov.heat(u'内蒙古羔羊羊肉串(3串)')
+    check(u'★剥规格括号：内蒙古羔羊羊肉串(3串)', bool(r and r['kcal'] == 120), True)
+
+    # ③ 分隔符
+    r = prov.heat(u'提拉米苏·浓巧')
+    check(u'★剥分隔符：提拉米苏·浓巧', bool(r and r['kcal'] == 330), True)
+
+    # ④ 前缀式仍工作（回归保护 —— 别把老能力改坏）
+    r = prov.heat(u'点都德虾饺皇')
+    check(u'★前缀式回归：点都德虾饺皇', bool(r and r['kcal'] == 210), True)
+
+    # ⑤ ★ 只作回退：原词精确命中时 label 不许带「去后缀」
+    r = prov.heat(u'烧鹅')
+    check(u'★只作回退（精确命中不动 label）',
+          bool(r and r['kcal'] == 280 and u'去后缀' not in r['label']), True)
+
+    # ⑥ 剥完为空不许崩
+    check(u'★纯括号词剥完为空 → 弃权不崩', prov.heat(u'(3串)'), None)
+    check(u'★空词 → 弃权', prov.heat(u''), None)
+
+
 def test_keys_not_in_source():
     u"""★ 密钥不许写在 `.py` 里（用户要求；只进配置文件 / 环境变量）。
 
@@ -2132,6 +2187,7 @@ if __name__ == '__main__':
     test_mcd_live_scope_is_text_chain_only()
     test_reply_source_notes()
     test_nearby_live_uses_coords()
+    test_heat_strips_tail_noise()
     test_keys_not_in_source()
     print()
     if _fail:

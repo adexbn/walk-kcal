@@ -18,6 +18,7 @@ from __future__ import annotations
 import io
 import json
 import os
+import re
 
 # ── 直接执行本文件时，把仓库根加入 sys.path（打包导入时无副作用）──
 import os as _os
@@ -32,6 +33,14 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 _ROOT = os.path.dirname(os.path.dirname(_HERE))          # walk-kcal/
 _CORPUS = os.path.join(_ROOT, 'corpus')
 _DATASETS = os.path.join(os.path.dirname(_ROOT), 'datasets')
+
+# ★ 尾部噪声：括号内容（品牌 / 规格 / 营销）+ 分隔符之后的内容（2026-10-17 实测补充）
+#   实测：5 个场景 969 条推荐菜里，**10 条**靠它才能命中 ——
+#     `内蒙古羔羊羊肉串(3串)`→`羊肉串`、`提拉米苏·浓巧`→`提拉米苏`、`馕包肉(羊肉)`→`馕包肉`…
+#   ★ 括号里**多是规格而非品牌**（3 串 / 小份 / 1 个）—— 所以它只作**回退**：
+#     原词查得到就用原词；查不到才剥，且 label 会注明「去后缀」。
+#   ★ 地区无关 —— 广东的 `烧鹅(陶陶居)` 同样能靠它救回来。
+_TAIL_NOISE = re.compile(r'[（(\[【][^）)\]】]*[）)\]】]|[·・|｜].*$')
 
 
 def scan_dish_heat(dish_name, corpus_index, corpus_path,
@@ -157,16 +166,33 @@ class XiachufangProvider(CorpusProvider):
         return self._index
 
     def heat(self, dish):
-        u"""L1：先查已算好的表，再查菜名索引（命中索引但没算过 → 交给上层兜底）"""
+        u"""L1：① 原词 ② 剥尾部噪声（品牌 / 规格后缀）③ 剥前缀（主料在尾部）
+
+        三条都不中 → None，交给上层走 L2/L3 兜底（**弃权优于猜测**）。
+        """
         if not dish:
             return None
+        r = self._lookup(dish)
+        if r:
+            return r
+        # ★ 剥尾部噪声（2026-10-17 实测：5 个场景 969 条里 10 条靠它才命中）
+        bare = _TAIL_NOISE.sub(u'', dish).strip()
+        if bare and bare != dish:
+            r = self._lookup(bare)
+            if r:
+                r['label'] = u'%s（去后缀）' % r['label']
+                return r
+        return None
+
+    def _lookup(self, dish):
+        u"""精确查表 → 剥前缀（中餐菜名 = 「做法/修饰 + 主料」，主料在尾部）"""
         v = self._table.get(dish)
         if isinstance(v, int):
             return {'kcal': v, 'label': u'菜谱推算', 'source': self.name}
         if isinstance(v, dict) and v.get('kcal'):
             return {'kcal': v['kcal'],
                     'label': v.get('label', u'菜谱推算'), 'source': self.name}
-        # 精确没中 → 尾部子串回退（中餐菜名 = 「做法/修饰 + 主料」，主料在尾部）
+        # 精确没中 → 尾部子串回退（主料在尾部）
         for i in range(1, len(dish)):
             sub = dish[i:]
             if len(sub) >= 2 and sub in self._table:
