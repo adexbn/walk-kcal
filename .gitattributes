@@ -1,0 +1,3 @@
+# Dockerfile / shell 脚本强制 LF —— 换行符是 CRLF 时有的构建环境会报奇怪的错
+Dockerfile text eol=lf
+*.sh text eol=lf
