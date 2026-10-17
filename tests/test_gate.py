@@ -9,6 +9,7 @@ from __future__ import annotations
 import io
 import json
 import os
+import subprocess
 import sys
 import tempfile
 
@@ -2219,6 +2220,32 @@ def test_keys_not_in_source():
                 if hex32.search(line) or assign.search(line):
                     bad.append(u'%s:%d' % (os.path.relpath(fp, ROOT), i))
     check(u'★③仓库里没有明文密钥的 .py', bad, [])
+
+    # ═══════════════════════════════════════════════════════════════
+    # ★★ ④⑤ 凭证只留在本机（用户要求 2026-10-17）
+    #
+    #   原话：「token 保留在本机，本地测试得有，我不用每次配置，
+    #          应该在 internal 目录，只是不在 Git 仓库上。」
+    #   → 所以这里守两件事：**挡得住**（.gitignore）与**确实没进去**（git index）。
+    #     另外守一条：工作区私有目录 `internal/` 整体不得进仓库。
+    # ═══════════════════════════════════════════════════════════════
+    gi = io.open(os.path.join(ROOT, '.gitignore'), encoding='utf-8').read()
+    for pat in ('config.local.json', '*.local.json', '.env'):
+        check(u'★④.gitignore 挡住凭证文件模式 %s' % pat, pat in gi, True)
+    try:
+        _tracked = subprocess.check_output(
+            ['git', '-C', ROOT, 'ls-files'],
+            stderr=subprocess.DEVNULL).decode('utf-8', 'replace').splitlines()
+    except Exception:
+        _tracked = None
+    if _tracked is None:                       # 没有 git 环境就跳过（不误报）
+        print(u'⚠ 跳过 ④⑤：本机没有可用的 git')
+    else:
+        _leak = [x for x in _tracked if x.endswith('.local.json')
+                 or x.endswith('.env') or x.endswith('.env.local')]
+        check(u'★④凭证文件没被 git 跟踪', _leak, [])
+        _priv = [x for x in _tracked if x.startswith('internal/')]
+        check(u'★⑤仓库里没有 internal/ 私有目录', _priv, [])
 
 
 if __name__ == '__main__':
