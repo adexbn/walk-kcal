@@ -6,6 +6,26 @@
 
 **[试试看（不用装任何东西）](https://adexbn.github.io/walk-kcal/)** ｜ [GitHub 源码](https://github.com/adexbn/walk-kcal)
 
+<details>
+<summary><b>English TL;DR</b> (the README below is in Chinese)</summary>
+
+**Walk-Kcal** turns walking distance into a meal calorie budget: `450 kcal + 4 kcal per 80 m`.
+Walking 800 m buys you **+44 kcal** — about half an apple.
+
+Given a location, it lists nearby restaurants and their recommended dishes, estimates kcal per
+dish in explicit layers (exact recipe → category median → store-type prior → **"unknown"**),
+and marks each dish as *fits your budget* or *over*. McDonald's nutrition comes from the official
+China MCP (`query-nearby-stores`, `list-nutrition-foods`); other restaurants are estimated from a
+Chinese recipe corpus, with the layer and error range disclosed per dish.
+
+> ⚠️ **Not a turnkey tool for your country.** Map data and the recipe corpus are Chinese.
+> What ports is the *pipeline* — plug in your own map API (Google / OSM) and nutrition source
+> (USDA / OpenFoodFacts), and keep the abstain layer.
+
+**Demo (no install):** https://adexbn.github.io/walk-kcal/
+
+</details>
+
 ---
 
 站在楼下纠结「现在吃什么」时，你真正想知道的是——**这一顿，我吃得下吗？**
