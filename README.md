@@ -132,9 +132,16 @@ Chinese recipe corpus, with the layer and error range disclosed per dish.
 
 ```bash
 git clone https://github.com/adexbn/walk-kcal && cd walk-kcal
-python walkkcal/render.py     # 出图（内置场景，1~2 秒）
-open demo/explore.html        # 离线可交互 demo
+python walkkcal/render.py        # 出图（内置场景，1~2 秒，无网络请求）
+
+# 打开离线可交互 demo（自包含，不发任何网络请求）
+start demo\explore.html           # Windows
+open demo/explore.html            # macOS
+xdg-open demo/explore.html        # Linux
 ```
+
+只需要 Python 3.8+，**不用 pip install 任何东西** —— 默认输出 SVG（浏览器直接打开、放大不糊）；
+想要 PNG（发微信/小红书那种）再装一个可选扩展包。
 
 快照里已经存好了门店、推荐菜、步行距离和热量 —— 麦当劳的官方营养值也是内嵌的
 （demo 用到的 22 条，已按官方实时表校准）。
