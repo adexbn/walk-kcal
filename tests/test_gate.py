@@ -36,6 +36,24 @@ def check(name, got, want):
         _fail.append(name)
 
 
+def check_cat(name, r, cat, lo, hi):
+    u"""断言「**品类正确** + 数值落在合理区间」。
+
+    ★ 为什么不再写死数值（2026-10-17 起）：
+      L2 的取值 = **该规则命中菜名的中位数**（见 `prior.py` 顶部说明），
+      表一变值就变。写死数字会让「调一次取值就要改一堆测试」，
+      而且**掩盖真正的语义回归**（真正要守的是「奶茶别被归到西点」这类事）。
+      所以：品类必须精确相等，数值只要落在常识区间内即可。
+    """
+    got_cat = (r or {}).get('category')
+    got_k = (r or {}).get('kcal')
+    ok = (got_cat == cat) and isinstance(got_k, (int, float)) and lo <= got_k <= hi
+    print(u'%s %s  got=%r(%r)  want cat=%s 且 %s<=kcal<=%s'
+          % ('✅' if ok else '❌', name, got_k, got_cat, cat, lo, hi))
+    if not ok:
+        _fail.append(name)
+
+
 # ── 额度公式 ────────────────────────────────────────────────
 #   额度 = 450 + (walk//80 + 1) * 4
 #   ★ 注意：(walk//80 + 1) —— 走 0 米也记 1 个 80 米单位（+4 卡）
@@ -85,26 +103,31 @@ def test_prior():
     check(u'「单人餐」不是菜', prior.estimate(u'单人餐', u'中餐厅'), None)
     check(u'「coffee」不是菜', prior.estimate(u'coffee', u'咖啡厅'), None)
     # L2：菜名关键词定品类
-    # ★★ 2026-10-15 茶饮**分档**（原来整组统一 150 卡 →
-    #    纯茶 ~10 / 果茶 ~180 / 奶茶 ~350 / 茶饮兜底 250）。
-    #    依据：现制茶饮跨度极大（纯茶几乎 0 卡，奶茶 219~400 卡）。
-    check(u'高山四季春（纯茶档）→10',
-          prior.estimate(u'高山四季春', {u'industries': []})['kcal'], 10)
-    check(u'芝士奶盖（奶茶档）→350',
-          prior.estimate(u'芝士奶盖', {u'industries': []})['kcal'], 350)
-    check(u'奇兰粉芭乐（果茶档）→180',
-          prior.estimate(u'奇兰粉芭乐', {u'industries': []})['kcal'], 180)
+    # ★★ 2026-10-15 茶饮**分档**（原来整组统一 150 卡）。
+    #    依据：现制茶饮跨度极大（纯茶几乎 0 卡，奶茶 200~400 卡）。
+    # ★★ 2026-10-17 起，**取值改为「规则命中菜名的中位数」**（见 prior.py 顶部）。
+    #    所以这里断言「品类 + 区间」，不再写死数字 —— 理由见 `check_cat` 的注释。
+    check_cat(u'高山四季春（纯茶档）', prior.estimate(u'高山四季春', {u'industries': []}),
+              u'纯茶', 0, 40)
+    check_cat(u'芝士奶盖（奶茶档）', prior.estimate(u'芝士奶盖', {u'industries': []}),
+              u'奶茶', 200, 320)
+    check_cat(u'奇兰粉芭乐（果茶档）', prior.estimate(u'奇兰粉芭乐', {u'industries': []}),
+              u'果茶', 120, 260)
     # ★ 「多肉葡萄」这类**没有字面线索**的产品名只能走 L3 业态兜底
-    check(u'多肉葡萄（无线索→业态兜底）→250',
-          prior.estimate(u'多肉葡萄', {u'industries': [u'茶饮']})['kcal'], 250)
+    check_cat(u'多肉葡萄（无线索→业态兜底）',
+              prior.estimate(u'多肉葡萄', {u'industries': [u'茶饮']}), u'饮品', 200, 320)
     # ★★ 「美式」必须与 is_drink_item 同口径（后缀锚定）：
-    #    原来 L2 写裸「美式」→ 「美式豪情牛肉培根菠萝比萨」落进咖啡档 130 卡，
+    #    原来 L2 写裸「美式」→ 「美式豪情牛肉培根菠萝比萨」落进咖啡档，
     #    而**同一张卡片**另外 4 款比萨都是 400（实测达美乐广州/北京两城都出现）。
+    _coffee = prior.estimate(u'冰美式', {u'industries': []})
+    check_cat(u'「冰美式」走咖啡档', _coffee, u'咖啡', 80, 200)
+    #    ★ 拿铁单独一档（表里拿铁族 ~158，纯咖啡族 ~138）—— 不许再被压成同一个数
+    check_cat(u'★「拿铁」与「咖啡」分属两档',
+              prior.estimate(u'生椰拿铁', {u'industries': []}), u'拿铁', 120, 220)
     _pizza = prior.estimate(u'美式豪情牛肉培根菠萝比萨', {u'industries': [u'西餐']})
-    check(u'★「美式豪情…比萨」不再落进咖啡档（≠130）', _pizza['kcal'] != 130, True)
+    check(u'★「美式豪情…比萨」不落进咖啡档（≠咖啡值）',
+          _pizza['kcal'] != _coffee['kcal'], True)
     check(u'★「美式豪情…比萨」按门店业态兜底→450', _pizza['kcal'], 450)
-    check(u'「冰美式」仍走咖啡档→130',
-          prior.estimate(u'冰美式', {u'industries': []})['kcal'], 130)
     # ★★ 素菜/配菜**单独一档**（2026-10-15 用户同意）。
     #    病根：L3 门店兜底给的是「一餐正餐」的量级（中餐 450），
     #    落在素菜上高估 3~8 倍（白灼生菜 450 → 实际 50~80）。
@@ -123,10 +146,10 @@ def test_prior():
     check(u'云南文山红甸山药（不再按火锅 700）',
           prior.estimate(u'云南文山红甸山药', {u'industries': [u'火锅烧烤']})['kcal'], 150)
     # ★ 素菜档**不能吃掉**主食与荤菜（离线实测的真实反例）
-    check(u'★青菜肉丝炒面仍是面→450',
-          prior.estimate(u'青菜肉丝炒面', _zh)['kcal'], 450)
-    check(u'★香煎澳州带子芦笋烩饭仍是饭类→600',
-          prior.estimate(u'香煎澳州带子芦笋烩饭', _zh)['kcal'], 600)
+    check_cat(u'★青菜肉丝炒面仍是面',
+              prior.estimate(u'青菜肉丝炒面', _zh), u'面类', 340, 560)
+    check_cat(u'★香煎澳州带子芦笋烩饭仍是饭类',
+              prior.estimate(u'香煎澳州带子芦笋烩饭', _zh), u'饭类', 380, 700)
     check(u'★皮蛋拌茄子有蛋→不走素菜档',
           prior.is_veg_item(u'皮蛋拌茄子'), False)
     check(u'★大白菜炒蛰头有海鲜→不走素菜档',
@@ -135,9 +158,44 @@ def test_prior():
           prior.is_veg_item(u'青菜香菇包'), False)
     check(u'★卷心菜（不能因为含「卷」被当点心）',
           prior.is_veg_item(u'卷心菜'), True)
-    check(u'蟹粉豆腐→豆制品220', prior.estimate(u'蟹粉豆腐', u'中餐厅')['kcal'], 220)
-    check(u'素什锦面→面450', prior.estimate(u'素什锦面', u'中餐厅')['kcal'], 450)
-    check(u'掼奶油→西点350', prior.estimate(u'掼奶油', u'中餐厅')['kcal'], 350)
+    check_cat(u'蟹粉豆腐→豆制品', prior.estimate(u'蟹粉豆腐', u'中餐厅'),
+              u'豆制品', 180, 360)
+    check_cat(u'素什锦面→面类', prior.estimate(u'素什锦面', u'中餐厅'),
+              u'面类', 340, 560)
+    check_cat(u'掼奶油→西点·蛋糕', prior.estimate(u'掼奶油', u'中餐厅'),
+              u'西点·蛋糕', 240, 420)
+
+    # ═══════════════════════════════════════════════════════════════
+    # ★★ 2026-10-17 取值改造 + 三处「标签与事实不符」的回归守卫
+    #    改前改后的差异清单见 `internal/_probe_prior_diff.py`（全库 3372 条）
+    # ═══════════════════════════════════════════════════════════════
+    # ①「焗」不再是饭类信号 —— 实测含「焗」的 10 条里 8 条不是饭
+    for _d in (u'盐焗鸡', u'生焗排骨', u'油盐煎焗银鳕鱼头'):
+        _r = prior.estimate(_d, _zh)
+        check(u'★「%s」不再被判成饭类' % _d,
+              (u'饭类' if _r and _r['category'] == u'饭类' else u'非饭类'), u'非饭类')
+    # ② 裸「酥」不再是西点信号（「小酥肉」「盐酥鸡」是菜，不是西点）
+    check_cat(u'★小酥肉→炸物（不是西点）', prior.estimate(u'小酥肉', _zh),
+              u'炸物', 300, 560)
+    check(u'★「士林盐酥鸡」不再被判成西点',
+          prior.estimate(u'士林盐酥鸡', _zh)['category'] != u'西点·酥点', True)
+    check(u'★「酥油茶」不再被判成西点（它是喝的）',
+          prior.estimate(u'酥油茶', {u'industries': []})['category'] != u'西点·酥点', True)
+    # ③「包」改词尾锚定：「生煎包」是包点，「锅包肉」不是
+    check_cat(u'★生煎包→包点', prior.estimate(u'生煎包', _zh), u'包点', 200, 380)
+    check(u'★「锅包肉」不判成包点（「包」在中间）',
+          prior.estimate(u'锅包肉', _zh)['category'] != u'包点', True)
+    # ④ 新增两档：排骨 / 炸物（原来「糖醋排骨」掉进 L3 门店档 450）
+    check_cat(u'★糖醋排骨→排骨档', prior.estimate(u'糖醋排骨', _zh), u'排骨', 450, 750)
+    # ⑤「冰萃咖」走咖啡，不走冰品
+    check_cat(u'★「红石榴冰萃咖」走咖啡档',
+              prior.estimate(u'红石榴冰萃咖', {u'industries': []}), u'咖啡', 80, 200)
+    # ⑥ ★ 取值治「数字整整齐齐」：L2 取值必须**大多不是整十数**
+    #    （原来是清一色 350/250/600 —— 用户朋友原话「还有什么参考意义」）
+    _vals = [v for _, v, _ in prior.DISH_PRIOR]
+    _round = sum(1 for v in _vals if v % 10 == 0)
+    check(u'★L2 取值里整十数不超过 1/3（%d/%d）' % (_round, len(_vals)),
+          _round * 3 <= len(_vals), True)
 
     # ★★ L3 现在是**结构化三级**：业态 → 品类线索/店名 → 推荐菜名
     #    这样与地图服务商无关（不再依赖高德类目名）
@@ -169,7 +227,7 @@ def test_prior():
 
     # 修复过的误判（回归）
     check(u'蟹粉豆腐不判成面', prior.estimate(u'蟹粉豆腐', u'中餐厅')['category'], u'豆制品')
-    check(u'鲜奶小方不判成饮品', prior.estimate(u'鲜奶小方', u'中餐厅')['category'], u'西点')
+    check(u'鲜奶小方不判成饮品', prior.estimate(u'鲜奶小方', u'中餐厅')['category'], u'西点·蛋糕')
 
 
 
