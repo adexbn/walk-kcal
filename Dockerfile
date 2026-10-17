@@ -33,4 +33,5 @@ RUN useradd -r -u 10001 -s /usr/sbin/nologin walkkcal \
 USER 10001
 
 # 没有任何网络监听：这是一个 stdio server
-ENTRYPOINT ["python", "entry/mcp_server.py"]
+# 入口走 entry/run.sh：它会自己挑 PATH 里存在的 python / python3
+ENTRYPOINT ["sh", "entry/run.sh"]
