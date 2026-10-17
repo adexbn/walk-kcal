@@ -143,6 +143,13 @@ xdg-open demo/explore.html        # Linux
 只需要 Python 3.8+，**不用 pip install 任何东西** —— 默认输出 SVG（浏览器直接打开、放大不糊）；
 想要 PNG（发微信/小红书那种）再装一个可选扩展包。
 
+想当 MCP Server 跑（stdio 传输，4 个工具）：
+
+```bash
+python entry/mcp_server.py            # 直接跑，或者
+docker build -t walk-kcal . && docker run -i --rm walk-kcal
+```
+
 快照里已经存好了门店、推荐菜、步行距离和热量 —— 麦当劳的官方营养值也是内嵌的
 （demo 用到的 22 条，已按官方实时表校准）。
 

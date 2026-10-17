@@ -1,0 +1,35 @@
+# ★ 本机凭证与私有配置 —— 绝不进镜像、不进构建上下文
+config.local.json
+*.local.json
+.env
+.env.*
+internal/
+
+# 版本库与开发环境
+.git
+.gitignore
+.github
+.venv
+venv
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 运行产物与前端资源（MCP server 用不到）
+out/
+assets/
+demo/
+docs/
+tests/
+data/
+datasets/
+index.html
+
+# 文档（Glama 单独读 README，不需要进镜像）
+README.md
+SKILL.md
+CONTEST_DECLARATION.md
+MCP_INTEGRATION.md
+workbuddy.md
+mcp-config.example.json
+evidence-real.md
